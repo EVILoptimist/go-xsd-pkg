@@ -10,7 +10,7 @@ package go_Resume
 //	After merging all includes, the result is passed through a stylesheet which deletes any duplicative global components as well as any unused global types.  Finally, it sorts by component name.
 
 import (
-	xml "github.com/metaleap/go-xsd-pkg/sovren.com/hr-xml/2006-02-28/xml.xsd_go"
+	xml "github.com/EVILoptimist/go-xsd-pkg/sovren.com/hr-xml/2006-02-28/xml.xsd_go"
 	xsdt "github.com/metaleap/go-xsd/types"
 )
 
