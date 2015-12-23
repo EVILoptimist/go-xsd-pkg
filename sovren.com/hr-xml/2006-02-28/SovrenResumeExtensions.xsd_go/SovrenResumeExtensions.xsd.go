@@ -12,6 +12,13 @@ import (
 	xsdt "github.com/metaleap/go-xsd/types"
 )
 
+type XsdtString xsdt.String
+type XsdtDouble xsdt.Double
+type XsdtInteger xsdt.Integer
+type XsdtDecimal xsdt.Decimal
+type XsdtDate xsdt.Date
+type XsdtInt xsdt.Int
+
 type XsdGoPkgHasAttr_Inferred_XsdtBoolean_ struct {
 	Inferred xsdt.Boolean `xml:"http://sovren.com/hr-xml/2006-02-28 inferred,attr"`
 }
