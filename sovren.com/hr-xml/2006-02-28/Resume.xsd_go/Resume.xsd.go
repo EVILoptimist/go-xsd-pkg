@@ -14,6 +14,8 @@ import (
 	xsdt "github.com/metaleap/go-xsd/types"
 )
 
+type XsdtString xsdt.String
+
 type XsdGoPkgHasAttr_Id_XsdtString_ struct {
 	Id xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 id,attr"`
 }
