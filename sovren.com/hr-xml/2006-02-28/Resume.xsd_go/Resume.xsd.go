@@ -19,15 +19,15 @@ type XsdtDouble xsdt.Double
 type XsdtInteger xsdt.Integer
 
 type XsdGoPkgHasAttr_Id_XsdtString_ struct {
-	Id xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 id,attr"`
+	Id xsdt.String `xml:"id,attr"`
 }
 
 type XsdGoPkgHasAttr_IdOwner_XsdtString_ struct {
-	IdOwner xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 idOwner,attr"`
+	IdOwner xsdt.String `xml:"idOwner,attr"`
 }
 
 type XsdGoPkgHasAttr_Description_XsdtString_ struct {
-	Description xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 description,attr"`
+	Description xsdt.String `xml:"description,attr"`
 }
 
 type XsdGoPkgHasAtts_Id struct {
@@ -39,7 +39,7 @@ type XsdGoPkgHasAtts_Id struct {
 }
 
 type XsdGoPkgHasElem_YearchoiceFlexibleDatesTypeschema_Year_XsdtGYear_ struct {
-	Year xsdt.GYear `xml:"http://ns.hr-xml.org/2006-02-28 Year"`
+	Year xsdt.GYear `xml:"Year"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_YearchoiceFlexibleDatesTypeschema_Year_XsdtGYear_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_YearchoiceFlexibleDatesTypeschema_Year_XsdtGYear_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_YearchoiceFlexibleDatesTypeschema_Year_XsdtGYear_ instance.
@@ -60,7 +60,7 @@ func (me *XsdGoPkgHasElem_YearchoiceFlexibleDatesTypeschema_Year_XsdtGYear_) Wal
 }
 
 type XsdGoPkgHasElem_MonthDaychoiceFlexibleDatesTypeschema_MonthDay_XsdtGMonthDay_ struct {
-	MonthDay xsdt.GMonthDay `xml:"http://ns.hr-xml.org/2006-02-28 MonthDay"`
+	MonthDay xsdt.GMonthDay `xml:"MonthDay"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_MonthDaychoiceFlexibleDatesTypeschema_MonthDay_XsdtGMonthDay_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MonthDaychoiceFlexibleDatesTypeschema_MonthDay_XsdtGMonthDay_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MonthDaychoiceFlexibleDatesTypeschema_MonthDay_XsdtGMonthDay_ instance.
@@ -81,7 +81,7 @@ func (me *XsdGoPkgHasElem_MonthDaychoiceFlexibleDatesTypeschema_MonthDay_XsdtGMo
 }
 
 type XsdGoPkgHasElem_StringDatechoiceFlexibleDatesTypeschema_StringDate_XsdtString_ struct {
-	StringDate xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 StringDate"`
+	StringDate xsdt.String `xml:"StringDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_StringDatechoiceFlexibleDatesTypeschema_StringDate_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_StringDatechoiceFlexibleDatesTypeschema_StringDate_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_StringDatechoiceFlexibleDatesTypeschema_StringDate_XsdtString_ instance.
@@ -102,7 +102,7 @@ func (me *XsdGoPkgHasElem_StringDatechoiceFlexibleDatesTypeschema_StringDate_Xsd
 }
 
 type XsdGoPkgHasAttr_DateDescription_XsdtString_ struct {
-	DateDescription xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 dateDescription,attr"`
+	DateDescription xsdt.String `xml:"dateDescription,attr"`
 }
 
 type TNotKnownLiteral xsdt.String
@@ -211,7 +211,7 @@ func (me TAnyDateTimeNkNaType) ToTNotApplicableLiteral() TNotApplicableLiteral {
 }
 
 type XsdGoPkgHasElem_AnyDatechoiceFlexibleDatesTypeschema_AnyDate_TAnyDateTimeNkNaType_ struct {
-	AnyDate TAnyDateTimeNkNaType `xml:"http://ns.hr-xml.org/2006-02-28 AnyDate"`
+	AnyDate TAnyDateTimeNkNaType `xml:"AnyDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AnyDatechoiceFlexibleDatesTypeschema_AnyDate_TAnyDateTimeNkNaType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AnyDatechoiceFlexibleDatesTypeschema_AnyDate_TAnyDateTimeNkNaType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AnyDatechoiceFlexibleDatesTypeschema_AnyDate_TAnyDateTimeNkNaType_ instance.
@@ -232,7 +232,7 @@ func (me *XsdGoPkgHasElem_AnyDatechoiceFlexibleDatesTypeschema_AnyDate_TAnyDateT
 }
 
 type XsdGoPkgHasElem_YearMonthchoiceFlexibleDatesTypeschema_YearMonth_XsdtGYearMonth_ struct {
-	YearMonth xsdt.GYearMonth `xml:"http://ns.hr-xml.org/2006-02-28 YearMonth"`
+	YearMonth xsdt.GYearMonth `xml:"YearMonth"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_YearMonthchoiceFlexibleDatesTypeschema_YearMonth_XsdtGYearMonth_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_YearMonthchoiceFlexibleDatesTypeschema_YearMonth_XsdtGYearMonth_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_YearMonthchoiceFlexibleDatesTypeschema_YearMonth_XsdtGYearMonth_ instance.
@@ -299,7 +299,7 @@ func (me *TFlexibleDatesType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_DatesequenceAchievementTypeschema_Date_TFlexibleDatesType_ struct {
-	Date *TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 Date"`
+	Date *TFlexibleDatesType `xml:"Date"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DatesequenceAchievementTypeschema_Date_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DatesequenceAchievementTypeschema_Date_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DatesequenceAchievementTypeschema_Date_TFlexibleDatesType_ instance.
@@ -323,7 +323,7 @@ func (me *XsdGoPkgHasElem_DatesequenceAchievementTypeschema_Date_TFlexibleDatesT
 }
 
 type XsdGoPkgHasElem_DescriptionsequenceAchievementTypeschema_Description_XsdtString_ struct {
-	Description xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Description"`
+	Description xsdt.String `xml:"Description"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DescriptionsequenceAchievementTypeschema_Description_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DescriptionsequenceAchievementTypeschema_Description_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_DescriptionsequenceAchievementTypeschema_Description_XsdtString_ instance.
@@ -344,7 +344,7 @@ func (me *XsdGoPkgHasElem_DescriptionsequenceAchievementTypeschema_Description_X
 }
 
 type XsdGoPkgHasElem_IssuingAuthoritysequenceAchievementTypeschema_IssuingAuthority_XsdtString_ struct {
-	IssuingAuthority xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 IssuingAuthority"`
+	IssuingAuthority xsdt.String `xml:"IssuingAuthority"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_IssuingAuthoritysequenceAchievementTypeschema_IssuingAuthority_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_IssuingAuthoritysequenceAchievementTypeschema_IssuingAuthority_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_IssuingAuthoritysequenceAchievementTypeschema_IssuingAuthority_XsdtString_ instance.
@@ -399,7 +399,7 @@ func (me *TAchievementType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Achievement struct {
-	Achievement *TAchievementType `xml:"http://ns.hr-xml.org/2006-02-28 Achievement"`
+	Achievement *TAchievementType `xml:"Achievement"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Achievement function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Achievement instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_Achievement instance.
@@ -423,7 +423,7 @@ func (me *XsdGoPkgHasElem_Achievement) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Achievement struct {
-	Achievements []*TAchievementType `xml:"http://ns.hr-xml.org/2006-02-28 Achievement"`
+	Achievements []*TAchievementType `xml:"Achievement"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Achievement function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Achievement instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Achievement instance.
@@ -473,7 +473,7 @@ func (me *TxsdAchievements) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Achievements struct {
-	Achievements *TxsdAchievements `xml:"http://ns.hr-xml.org/2006-02-28 Achievements"`
+	Achievements *TxsdAchievements `xml:"Achievements"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Achievements function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Achievements instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_Achievements instance.
@@ -497,7 +497,7 @@ func (me *XsdGoPkgHasElem_Achievements) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Achievements struct {
-	Achievementses []*TxsdAchievements `xml:"http://ns.hr-xml.org/2006-02-28 Achievements"`
+	Achievementses []*TxsdAchievements `xml:"Achievements"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Achievements function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Achievements instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Achievements instance.
@@ -523,7 +523,7 @@ func (me *XsdGoPkgHasElems_Achievements) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_AreaCityCode struct {
-	AreaCityCode xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 AreaCityCode"`
+	AreaCityCode xsdt.String `xml:"AreaCityCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AreaCityCode function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AreaCityCode instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AreaCityCode instance.
@@ -544,7 +544,7 @@ func (me *XsdGoPkgHasElem_AreaCityCode) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_AreaCityCode struct {
-	AreaCityCodes []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 AreaCityCode"`
+	AreaCityCodes []xsdt.String `xml:"AreaCityCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AreaCityCode function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AreaCityCode instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AreaCityCode instance.
@@ -565,7 +565,7 @@ func (me *XsdGoPkgHasElems_AreaCityCode) Walk() (err error) {
 }
 
 type XsdGoPkgHasAttr_Name_XsdtString_ struct {
-	Name xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 name,attr"`
+	Name xsdt.String `xml:"name,attr"`
 }
 
 type TxsdEntityIdTypeSequenceIdValue struct {
@@ -592,7 +592,7 @@ func (me *TxsdEntityIdTypeSequenceIdValue) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_IdValuesequenceEntityIdTypeschema_IdValue_TxsdEntityIdTypeSequenceIdValue_ struct {
-	IdValues []*TxsdEntityIdTypeSequenceIdValue `xml:"http://ns.hr-xml.org/2006-02-28 IdValue"`
+	IdValues []*TxsdEntityIdTypeSequenceIdValue `xml:"IdValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_IdValuesequenceEntityIdTypeschema_IdValue_TxsdEntityIdTypeSequenceIdValue_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_IdValuesequenceEntityIdTypeschema_IdValue_TxsdEntityIdTypeSequenceIdValue_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_IdValuesequenceEntityIdTypeschema_IdValue_TxsdEntityIdTypeSequenceIdValue_ instance.
@@ -618,11 +618,11 @@ func (me *XsdGoPkgHasElems_IdValuesequenceEntityIdTypeschema_IdValue_TxsdEntityI
 }
 
 type XsdGoPkgHasAttr_ValidFrom_TAnyDateTimeNkNaType_ struct {
-	ValidFrom TAnyDateTimeNkNaType `xml:"http://ns.hr-xml.org/2006-02-28 validFrom,attr"`
+	ValidFrom TAnyDateTimeNkNaType `xml:"validFrom,attr"`
 }
 
 type XsdGoPkgHasAttr_ValidTo_TAnyDateTimeNkNaType_ struct {
-	ValidTo TAnyDateTimeNkNaType `xml:"http://ns.hr-xml.org/2006-02-28 validTo,attr"`
+	ValidTo TAnyDateTimeNkNaType `xml:"validTo,attr"`
 }
 
 type TEntityIdType struct {
@@ -656,7 +656,7 @@ func (me *TEntityIdType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_IdsequenceAssociationTypeschema_Id_TEntityIdType_ struct {
-	Id *TEntityIdType `xml:"http://ns.hr-xml.org/2006-02-28 Id"`
+	Id *TEntityIdType `xml:"Id"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_IdsequenceAssociationTypeschema_Id_TEntityIdType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_IdsequenceAssociationTypeschema_Id_TEntityIdType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_IdsequenceAssociationTypeschema_Id_TEntityIdType_ instance.
@@ -691,7 +691,7 @@ func (me TInternetWebAddressType) String() string { return xsdt.String(me).Strin
 func (me TInternetWebAddressType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 type XsdGoPkgHasElem_LinksequenceAssociationTypeschema_Link_TInternetWebAddressType_ struct {
-	Link TInternetWebAddressType `xml:"http://ns.hr-xml.org/2006-02-28 Link"`
+	Link TInternetWebAddressType `xml:"Link"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_LinksequenceAssociationTypeschema_Link_TInternetWebAddressType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LinksequenceAssociationTypeschema_Link_TInternetWebAddressType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_LinksequenceAssociationTypeschema_Link_TInternetWebAddressType_ instance.
@@ -712,7 +712,7 @@ func (me *XsdGoPkgHasElem_LinksequenceAssociationTypeschema_Link_TInternetWebAdd
 }
 
 type XsdGoPkgHasElem_StartDatesequenceAssociationTypeschema_StartDate_TFlexibleDatesType_ struct {
-	StartDate *TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 StartDate"`
+	StartDate *TFlexibleDatesType `xml:"StartDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_StartDatesequenceAssociationTypeschema_StartDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_StartDatesequenceAssociationTypeschema_StartDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_StartDatesequenceAssociationTypeschema_StartDate_TFlexibleDatesType_ instance.
@@ -736,7 +736,7 @@ func (me *XsdGoPkgHasElem_StartDatesequenceAssociationTypeschema_StartDate_TFlex
 }
 
 type XsdGoPkgHasElem_EndDatesequenceAssociationTypeschema_EndDate_TFlexibleDatesType_ struct {
-	EndDate *TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 EndDate"`
+	EndDate *TFlexibleDatesType `xml:"EndDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EndDatesequenceAssociationTypeschema_EndDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EndDatesequenceAssociationTypeschema_EndDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_EndDatesequenceAssociationTypeschema_EndDate_TFlexibleDatesType_ instance.
@@ -760,7 +760,7 @@ func (me *XsdGoPkgHasElem_EndDatesequenceAssociationTypeschema_EndDate_TFlexible
 }
 
 type XsdGoPkgHasElems_DeliverablesequenceTxsdAssociationTypeSequenceRoleRolesequenceAssociationTypeschema_Deliverable_XsdtString_ struct {
-	Deliverables []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Deliverable"`
+	Deliverables []xsdt.String `xml:"Deliverable"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DeliverablesequenceTxsdAssociationTypeSequenceRoleRolesequenceAssociationTypeschema_Deliverable_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DeliverablesequenceTxsdAssociationTypeSequenceRoleRolesequenceAssociationTypeschema_Deliverable_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DeliverablesequenceTxsdAssociationTypeSequenceRoleRolesequenceAssociationTypeschema_Deliverable_XsdtString_ instance.
@@ -781,7 +781,7 @@ func (me *XsdGoPkgHasElems_DeliverablesequenceTxsdAssociationTypeSequenceRoleRol
 }
 
 type XsdGoPkgHasElem_CommentssequenceTxsdAssociationTypeSequenceRoleRolesequenceAssociationTypeschema_Comments_XsdtString_ struct {
-	Comments xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Comments"`
+	Comments xsdt.String `xml:"Comments"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CommentssequenceTxsdAssociationTypeSequenceRoleRolesequenceAssociationTypeschema_Comments_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CommentssequenceTxsdAssociationTypeSequenceRoleRolesequenceAssociationTypeschema_Comments_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CommentssequenceTxsdAssociationTypeSequenceRoleRolesequenceAssociationTypeschema_Comments_XsdtString_ instance.
@@ -802,7 +802,7 @@ func (me *XsdGoPkgHasElem_CommentssequenceTxsdAssociationTypeSequenceRoleRoleseq
 }
 
 type XsdGoPkgHasElem_NamesequenceTxsdAssociationTypeSequenceRoleRolesequenceAssociationTypeschema_Name_XsdtString_ struct {
-	Name xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Name"`
+	Name xsdt.String `xml:"Name"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_NamesequenceTxsdAssociationTypeSequenceRoleRolesequenceAssociationTypeschema_Name_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NamesequenceTxsdAssociationTypeSequenceRoleRolesequenceAssociationTypeschema_Name_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NamesequenceTxsdAssociationTypeSequenceRoleRolesequenceAssociationTypeschema_Name_XsdtString_ instance.
@@ -867,7 +867,7 @@ func (me *TxsdAssociationTypeSequenceRole) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_RolesequenceAssociationTypeschema_Role_TxsdAssociationTypeSequenceRole_ struct {
-	Roles []*TxsdAssociationTypeSequenceRole `xml:"http://ns.hr-xml.org/2006-02-28 Role"`
+	Roles []*TxsdAssociationTypeSequenceRole `xml:"Role"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_RolesequenceAssociationTypeschema_Role_TxsdAssociationTypeSequenceRole_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_RolesequenceAssociationTypeschema_Role_TxsdAssociationTypeSequenceRole_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_RolesequenceAssociationTypeschema_Role_TxsdAssociationTypeSequenceRole_ instance.
@@ -1008,7 +1008,7 @@ func (me TExtendedAssociationTypeType) ToTxStringPatternExtensionType() TxString
 }
 
 type XsdGoPkgHasAttr_Type_TExtendedAssociationTypeType_ struct {
-	Type TExtendedAssociationTypeType `xml:"http://ns.hr-xml.org/2006-02-28 type,attr"`
+	Type TExtendedAssociationTypeType `xml:"type,attr"`
 }
 
 type TxsdAssociation struct {
@@ -1038,7 +1038,7 @@ func (me *TxsdAssociation) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Association struct {
-	Associations []*TxsdAssociation `xml:"http://ns.hr-xml.org/2006-02-28 Association"`
+	Associations []*TxsdAssociation `xml:"Association"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Association function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Association instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Association instance.
@@ -1064,7 +1064,7 @@ func (me *XsdGoPkgHasElems_Association) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Association struct {
-	Association *TxsdAssociation `xml:"http://ns.hr-xml.org/2006-02-28 Association"`
+	Association *TxsdAssociation `xml:"Association"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Association function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Association instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_Association instance.
@@ -1112,7 +1112,7 @@ func (me *TxsdAssociations) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Associations struct {
-	Associations *TxsdAssociations `xml:"http://ns.hr-xml.org/2006-02-28 Associations"`
+	Associations *TxsdAssociations `xml:"Associations"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Associations function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Associations instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_Associations instance.
@@ -1136,7 +1136,7 @@ func (me *XsdGoPkgHasElem_Associations) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Associations struct {
-	Associationses []*TxsdAssociations `xml:"http://ns.hr-xml.org/2006-02-28 Associations"`
+	Associationses []*TxsdAssociations `xml:"Associations"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Associations function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Associations instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Associations instance.
@@ -1183,7 +1183,7 @@ func (me *TxsdCompetencyTypeSequenceCompetencyId) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_CompetencyIdsequenceCompetencyTypeschema_CompetencyId_TxsdCompetencyTypeSequenceCompetencyId_ struct {
-	CompetencyId *TxsdCompetencyTypeSequenceCompetencyId `xml:"http://ns.hr-xml.org/2006-02-28 CompetencyId"`
+	CompetencyId *TxsdCompetencyTypeSequenceCompetencyId `xml:"CompetencyId"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CompetencyIdsequenceCompetencyTypeschema_CompetencyId_TxsdCompetencyTypeSequenceCompetencyId_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CompetencyIdsequenceCompetencyTypeschema_CompetencyId_TxsdCompetencyTypeSequenceCompetencyId_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CompetencyIdsequenceCompetencyTypeschema_CompetencyId_TxsdCompetencyTypeSequenceCompetencyId_ instance.
@@ -1245,19 +1245,19 @@ func (me TExtendedWeightType) ToTxStringPatternExtensionType() TxStringPatternEx
 func (me *TExtendedWeightType) Set(s string) { (*xsdt.String)(me).Set(s) }
 
 type XsdGoPkgHasAttr_Type_TExtendedWeightType_ struct {
-	Type TExtendedWeightType `xml:"http://ns.hr-xml.org/2006-02-28 type,attr"`
+	Type TExtendedWeightType `xml:"type,attr"`
 }
 
 type XsdGoPkgHasAttr_MaxValue_XsdtDouble_ struct {
-	MaxValue xsdt.Double `xml:"http://ns.hr-xml.org/2006-02-28 maxValue,attr"`
+	MaxValue xsdt.Double `xml:"maxValue,attr"`
 }
 
 type XsdGoPkgHasAttr_Interval_XsdtDouble_ struct {
-	Interval xsdt.Double `xml:"http://ns.hr-xml.org/2006-02-28 interval,attr"`
+	Interval xsdt.Double `xml:"interval,attr"`
 }
 
 type XsdGoPkgHasAttr_MinValue_XsdtDouble_ struct {
-	MinValue xsdt.Double `xml:"http://ns.hr-xml.org/2006-02-28 minValue,attr"`
+	MinValue xsdt.Double `xml:"minValue,attr"`
 }
 
 type TxsdNumericValue struct {
@@ -1290,7 +1290,7 @@ func (me *TxsdNumericValue) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_NumericValue struct {
-	NumericValue *TxsdNumericValue `xml:"http://ns.hr-xml.org/2006-02-28 NumericValue"`
+	NumericValue *TxsdNumericValue `xml:"NumericValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_NumericValue function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NumericValue instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_NumericValue instance.
@@ -1314,11 +1314,11 @@ func (me *XsdGoPkgHasElem_NumericValue) Walk() (err error) {
 }
 
 type XsdGoPkgHasAttr_MinValue_XsdtString_ struct {
-	MinValue xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 minValue,attr"`
+	MinValue xsdt.String `xml:"minValue,attr"`
 }
 
 type XsdGoPkgHasAttr_MaxValue_XsdtString_ struct {
-	MaxValue xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 maxValue,attr"`
+	MaxValue xsdt.String `xml:"maxValue,attr"`
 }
 
 type TxsdStringValue struct {
@@ -1349,7 +1349,7 @@ func (me *TxsdStringValue) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_StringValue struct {
-	StringValue *TxsdStringValue `xml:"http://ns.hr-xml.org/2006-02-28 StringValue"`
+	StringValue *TxsdStringValue `xml:"StringValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_StringValue function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_StringValue instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_StringValue instance.
@@ -1373,7 +1373,7 @@ func (me *XsdGoPkgHasElem_StringValue) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_SupportingInformation struct {
-	SupportingInformations []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 SupportingInformation"`
+	SupportingInformations []xsdt.String `xml:"SupportingInformation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_SupportingInformation function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SupportingInformation instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SupportingInformation instance.
@@ -1430,7 +1430,7 @@ func (me *TxsdCompetencyTypeSequenceCompetencyWeight) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_CompetencyWeightsequenceCompetencyTypeschema_CompetencyWeight_TxsdCompetencyTypeSequenceCompetencyWeight_ struct {
-	CompetencyWeights []*TxsdCompetencyTypeSequenceCompetencyWeight `xml:"http://ns.hr-xml.org/2006-02-28 CompetencyWeight"`
+	CompetencyWeights []*TxsdCompetencyTypeSequenceCompetencyWeight `xml:"CompetencyWeight"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CompetencyWeightsequenceCompetencyTypeschema_CompetencyWeight_TxsdCompetencyTypeSequenceCompetencyWeight_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CompetencyWeightsequenceCompetencyTypeschema_CompetencyWeight_TxsdCompetencyTypeSequenceCompetencyWeight_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CompetencyWeightsequenceCompetencyTypeschema_CompetencyWeight_TxsdCompetencyTypeSequenceCompetencyWeight_ instance.
@@ -1478,7 +1478,7 @@ func (me *TUserAreaType) Walk() (err error) {
 
 type XsdGoPkgHasElem_UserArea struct {
 	//	HR-XML Technical Steering Committee endorsed extension element.
-	UserArea *TUserAreaType `xml:"http://ns.hr-xml.org/2006-02-28 UserArea"`
+	UserArea *TUserAreaType `xml:"UserArea"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_UserArea function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_UserArea instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_UserArea instance.
@@ -1502,7 +1502,7 @@ func (me *XsdGoPkgHasElem_UserArea) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_TaxonomyIdsequenceCompetencyTypeschema_TaxonomyId_TxsdCompetencyTypeSequenceTaxonomyId_ struct {
-	TaxonomyIds []*TxsdCompetencyTypeSequenceCompetencyId `xml:"http://ns.hr-xml.org/2006-02-28 TaxonomyId"`
+	TaxonomyIds []*TxsdCompetencyTypeSequenceCompetencyId `xml:"TaxonomyId"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_TaxonomyIdsequenceCompetencyTypeschema_TaxonomyId_TxsdCompetencyTypeSequenceTaxonomyId_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TaxonomyIdsequenceCompetencyTypeschema_TaxonomyId_TxsdCompetencyTypeSequenceTaxonomyId_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TaxonomyIdsequenceCompetencyTypeschema_TaxonomyId_TxsdCompetencyTypeSequenceTaxonomyId_ instance.
@@ -1528,7 +1528,7 @@ func (me *XsdGoPkgHasElems_TaxonomyIdsequenceCompetencyTypeschema_TaxonomyId_Txs
 }
 
 type XsdGoPkgHasElem_EvidenceIdsequenceTxsdCompetencyTypeSequenceCompetencyEvidenceCompetencyEvidencesequenceCompetencyTypeschema_EvidenceId_TxsdCompetencyTypeSequenceCompetencyEvidenceSequenceEvidenceId_ struct {
-	EvidenceId *TxsdCompetencyTypeSequenceCompetencyId `xml:"http://ns.hr-xml.org/2006-02-28 EvidenceId"`
+	EvidenceId *TxsdCompetencyTypeSequenceCompetencyId `xml:"EvidenceId"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EvidenceIdsequenceTxsdCompetencyTypeSequenceCompetencyEvidenceCompetencyEvidencesequenceCompetencyTypeschema_EvidenceId_TxsdCompetencyTypeSequenceCompetencyEvidenceSequenceEvidenceId_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EvidenceIdsequenceTxsdCompetencyTypeSequenceCompetencyEvidenceCompetencyEvidencesequenceCompetencyTypeschema_EvidenceId_TxsdCompetencyTypeSequenceCompetencyEvidenceSequenceEvidenceId_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_EvidenceIdsequenceTxsdCompetencyTypeSequenceCompetencyEvidenceCompetencyEvidencesequenceCompetencyTypeschema_EvidenceId_TxsdCompetencyTypeSequenceCompetencyEvidenceSequenceEvidenceId_ instance.
@@ -1575,27 +1575,27 @@ func (me TAnyDateTimeType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 func (me TAnyDateTimeType) ToTLocalDateType() TLocalDateType { return TLocalDateType(me) }
 
 type XsdGoPkgHasAttr_DateOfIncident_TAnyDateTimeType_ struct {
-	DateOfIncident TAnyDateTimeType `xml:"http://ns.hr-xml.org/2006-02-28 dateOfIncident,attr"`
+	DateOfIncident TAnyDateTimeType `xml:"dateOfIncident,attr"`
 }
 
 type XsdGoPkgHasAttr_TypeDescription_XsdtString_ struct {
-	TypeDescription xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 typeDescription,attr"`
+	TypeDescription xsdt.String `xml:"typeDescription,attr"`
 }
 
 type XsdGoPkgHasAttr_TypeId_XsdtString_ struct {
-	TypeId xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 typeId,attr"`
+	TypeId xsdt.String `xml:"typeId,attr"`
 }
 
 type XsdGoPkgHasAttr_LastUsed_TAnyDateTimeType_ struct {
-	LastUsed TAnyDateTimeType `xml:"http://ns.hr-xml.org/2006-02-28 lastUsed,attr"`
+	LastUsed TAnyDateTimeType `xml:"lastUsed,attr"`
 }
 
 type XsdGoPkgHasAttr_ExpirationDate_TAnyDateTimeType_ struct {
-	ExpirationDate TAnyDateTimeType `xml:"http://ns.hr-xml.org/2006-02-28 expirationDate,attr"`
+	ExpirationDate TAnyDateTimeType `xml:"expirationDate,attr"`
 }
 
 type XsdGoPkgHasAttr_Required_XsdtBoolean_ struct {
-	Required xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 required,attr"`
+	Required xsdt.Boolean `xml:"required,attr"`
 }
 
 type TxsdCompetencyTypeSequenceCompetencyEvidence struct {
@@ -1652,7 +1652,7 @@ func (me *TxsdCompetencyTypeSequenceCompetencyEvidence) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_CompetencyEvidencesequenceCompetencyTypeschema_CompetencyEvidence_TxsdCompetencyTypeSequenceCompetencyEvidence_ struct {
-	CompetencyEvidences []*TxsdCompetencyTypeSequenceCompetencyEvidence `xml:"http://ns.hr-xml.org/2006-02-28 CompetencyEvidence"`
+	CompetencyEvidences []*TxsdCompetencyTypeSequenceCompetencyEvidence `xml:"CompetencyEvidence"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CompetencyEvidencesequenceCompetencyTypeschema_CompetencyEvidence_TxsdCompetencyTypeSequenceCompetencyEvidence_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CompetencyEvidencesequenceCompetencyTypeschema_CompetencyEvidence_TxsdCompetencyTypeSequenceCompetencyEvidence_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CompetencyEvidencesequenceCompetencyTypeschema_CompetencyEvidence_TxsdCompetencyTypeSequenceCompetencyEvidence_ instance.
@@ -1678,7 +1678,7 @@ func (me *XsdGoPkgHasElems_CompetencyEvidencesequenceCompetencyTypeschema_Compet
 }
 
 type XsdGoPkgHasElems_Competency struct {
-	Competencies []*TCompetencyType `xml:"http://ns.hr-xml.org/2006-02-28 Competency"`
+	Competencies []*TCompetencyType `xml:"Competency"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Competency function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Competency instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Competency instance.
@@ -1754,7 +1754,7 @@ func (me *TCompetencyType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Competency struct {
-	Competency *TCompetencyType `xml:"http://ns.hr-xml.org/2006-02-28 Competency"`
+	Competency *TCompetencyType `xml:"Competency"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Competency function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Competency instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_Competency instance.
@@ -1790,7 +1790,7 @@ func (me TCountryCodeType) String() string { return xsdt.String(me).String() }
 func (me TCountryCodeType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 type XsdGoPkgHasElem_CountryCode struct {
-	CountryCode TCountryCodeType `xml:"http://ns.hr-xml.org/2006-02-28 CountryCode"`
+	CountryCode TCountryCodeType `xml:"CountryCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CountryCode function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CountryCode instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CountryCode instance.
@@ -1811,7 +1811,7 @@ func (me *XsdGoPkgHasElem_CountryCode) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_CountryCode struct {
-	CountryCodes []TCountryCodeType `xml:"http://ns.hr-xml.org/2006-02-28 CountryCode"`
+	CountryCodes []TCountryCodeType `xml:"CountryCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CountryCode function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CountryCode instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CountryCode instance.
@@ -1844,7 +1844,7 @@ func (me TCurrencyCodeType) String() string { return xsdt.String(me).String() }
 func (me TCurrencyCodeType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 type XsdGoPkgHasElem_CurrencyCode struct {
-	CurrencyCode TCurrencyCodeType `xml:"http://ns.hr-xml.org/2006-02-28 CurrencyCode"`
+	CurrencyCode TCurrencyCodeType `xml:"CurrencyCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CurrencyCode function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CurrencyCode instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CurrencyCode instance.
@@ -1865,7 +1865,7 @@ func (me *XsdGoPkgHasElem_CurrencyCode) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_CurrencyCode struct {
-	CurrencyCodes []TCurrencyCodeType `xml:"http://ns.hr-xml.org/2006-02-28 CurrencyCode"`
+	CurrencyCodes []TCurrencyCodeType `xml:"CurrencyCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CurrencyCode function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CurrencyCode instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CurrencyCode instance.
@@ -1929,7 +1929,7 @@ func (me TxsdDunsNumberDataTypeSimpleContentExtensionDunsNumberType) IsDomesticU
 }
 
 type XsdGoPkgHasAttr_DunsNumberType_TxsdDunsNumberDataTypeSimpleContentExtensionDunsNumberType_ struct {
-	DunsNumberType TxsdDunsNumberDataTypeSimpleContentExtensionDunsNumberType `xml:"http://ns.hr-xml.org/2006-02-28 dunsNumberType,attr"`
+	DunsNumberType TxsdDunsNumberDataTypeSimpleContentExtensionDunsNumberType `xml:"dunsNumberType,attr"`
 }
 
 type TDunsNumberDataType struct {
@@ -1956,7 +1956,7 @@ func (me *TDunsNumberDataType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_DunsNumber struct {
-	DunsNumber *TDunsNumberDataType `xml:"http://ns.hr-xml.org/2006-02-28 DunsNumber"`
+	DunsNumber *TDunsNumberDataType `xml:"DunsNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DunsNumber function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DunsNumber instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DunsNumber instance.
@@ -1980,7 +1980,7 @@ func (me *XsdGoPkgHasElem_DunsNumber) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_DunsNumber struct {
-	DunsNumbers []*TDunsNumberDataType `xml:"http://ns.hr-xml.org/2006-02-28 DunsNumber"`
+	DunsNumbers []*TDunsNumberDataType `xml:"DunsNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DunsNumber function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DunsNumber instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DunsNumber instance.
@@ -2009,7 +2009,7 @@ func (me *XsdGoPkgHasElems_DunsNumber) Walk() (err error) {
 //	Identifier of the School, College or institution attended.  Associated type attribute further qualifies the name as current, prior,  degree or joint.
 type XsdGoPkgHasElems_SchoolIdsequenceSchoolDataTypeschema_SchoolId_TEntityIdType_ struct {
 	//	Identifier of the School, College or institution attended.  Associated type attribute further qualifies the name as current, prior,  degree or joint.
-	SchoolIds []*TEntityIdType `xml:"http://ns.hr-xml.org/2006-02-28 SchoolId"`
+	SchoolIds []*TEntityIdType `xml:"SchoolId"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_SchoolIdsequenceSchoolDataTypeschema_SchoolId_TEntityIdType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SchoolIdsequenceSchoolDataTypeschema_SchoolId_TEntityIdType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SchoolIdsequenceSchoolDataTypeschema_SchoolId_TEntityIdType_ instance.
@@ -2037,7 +2037,7 @@ func (me *XsdGoPkgHasElems_SchoolIdsequenceSchoolDataTypeschema_SchoolId_TEntity
 //	School, College or institution attended.  Associated type attribute further qualifies the name as current, prior,  degree or joint.
 type XsdGoPkgHasElem_SchoolNamesequenceSchoolDataTypeschema_SchoolName_XsdtString_ struct {
 	//	School, College or institution attended.  Associated type attribute further qualifies the name as current, prior,  degree or joint.
-	SchoolName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 SchoolName"`
+	SchoolName xsdt.String `xml:"SchoolName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_SchoolNamesequenceSchoolDataTypeschema_SchoolName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SchoolNamesequenceSchoolDataTypeschema_SchoolName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_SchoolNamesequenceSchoolDataTypeschema_SchoolName_XsdtString_ instance.
@@ -2082,11 +2082,11 @@ func (me *TSchoolTypeType) Set(s string) { (*xsdt.String)(me).Set(s) }
 func (me TSchoolTypeType) String() string { return xsdt.String(me).String() }
 
 type XsdGoPkgHasAttr_Type_TSchoolTypeType_ struct {
-	Type TSchoolTypeType `xml:"http://ns.hr-xml.org/2006-02-28 type,attr"`
+	Type TSchoolTypeType `xml:"type,attr"`
 }
 
 type XsdGoPkgHasAttr_PrimaryIndicator_XsdtBoolean_ struct {
-	PrimaryIndicator xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 primaryIndicator,attr"`
+	PrimaryIndicator xsdt.Boolean `xml:"primaryIndicator,attr"`
 }
 
 type TInternetDomainNameType struct {
@@ -2113,7 +2113,7 @@ func (me *TInternetDomainNameType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_InternetDomainNamesequenceSchoolDataTypeschema_InternetDomainName_TInternetDomainNameType_ struct {
-	InternetDomainNames []*TInternetDomainNameType `xml:"http://ns.hr-xml.org/2006-02-28 InternetDomainName"`
+	InternetDomainNames []*TInternetDomainNameType `xml:"InternetDomainName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_InternetDomainNamesequenceSchoolDataTypeschema_InternetDomainName_TInternetDomainNameType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_InternetDomainNamesequenceSchoolDataTypeschema_InternetDomainName_TInternetDomainNameType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_InternetDomainNamesequenceSchoolDataTypeschema_InternetDomainName_TInternetDomainNameType_ instance.
@@ -2178,7 +2178,7 @@ func (me *TSchoolDataType) Walk() (err error) {
 
 type XsdGoPkgHasElems_SchoolsequenceSchoolOrInstitutionTypeschema_School_TSchoolDataType_ struct {
 	//	School, College or institution attended.  Associated type attribute further qualifies the name as current, prior,  degree or joint.
-	Schools []*TSchoolDataType `xml:"http://ns.hr-xml.org/2006-02-28 School"`
+	Schools []*TSchoolDataType `xml:"School"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_SchoolsequenceSchoolOrInstitutionTypeschema_School_TSchoolDataType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SchoolsequenceSchoolOrInstitutionTypeschema_School_TSchoolDataType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SchoolsequenceSchoolOrInstitutionTypeschema_School_TSchoolDataType_ instance.
@@ -2236,7 +2236,7 @@ func (me TOrgTypeStringExtensionType) ToXsdtString() xsdt.String { return xsdt.S
 func (me TOrgTypeStringExtensionType) ToTorgTypes() TorgTypes { return TorgTypes(me) }
 
 type XsdGoPkgHasAttr_OrganizationType_TOrgTypeStringExtensionType_ struct {
-	OrganizationType TOrgTypeStringExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 organizationType,attr"`
+	OrganizationType TOrgTypeStringExtensionType `xml:"organizationType,attr"`
 }
 
 type TxsdSchoolOrInstitutionTypeSequenceOrganizationUnitSimpleContentExtensionAttendanceStatus xsdt.String
@@ -2272,7 +2272,7 @@ func (me TxsdSchoolOrInstitutionTypeSequenceOrganizationUnitSimpleContentExtensi
 }
 
 type XsdGoPkgHasAttr_AttendanceStatus_TxsdSchoolOrInstitutionTypeSequenceOrganizationUnitSimpleContentExtensionAttendanceStatus_ struct {
-	AttendanceStatus TxsdSchoolOrInstitutionTypeSequenceOrganizationUnitSimpleContentExtensionAttendanceStatus `xml:"http://ns.hr-xml.org/2006-02-28 attendanceStatus,attr"`
+	AttendanceStatus TxsdSchoolOrInstitutionTypeSequenceOrganizationUnitSimpleContentExtensionAttendanceStatus `xml:"attendanceStatus,attr"`
 }
 
 type TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit struct {
@@ -2302,7 +2302,7 @@ func (me *TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit) Walk() (err error
 
 type XsdGoPkgHasElems_OrganizationUnitsequenceSchoolOrInstitutionTypeschema_OrganizationUnit_TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit_ struct {
 	//	The campus, department or other organizational unit for the educational institution.
-	OrganizationUnits []*TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit `xml:"http://ns.hr-xml.org/2006-02-28 OrganizationUnit"`
+	OrganizationUnits []*TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit `xml:"OrganizationUnit"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_OrganizationUnitsequenceSchoolOrInstitutionTypeschema_OrganizationUnit_TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OrganizationUnitsequenceSchoolOrInstitutionTypeschema_OrganizationUnit_TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OrganizationUnitsequenceSchoolOrInstitutionTypeschema_OrganizationUnit_TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit_ instance.
@@ -2328,16 +2328,16 @@ func (me *XsdGoPkgHasElems_OrganizationUnitsequenceSchoolOrInstitutionTypeschema
 }
 
 type XsdGoPkgHasAttr_ExamPassed_XsdtBoolean_ struct {
-	ExamPassed xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 examPassed,attr"`
+	ExamPassed xsdt.Boolean `xml:"examPassed,attr"`
 }
 
 //	The subject studied, as expressed on the diploma.
 type XsdGoPkgHasAttr_AcademicHonors_XsdtString_ struct {
-	AcademicHonors xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 academicHonors,attr"`
+	AcademicHonors xsdt.String `xml:"academicHonors,attr"`
 }
 
 type XsdGoPkgHasAttr_HonorsProgram_XsdtString_ struct {
-	HonorsProgram xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 honorsProgram,attr"`
+	HonorsProgram xsdt.String `xml:"honorsProgram,attr"`
 }
 
 type TxsdEduDegreeTypeSequenceDegreeName struct {
@@ -2367,7 +2367,7 @@ func (me *TxsdEduDegreeTypeSequenceDegreeName) Walk() (err error) {
 
 type XsdGoPkgHasElem_DegreeNamesequenceEduDegreeTypeschema_DegreeName_TxsdEduDegreeTypeSequenceDegreeName_ struct {
 	//	The subject studied, as expressed on the diploma.
-	DegreeName *TxsdEduDegreeTypeSequenceDegreeName `xml:"http://ns.hr-xml.org/2006-02-28 DegreeName"`
+	DegreeName *TxsdEduDegreeTypeSequenceDegreeName `xml:"DegreeName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DegreeNamesequenceEduDegreeTypeschema_DegreeName_TxsdEduDegreeTypeSequenceDegreeName_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DegreeNamesequenceEduDegreeTypeschema_DegreeName_TxsdEduDegreeTypeSequenceDegreeName_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DegreeNamesequenceEduDegreeTypeschema_DegreeName_TxsdEduDegreeTypeSequenceDegreeName_ instance.
@@ -2393,7 +2393,7 @@ func (me *XsdGoPkgHasElem_DegreeNamesequenceEduDegreeTypeschema_DegreeName_TxsdE
 //	The date the person received their degree.
 type XsdGoPkgHasElem_DegreeDatesequenceEduDegreeTypeschema_DegreeDate_TFlexibleDatesType_ struct {
 	//	The date the person received their degree.
-	DegreeDate *TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 DegreeDate"`
+	DegreeDate *TFlexibleDatesType `xml:"DegreeDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DegreeDatesequenceEduDegreeTypeschema_DegreeDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DegreeDatesequenceEduDegreeTypeschema_DegreeDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DegreeDatesequenceEduDegreeTypeschema_DegreeDate_TFlexibleDatesType_ instance.
@@ -2418,7 +2418,7 @@ func (me *XsdGoPkgHasElem_DegreeDatesequenceEduDegreeTypeschema_DegreeDate_TFlex
 
 //	The name of any other honors, such as Phi Beta Kappa, etc. that the student may have received.
 type XsdGoPkgHasAttr_Type_XsdtString_ struct {
-	Type xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 type,attr"`
+	Type xsdt.String `xml:"type,attr"`
 }
 
 type TxsdEduDegreeTypeSequenceOtherHonors struct {
@@ -2446,7 +2446,7 @@ func (me *TxsdEduDegreeTypeSequenceOtherHonors) Walk() (err error) {
 
 type XsdGoPkgHasElems_OtherHonorssequenceEduDegreeTypeschema_OtherHonors_TxsdEduDegreeTypeSequenceOtherHonors_ struct {
 	//	The name of any other honors, such as Phi Beta Kappa, etc. that the student may have received.
-	OtherHonorses []*TxsdEduDegreeTypeSequenceOtherHonors `xml:"http://ns.hr-xml.org/2006-02-28 OtherHonors"`
+	OtherHonorses []*TxsdEduDegreeTypeSequenceOtherHonors `xml:"OtherHonors"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_OtherHonorssequenceEduDegreeTypeschema_OtherHonors_TxsdEduDegreeTypeSequenceOtherHonors_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OtherHonorssequenceEduDegreeTypeschema_OtherHonors_TxsdEduDegreeTypeSequenceOtherHonors_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OtherHonorssequenceEduDegreeTypeschema_OtherHonors_TxsdEduDegreeTypeSequenceOtherHonors_ instance.
@@ -2475,7 +2475,7 @@ func (me *XsdGoPkgHasElems_OtherHonorssequenceEduDegreeTypeschema_OtherHonors_Tx
 //	Identifier reflecting the program code(s) associated with any Minor course of Study.
 type XsdGoPkgHasElems_ProgramIdsequenceMinorTypeschema_ProgramId_TEntityIdType_ struct {
 	//	Identifier reflecting the program code(s) associated with any Minor course of Study.
-	ProgramIds []*TEntityIdType `xml:"http://ns.hr-xml.org/2006-02-28 ProgramId"`
+	ProgramIds []*TEntityIdType `xml:"ProgramId"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ProgramIdsequenceMinorTypeschema_ProgramId_TEntityIdType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ProgramIdsequenceMinorTypeschema_ProgramId_TEntityIdType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ProgramIdsequenceMinorTypeschema_ProgramId_TEntityIdType_ instance.
@@ -2503,7 +2503,7 @@ func (me *XsdGoPkgHasElems_ProgramIdsequenceMinorTypeschema_ProgramId_TEntityIdT
 //	Reflects the official names of any and all minor courses of study associated with the student's degree title.
 type XsdGoPkgHasElems_NamesequenceMinorTypeschema_Name_XsdtString_ struct {
 	//	Reflects the official names of any and all minor courses of study associated with the student's degree title.
-	Names []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Name"`
+	Names []xsdt.String `xml:"Name"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_NamesequenceMinorTypeschema_Name_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NamesequenceMinorTypeschema_Name_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NamesequenceMinorTypeschema_Name_XsdtString_ instance.
@@ -2556,7 +2556,7 @@ func (me *TMinorType) Walk() (err error) {
 
 type XsdGoPkgHasElems_DegreeMinorsequenceEduDegreeTypeschema_DegreeMinor_TMinorType_ struct {
 	//	If applicable, these fields should be used to reflect the official names of any and all minor courses of study associated with the student's degree title.
-	DegreeMinors []*TMinorType `xml:"http://ns.hr-xml.org/2006-02-28 DegreeMinor"`
+	DegreeMinors []*TMinorType `xml:"DegreeMinor"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DegreeMinorsequenceEduDegreeTypeschema_DegreeMinor_TMinorType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DegreeMinorsequenceEduDegreeTypeschema_DegreeMinor_TMinorType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DegreeMinorsequenceEduDegreeTypeschema_DegreeMinor_TMinorType_ instance.
@@ -2772,14 +2772,14 @@ func (me TDegreeTypeStringExtensionType) String() string { return xsdt.String(me
 func (me TDegreeTypeStringExtensionType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 type XsdGoPkgHasAttr_DegreeType_TDegreeTypeStringExtensionType_ struct {
-	DegreeType TDegreeTypeStringExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 degreeType,attr"`
+	DegreeType TDegreeTypeStringExtensionType `xml:"degreeType,attr"`
 }
 
 //	The official names of any and all major courses of study associated with the student's degree title.
 //	Reflects the official names of any and all major concentrations associated with the student's degree title. For example, a Math major may have an Applied Math concentration even though this area of concentration is not required to pursue a Math major.
 type XsdGoPkgHasElems_DegreeConcentrationsequenceMajorTypeschema_DegreeConcentration_XsdtString_ struct {
 	//	Reflects the official names of any and all major concentrations associated with the student's degree title. For example, a Math major may have an Applied Math concentration even though this area of concentration is not required to pursue a Math major.
-	DegreeConcentrations []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 DegreeConcentration"`
+	DegreeConcentrations []xsdt.String `xml:"DegreeConcentration"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DegreeConcentrationsequenceMajorTypeschema_DegreeConcentration_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DegreeConcentrationsequenceMajorTypeschema_DegreeConcentration_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DegreeConcentrationsequenceMajorTypeschema_DegreeConcentration_XsdtString_ instance.
@@ -2802,7 +2802,7 @@ func (me *XsdGoPkgHasElems_DegreeConcentrationsequenceMajorTypeschema_DegreeConc
 //	Reflects the official names of any and all major options associated with the student's degree title. For example, a particular institution may require their Engineering majors to select either a Mechanical Engineering option or a Structural Engineering option.
 type XsdGoPkgHasElems_OptionsequenceMajorTypeschema_Option_XsdtString_ struct {
 	//	Reflects the official names of any and all major options associated with the student's degree title. For example, a particular institution may require their Engineering majors to select either a Mechanical Engineering option or a Structural Engineering option.
-	Options []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Option"`
+	Options []xsdt.String `xml:"Option"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_OptionsequenceMajorTypeschema_Option_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OptionsequenceMajorTypeschema_Option_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OptionsequenceMajorTypeschema_Option_XsdtString_ instance.
@@ -2867,7 +2867,7 @@ func (me *TMajorType) Walk() (err error) {
 
 type XsdGoPkgHasElems_DegreeMajorsequenceEduDegreeTypeschema_DegreeMajor_TMajorType_ struct {
 	//	The official names of any and all major courses of study associated with the student's degree title.
-	DegreeMajors []*TMajorType `xml:"http://ns.hr-xml.org/2006-02-28 DegreeMajor"`
+	DegreeMajors []*TMajorType `xml:"DegreeMajor"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DegreeMajorsequenceEduDegreeTypeschema_DegreeMajor_TMajorType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DegreeMajorsequenceEduDegreeTypeschema_DegreeMajor_TMajorType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DegreeMajorsequenceEduDegreeTypeschema_DegreeMajor_TMajorType_ instance.
@@ -2894,7 +2894,7 @@ func (me *XsdGoPkgHasElems_DegreeMajorsequenceEduDegreeTypeschema_DegreeMajor_TM
 
 //	This is a student's numerical class rank with the highest student in the class having a rank or position of 1
 type XsdGoPkgHasAttr_NumberOfStudents_XsdtInteger_ struct {
-	NumberOfStudents xsdt.Integer `xml:"http://ns.hr-xml.org/2006-02-28 numberOfStudents,attr"`
+	NumberOfStudents xsdt.Integer `xml:"numberOfStudents,attr"`
 }
 
 type TxsdEducationalMeasureTypeSequenceClassRank struct {
@@ -2922,7 +2922,7 @@ func (me *TxsdEducationalMeasureTypeSequenceClassRank) Walk() (err error) {
 
 type XsdGoPkgHasElem_ClassRanksequenceEducationalMeasureTypeschema_ClassRank_TxsdEducationalMeasureTypeSequenceClassRank_ struct {
 	//	This is a student's numerical class rank with the highest student in the class having a rank or position of 1
-	ClassRank *TxsdEducationalMeasureTypeSequenceClassRank `xml:"http://ns.hr-xml.org/2006-02-28 ClassRank"`
+	ClassRank *TxsdEducationalMeasureTypeSequenceClassRank `xml:"ClassRank"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ClassRanksequenceEducationalMeasureTypeschema_ClassRank_TxsdEducationalMeasureTypeSequenceClassRank_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ClassRanksequenceEducationalMeasureTypeschema_ClassRank_TxsdEducationalMeasureTypeSequenceClassRank_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ClassRanksequenceEducationalMeasureTypeschema_ClassRank_TxsdEducationalMeasureTypeSequenceClassRank_ instance.
@@ -2946,7 +2946,7 @@ func (me *XsdGoPkgHasElem_ClassRanksequenceEducationalMeasureTypeschema_ClassRan
 }
 
 type XsdGoPkgHasAttr_MeasureType_XsdtString_ struct {
-	MeasureType xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 measureType,attr"`
+	MeasureType xsdt.String `xml:"measureType,attr"`
 }
 
 //	Identifies the measurement system.  i.e. GPA
@@ -2982,7 +2982,7 @@ func (me *TMeasureValueType) Walk() (err error) {
 
 type XsdGoPkgHasElem_LowestPossibleValuesequenceEducationMeasureTypeschema_LowestPossibleValue_TMeasureValueType_ struct {
 	//	The value specifying the minimum of the measurement range
-	LowestPossibleValue *TMeasureValueType `xml:"http://ns.hr-xml.org/2006-02-28 LowestPossibleValue"`
+	LowestPossibleValue *TMeasureValueType `xml:"LowestPossibleValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_LowestPossibleValuesequenceEducationMeasureTypeschema_LowestPossibleValue_TMeasureValueType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LowestPossibleValuesequenceEducationMeasureTypeschema_LowestPossibleValue_TMeasureValueType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_LowestPossibleValuesequenceEducationMeasureTypeschema_LowestPossibleValue_TMeasureValueType_ instance.
@@ -3008,7 +3008,7 @@ func (me *XsdGoPkgHasElem_LowestPossibleValuesequenceEducationMeasureTypeschema_
 //	The value specifying the maximum of the measurement range
 type XsdGoPkgHasElem_HighestPossibleValuesequenceEducationMeasureTypeschema_HighestPossibleValue_TMeasureValueType_ struct {
 	//	The value specifying the maximum of the measurement range
-	HighestPossibleValue *TMeasureValueType `xml:"http://ns.hr-xml.org/2006-02-28 HighestPossibleValue"`
+	HighestPossibleValue *TMeasureValueType `xml:"HighestPossibleValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_HighestPossibleValuesequenceEducationMeasureTypeschema_HighestPossibleValue_TMeasureValueType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_HighestPossibleValuesequenceEducationMeasureTypeschema_HighestPossibleValue_TMeasureValueType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_HighestPossibleValuesequenceEducationMeasureTypeschema_HighestPossibleValue_TMeasureValueType_ instance.
@@ -3034,7 +3034,7 @@ func (me *XsdGoPkgHasElem_HighestPossibleValuesequenceEducationMeasureTypeschema
 //	This is a code indicating that an A+ grade has a value higher than the highest possible GPA.  False - It is not possible to have a higher GPA than indicated in Range Maximum.  True - It is possible to have a higher GPA than indicated in Range Maximum.
 type XsdGoPkgHasElem_ExcessiveValueIndicatorsequenceEducationMeasureTypeschema_ExcessiveValueIndicator_XsdtBoolean_ struct {
 	//	This is a code indicating that an A+ grade has a value higher than the highest possible GPA.  False - It is not possible to have a higher GPA than indicated in Range Maximum.  True - It is possible to have a higher GPA than indicated in Range Maximum.
-	ExcessiveValueIndicator xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 ExcessiveValueIndicator"`
+	ExcessiveValueIndicator xsdt.Boolean `xml:"ExcessiveValueIndicator"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ExcessiveValueIndicatorsequenceEducationMeasureTypeschema_ExcessiveValueIndicator_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ExcessiveValueIndicatorsequenceEducationMeasureTypeschema_ExcessiveValueIndicator_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ExcessiveValueIndicatorsequenceEducationMeasureTypeschema_ExcessiveValueIndicator_XsdtBoolean_ instance.
@@ -3055,7 +3055,7 @@ func (me *XsdGoPkgHasElem_ExcessiveValueIndicatorsequenceEducationMeasureTypesch
 }
 
 type XsdGoPkgHasElem_GoodStudentIndicatorsequenceEducationMeasureTypeschema_GoodStudentIndicator_XsdtBoolean_ struct {
-	GoodStudentIndicator xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 GoodStudentIndicator"`
+	GoodStudentIndicator xsdt.Boolean `xml:"GoodStudentIndicator"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_GoodStudentIndicatorsequenceEducationMeasureTypeschema_GoodStudentIndicator_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_GoodStudentIndicatorsequenceEducationMeasureTypeschema_GoodStudentIndicator_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_GoodStudentIndicatorsequenceEducationMeasureTypeschema_GoodStudentIndicator_XsdtBoolean_ instance.
@@ -3078,7 +3078,7 @@ func (me *XsdGoPkgHasElem_GoodStudentIndicatorsequenceEducationMeasureTypeschema
 //	Identifies the measurement system.  i.e. GPA
 type XsdGoPkgHasElem_MeasureSystemsequenceEducationMeasureTypeschema_MeasureSystem_XsdtString_ struct {
 	//	Identifies the measurement system.  i.e. GPA
-	MeasureSystem xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 MeasureSystem"`
+	MeasureSystem xsdt.String `xml:"MeasureSystem"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_MeasureSystemsequenceEducationMeasureTypeschema_MeasureSystem_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MeasureSystemsequenceEducationMeasureTypeschema_MeasureSystem_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MeasureSystemsequenceEducationMeasureTypeschema_MeasureSystem_XsdtString_ instance.
@@ -3101,7 +3101,7 @@ func (me *XsdGoPkgHasElem_MeasureSystemsequenceEducationMeasureTypeschema_Measur
 //	The grade point average of a student.
 type XsdGoPkgHasElem_MeasureValuesequenceEducationMeasureTypeschema_MeasureValue_TMeasureValueType_ struct {
 	//	The grade point average of a student.
-	MeasureValue *TMeasureValueType `xml:"http://ns.hr-xml.org/2006-02-28 MeasureValue"`
+	MeasureValue *TMeasureValueType `xml:"MeasureValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_MeasureValuesequenceEducationMeasureTypeschema_MeasureValue_TMeasureValueType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MeasureValuesequenceEducationMeasureTypeschema_MeasureValue_TMeasureValueType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_MeasureValuesequenceEducationMeasureTypeschema_MeasureValue_TMeasureValueType_ instance.
@@ -3180,7 +3180,7 @@ func (me *TEducationMeasureType) Walk() (err error) {
 
 type XsdGoPkgHasElem_EducationalMeasuresequenceEducationalMeasureTypeschema_EducationalMeasure_TEducationMeasureType_ struct {
 	//	Identifies the measurement system.  i.e. GPA
-	EducationalMeasure *TEducationMeasureType `xml:"http://ns.hr-xml.org/2006-02-28 EducationalMeasure"`
+	EducationalMeasure *TEducationMeasureType `xml:"EducationalMeasure"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EducationalMeasuresequenceEducationalMeasureTypeschema_EducationalMeasure_TEducationMeasureType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EducationalMeasuresequenceEducationalMeasureTypeschema_EducationalMeasure_TEducationMeasureType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_EducationalMeasuresequenceEducationalMeasureTypeschema_EducationalMeasure_TEducationMeasureType_ instance.
@@ -3325,7 +3325,7 @@ func (me TCourseLevelCodeType) Is1() bool { return me.String() == "1" }
 
 type XsdGoPkgHasElem_CourseLevelCodesequenceEducationalMeasureTypeschema_CourseLevelCode_TCourseLevelCodeType_ struct {
 	//	Code indicating the level or type or both, of work which is reflected in the grade average and the credit hours
-	CourseLevelCode TCourseLevelCodeType `xml:"http://ns.hr-xml.org/2006-02-28 CourseLevelCode"`
+	CourseLevelCode TCourseLevelCodeType `xml:"CourseLevelCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CourseLevelCodesequenceEducationalMeasureTypeschema_CourseLevelCode_TCourseLevelCodeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CourseLevelCodesequenceEducationalMeasureTypeschema_CourseLevelCode_TCourseLevelCodeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CourseLevelCodesequenceEducationalMeasureTypeschema_CourseLevelCode_TCourseLevelCodeType_ instance.
@@ -3348,7 +3348,7 @@ func (me *XsdGoPkgHasElem_CourseLevelCodesequenceEducationalMeasureTypeschema_Co
 //	This is the total number of credits (credit hours) attemptedand earned and included in this summary.
 type XsdGoPkgHasElem_AcademicCreditHoursEarnedsequenceEducationalMeasureTypeschema_AcademicCreditHoursEarned_XsdtDecimal_ struct {
 	//	This is the total number of credits (credit hours) attemptedand earned and included in this summary.
-	AcademicCreditHoursEarned xsdt.Decimal `xml:"http://ns.hr-xml.org/2006-02-28 AcademicCreditHoursEarned"`
+	AcademicCreditHoursEarned xsdt.Decimal `xml:"AcademicCreditHoursEarned"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AcademicCreditHoursEarnedsequenceEducationalMeasureTypeschema_AcademicCreditHoursEarned_XsdtDecimal_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AcademicCreditHoursEarnedsequenceEducationalMeasureTypeschema_AcademicCreditHoursEarned_XsdtDecimal_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AcademicCreditHoursEarnedsequenceEducationalMeasureTypeschema_AcademicCreditHoursEarned_XsdtDecimal_ instance.
@@ -3371,7 +3371,7 @@ func (me *XsdGoPkgHasElem_AcademicCreditHoursEarnedsequenceEducationalMeasureTyp
 //	This is the total number of credits (credit hours) included on the record for this particular summary. This would normally be all credits for which the student paid, whether or not the credits were used to calculate the grade point average. Examples of credit hours to be included, if available, are credits for which non-punitive grades such as "I" or "W" or "Audit" were awarded.
 type XsdGoPkgHasElem_AcademicCreditHoursAttemptedsequenceEducationalMeasureTypeschema_AcademicCreditHoursAttempted_XsdtDecimal_ struct {
 	//	This is the total number of credits (credit hours) included on the record for this particular summary. This would normally be all credits for which the student paid, whether or not the credits were used to calculate the grade point average. Examples of credit hours to be included, if available, are credits for which non-punitive grades such as "I" or "W" or "Audit" were awarded.
-	AcademicCreditHoursAttempted xsdt.Decimal `xml:"http://ns.hr-xml.org/2006-02-28 AcademicCreditHoursAttempted"`
+	AcademicCreditHoursAttempted xsdt.Decimal `xml:"AcademicCreditHoursAttempted"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AcademicCreditHoursAttemptedsequenceEducationalMeasureTypeschema_AcademicCreditHoursAttempted_XsdtDecimal_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AcademicCreditHoursAttemptedsequenceEducationalMeasureTypeschema_AcademicCreditHoursAttempted_XsdtDecimal_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AcademicCreditHoursAttemptedsequenceEducationalMeasureTypeschema_AcademicCreditHoursAttempted_XsdtDecimal_ instance.
@@ -3432,7 +3432,7 @@ func (me TAcademicCreditCodeType) IsX() bool { return me.String() == "X" }
 
 type XsdGoPkgHasElem_AcademicCreditCodesequenceEducationalMeasureTypeschema_AcademicCreditCode_TAcademicCreditCodeType_ struct {
 	//	Code indicating the type of credit used (awarded) by the institution.
-	AcademicCreditCode TAcademicCreditCodeType `xml:"http://ns.hr-xml.org/2006-02-28 AcademicCreditCode"`
+	AcademicCreditCode TAcademicCreditCodeType `xml:"AcademicCreditCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AcademicCreditCodesequenceEducationalMeasureTypeschema_AcademicCreditCode_TAcademicCreditCodeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AcademicCreditCodesequenceEducationalMeasureTypeschema_AcademicCreditCode_TAcademicCreditCodeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AcademicCreditCodesequenceEducationalMeasureTypeschema_AcademicCreditCode_TAcademicCreditCodeType_ instance.
@@ -3455,7 +3455,7 @@ func (me *XsdGoPkgHasElem_AcademicCreditCodesequenceEducationalMeasureTypeschema
 //	If True, this is a summary of all work included in the record.
 type XsdGoPkgHasElem_CumulativeSummaryIndicatorsequenceEducationalMeasureTypeschema_CumulativeSummaryIndicator_XsdtBoolean_ struct {
 	//	If True, this is a summary of all work included in the record.
-	CumulativeSummaryIndicator xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 CumulativeSummaryIndicator"`
+	CumulativeSummaryIndicator xsdt.Boolean `xml:"CumulativeSummaryIndicator"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CumulativeSummaryIndicatorsequenceEducationalMeasureTypeschema_CumulativeSummaryIndicator_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CumulativeSummaryIndicatorsequenceEducationalMeasureTypeschema_CumulativeSummaryIndicator_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CumulativeSummaryIndicatorsequenceEducationalMeasureTypeschema_CumulativeSummaryIndicator_XsdtBoolean_ instance.
@@ -3478,7 +3478,7 @@ func (me *XsdGoPkgHasElem_CumulativeSummaryIndicatorsequenceEducationalMeasureTy
 //	This is the total number of credits (or credit hours) included in the grade point average for this particular summary. Inclusion or exclusion of certain credits depends on the policy of the sending institution.
 type XsdGoPkgHasElem_AcademicCreditHoursIncludedsequenceEducationalMeasureTypeschema_AcademicCreditHoursIncluded_XsdtDecimal_ struct {
 	//	This is the total number of credits (or credit hours) included in the grade point average for this particular summary. Inclusion or exclusion of certain credits depends on the policy of the sending institution.
-	AcademicCreditHoursIncluded xsdt.Decimal `xml:"http://ns.hr-xml.org/2006-02-28 AcademicCreditHoursIncluded"`
+	AcademicCreditHoursIncluded xsdt.Decimal `xml:"AcademicCreditHoursIncluded"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AcademicCreditHoursIncludedsequenceEducationalMeasureTypeschema_AcademicCreditHoursIncluded_XsdtDecimal_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AcademicCreditHoursIncludedsequenceEducationalMeasureTypeschema_AcademicCreditHoursIncluded_XsdtDecimal_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AcademicCreditHoursIncludedsequenceEducationalMeasureTypeschema_AcademicCreditHoursIncluded_XsdtDecimal_ instance.
@@ -3568,7 +3568,7 @@ func (me *TEducationalMeasureType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_DegreeMeasuresequenceEduDegreeTypeschema_DegreeMeasure_TEducationalMeasureType_ struct {
-	DegreeMeasure *TEducationalMeasureType `xml:"http://ns.hr-xml.org/2006-02-28 DegreeMeasure"`
+	DegreeMeasure *TEducationalMeasureType `xml:"DegreeMeasure"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DegreeMeasuresequenceEduDegreeTypeschema_DegreeMeasure_TEducationalMeasureType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DegreeMeasuresequenceEduDegreeTypeschema_DegreeMeasure_TEducationalMeasureType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DegreeMeasuresequenceEduDegreeTypeschema_DegreeMeasure_TEducationalMeasureType_ instance.
@@ -3592,15 +3592,15 @@ func (me *XsdGoPkgHasElem_DegreeMeasuresequenceEduDegreeTypeschema_DegreeMeasure
 }
 
 type XsdGoPkgHasAttr_CurrentlyEnrolled_XsdtBoolean_ struct {
-	CurrentlyEnrolled xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 currentlyEnrolled,attr"`
+	CurrentlyEnrolled xsdt.Boolean `xml:"currentlyEnrolled,attr"`
 }
 
 type XsdGoPkgHasAttr_StudentInGoodStanding_XsdtBoolean_ struct {
-	StudentInGoodStanding xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 studentInGoodStanding,attr"`
+	StudentInGoodStanding xsdt.Boolean `xml:"studentInGoodStanding,attr"`
 }
 
 type XsdGoPkgHasAttr_EnrollmentStatus_XsdtString_ struct {
-	EnrollmentStatus xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 enrollmentStatus,attr"`
+	EnrollmentStatus xsdt.String `xml:"enrollmentStatus,attr"`
 }
 
 type TDatesOfAttendanceType struct {
@@ -3639,7 +3639,7 @@ func (me *TDatesOfAttendanceType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_DatesOfAttendancesequenceEduDegreeTypeschema_DatesOfAttendance_TDatesOfAttendanceType_ struct {
-	DatesOfAttendances []*TDatesOfAttendanceType `xml:"http://ns.hr-xml.org/2006-02-28 DatesOfAttendance"`
+	DatesOfAttendances []*TDatesOfAttendanceType `xml:"DatesOfAttendance"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DatesOfAttendancesequenceEduDegreeTypeschema_DatesOfAttendance_TDatesOfAttendanceType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DatesOfAttendancesequenceEduDegreeTypeschema_DatesOfAttendance_TDatesOfAttendanceType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DatesOfAttendancesequenceEduDegreeTypeschema_DatesOfAttendance_TDatesOfAttendanceType_ instance.
@@ -3682,7 +3682,7 @@ func (me *TGraduatingDegreeType) Set(s string) { (*xsdt.String)(me).Set(s) }
 func (me TGraduatingDegreeType) String() string { return xsdt.String(me).String() }
 
 type XsdGoPkgHasAttr_GraduatingDegree_TGraduatingDegreeType_ struct {
-	GraduatingDegree TGraduatingDegreeType `xml:"http://ns.hr-xml.org/2006-02-28 graduatingDegree,attr"`
+	GraduatingDegree TGraduatingDegreeType `xml:"graduatingDegree,attr"`
 }
 
 type TEduDegreeType struct {
@@ -3761,7 +3761,7 @@ func (me *TEduDegreeType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_DegreesequenceSchoolOrInstitutionTypeschema_Degree_TEduDegreeType_ struct {
-	Degrees []*TEduDegreeType `xml:"http://ns.hr-xml.org/2006-02-28 Degree"`
+	Degrees []*TEduDegreeType `xml:"Degree"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DegreesequenceSchoolOrInstitutionTypeschema_Degree_TEduDegreeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DegreesequenceSchoolOrInstitutionTypeschema_Degree_TEduDegreeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DegreesequenceSchoolOrInstitutionTypeschema_Degree_TEduDegreeType_ instance.
@@ -3789,7 +3789,7 @@ func (me *XsdGoPkgHasElems_DegreesequenceSchoolOrInstitutionTypeschema_Degree_TE
 //	Deprecated in favor of Degree construct.
 type XsdGoPkgHasElems_MajorsequenceSchoolOrInstitutionTypeschema_Major_XsdtString_ struct {
 	//	Deprecated in favor of Degree construct.
-	Majors []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Major"`
+	Majors []xsdt.String `xml:"Major"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_MajorsequenceSchoolOrInstitutionTypeschema_Major_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MajorsequenceSchoolOrInstitutionTypeschema_Major_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MajorsequenceSchoolOrInstitutionTypeschema_Major_XsdtString_ instance.
@@ -3812,7 +3812,7 @@ func (me *XsdGoPkgHasElems_MajorsequenceSchoolOrInstitutionTypeschema_Major_Xsdt
 //	Deprecated in favor of Degree construct.
 //	This type is the same as the DatesOfAttendanceType, except it is an unbounded sequence.  This remains for backward compatibility only.
 type XsdGoPkgHasElems_EndDatesequenceDeprecatedDatesOfAttendanceTypeschema_EndDate_TFlexibleDatesType_ struct {
-	EndDates []*TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 EndDate"`
+	EndDates []*TFlexibleDatesType `xml:"EndDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EndDatesequenceDeprecatedDatesOfAttendanceTypeschema_EndDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EndDatesequenceDeprecatedDatesOfAttendanceTypeschema_EndDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EndDatesequenceDeprecatedDatesOfAttendanceTypeschema_EndDate_TFlexibleDatesType_ instance.
@@ -3838,7 +3838,7 @@ func (me *XsdGoPkgHasElems_EndDatesequenceDeprecatedDatesOfAttendanceTypeschema_
 }
 
 type XsdGoPkgHasElems_StartDatesequenceDeprecatedDatesOfAttendanceTypeschema_StartDate_TFlexibleDatesType_ struct {
-	StartDates []*TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 StartDate"`
+	StartDates []*TFlexibleDatesType `xml:"StartDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_StartDatesequenceDeprecatedDatesOfAttendanceTypeschema_StartDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_StartDatesequenceDeprecatedDatesOfAttendanceTypeschema_StartDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_StartDatesequenceDeprecatedDatesOfAttendanceTypeschema_StartDate_TFlexibleDatesType_ instance.
@@ -3900,7 +3900,7 @@ func (me *TDeprecatedDatesOfAttendanceType) Walk() (err error) {
 
 type XsdGoPkgHasElem_DatesOfAttendancesequenceSchoolOrInstitutionTypeschema_DatesOfAttendance_TDeprecatedDatesOfAttendanceType_ struct {
 	//	Deprecated in favor of Degree construct.
-	DatesOfAttendance *TDeprecatedDatesOfAttendanceType `xml:"http://ns.hr-xml.org/2006-02-28 DatesOfAttendance"`
+	DatesOfAttendance *TDeprecatedDatesOfAttendanceType `xml:"DatesOfAttendance"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DatesOfAttendancesequenceSchoolOrInstitutionTypeschema_DatesOfAttendance_TDeprecatedDatesOfAttendanceType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DatesOfAttendancesequenceSchoolOrInstitutionTypeschema_DatesOfAttendance_TDeprecatedDatesOfAttendanceType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DatesOfAttendancesequenceSchoolOrInstitutionTypeschema_DatesOfAttendance_TDeprecatedDatesOfAttendanceType_ instance.
@@ -3924,7 +3924,7 @@ func (me *XsdGoPkgHasElem_DatesOfAttendancesequenceSchoolOrInstitutionTypeschema
 }
 
 type XsdGoPkgHasElem_CountryCodesequencePostalAddressTypeschema_CountryCode_TxsdPostalAddressTypeSequenceCountryCode_ struct {
-	CountryCode TCurrencyCodeType `xml:"http://ns.hr-xml.org/2006-02-28 CountryCode"`
+	CountryCode TCurrencyCodeType `xml:"CountryCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CountryCodesequencePostalAddressTypeschema_CountryCode_TxsdPostalAddressTypeSequenceCountryCode_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CountryCodesequencePostalAddressTypeschema_CountryCode_TxsdPostalAddressTypeSequenceCountryCode_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CountryCodesequencePostalAddressTypeschema_CountryCode_TxsdPostalAddressTypeSequenceCountryCode_ instance.
@@ -3945,7 +3945,7 @@ func (me *XsdGoPkgHasElem_CountryCodesequencePostalAddressTypeschema_CountryCode
 }
 
 type XsdGoPkgHasElem_PostalCodesequencePostalAddressTypeschema_PostalCode_XsdtString_ struct {
-	PostalCode xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PostalCode"`
+	PostalCode xsdt.String `xml:"PostalCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PostalCodesequencePostalAddressTypeschema_PostalCode_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PostalCodesequencePostalAddressTypeschema_PostalCode_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PostalCodesequencePostalAddressTypeschema_PostalCode_XsdtString_ instance.
@@ -3966,7 +3966,7 @@ func (me *XsdGoPkgHasElem_PostalCodesequencePostalAddressTypeschema_PostalCode_X
 }
 
 type XsdGoPkgHasElems_RegionsequencePostalAddressTypeschema_Region_XsdtString_ struct {
-	Regions []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Region"`
+	Regions []xsdt.String `xml:"Region"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_RegionsequencePostalAddressTypeschema_Region_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_RegionsequencePostalAddressTypeschema_Region_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_RegionsequencePostalAddressTypeschema_Region_XsdtString_ instance.
@@ -3987,7 +3987,7 @@ func (me *XsdGoPkgHasElems_RegionsequencePostalAddressTypeschema_Region_XsdtStri
 }
 
 type XsdGoPkgHasElem_MunicipalitysequencePostalAddressTypeschema_Municipality_XsdtString_ struct {
-	Municipality xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Municipality"`
+	Municipality xsdt.String `xml:"Municipality"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_MunicipalitysequencePostalAddressTypeschema_Municipality_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MunicipalitysequencePostalAddressTypeschema_Municipality_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MunicipalitysequencePostalAddressTypeschema_Municipality_XsdtString_ instance.
@@ -4008,7 +4008,7 @@ func (me *XsdGoPkgHasElem_MunicipalitysequencePostalAddressTypeschema_Municipali
 }
 
 type XsdGoPkgHasElem_UnitsequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_Unit_XsdtString_ struct {
-	Unit xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Unit"`
+	Unit xsdt.String `xml:"Unit"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_UnitsequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_Unit_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_UnitsequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_Unit_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_UnitsequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_Unit_XsdtString_ instance.
@@ -4029,7 +4029,7 @@ func (me *XsdGoPkgHasElem_UnitsequenceTxsdPostalAddressTypeSequenceDeliveryAddre
 }
 
 type XsdGoPkgHasElem_PostOfficeBoxsequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_PostOfficeBox_XsdtString_ struct {
-	PostOfficeBox xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PostOfficeBox"`
+	PostOfficeBox xsdt.String `xml:"PostOfficeBox"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PostOfficeBoxsequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_PostOfficeBox_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PostOfficeBoxsequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_PostOfficeBox_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PostOfficeBoxsequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_PostOfficeBox_XsdtString_ instance.
@@ -4050,7 +4050,7 @@ func (me *XsdGoPkgHasElem_PostOfficeBoxsequenceTxsdPostalAddressTypeSequenceDeli
 }
 
 type XsdGoPkgHasElems_AddressLinesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_AddressLine_XsdtString_ struct {
-	AddressLines []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 AddressLine"`
+	AddressLines []xsdt.String `xml:"AddressLine"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AddressLinesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_AddressLine_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AddressLinesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_AddressLine_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AddressLinesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_AddressLine_XsdtString_ instance.
@@ -4071,7 +4071,7 @@ func (me *XsdGoPkgHasElems_AddressLinesequenceTxsdPostalAddressTypeSequenceDeliv
 }
 
 type XsdGoPkgHasElem_StreetNamesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_StreetName_XsdtString_ struct {
-	StreetName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 StreetName"`
+	StreetName xsdt.String `xml:"StreetName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_StreetNamesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_StreetName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_StreetNamesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_StreetName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_StreetNamesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_StreetName_XsdtString_ instance.
@@ -4092,7 +4092,7 @@ func (me *XsdGoPkgHasElem_StreetNamesequenceTxsdPostalAddressTypeSequenceDeliver
 }
 
 type XsdGoPkgHasElem_BuildingNumbersequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_BuildingNumber_XsdtString_ struct {
-	BuildingNumber xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 BuildingNumber"`
+	BuildingNumber xsdt.String `xml:"BuildingNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_BuildingNumbersequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_BuildingNumber_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_BuildingNumbersequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_BuildingNumber_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_BuildingNumbersequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_BuildingNumber_XsdtString_ instance.
@@ -4157,7 +4157,7 @@ func (me *TxsdPostalAddressTypeSequenceDeliveryAddress) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_DeliveryAddresssequencePostalAddressTypeschema_DeliveryAddress_TxsdPostalAddressTypeSequenceDeliveryAddress_ struct {
-	DeliveryAddress *TxsdPostalAddressTypeSequenceDeliveryAddress `xml:"http://ns.hr-xml.org/2006-02-28 DeliveryAddress"`
+	DeliveryAddress *TxsdPostalAddressTypeSequenceDeliveryAddress `xml:"DeliveryAddress"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DeliveryAddresssequencePostalAddressTypeschema_DeliveryAddress_TxsdPostalAddressTypeSequenceDeliveryAddress_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DeliveryAddresssequencePostalAddressTypeschema_DeliveryAddress_TxsdPostalAddressTypeSequenceDeliveryAddress_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DeliveryAddresssequencePostalAddressTypeschema_DeliveryAddress_TxsdPostalAddressTypeSequenceDeliveryAddress_ instance.
@@ -4181,7 +4181,7 @@ func (me *XsdGoPkgHasElem_DeliveryAddresssequencePostalAddressTypeschema_Deliver
 }
 
 type XsdGoPkgHasElem_LegalNamesequencePersonNameTypeschema_LegalName_XsdtString_ struct {
-	LegalName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 LegalName"`
+	LegalName xsdt.String `xml:"LegalName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_LegalNamesequencePersonNameTypeschema_LegalName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LegalNamesequencePersonNameTypeschema_LegalName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_LegalNamesequencePersonNameTypeschema_LegalName_XsdtString_ instance.
@@ -4202,7 +4202,7 @@ func (me *XsdGoPkgHasElem_LegalNamesequencePersonNameTypeschema_LegalName_XsdtSt
 }
 
 type XsdGoPkgHasElem_MiddleNamesequencePersonNameTypeschema_MiddleName_XsdtString_ struct {
-	MiddleName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 MiddleName"`
+	MiddleName xsdt.String `xml:"MiddleName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_MiddleNamesequencePersonNameTypeschema_MiddleName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MiddleNamesequencePersonNameTypeschema_MiddleName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MiddleNamesequencePersonNameTypeschema_MiddleName_XsdtString_ instance.
@@ -4223,11 +4223,11 @@ func (me *XsdGoPkgHasElem_MiddleNamesequencePersonNameTypeschema_MiddleName_Xsdt
 }
 
 type XsdGoPkgHasAttr_Script_XsdtString_ struct {
-	Script xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 script,attr"`
+	Script xsdt.String `xml:"script,attr"`
 }
 
 type XsdGoPkgHasElem_FormattedNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_FormattedName_XsdtString_ struct {
-	FormattedName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 FormattedName"`
+	FormattedName xsdt.String `xml:"FormattedName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_FormattedNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_FormattedName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_FormattedNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_FormattedName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_FormattedNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_FormattedName_XsdtString_ instance.
@@ -4248,7 +4248,7 @@ func (me *XsdGoPkgHasElem_FormattedNamesequenceTxsdPersonNameTypeSequenceAlterna
 }
 
 type XsdGoPkgHasElems_GivenNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_GivenName_XsdtString_ struct {
-	GivenNames []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 GivenName"`
+	GivenNames []xsdt.String `xml:"GivenName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_GivenNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_GivenName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_GivenNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_GivenName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_GivenNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_GivenName_XsdtString_ instance.
@@ -4269,7 +4269,7 @@ func (me *XsdGoPkgHasElems_GivenNamesequenceTxsdPersonNameTypeSequenceAlternateS
 }
 
 type XsdGoPkgHasElem_PreferredGivenNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_PreferredGivenName_XsdtString_ struct {
-	PreferredGivenName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PreferredGivenName"`
+	PreferredGivenName xsdt.String `xml:"PreferredGivenName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PreferredGivenNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_PreferredGivenName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PreferredGivenNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_PreferredGivenName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PreferredGivenNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_PreferredGivenName_XsdtString_ instance.
@@ -4322,11 +4322,11 @@ func (me TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyNameSimpleConten
 }
 
 type XsdGoPkgHasAttr_Primary_TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyNameSimpleContentExtensionPrimary_ struct {
-	Primary TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyNameSimpleContentExtensionPrimary `xml:"http://ns.hr-xml.org/2006-02-28 primary,attr"`
+	Primary TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyNameSimpleContentExtensionPrimary `xml:"primary,attr"`
 }
 
 type XsdGoPkgHasAttr_Prefix_XsdtString_ struct {
-	Prefix xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 prefix,attr"`
+	Prefix xsdt.String `xml:"prefix,attr"`
 }
 
 type TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName struct {
@@ -4355,7 +4355,7 @@ func (me *TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName) Walk() (e
 }
 
 type XsdGoPkgHasElems_FamilyNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName_ struct {
-	FamilyNames []*TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName `xml:"http://ns.hr-xml.org/2006-02-28 FamilyName"`
+	FamilyNames []*TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName `xml:"FamilyName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_FamilyNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_FamilyNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_FamilyNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName_ instance.
@@ -4418,7 +4418,7 @@ func (me TxsdPersonNameTypeSequenceAlternateScriptSequenceAffixSimpleContentExte
 }
 
 type XsdGoPkgHasAttr_Type_TxsdPersonNameTypeSequenceAlternateScriptSequenceAffixSimpleContentExtensionType_ struct {
-	Type TxsdPersonNameTypeSequenceAlternateScriptSequenceAffixSimpleContentExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 type,attr"`
+	Type TxsdPersonNameTypeSequenceAlternateScriptSequenceAffixSimpleContentExtensionType `xml:"type,attr"`
 }
 
 type TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix struct {
@@ -4445,7 +4445,7 @@ func (me *TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix) Walk() (err er
 }
 
 type XsdGoPkgHasElems_AffixsequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix_ struct {
-	Affixs []*TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix `xml:"http://ns.hr-xml.org/2006-02-28 Affix"`
+	Affixs []*TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix `xml:"Affix"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AffixsequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AffixsequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AffixsequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix_ instance.
@@ -4527,7 +4527,7 @@ func (me *TxsdPersonNameTypeSequenceAlternateScript) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_AlternateScriptsequencePersonNameTypeschema_AlternateScript_TxsdPersonNameTypeSequenceAlternateScript_ struct {
-	AlternateScripts []*TxsdPersonNameTypeSequenceAlternateScript `xml:"http://ns.hr-xml.org/2006-02-28 AlternateScript"`
+	AlternateScripts []*TxsdPersonNameTypeSequenceAlternateScript `xml:"AlternateScript"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AlternateScriptsequencePersonNameTypeschema_AlternateScript_TxsdPersonNameTypeSequenceAlternateScript_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AlternateScriptsequencePersonNameTypeschema_AlternateScript_TxsdPersonNameTypeSequenceAlternateScript_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AlternateScriptsequencePersonNameTypeschema_AlternateScript_TxsdPersonNameTypeSequenceAlternateScript_ instance.
@@ -4553,7 +4553,7 @@ func (me *XsdGoPkgHasElems_AlternateScriptsequencePersonNameTypeschema_Alternate
 }
 
 type XsdGoPkgHasAttr_Primary_TxsdPersonNameTypeSequenceFamilyNameSimpleContentExtensionPrimary_ struct {
-	Primary TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyNameSimpleContentExtensionPrimary `xml:"http://ns.hr-xml.org/2006-02-28 primary,attr"`
+	Primary TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyNameSimpleContentExtensionPrimary `xml:"primary,attr"`
 }
 
 type TxsdPersonNameTypeSequenceFamilyName struct {
@@ -4582,7 +4582,7 @@ func (me *TxsdPersonNameTypeSequenceFamilyName) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_FamilyNamesequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceFamilyName_ struct {
-	FamilyNames []*TxsdPersonNameTypeSequenceFamilyName `xml:"http://ns.hr-xml.org/2006-02-28 FamilyName"`
+	FamilyNames []*TxsdPersonNameTypeSequenceFamilyName `xml:"FamilyName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_FamilyNamesequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceFamilyName_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_FamilyNamesequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceFamilyName_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_FamilyNamesequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceFamilyName_ instance.
@@ -4608,7 +4608,7 @@ func (me *XsdGoPkgHasElems_FamilyNamesequencePersonNameTypeschema_FamilyName_Txs
 }
 
 type XsdGoPkgHasAttr_Type_TxsdPersonNameTypeSequenceAffixSimpleContentExtensionType_ struct {
-	Type TxsdPersonNameTypeSequenceAlternateScriptSequenceAffixSimpleContentExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 type,attr"`
+	Type TxsdPersonNameTypeSequenceAlternateScriptSequenceAffixSimpleContentExtensionType `xml:"type,attr"`
 }
 
 type TxsdPersonNameTypeSequenceAffix struct {
@@ -4635,7 +4635,7 @@ func (me *TxsdPersonNameTypeSequenceAffix) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_AffixsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAffix_ struct {
-	Affixs []*TxsdPersonNameTypeSequenceAffix `xml:"http://ns.hr-xml.org/2006-02-28 Affix"`
+	Affixs []*TxsdPersonNameTypeSequenceAffix `xml:"Affix"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AffixsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAffix_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AffixsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAffix_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AffixsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAffix_ instance.
@@ -4722,7 +4722,7 @@ func (me *TPersonNameType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_PersonNamesequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_PersonName_TPersonNameType_ struct {
-	PersonName *TPersonNameType `xml:"http://ns.hr-xml.org/2006-02-28 PersonName"`
+	PersonName *TPersonNameType `xml:"PersonName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PersonNamesequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_PersonName_TPersonNameType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PersonNamesequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_PersonName_TPersonNameType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_PersonNamesequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_PersonName_TPersonNameType_ instance.
@@ -4746,7 +4746,7 @@ func (me *XsdGoPkgHasElem_PersonNamesequenceTxsdPostalAddressTypeSequenceRecipie
 }
 
 type XsdGoPkgHasElems_AdditionalTextsequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_AdditionalText_XsdtString_ struct {
-	AdditionalTexts []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 AdditionalText"`
+	AdditionalTexts []xsdt.String `xml:"AdditionalText"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AdditionalTextsequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_AdditionalText_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AdditionalTextsequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_AdditionalText_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AdditionalTextsequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_AdditionalText_XsdtString_ instance.
@@ -4769,7 +4769,7 @@ func (me *XsdGoPkgHasElems_AdditionalTextsequenceTxsdPostalAddressTypeSequenceRe
 //	Deprecated in favor of OrganizationName element.
 type XsdGoPkgHasElem_OrganizationsequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_Organization_XsdtString_ struct {
 	//	Deprecated in favor of OrganizationName element.
-	Organization xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Organization"`
+	Organization xsdt.String `xml:"Organization"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OrganizationsequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_Organization_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OrganizationsequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_Organization_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_OrganizationsequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_Organization_XsdtString_ instance.
@@ -4790,7 +4790,7 @@ func (me *XsdGoPkgHasElem_OrganizationsequenceTxsdPostalAddressTypeSequenceRecip
 }
 
 type XsdGoPkgHasElem_OrganizationNamesequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_OrganizationName_XsdtString_ struct {
-	OrganizationName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 OrganizationName"`
+	OrganizationName xsdt.String `xml:"OrganizationName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OrganizationNamesequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_OrganizationName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OrganizationNamesequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_OrganizationName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_OrganizationNamesequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_OrganizationName_XsdtString_ instance.
@@ -4851,7 +4851,7 @@ func (me *TxsdPostalAddressTypeSequenceRecipient) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_RecipientsequencePostalAddressTypeschema_Recipient_TxsdPostalAddressTypeSequenceRecipient_ struct {
-	Recipients []*TxsdPostalAddressTypeSequenceRecipient `xml:"http://ns.hr-xml.org/2006-02-28 Recipient"`
+	Recipients []*TxsdPostalAddressTypeSequenceRecipient `xml:"Recipient"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_RecipientsequencePostalAddressTypeschema_Recipient_TxsdPostalAddressTypeSequenceRecipient_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_RecipientsequencePostalAddressTypeschema_Recipient_TxsdPostalAddressTypeSequenceRecipient_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_RecipientsequencePostalAddressTypeschema_Recipient_TxsdPostalAddressTypeSequenceRecipient_ instance.
@@ -4902,7 +4902,7 @@ func (me TxsdPostalAddressTypeType) IsMilitaryAddress() bool { return me.String(
 func (me TxsdPostalAddressTypeType) IsUndefined() bool { return me.String() == "undefined" }
 
 type XsdGoPkgHasAttr_Type_TxsdPostalAddressTypeType_ struct {
-	Type TxsdPostalAddressTypeType `xml:"http://ns.hr-xml.org/2006-02-28 type,attr"`
+	Type TxsdPostalAddressTypeType `xml:"type,attr"`
 }
 
 type TPostalAddressType struct {
@@ -4957,7 +4957,7 @@ func (me *TPostalAddressType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_PostalAddress struct {
-	PostalAddress *TPostalAddressType `xml:"http://ns.hr-xml.org/2006-02-28 PostalAddress"`
+	PostalAddress *TPostalAddressType `xml:"PostalAddress"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PostalAddress function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PostalAddress instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_PostalAddress instance.
@@ -4983,7 +4983,7 @@ func (me *XsdGoPkgHasElem_PostalAddress) Walk() (err error) {
 //	Deprecated in favor of Degree construct.
 type XsdGoPkgHasElems_MinorsequenceSchoolOrInstitutionTypeschema_Minor_XsdtString_ struct {
 	//	Deprecated in favor of Degree construct.
-	Minors []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Minor"`
+	Minors []xsdt.String `xml:"Minor"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_MinorsequenceSchoolOrInstitutionTypeschema_Minor_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MinorsequenceSchoolOrInstitutionTypeschema_Minor_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MinorsequenceSchoolOrInstitutionTypeschema_Minor_XsdtString_ instance.
@@ -5005,7 +5005,7 @@ func (me *XsdGoPkgHasElems_MinorsequenceSchoolOrInstitutionTypeschema_Minor_Xsdt
 
 //	Deprecated in favor of Degree construct.
 type XsdGoPkgHasElem_MeasureValuesequenceEduMeasureTypeschema_MeasureValue_XsdtString_ struct {
-	MeasureValue xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 MeasureValue"`
+	MeasureValue xsdt.String `xml:"MeasureValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_MeasureValuesequenceEduMeasureTypeschema_MeasureValue_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MeasureValuesequenceEduMeasureTypeschema_MeasureValue_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MeasureValuesequenceEduMeasureTypeschema_MeasureValue_XsdtString_ instance.
@@ -5058,7 +5058,7 @@ func (me *TEduMeasureType) Walk() (err error) {
 
 type XsdGoPkgHasElem_MeasuresequenceSchoolOrInstitutionTypeschema_Measure_TEduMeasureType_ struct {
 	//	Deprecated in favor of Degree construct.
-	Measure *TEduMeasureType `xml:"http://ns.hr-xml.org/2006-02-28 Measure"`
+	Measure *TEduMeasureType `xml:"Measure"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_MeasuresequenceSchoolOrInstitutionTypeschema_Measure_TEduMeasureType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MeasuresequenceSchoolOrInstitutionTypeschema_Measure_TEduMeasureType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_MeasuresequenceSchoolOrInstitutionTypeschema_Measure_TEduMeasureType_ instance.
@@ -5125,7 +5125,7 @@ func (me TSchoolTypeStringExtensionType) ToXsdtString() xsdt.String { return xsd
 func (me TSchoolTypeStringExtensionType) ToTschoolTypes() TschoolTypes { return TschoolTypes(me) }
 
 type XsdGoPkgHasAttr_SchoolType_TSchoolTypeStringExtensionType_ struct {
-	SchoolType TSchoolTypeStringExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 schoolType,attr"`
+	SchoolType TSchoolTypeStringExtensionType `xml:"schoolType,attr"`
 }
 
 //	Summarized location of the entity.
@@ -5170,7 +5170,7 @@ func (me *TxsdSchoolOrInstitutionTypeSequenceLocationSummary) Walk() (err error)
 
 type XsdGoPkgHasElem_LocationSummarysequenceSchoolOrInstitutionTypeschema_LocationSummary_TxsdSchoolOrInstitutionTypeSequenceLocationSummary_ struct {
 	//	Summarized location of the entity.
-	LocationSummary *TxsdSchoolOrInstitutionTypeSequenceLocationSummary `xml:"http://ns.hr-xml.org/2006-02-28 LocationSummary"`
+	LocationSummary *TxsdSchoolOrInstitutionTypeSequenceLocationSummary `xml:"LocationSummary"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_LocationSummarysequenceSchoolOrInstitutionTypeschema_LocationSummary_TxsdSchoolOrInstitutionTypeSequenceLocationSummary_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LocationSummarysequenceSchoolOrInstitutionTypeschema_LocationSummary_TxsdSchoolOrInstitutionTypeSequenceLocationSummary_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_LocationSummarysequenceSchoolOrInstitutionTypeschema_LocationSummary_TxsdSchoolOrInstitutionTypeSequenceLocationSummary_ instance.
@@ -5284,7 +5284,7 @@ func (me *TSchoolOrInstitutionType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_SchoolOrInstitutionsequenceEducationHistoryTypeschema_SchoolOrInstitution_TSchoolOrInstitutionType_ struct {
-	SchoolOrInstitutions []*TSchoolOrInstitutionType `xml:"http://ns.hr-xml.org/2006-02-28 SchoolOrInstitution"`
+	SchoolOrInstitutions []*TSchoolOrInstitutionType `xml:"SchoolOrInstitution"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_SchoolOrInstitutionsequenceEducationHistoryTypeschema_SchoolOrInstitution_TSchoolOrInstitutionType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SchoolOrInstitutionsequenceEducationHistoryTypeschema_SchoolOrInstitution_TSchoolOrInstitutionType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SchoolOrInstitutionsequenceEducationHistoryTypeschema_SchoolOrInstitution_TSchoolOrInstitutionType_ instance.
@@ -5334,7 +5334,7 @@ func (me *TEducationHistoryType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_EducationHistory struct {
-	EducationHistory *TEducationHistoryType `xml:"http://ns.hr-xml.org/2006-02-28 EducationHistory"`
+	EducationHistory *TEducationHistoryType `xml:"EducationHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EducationHistory function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EducationHistory instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_EducationHistory instance.
@@ -5358,7 +5358,7 @@ func (me *XsdGoPkgHasElem_EducationHistory) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_EducationHistory struct {
-	EducationHistories []*TEducationHistoryType `xml:"http://ns.hr-xml.org/2006-02-28 EducationHistory"`
+	EducationHistories []*TEducationHistoryType `xml:"EducationHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EducationHistory function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EducationHistory instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EducationHistory instance.
@@ -5384,7 +5384,7 @@ func (me *XsdGoPkgHasElems_EducationHistory) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_EmployerOrgNamesequenceEmployerOrgDataTypeschema_EmployerOrgName_XsdtString_ struct {
-	EmployerOrgName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 EmployerOrgName"`
+	EmployerOrgName xsdt.String `xml:"EmployerOrgName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EmployerOrgNamesequenceEmployerOrgDataTypeschema_EmployerOrgName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EmployerOrgNamesequenceEmployerOrgDataTypeschema_EmployerOrgName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_EmployerOrgNamesequenceEmployerOrgDataTypeschema_EmployerOrgName_XsdtString_ instance.
@@ -5451,7 +5451,7 @@ func (me TcontactMethodLocationPatternExtensionType) ToTxStringPatternExtensionT
 }
 
 type XsdGoPkgHasElem_Location struct {
-	Location TcontactMethodLocationPatternExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 Location"`
+	Location TcontactMethodLocationPatternExtensionType `xml:"Location"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Location function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Location instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_Location instance.
@@ -5483,7 +5483,7 @@ func (me TInternetEmailAddressType) String() string { return xsdt.String(me).Str
 func (me TInternetEmailAddressType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 type XsdGoPkgHasElem_InternetEmailAddress struct {
-	InternetEmailAddress TInternetEmailAddressType `xml:"http://ns.hr-xml.org/2006-02-28 InternetEmailAddress"`
+	InternetEmailAddress TInternetEmailAddressType `xml:"InternetEmailAddress"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_InternetEmailAddress function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_InternetEmailAddress instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_InternetEmailAddress instance.
@@ -5545,7 +5545,7 @@ func (me TcontactMethodUsePatternExtensionType) ToTcontactMethodUseType() Tconta
 }
 
 type XsdGoPkgHasElem_Use struct {
-	Use TcontactMethodUsePatternExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 Use"`
+	Use TcontactMethodUsePatternExtensionType `xml:"Use"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Use function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Use instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_Use instance.
@@ -5566,7 +5566,7 @@ func (me *XsdGoPkgHasElem_Use) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_FormattedNumber struct {
-	FormattedNumber xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 FormattedNumber"`
+	FormattedNumber xsdt.String `xml:"FormattedNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_FormattedNumber function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_FormattedNumber instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_FormattedNumber instance.
@@ -5587,7 +5587,7 @@ func (me *XsdGoPkgHasElem_FormattedNumber) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_InternationalCountryCode struct {
-	InternationalCountryCode xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 InternationalCountryCode"`
+	InternationalCountryCode xsdt.String `xml:"InternationalCountryCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_InternationalCountryCode function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_InternationalCountryCode instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_InternationalCountryCode instance.
@@ -5608,7 +5608,7 @@ func (me *XsdGoPkgHasElem_InternationalCountryCode) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_NationalNumber struct {
-	NationalNumber xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 NationalNumber"`
+	NationalNumber xsdt.String `xml:"NationalNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_NationalNumber function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NationalNumber instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NationalNumber instance.
@@ -5629,7 +5629,7 @@ func (me *XsdGoPkgHasElem_NationalNumber) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_SubscriberNumber struct {
-	SubscriberNumber xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 SubscriberNumber"`
+	SubscriberNumber xsdt.String `xml:"SubscriberNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_SubscriberNumber function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SubscriberNumber instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_SubscriberNumber instance.
@@ -5650,7 +5650,7 @@ func (me *XsdGoPkgHasElem_SubscriberNumber) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Extension struct {
-	Extension xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Extension"`
+	Extension xsdt.String `xml:"Extension"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Extension function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Extension instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_Extension instance.
@@ -5744,7 +5744,7 @@ func (me *TelcomNumberType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Telephone struct {
-	Telephone *TelcomNumberType `xml:"http://ns.hr-xml.org/2006-02-28 Telephone"`
+	Telephone *TelcomNumberType `xml:"Telephone"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Telephone function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Telephone instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_Telephone instance.
@@ -5768,7 +5768,7 @@ func (me *XsdGoPkgHasElem_Telephone) Walk() (err error) {
 }
 
 type XsdGoPkgHasAttr_SmsEnabled_XsdtBoolean_ struct {
-	SmsEnabled xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 smsEnabled,attr"`
+	SmsEnabled xsdt.Boolean `xml:"smsEnabled,attr"`
 }
 
 type TMobileTelcomNumberType struct {
@@ -5798,7 +5798,7 @@ func (me *TMobileTelcomNumberType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Mobile struct {
-	Mobile *TMobileTelcomNumberType `xml:"http://ns.hr-xml.org/2006-02-28 Mobile"`
+	Mobile *TMobileTelcomNumberType `xml:"Mobile"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Mobile function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Mobile instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_Mobile instance.
@@ -5822,7 +5822,7 @@ func (me *XsdGoPkgHasElem_Mobile) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Fax struct {
-	Fax *TelcomNumberType `xml:"http://ns.hr-xml.org/2006-02-28 Fax"`
+	Fax *TelcomNumberType `xml:"Fax"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Fax function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Fax instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_Fax instance.
@@ -5846,7 +5846,7 @@ func (me *XsdGoPkgHasElem_Fax) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Pager struct {
-	Pager *TelcomNumberType `xml:"http://ns.hr-xml.org/2006-02-28 Pager"`
+	Pager *TelcomNumberType `xml:"Pager"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Pager function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Pager instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_Pager instance.
@@ -5870,7 +5870,7 @@ func (me *XsdGoPkgHasElem_Pager) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Ttytdd struct {
-	Ttytdd *TelcomNumberType `xml:"http://ns.hr-xml.org/2006-02-28 TTYTDD"`
+	Ttytdd *TelcomNumberType `xml:"TTYTDD"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Ttytdd function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Ttytdd instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_Ttytdd instance.
@@ -5894,7 +5894,7 @@ func (me *XsdGoPkgHasElem_Ttytdd) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_InternetWebAddress struct {
-	InternetWebAddress TInternetWebAddressType `xml:"http://ns.hr-xml.org/2006-02-28 InternetWebAddress"`
+	InternetWebAddress TInternetWebAddressType `xml:"InternetWebAddress"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_InternetWebAddress function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_InternetWebAddress instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_InternetWebAddress instance.
@@ -5926,7 +5926,7 @@ func (me TcontactMethodWhenAvailableType) String() string { return xsdt.String(m
 func (me TcontactMethodWhenAvailableType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 type XsdGoPkgHasElem_WhenAvailable struct {
-	WhenAvailable TcontactMethodWhenAvailableType `xml:"http://ns.hr-xml.org/2006-02-28 WhenAvailable"`
+	WhenAvailable TcontactMethodWhenAvailableType `xml:"WhenAvailable"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_WhenAvailable function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_WhenAvailable instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_WhenAvailable instance.
@@ -6021,7 +6021,7 @@ func (me *TContactMethodType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_ContactMethodsequenceEmpContactInfoTypeschema_ContactMethod_TContactMethodType_ struct {
-	ContactMethods []*TContactMethodType `xml:"http://ns.hr-xml.org/2006-02-28 ContactMethod"`
+	ContactMethods []*TContactMethodType `xml:"ContactMethod"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ContactMethodsequenceEmpContactInfoTypeschema_ContactMethod_TContactMethodType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ContactMethodsequenceEmpContactInfoTypeschema_ContactMethod_TContactMethodType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ContactMethodsequenceEmpContactInfoTypeschema_ContactMethod_TContactMethodType_ instance.
@@ -6086,7 +6086,7 @@ func (me *TEmploymentLocationSummaryType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_LocationSummarysequenceEmpContactInfoTypeschema_LocationSummary_TEmploymentLocationSummaryType_ struct {
-	LocationSummary *TEmploymentLocationSummaryType `xml:"http://ns.hr-xml.org/2006-02-28 LocationSummary"`
+	LocationSummary *TEmploymentLocationSummaryType `xml:"LocationSummary"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_LocationSummarysequenceEmpContactInfoTypeschema_LocationSummary_TEmploymentLocationSummaryType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LocationSummarysequenceEmpContactInfoTypeschema_LocationSummary_TEmploymentLocationSummaryType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_LocationSummarysequenceEmpContactInfoTypeschema_LocationSummary_TEmploymentLocationSummaryType_ instance.
@@ -6144,7 +6144,7 @@ func (me *TContactTypeStringExtensionType) Set(s string) { (*xsdt.String)(me).Se
 func (me TContactTypeStringExtensionType) String() string { return xsdt.String(me).String() }
 
 type XsdGoPkgHasAttr_ContactType_TContactTypeStringExtensionType_ struct {
-	ContactType TContactTypeStringExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 contactType,attr"`
+	ContactType TContactTypeStringExtensionType `xml:"contactType,attr"`
 }
 
 type TEmpContactInfoType struct {
@@ -6189,7 +6189,7 @@ func (me *TEmpContactInfoType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_EmployerContactInfosequenceEmployerOrgDataTypeschema_EmployerContactInfo_TEmpContactInfoType_ struct {
-	EmployerContactInfo *TEmpContactInfoType `xml:"http://ns.hr-xml.org/2006-02-28 EmployerContactInfo"`
+	EmployerContactInfo *TEmpContactInfoType `xml:"EmployerContactInfo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EmployerContactInfosequenceEmployerOrgDataTypeschema_EmployerContactInfo_TEmpContactInfoType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EmployerContactInfosequenceEmployerOrgDataTypeschema_EmployerContactInfo_TEmpContactInfoType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_EmployerContactInfosequenceEmployerOrgDataTypeschema_EmployerContactInfo_TEmpContactInfoType_ instance.
@@ -6213,7 +6213,7 @@ func (me *XsdGoPkgHasElem_EmployerContactInfosequenceEmployerOrgDataTypeschema_E
 }
 
 type XsdGoPkgHasElem_OrgSizesequencePositionHistoryTypeschema_OrgSize_XsdtString_ struct {
-	OrgSize xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 OrgSize"`
+	OrgSize xsdt.String `xml:"OrgSize"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OrgSizesequencePositionHistoryTypeschema_OrgSize_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OrgSizesequencePositionHistoryTypeschema_OrgSize_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_OrgSizesequencePositionHistoryTypeschema_OrgSize_XsdtString_ instance.
@@ -6234,7 +6234,7 @@ func (me *XsdGoPkgHasElem_OrgSizesequencePositionHistoryTypeschema_OrgSize_XsdtS
 }
 
 type XsdGoPkgHasElem_ReasonForLeavingsequenceVerificationTypeschema_ReasonForLeaving_XsdtString_ struct {
-	ReasonForLeaving xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 ReasonForLeaving"`
+	ReasonForLeaving xsdt.String `xml:"ReasonForLeaving"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ReasonForLeavingsequenceVerificationTypeschema_ReasonForLeaving_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ReasonForLeavingsequenceVerificationTypeschema_ReasonForLeaving_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ReasonForLeavingsequenceVerificationTypeschema_ReasonForLeaving_XsdtString_ instance.
@@ -6255,7 +6255,7 @@ func (me *XsdGoPkgHasElem_ReasonForLeavingsequenceVerificationTypeschema_ReasonF
 }
 
 type XsdGoPkgHasElem_PermissionToContactsequenceVerificationTypeschema_PermissionToContact_XsdtBoolean_ struct {
-	PermissionToContact xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 PermissionToContact"`
+	PermissionToContact xsdt.Boolean `xml:"PermissionToContact"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PermissionToContactsequenceVerificationTypeschema_PermissionToContact_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PermissionToContactsequenceVerificationTypeschema_PermissionToContact_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PermissionToContactsequenceVerificationTypeschema_PermissionToContact_XsdtBoolean_ instance.
@@ -6276,7 +6276,7 @@ func (me *XsdGoPkgHasElem_PermissionToContactsequenceVerificationTypeschema_Perm
 }
 
 type XsdGoPkgHasElem_VerifyEmploymentsequenceVerificationTypeschema_VerifyEmployment_XsdtBoolean_ struct {
-	VerifyEmployment xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 VerifyEmployment"`
+	VerifyEmployment xsdt.Boolean `xml:"VerifyEmployment"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_VerifyEmploymentsequenceVerificationTypeschema_VerifyEmployment_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_VerifyEmploymentsequenceVerificationTypeschema_VerifyEmployment_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_VerifyEmploymentsequenceVerificationTypeschema_VerifyEmployment_XsdtBoolean_ instance.
@@ -6297,7 +6297,7 @@ func (me *XsdGoPkgHasElem_VerifyEmploymentsequenceVerificationTypeschema_VerifyE
 }
 
 type XsdGoPkgHasElem_EligibleForRehiresequenceVerificationTypeschema_EligibleForRehire_XsdtBoolean_ struct {
-	EligibleForRehire xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 EligibleForRehire"`
+	EligibleForRehire xsdt.Boolean `xml:"EligibleForRehire"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EligibleForRehiresequenceVerificationTypeschema_EligibleForRehire_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EligibleForRehiresequenceVerificationTypeschema_EligibleForRehire_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_EligibleForRehiresequenceVerificationTypeschema_EligibleForRehire_XsdtBoolean_ instance.
@@ -6345,7 +6345,7 @@ func (me *TxsdRatingTypeChoiceNumericValue) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_NumericValuechoiceRatingTypeschema_NumericValue_TxsdRatingTypeChoiceNumericValue_ struct {
-	NumericValue *TxsdRatingTypeChoiceNumericValue `xml:"http://ns.hr-xml.org/2006-02-28 NumericValue"`
+	NumericValue *TxsdRatingTypeChoiceNumericValue `xml:"NumericValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_NumericValuechoiceRatingTypeschema_NumericValue_TxsdRatingTypeChoiceNumericValue_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NumericValuechoiceRatingTypeschema_NumericValue_TxsdRatingTypeChoiceNumericValue_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_NumericValuechoiceRatingTypeschema_NumericValue_TxsdRatingTypeChoiceNumericValue_ instance.
@@ -6369,7 +6369,7 @@ func (me *XsdGoPkgHasElem_NumericValuechoiceRatingTypeschema_NumericValue_TxsdRa
 }
 
 type XsdGoPkgHasElem_StringValuechoiceRatingTypeschema_StringValue_TxsdRatingTypeChoiceStringValue_ struct {
-	StringValue *TxsdStringValue `xml:"http://ns.hr-xml.org/2006-02-28 StringValue"`
+	StringValue *TxsdStringValue `xml:"StringValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_StringValuechoiceRatingTypeschema_StringValue_TxsdRatingTypeChoiceStringValue_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_StringValuechoiceRatingTypeschema_StringValue_TxsdRatingTypeChoiceStringValue_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_StringValuechoiceRatingTypeschema_StringValue_TxsdRatingTypeChoiceStringValue_ instance.
@@ -6422,7 +6422,7 @@ func (me *TRatingType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_AttendanceRatingsequenceVerificationTypeschema_AttendanceRating_TRatingType_ struct {
-	AttendanceRating *TRatingType `xml:"http://ns.hr-xml.org/2006-02-28 AttendanceRating"`
+	AttendanceRating *TRatingType `xml:"AttendanceRating"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AttendanceRatingsequenceVerificationTypeschema_AttendanceRating_TRatingType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AttendanceRatingsequenceVerificationTypeschema_AttendanceRating_TRatingType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_AttendanceRatingsequenceVerificationTypeschema_AttendanceRating_TRatingType_ instance.
@@ -6446,7 +6446,7 @@ func (me *XsdGoPkgHasElem_AttendanceRatingsequenceVerificationTypeschema_Attenda
 }
 
 type XsdGoPkgHasElem_OverallPerformanceRatingsequenceVerificationTypeschema_OverallPerformanceRating_TRatingType_ struct {
-	OverallPerformanceRating *TRatingType `xml:"http://ns.hr-xml.org/2006-02-28 OverallPerformanceRating"`
+	OverallPerformanceRating *TRatingType `xml:"OverallPerformanceRating"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OverallPerformanceRatingsequenceVerificationTypeschema_OverallPerformanceRating_TRatingType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OverallPerformanceRatingsequenceVerificationTypeschema_OverallPerformanceRating_TRatingType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_OverallPerformanceRatingsequenceVerificationTypeschema_OverallPerformanceRating_TRatingType_ instance.
@@ -6471,7 +6471,7 @@ func (me *XsdGoPkgHasElem_OverallPerformanceRatingsequenceVerificationTypeschema
 
 //	Usage is primarily for the results of a screening, but is not limited to that purpose.
 type XsdGoPkgHasElem_QuestionsequenceEmploymentQuestionAnswerPairTypeschema_Question_XsdtString_ struct {
-	Question xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Question"`
+	Question xsdt.String `xml:"Question"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_QuestionsequenceEmploymentQuestionAnswerPairTypeschema_Question_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_QuestionsequenceEmploymentQuestionAnswerPairTypeschema_Question_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_QuestionsequenceEmploymentQuestionAnswerPairTypeschema_Question_XsdtString_ instance.
@@ -6492,7 +6492,7 @@ func (me *XsdGoPkgHasElem_QuestionsequenceEmploymentQuestionAnswerPairTypeschema
 }
 
 type XsdGoPkgHasElem_AnswersequenceEmploymentQuestionAnswerPairTypeschema_Answer_XsdtString_ struct {
-	Answer xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Answer"`
+	Answer xsdt.String `xml:"Answer"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AnswersequenceEmploymentQuestionAnswerPairTypeschema_Answer_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AnswersequenceEmploymentQuestionAnswerPairTypeschema_Answer_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AnswersequenceEmploymentQuestionAnswerPairTypeschema_Answer_XsdtString_ instance.
@@ -6543,7 +6543,7 @@ func (me *TEmploymentQuestionAnswerPairType) Walk() (err error) {
 
 type XsdGoPkgHasElems_QuestionAnswerPairsequenceVerificationTypeschema_QuestionAnswerPair_TEmploymentQuestionAnswerPairType_ struct {
 	//	Usage is primarily for the results of a screening, but is not limited to that purpose.
-	QuestionAnswerPairs []*TEmploymentQuestionAnswerPairType `xml:"http://ns.hr-xml.org/2006-02-28 QuestionAnswerPair"`
+	QuestionAnswerPairs []*TEmploymentQuestionAnswerPairType `xml:"QuestionAnswerPair"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_QuestionAnswerPairsequenceVerificationTypeschema_QuestionAnswerPair_TEmploymentQuestionAnswerPairType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_QuestionAnswerPairsequenceVerificationTypeschema_QuestionAnswerPair_TEmploymentQuestionAnswerPairType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_QuestionAnswerPairsequenceVerificationTypeschema_QuestionAnswerPair_TEmploymentQuestionAnswerPairType_ instance.
@@ -6598,7 +6598,7 @@ func (me *TxsdVerificationTypeSequenceContactInfo) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_ContactInfosequenceVerificationTypeschema_ContactInfo_TxsdVerificationTypeSequenceContactInfo_ struct {
-	ContactInfo *TxsdVerificationTypeSequenceContactInfo `xml:"http://ns.hr-xml.org/2006-02-28 ContactInfo"`
+	ContactInfo *TxsdVerificationTypeSequenceContactInfo `xml:"ContactInfo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ContactInfosequenceVerificationTypeschema_ContactInfo_TxsdVerificationTypeSequenceContactInfo_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ContactInfosequenceVerificationTypeschema_ContactInfo_TxsdVerificationTypeSequenceContactInfo_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ContactInfosequenceVerificationTypeschema_ContactInfo_TxsdVerificationTypeSequenceContactInfo_ instance.
@@ -6682,7 +6682,7 @@ func (me *TVerificationType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_VerificationsequencePositionHistoryTypeschema_Verification_TVerificationType_ struct {
-	Verification *TVerificationType `xml:"http://ns.hr-xml.org/2006-02-28 Verification"`
+	Verification *TVerificationType `xml:"Verification"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_VerificationsequencePositionHistoryTypeschema_Verification_TVerificationType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_VerificationsequencePositionHistoryTypeschema_Verification_TVerificationType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_VerificationsequencePositionHistoryTypeschema_Verification_TVerificationType_ instance.
@@ -6706,11 +6706,11 @@ func (me *XsdGoPkgHasElem_VerificationsequencePositionHistoryTypeschema_Verifica
 }
 
 type XsdGoPkgHasAttr_CurrentEmployer_XsdtBoolean_ struct {
-	CurrentEmployer xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 currentEmployer,attr"`
+	CurrentEmployer xsdt.Boolean `xml:"currentEmployer,attr"`
 }
 
 type XsdGoPkgHasElem_IndustryDescriptionsequencePositionOrgIndustryTypeschema_IndustryDescription_XsdtString_ struct {
-	IndustryDescription xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 IndustryDescription"`
+	IndustryDescription xsdt.String `xml:"IndustryDescription"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_IndustryDescriptionsequencePositionOrgIndustryTypeschema_IndustryDescription_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_IndustryDescriptionsequencePositionOrgIndustryTypeschema_IndustryDescription_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_IndustryDescriptionsequencePositionOrgIndustryTypeschema_IndustryDescription_XsdtString_ instance.
@@ -6731,7 +6731,7 @@ func (me *XsdGoPkgHasElem_IndustryDescriptionsequencePositionOrgIndustryTypesche
 }
 
 type XsdGoPkgHasAttr_ClassificationName_XsdtString_ struct {
-	ClassificationName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 classificationName,attr"`
+	ClassificationName xsdt.String `xml:"classificationName,attr"`
 }
 
 type TxsdPositionOrgIndustryTypeSequenceIndustryCode struct {
@@ -6758,7 +6758,7 @@ func (me *TxsdPositionOrgIndustryTypeSequenceIndustryCode) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_IndustryCodesequencePositionOrgIndustryTypeschema_IndustryCode_TxsdPositionOrgIndustryTypeSequenceIndustryCode_ struct {
-	IndustryCode *TxsdPositionOrgIndustryTypeSequenceIndustryCode `xml:"http://ns.hr-xml.org/2006-02-28 IndustryCode"`
+	IndustryCode *TxsdPositionOrgIndustryTypeSequenceIndustryCode `xml:"IndustryCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_IndustryCodesequencePositionOrgIndustryTypeschema_IndustryCode_TxsdPositionOrgIndustryTypeSequenceIndustryCode_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_IndustryCodesequencePositionOrgIndustryTypeschema_IndustryCode_TxsdPositionOrgIndustryTypeSequenceIndustryCode_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_IndustryCodesequencePositionOrgIndustryTypeschema_IndustryCode_TxsdPositionOrgIndustryTypeSequenceIndustryCode_ instance.
@@ -6813,7 +6813,7 @@ func (me *TPositionOrgIndustryType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_OrgIndustrysequencePositionHistoryTypeschema_OrgIndustry_TPositionOrgIndustryType_ struct {
-	OrgIndustries []*TPositionOrgIndustryType `xml:"http://ns.hr-xml.org/2006-02-28 OrgIndustry"`
+	OrgIndustries []*TPositionOrgIndustryType `xml:"OrgIndustry"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_OrgIndustrysequencePositionHistoryTypeschema_OrgIndustry_TPositionOrgIndustryType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OrgIndustrysequencePositionHistoryTypeschema_OrgIndustry_TPositionOrgIndustryType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OrgIndustrysequencePositionHistoryTypeschema_OrgIndustry_TPositionOrgIndustryType_ instance.
@@ -6867,15 +6867,15 @@ func (me TAnyDateTimeNaType) ToTDateType() TDateType { return TDateType(me) }
 func (me TAnyDateTimeNaType) ToTLocalDateTimeType() TLocalDateTimeType { return TLocalDateTimeType(me) }
 
 type XsdGoPkgHasAttr_ValidFrom_TAnyDateTimeNaType_ struct {
-	ValidFrom TAnyDateTimeNaType `xml:"http://ns.hr-xml.org/2006-02-28 validFrom,attr"`
+	ValidFrom TAnyDateTimeNaType `xml:"validFrom,attr"`
 }
 
 type XsdGoPkgHasAttr_ValidTo_TAnyDateTimeNaType_ struct {
-	ValidTo TAnyDateTimeNaType `xml:"http://ns.hr-xml.org/2006-02-28 validTo,attr"`
+	ValidTo TAnyDateTimeNaType `xml:"validTo,attr"`
 }
 
 type XsdGoPkgHasAttr_Currency_TCurrencyCodeType_ struct {
-	Currency TCurrencyCodeType `xml:"http://ns.hr-xml.org/2006-02-28 currency,attr"`
+	Currency TCurrencyCodeType `xml:"currency,attr"`
 }
 
 type TintervalTypes xsdt.String
@@ -6933,7 +6933,7 @@ func (me TIntervalTypeStringExtensionType) String() string { return xsdt.String(
 func (me TIntervalTypeStringExtensionType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 type XsdGoPkgHasAttr_IntervalType_TIntervalTypeStringExtensionType_ struct {
-	IntervalType TIntervalTypeStringExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 intervalType,attr"`
+	IntervalType TIntervalTypeStringExtensionType `xml:"intervalType,attr"`
 }
 
 type TxsdPositionCompensationTypeSequenceStartingCompensation struct {
@@ -6966,7 +6966,7 @@ func (me *TxsdPositionCompensationTypeSequenceStartingCompensation) Walk() (err 
 }
 
 type XsdGoPkgHasElem_StartingCompensationsequencePositionCompensationTypeschema_StartingCompensation_TxsdPositionCompensationTypeSequenceStartingCompensation_ struct {
-	StartingCompensation *TxsdPositionCompensationTypeSequenceStartingCompensation `xml:"http://ns.hr-xml.org/2006-02-28 StartingCompensation"`
+	StartingCompensation *TxsdPositionCompensationTypeSequenceStartingCompensation `xml:"StartingCompensation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_StartingCompensationsequencePositionCompensationTypeschema_StartingCompensation_TxsdPositionCompensationTypeSequenceStartingCompensation_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_StartingCompensationsequencePositionCompensationTypeschema_StartingCompensation_TxsdPositionCompensationTypeSequenceStartingCompensation_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_StartingCompensationsequencePositionCompensationTypeschema_StartingCompensation_TxsdPositionCompensationTypeSequenceStartingCompensation_ instance.
@@ -6990,7 +6990,7 @@ func (me *XsdGoPkgHasElem_StartingCompensationsequencePositionCompensationTypesc
 }
 
 type XsdGoPkgHasElem_EndingCompensationsequencePositionCompensationTypeschema_EndingCompensation_TxsdPositionCompensationTypeSequenceEndingCompensation_ struct {
-	EndingCompensation *TxsdPositionCompensationTypeSequenceStartingCompensation `xml:"http://ns.hr-xml.org/2006-02-28 EndingCompensation"`
+	EndingCompensation *TxsdPositionCompensationTypeSequenceStartingCompensation `xml:"EndingCompensation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EndingCompensationsequencePositionCompensationTypeschema_EndingCompensation_TxsdPositionCompensationTypeSequenceEndingCompensation_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EndingCompensationsequencePositionCompensationTypeschema_EndingCompensation_TxsdPositionCompensationTypeSequenceEndingCompensation_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_EndingCompensationsequencePositionCompensationTypeschema_EndingCompensation_TxsdPositionCompensationTypeSequenceEndingCompensation_ instance.
@@ -7041,7 +7041,7 @@ func (me *TxsdPositionCompensationTypeSequenceOtherCompensation) Walk() (err err
 }
 
 type XsdGoPkgHasElems_OtherCompensationsequencePositionCompensationTypeschema_OtherCompensation_TxsdPositionCompensationTypeSequenceOtherCompensation_ struct {
-	OtherCompensations []*TxsdPositionCompensationTypeSequenceOtherCompensation `xml:"http://ns.hr-xml.org/2006-02-28 OtherCompensation"`
+	OtherCompensations []*TxsdPositionCompensationTypeSequenceOtherCompensation `xml:"OtherCompensation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_OtherCompensationsequencePositionCompensationTypeschema_OtherCompensation_TxsdPositionCompensationTypeSequenceOtherCompensation_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OtherCompensationsequencePositionCompensationTypeschema_OtherCompensation_TxsdPositionCompensationTypeSequenceOtherCompensation_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OtherCompensationsequencePositionCompensationTypeschema_OtherCompensation_TxsdPositionCompensationTypeSequenceOtherCompensation_ instance.
@@ -7106,7 +7106,7 @@ func (me *TPositionCompensationType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_CompensationsequencePositionHistoryTypeschema_Compensation_TPositionCompensationType_ struct {
-	Compensation *TPositionCompensationType `xml:"http://ns.hr-xml.org/2006-02-28 Compensation"`
+	Compensation *TPositionCompensationType `xml:"Compensation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CompensationsequencePositionHistoryTypeschema_Compensation_TPositionCompensationType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CompensationsequencePositionHistoryTypeschema_Compensation_TPositionCompensationType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CompensationsequencePositionHistoryTypeschema_Compensation_TPositionCompensationType_ instance.
@@ -7183,11 +7183,11 @@ func (me TPositionTypexStringPatternExtensionType) ToTxStringPatternExtensionTyp
 }
 
 type XsdGoPkgHasAttr_PositionType_TPositionTypexStringPatternExtensionType_ struct {
-	PositionType TPositionTypexStringPatternExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 positionType,attr"`
+	PositionType TPositionTypexStringPatternExtensionType `xml:"positionType,attr"`
 }
 
 type XsdGoPkgHasElem_JobPlansequenceJobLevelInfoTypeschema_JobPlan_XsdtString_ struct {
-	JobPlan xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 JobPlan"`
+	JobPlan xsdt.String `xml:"JobPlan"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_JobPlansequenceJobLevelInfoTypeschema_JobPlan_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_JobPlansequenceJobLevelInfoTypeschema_JobPlan_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_JobPlansequenceJobLevelInfoTypeschema_JobPlan_XsdtString_ instance.
@@ -7208,7 +7208,7 @@ func (me *XsdGoPkgHasElem_JobPlansequenceJobLevelInfoTypeschema_JobPlan_XsdtStri
 }
 
 type XsdGoPkgHasElem_JobGradesequenceJobLevelInfoTypeschema_JobGrade_XsdtString_ struct {
-	JobGrade xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 JobGrade"`
+	JobGrade xsdt.String `xml:"JobGrade"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_JobGradesequenceJobLevelInfoTypeschema_JobGrade_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_JobGradesequenceJobLevelInfoTypeschema_JobGrade_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_JobGradesequenceJobLevelInfoTypeschema_JobGrade_XsdtString_ instance.
@@ -7229,7 +7229,7 @@ func (me *XsdGoPkgHasElem_JobGradesequenceJobLevelInfoTypeschema_JobGrade_XsdtSt
 }
 
 type XsdGoPkgHasElem_JobStepsequenceJobLevelInfoTypeschema_JobStep_XsdtString_ struct {
-	JobStep xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 JobStep"`
+	JobStep xsdt.String `xml:"JobStep"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_JobStepsequenceJobLevelInfoTypeschema_JobStep_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_JobStepsequenceJobLevelInfoTypeschema_JobStep_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_JobStepsequenceJobLevelInfoTypeschema_JobStep_XsdtString_ instance.
@@ -7289,7 +7289,7 @@ func (me *TJobLevelInfoType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_JobLevelInfosequencePositionHistoryTypeschema_JobLevelInfo_TJobLevelInfoType_ struct {
-	JobLevelInfos []*TJobLevelInfoType `xml:"http://ns.hr-xml.org/2006-02-28 JobLevelInfo"`
+	JobLevelInfos []*TJobLevelInfoType `xml:"JobLevelInfo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_JobLevelInfosequencePositionHistoryTypeschema_JobLevelInfo_TJobLevelInfoType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_JobLevelInfosequencePositionHistoryTypeschema_JobLevelInfo_TJobLevelInfoType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_JobLevelInfosequencePositionHistoryTypeschema_JobLevelInfo_TJobLevelInfoType_ instance.
@@ -7315,7 +7315,7 @@ func (me *XsdGoPkgHasElems_JobLevelInfosequencePositionHistoryTypeschema_JobLeve
 }
 
 type XsdGoPkgHasElem_OrgNamesequencePositionOrgNameTypeschema_OrgName_TPositionOrgNameType_ struct {
-	OrgName *TPositionOrgNameType `xml:"http://ns.hr-xml.org/2006-02-28 OrgName"`
+	OrgName *TPositionOrgNameType `xml:"OrgName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OrgNamesequencePositionOrgNameTypeschema_OrgName_TPositionOrgNameType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OrgNamesequencePositionOrgNameTypeschema_OrgName_TPositionOrgNameType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_OrgNamesequencePositionOrgNameTypeschema_OrgName_TPositionOrgNameType_ instance.
@@ -7387,7 +7387,7 @@ func (me TOrganizationTypeStringExtensionType) ToTorganizationTypes() Torganizat
 }
 
 type XsdGoPkgHasAttr_OrganizationType_TOrganizationTypeStringExtensionType_ struct {
-	OrganizationType TOrganizationTypeStringExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 organizationType,attr"`
+	OrganizationType TOrganizationTypeStringExtensionType `xml:"organizationType,attr"`
 }
 
 type TPositionOrgNameType struct {
@@ -7422,7 +7422,7 @@ func (me *TPositionOrgNameType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_OrgNamesequencePositionHistoryTypeschema_OrgName_TPositionOrgNameType_ struct {
-	OrgName *TPositionOrgNameType `xml:"http://ns.hr-xml.org/2006-02-28 OrgName"`
+	OrgName *TPositionOrgNameType `xml:"OrgName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OrgNamesequencePositionHistoryTypeschema_OrgName_TPositionOrgNameType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OrgNamesequencePositionHistoryTypeschema_OrgName_TPositionOrgNameType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_OrgNamesequencePositionHistoryTypeschema_OrgName_TPositionOrgNameType_ instance.
@@ -7446,7 +7446,7 @@ func (me *XsdGoPkgHasElem_OrgNamesequencePositionHistoryTypeschema_OrgName_TPosi
 }
 
 type XsdGoPkgHasElem_PositionLocationsequencePositionOrgInfoTypeschema_PositionLocation_TPostalAddressType_ struct {
-	PositionLocation *TPostalAddressType `xml:"http://ns.hr-xml.org/2006-02-28 PositionLocation"`
+	PositionLocation *TPostalAddressType `xml:"PositionLocation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PositionLocationsequencePositionOrgInfoTypeschema_PositionLocation_TPostalAddressType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PositionLocationsequencePositionOrgInfoTypeschema_PositionLocation_TPostalAddressType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_PositionLocationsequencePositionOrgInfoTypeschema_PositionLocation_TPostalAddressType_ instance.
@@ -7470,7 +7470,7 @@ func (me *XsdGoPkgHasElem_PositionLocationsequencePositionOrgInfoTypeschema_Posi
 }
 
 type XsdGoPkgHasElem_WebSitesequencePositionOrgInfoTypeschema_WebSite_TInternetWebAddressType_ struct {
-	WebSite TInternetWebAddressType `xml:"http://ns.hr-xml.org/2006-02-28 WebSite"`
+	WebSite TInternetWebAddressType `xml:"WebSite"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_WebSitesequencePositionOrgInfoTypeschema_WebSite_TInternetWebAddressType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_WebSitesequencePositionOrgInfoTypeschema_WebSite_TInternetWebAddressType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_WebSitesequencePositionOrgInfoTypeschema_WebSite_TInternetWebAddressType_ instance.
@@ -7525,7 +7525,7 @@ func (me *TPositionOrgInfoType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_OrgInfosequencePositionHistoryTypeschema_OrgInfo_TPositionOrgInfoType_ struct {
-	OrgInfos []*TPositionOrgInfoType `xml:"http://ns.hr-xml.org/2006-02-28 OrgInfo"`
+	OrgInfos []*TPositionOrgInfoType `xml:"OrgInfo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_OrgInfosequencePositionHistoryTypeschema_OrgInfo_TPositionOrgInfoType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OrgInfosequencePositionHistoryTypeschema_OrgInfo_TPositionOrgInfoType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OrgInfosequencePositionHistoryTypeschema_OrgInfo_TPositionOrgInfoType_ instance.
@@ -7551,7 +7551,7 @@ func (me *XsdGoPkgHasElems_OrgInfosequencePositionHistoryTypeschema_OrgInfo_TPos
 }
 
 type XsdGoPkgHasAttr_Version_XsdtString_ struct {
-	Version xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 version,attr"`
+	Version xsdt.String `xml:"version,attr"`
 }
 
 type TxsdOccupationalCategoryTypeSequenceTaxonomyName struct {
@@ -7578,7 +7578,7 @@ func (me *TxsdOccupationalCategoryTypeSequenceTaxonomyName) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_TaxonomyNamesequenceOccupationalCategoryTypeschema_TaxonomyName_TxsdOccupationalCategoryTypeSequenceTaxonomyName_ struct {
-	TaxonomyName *TxsdOccupationalCategoryTypeSequenceTaxonomyName `xml:"http://ns.hr-xml.org/2006-02-28 TaxonomyName"`
+	TaxonomyName *TxsdOccupationalCategoryTypeSequenceTaxonomyName `xml:"TaxonomyName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_TaxonomyNamesequenceOccupationalCategoryTypeschema_TaxonomyName_TxsdOccupationalCategoryTypeSequenceTaxonomyName_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TaxonomyNamesequenceOccupationalCategoryTypeschema_TaxonomyName_TxsdOccupationalCategoryTypeSequenceTaxonomyName_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_TaxonomyNamesequenceOccupationalCategoryTypeschema_TaxonomyName_TxsdOccupationalCategoryTypeSequenceTaxonomyName_ instance.
@@ -7602,7 +7602,7 @@ func (me *XsdGoPkgHasElem_TaxonomyNamesequenceOccupationalCategoryTypeschema_Tax
 }
 
 type XsdGoPkgHasElem_CategoryCodesequenceOccupationalCategoryTypeschema_CategoryCode_XsdtString_ struct {
-	CategoryCode xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 CategoryCode"`
+	CategoryCode xsdt.String `xml:"CategoryCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CategoryCodesequenceOccupationalCategoryTypeschema_CategoryCode_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CategoryCodesequenceOccupationalCategoryTypeschema_CategoryCode_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CategoryCodesequenceOccupationalCategoryTypeschema_CategoryCode_XsdtString_ instance.
@@ -7623,7 +7623,7 @@ func (me *XsdGoPkgHasElem_CategoryCodesequenceOccupationalCategoryTypeschema_Cat
 }
 
 type XsdGoPkgHasElem_CategoryDescriptionsequenceOccupationalCategoryTypeschema_CategoryDescription_XsdtString_ struct {
-	CategoryDescription xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 CategoryDescription"`
+	CategoryDescription xsdt.String `xml:"CategoryDescription"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CategoryDescriptionsequenceOccupationalCategoryTypeschema_CategoryDescription_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CategoryDescriptionsequenceOccupationalCategoryTypeschema_CategoryDescription_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CategoryDescriptionsequenceOccupationalCategoryTypeschema_CategoryDescription_XsdtString_ instance.
@@ -7644,7 +7644,7 @@ func (me *XsdGoPkgHasElem_CategoryDescriptionsequenceOccupationalCategoryTypesch
 }
 
 type XsdGoPkgHasElem_JobCategorysequenceOccupationalCategoryTypeschema_JobCategory_TOccupationalCategoryType_ struct {
-	JobCategory *TOccupationalCategoryType `xml:"http://ns.hr-xml.org/2006-02-28 JobCategory"`
+	JobCategory *TOccupationalCategoryType `xml:"JobCategory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_JobCategorysequenceOccupationalCategoryTypeschema_JobCategory_TOccupationalCategoryType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_JobCategorysequenceOccupationalCategoryTypeschema_JobCategory_TOccupationalCategoryType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_JobCategorysequenceOccupationalCategoryTypeschema_JobCategory_TOccupationalCategoryType_ instance.
@@ -7709,7 +7709,7 @@ func (me *TOccupationalCategoryType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_JobCategorysequencePositionHistoryTypeschema_JobCategory_TOccupationalCategoryType_ struct {
-	JobCategories []*TOccupationalCategoryType `xml:"http://ns.hr-xml.org/2006-02-28 JobCategory"`
+	JobCategories []*TOccupationalCategoryType `xml:"JobCategory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_JobCategorysequencePositionHistoryTypeschema_JobCategory_TOccupationalCategoryType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_JobCategorysequencePositionHistoryTypeschema_JobCategory_TOccupationalCategoryType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_JobCategorysequencePositionHistoryTypeschema_JobCategory_TOccupationalCategoryType_ instance.
@@ -7735,7 +7735,7 @@ func (me *XsdGoPkgHasElems_JobCategorysequencePositionHistoryTypeschema_JobCateg
 }
 
 type XsdGoPkgHasElem_TitlesequencePositionHistoryTypeschema_Title_XsdtString_ struct {
-	Title xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Title"`
+	Title xsdt.String `xml:"Title"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_TitlesequencePositionHistoryTypeschema_Title_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TitlesequencePositionHistoryTypeschema_Title_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_TitlesequencePositionHistoryTypeschema_Title_XsdtString_ instance.
@@ -7878,7 +7878,7 @@ func (me *TxsdEmployerOrgDataTypeSequencePositionHistory) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_PositionHistorysequenceEmployerOrgDataTypeschema_PositionHistory_TxsdEmployerOrgDataTypeSequencePositionHistory_ struct {
-	PositionHistories []*TxsdEmployerOrgDataTypeSequencePositionHistory `xml:"http://ns.hr-xml.org/2006-02-28 PositionHistory"`
+	PositionHistories []*TxsdEmployerOrgDataTypeSequencePositionHistory `xml:"PositionHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PositionHistorysequenceEmployerOrgDataTypeschema_PositionHistory_TxsdEmployerOrgDataTypeSequencePositionHistory_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PositionHistorysequenceEmployerOrgDataTypeschema_PositionHistory_TxsdEmployerOrgDataTypeSequencePositionHistory_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PositionHistorysequenceEmployerOrgDataTypeschema_PositionHistory_TxsdEmployerOrgDataTypeSequencePositionHistory_ instance.
@@ -7943,7 +7943,7 @@ func (me TEmpOrgTypeStringExtensionType) ToTemployerOrgTypes() TemployerOrgTypes
 }
 
 type XsdGoPkgHasAttr_EmployerOrgType_TEmpOrgTypeStringExtensionType_ struct {
-	EmployerOrgType TEmpOrgTypeStringExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 employerOrgType,attr"`
+	EmployerOrgType TEmpOrgTypeStringExtensionType `xml:"employerOrgType,attr"`
 }
 
 type TEmployerOrgDataType struct {
@@ -7988,7 +7988,7 @@ func (me *TEmployerOrgDataType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_EmployerOrgsequenceEmploymentHistoryTypeschema_EmployerOrg_TEmployerOrgDataType_ struct {
-	EmployerOrgs []*TEmployerOrgDataType `xml:"http://ns.hr-xml.org/2006-02-28 EmployerOrg"`
+	EmployerOrgs []*TEmployerOrgDataType `xml:"EmployerOrg"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EmployerOrgsequenceEmploymentHistoryTypeschema_EmployerOrg_TEmployerOrgDataType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EmployerOrgsequenceEmploymentHistoryTypeschema_EmployerOrg_TEmployerOrgDataType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EmployerOrgsequenceEmploymentHistoryTypeschema_EmployerOrg_TEmployerOrgDataType_ instance.
@@ -8038,7 +8038,7 @@ func (me *TEmploymentHistoryType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_EmploymentHistory struct {
-	EmploymentHistory *TEmploymentHistoryType `xml:"http://ns.hr-xml.org/2006-02-28 EmploymentHistory"`
+	EmploymentHistory *TEmploymentHistoryType `xml:"EmploymentHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EmploymentHistory function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EmploymentHistory instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_EmploymentHistory instance.
@@ -8062,7 +8062,7 @@ func (me *XsdGoPkgHasElem_EmploymentHistory) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_EmploymentHistory struct {
-	EmploymentHistories []*TEmploymentHistoryType `xml:"http://ns.hr-xml.org/2006-02-28 EmploymentHistory"`
+	EmploymentHistories []*TEmploymentHistoryType `xml:"EmploymentHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EmploymentHistory function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EmploymentHistory instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EmploymentHistory instance.
@@ -8088,7 +8088,7 @@ func (me *XsdGoPkgHasElems_EmploymentHistory) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Extension struct {
-	Extensions []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Extension"`
+	Extensions []xsdt.String `xml:"Extension"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Extension function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Extension instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Extension instance.
@@ -8109,7 +8109,7 @@ func (me *XsdGoPkgHasElems_Extension) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Fax struct {
-	Faxs []*TelcomNumberType `xml:"http://ns.hr-xml.org/2006-02-28 Fax"`
+	Faxs []*TelcomNumberType `xml:"Fax"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Fax function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Fax instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Fax instance.
@@ -8135,7 +8135,7 @@ func (me *XsdGoPkgHasElems_Fax) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_FormattedNumber struct {
-	FormattedNumbers []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 FormattedNumber"`
+	FormattedNumbers []xsdt.String `xml:"FormattedNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_FormattedNumber function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_FormattedNumber instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_FormattedNumber instance.
@@ -8168,7 +8168,7 @@ func (me TGenderCodeType) String() string { return xsdt.Integer(me).String() }
 func (me TGenderCodeType) ToXsdtInteger() xsdt.Integer { return xsdt.Integer(me) }
 
 type XsdGoPkgHasElem_GenderCode struct {
-	GenderCode TGenderCodeType `xml:"http://ns.hr-xml.org/2006-02-28 GenderCode"`
+	GenderCode TGenderCodeType `xml:"GenderCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_GenderCode function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_GenderCode instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_GenderCode instance.
@@ -8189,7 +8189,7 @@ func (me *XsdGoPkgHasElem_GenderCode) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_GenderCode struct {
-	GenderCodes []TGenderCodeType `xml:"http://ns.hr-xml.org/2006-02-28 GenderCode"`
+	GenderCodes []TGenderCodeType `xml:"GenderCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_GenderCode function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_GenderCode instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_GenderCode instance.
@@ -8210,7 +8210,7 @@ func (me *XsdGoPkgHasElems_GenderCode) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_InternationalCountryCode struct {
-	InternationalCountryCodes []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 InternationalCountryCode"`
+	InternationalCountryCodes []xsdt.String `xml:"InternationalCountryCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_InternationalCountryCode function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_InternationalCountryCode instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_InternationalCountryCode instance.
@@ -8231,7 +8231,7 @@ func (me *XsdGoPkgHasElems_InternationalCountryCode) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_InternetDomainName struct {
-	InternetDomainName *TInternetDomainNameType `xml:"http://ns.hr-xml.org/2006-02-28 InternetDomainName"`
+	InternetDomainName *TInternetDomainNameType `xml:"InternetDomainName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_InternetDomainName function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_InternetDomainName instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_InternetDomainName instance.
@@ -8255,7 +8255,7 @@ func (me *XsdGoPkgHasElem_InternetDomainName) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_InternetEmailAddress struct {
-	InternetEmailAddresses []TInternetEmailAddressType `xml:"http://ns.hr-xml.org/2006-02-28 InternetEmailAddress"`
+	InternetEmailAddresses []TInternetEmailAddressType `xml:"InternetEmailAddress"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_InternetEmailAddress function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_InternetEmailAddress instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_InternetEmailAddress instance.
@@ -8276,7 +8276,7 @@ func (me *XsdGoPkgHasElems_InternetEmailAddress) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_InternetWebAddress struct {
-	InternetWebAddresses []TInternetWebAddressType `xml:"http://ns.hr-xml.org/2006-02-28 InternetWebAddress"`
+	InternetWebAddresses []TInternetWebAddressType `xml:"InternetWebAddress"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_InternetWebAddress function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_InternetWebAddress instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_InternetWebAddress instance.
@@ -8309,7 +8309,7 @@ func (me TLanguageCodeType) String() string { return xsdt.Language(me).String() 
 func (me TLanguageCodeType) ToXsdtLanguage() xsdt.Language { return xsdt.Language(me) }
 
 type XsdGoPkgHasElem_LanguageCode struct {
-	LanguageCode TLanguageCodeType `xml:"http://ns.hr-xml.org/2006-02-28 LanguageCode"`
+	LanguageCode TLanguageCodeType `xml:"LanguageCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_LanguageCode function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LanguageCode instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_LanguageCode instance.
@@ -8330,7 +8330,7 @@ func (me *XsdGoPkgHasElem_LanguageCode) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_ReadsequenceTxsdLanguageLanguageschema_Read_XsdtBoolean_ struct {
-	Read xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 Read"`
+	Read xsdt.Boolean `xml:"Read"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ReadsequenceTxsdLanguageLanguageschema_Read_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ReadsequenceTxsdLanguageLanguageschema_Read_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ReadsequenceTxsdLanguageLanguageschema_Read_XsdtBoolean_ instance.
@@ -8351,7 +8351,7 @@ func (me *XsdGoPkgHasElem_ReadsequenceTxsdLanguageLanguageschema_Read_XsdtBoolea
 }
 
 type XsdGoPkgHasElem_WritesequenceTxsdLanguageLanguageschema_Write_XsdtBoolean_ struct {
-	Write xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 Write"`
+	Write xsdt.Boolean `xml:"Write"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_WritesequenceTxsdLanguageLanguageschema_Write_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_WritesequenceTxsdLanguageLanguageschema_Write_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_WritesequenceTxsdLanguageLanguageschema_Write_XsdtBoolean_ instance.
@@ -8372,7 +8372,7 @@ func (me *XsdGoPkgHasElem_WritesequenceTxsdLanguageLanguageschema_Write_XsdtBool
 }
 
 type XsdGoPkgHasElem_SpeaksequenceTxsdLanguageLanguageschema_Speak_XsdtBoolean_ struct {
-	Speak xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 Speak"`
+	Speak xsdt.Boolean `xml:"Speak"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_SpeaksequenceTxsdLanguageLanguageschema_Speak_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SpeaksequenceTxsdLanguageLanguageschema_Speak_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_SpeaksequenceTxsdLanguageLanguageschema_Speak_XsdtBoolean_ instance.
@@ -8437,7 +8437,7 @@ func (me *TxsdLanguage) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Language struct {
-	Language *TxsdLanguage `xml:"http://ns.hr-xml.org/2006-02-28 Language"`
+	Language *TxsdLanguage `xml:"Language"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Language function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Language instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_Language instance.
@@ -8461,7 +8461,7 @@ func (me *XsdGoPkgHasElem_Language) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Language struct {
-	Languages []*TxsdLanguage `xml:"http://ns.hr-xml.org/2006-02-28 Language"`
+	Languages []*TxsdLanguage `xml:"Language"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Language function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Language instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Language instance.
@@ -8487,7 +8487,7 @@ func (me *XsdGoPkgHasElems_Language) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_LanguageCode struct {
-	LanguageCodes []TLanguageCodeType `xml:"http://ns.hr-xml.org/2006-02-28 LanguageCode"`
+	LanguageCodes []TLanguageCodeType `xml:"LanguageCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_LanguageCode function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LanguageCode instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LanguageCode instance.
@@ -8510,7 +8510,7 @@ func (me *XsdGoPkgHasElems_LanguageCode) Walk() (err error) {
 //	An identifer for the credential.
 type XsdGoPkgHasElem_IdsequenceCredentialTypeschema_Id_XsdtString_ struct {
 	//	An identifer for the credential.
-	Id xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Id"`
+	Id xsdt.String `xml:"Id"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_IdsequenceCredentialTypeschema_Id_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_IdsequenceCredentialTypeschema_Id_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_IdsequenceCredentialTypeschema_Id_XsdtString_ instance.
@@ -8531,7 +8531,7 @@ func (me *XsdGoPkgHasElem_IdsequenceCredentialTypeschema_Id_XsdtString_) Walk() 
 }
 
 type XsdGoPkgHasAttr_CountryCode_TCountryCodeType_ struct {
-	CountryCode TCountryCodeType `xml:"http://ns.hr-xml.org/2006-02-28 countryCode,attr"`
+	CountryCode TCountryCodeType `xml:"countryCode,attr"`
 }
 
 type TIssuingAuthorityType struct {
@@ -8558,7 +8558,7 @@ func (me *TIssuingAuthorityType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_IssuingAuthoritysequenceCredentialTypeschema_IssuingAuthority_TIssuingAuthorityType_ struct {
-	IssuingAuthority *TIssuingAuthorityType `xml:"http://ns.hr-xml.org/2006-02-28 IssuingAuthority"`
+	IssuingAuthority *TIssuingAuthorityType `xml:"IssuingAuthority"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_IssuingAuthoritysequenceCredentialTypeschema_IssuingAuthority_TIssuingAuthorityType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_IssuingAuthoritysequenceCredentialTypeschema_IssuingAuthority_TIssuingAuthorityType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_IssuingAuthoritysequenceCredentialTypeschema_IssuingAuthority_TIssuingAuthorityType_ instance.
@@ -8582,7 +8582,7 @@ func (me *XsdGoPkgHasElem_IssuingAuthoritysequenceCredentialTypeschema_IssuingAu
 }
 
 type XsdGoPkgHasElem_ValidFromsequenceTxsdCredentialTypeSequenceEffectiveDateEffectiveDatesequenceCredentialTypeschema_ValidFrom_TFlexibleDatesType_ struct {
-	ValidFrom *TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 ValidFrom"`
+	ValidFrom *TFlexibleDatesType `xml:"ValidFrom"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ValidFromsequenceTxsdCredentialTypeSequenceEffectiveDateEffectiveDatesequenceCredentialTypeschema_ValidFrom_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ValidFromsequenceTxsdCredentialTypeSequenceEffectiveDateEffectiveDatesequenceCredentialTypeschema_ValidFrom_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ValidFromsequenceTxsdCredentialTypeSequenceEffectiveDateEffectiveDatesequenceCredentialTypeschema_ValidFrom_TFlexibleDatesType_ instance.
@@ -8606,7 +8606,7 @@ func (me *XsdGoPkgHasElem_ValidFromsequenceTxsdCredentialTypeSequenceEffectiveDa
 }
 
 type XsdGoPkgHasElem_ValidTosequenceTxsdCredentialTypeSequenceEffectiveDateEffectiveDatesequenceCredentialTypeschema_ValidTo_TFlexibleDatesType_ struct {
-	ValidTo *TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 ValidTo"`
+	ValidTo *TFlexibleDatesType `xml:"ValidTo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ValidTosequenceTxsdCredentialTypeSequenceEffectiveDateEffectiveDatesequenceCredentialTypeschema_ValidTo_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ValidTosequenceTxsdCredentialTypeSequenceEffectiveDateEffectiveDatesequenceCredentialTypeschema_ValidTo_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ValidTosequenceTxsdCredentialTypeSequenceEffectiveDateEffectiveDatesequenceCredentialTypeschema_ValidTo_TFlexibleDatesType_ instance.
@@ -8630,7 +8630,7 @@ func (me *XsdGoPkgHasElem_ValidTosequenceTxsdCredentialTypeSequenceEffectiveDate
 }
 
 type XsdGoPkgHasElem_FirstIssuedDatesequenceTxsdCredentialTypeSequenceEffectiveDateEffectiveDatesequenceCredentialTypeschema_FirstIssuedDate_TFlexibleDatesType_ struct {
-	FirstIssuedDate *TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 FirstIssuedDate"`
+	FirstIssuedDate *TFlexibleDatesType `xml:"FirstIssuedDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_FirstIssuedDatesequenceTxsdCredentialTypeSequenceEffectiveDateEffectiveDatesequenceCredentialTypeschema_FirstIssuedDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_FirstIssuedDatesequenceTxsdCredentialTypeSequenceEffectiveDateEffectiveDatesequenceCredentialTypeschema_FirstIssuedDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_FirstIssuedDatesequenceTxsdCredentialTypeSequenceEffectiveDateEffectiveDatesequenceCredentialTypeschema_FirstIssuedDate_TFlexibleDatesType_ instance.
@@ -8688,7 +8688,7 @@ func (me *TxsdCredentialTypeSequenceEffectiveDate) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_EffectiveDatesequenceCredentialTypeschema_EffectiveDate_TxsdCredentialTypeSequenceEffectiveDate_ struct {
-	EffectiveDate *TxsdCredentialTypeSequenceEffectiveDate `xml:"http://ns.hr-xml.org/2006-02-28 EffectiveDate"`
+	EffectiveDate *TxsdCredentialTypeSequenceEffectiveDate `xml:"EffectiveDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EffectiveDatesequenceCredentialTypeschema_EffectiveDate_TxsdCredentialTypeSequenceEffectiveDate_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EffectiveDatesequenceCredentialTypeschema_EffectiveDate_TxsdCredentialTypeSequenceEffectiveDate_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_EffectiveDatesequenceCredentialTypeschema_EffectiveDate_TxsdCredentialTypeSequenceEffectiveDate_ instance.
@@ -8758,7 +8758,7 @@ func (me *TCredentialType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_LicenseOrCertification struct {
-	LicenseOrCertification *TCredentialType `xml:"http://ns.hr-xml.org/2006-02-28 LicenseOrCertification"`
+	LicenseOrCertification *TCredentialType `xml:"LicenseOrCertification"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_LicenseOrCertification function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LicenseOrCertification instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_LicenseOrCertification instance.
@@ -8782,7 +8782,7 @@ func (me *XsdGoPkgHasElem_LicenseOrCertification) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_LicenseOrCertification struct {
-	LicenseOrCertifications []*TCredentialType `xml:"http://ns.hr-xml.org/2006-02-28 LicenseOrCertification"`
+	LicenseOrCertifications []*TCredentialType `xml:"LicenseOrCertification"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_LicenseOrCertification function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LicenseOrCertification instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LicenseOrCertification instance.
@@ -8832,7 +8832,7 @@ func (me *TxsdLicensesAndCertifications) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_LicensesAndCertifications struct {
-	LicensesAndCertifications *TxsdLicensesAndCertifications `xml:"http://ns.hr-xml.org/2006-02-28 LicensesAndCertifications"`
+	LicensesAndCertifications *TxsdLicensesAndCertifications `xml:"LicensesAndCertifications"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_LicensesAndCertifications function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LicensesAndCertifications instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_LicensesAndCertifications instance.
@@ -8856,7 +8856,7 @@ func (me *XsdGoPkgHasElem_LicensesAndCertifications) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_LicensesAndCertifications struct {
-	LicensesAndCertificationses []*TxsdLicensesAndCertifications `xml:"http://ns.hr-xml.org/2006-02-28 LicensesAndCertifications"`
+	LicensesAndCertificationses []*TxsdLicensesAndCertifications `xml:"LicensesAndCertifications"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_LicensesAndCertifications function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LicensesAndCertifications instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LicensesAndCertifications instance.
@@ -8882,7 +8882,7 @@ func (me *XsdGoPkgHasElems_LicensesAndCertifications) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Location struct {
-	Locations []TcontactMethodLocationPatternExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 Location"`
+	Locations []TcontactMethodLocationPatternExtensionType `xml:"Location"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Location function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Location instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Location instance.
@@ -8903,7 +8903,7 @@ func (me *XsdGoPkgHasElems_Location) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_StartRanksequenceRankAchievedTypeschema_StartRank_XsdtString_ struct {
-	StartRank xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 StartRank"`
+	StartRank xsdt.String `xml:"StartRank"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_StartRanksequenceRankAchievedTypeschema_StartRank_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_StartRanksequenceRankAchievedTypeschema_StartRank_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_StartRanksequenceRankAchievedTypeschema_StartRank_XsdtString_ instance.
@@ -8924,7 +8924,7 @@ func (me *XsdGoPkgHasElem_StartRanksequenceRankAchievedTypeschema_StartRank_Xsdt
 }
 
 type XsdGoPkgHasElem_CurrentOrEndRanksequenceRankAchievedTypeschema_CurrentOrEndRank_XsdtString_ struct {
-	CurrentOrEndRank xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 CurrentOrEndRank"`
+	CurrentOrEndRank xsdt.String `xml:"CurrentOrEndRank"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CurrentOrEndRanksequenceRankAchievedTypeschema_CurrentOrEndRank_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CurrentOrEndRanksequenceRankAchievedTypeschema_CurrentOrEndRank_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CurrentOrEndRanksequenceRankAchievedTypeschema_CurrentOrEndRank_XsdtString_ instance.
@@ -8974,7 +8974,7 @@ func (me *TRankAchievedType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_RankAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RankAchieved_TRankAchievedType_ struct {
-	RankAchieved *TRankAchievedType `xml:"http://ns.hr-xml.org/2006-02-28 RankAchieved"`
+	RankAchieved *TRankAchievedType `xml:"RankAchieved"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_RankAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RankAchieved_TRankAchievedType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_RankAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RankAchieved_TRankAchievedType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_RankAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RankAchieved_TRankAchievedType_ instance.
@@ -9027,7 +9027,7 @@ func (me *TDatesOfServiceType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_DatesOfServicesequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DatesOfService_TDatesOfServiceType_ struct {
-	DatesOfService *TDatesOfServiceType `xml:"http://ns.hr-xml.org/2006-02-28 DatesOfService"`
+	DatesOfService *TDatesOfServiceType `xml:"DatesOfService"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DatesOfServicesequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DatesOfService_TDatesOfServiceType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DatesOfServicesequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DatesOfService_TDatesOfServiceType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DatesOfServicesequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DatesOfService_TDatesOfServiceType_ instance.
@@ -9051,7 +9051,7 @@ func (me *XsdGoPkgHasElem_DatesOfServicesequenceTxsdMilitaryHistoryTypeSequenceS
 }
 
 type XsdGoPkgHasElems_RecognitionAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RecognitionAchieved_XsdtString_ struct {
-	RecognitionAchieveds []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 RecognitionAchieved"`
+	RecognitionAchieveds []xsdt.String `xml:"RecognitionAchieved"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_RecognitionAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RecognitionAchieved_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_RecognitionAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RecognitionAchieved_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_RecognitionAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RecognitionAchieved_XsdtString_ instance.
@@ -9072,11 +9072,11 @@ func (me *XsdGoPkgHasElems_RecognitionAchievedsequenceTxsdMilitaryHistoryTypeSeq
 }
 
 type XsdGoPkgHasAttr_Branch_XsdtString_ struct {
-	Branch xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 branch,attr"`
+	Branch xsdt.String `xml:"branch,attr"`
 }
 
 type XsdGoPkgHasElem_UnitOrDivisionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_UnitOrDivision_XsdtString_ struct {
-	UnitOrDivision xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 UnitOrDivision"`
+	UnitOrDivision xsdt.String `xml:"UnitOrDivision"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_UnitOrDivisionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_UnitOrDivision_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_UnitOrDivisionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_UnitOrDivision_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_UnitOrDivisionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_UnitOrDivision_XsdtString_ instance.
@@ -9097,7 +9097,7 @@ func (me *XsdGoPkgHasElem_UnitOrDivisionsequenceTxsdMilitaryHistoryTypeSequenceS
 }
 
 type XsdGoPkgHasElems_CampaignsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_Campaign_XsdtString_ struct {
-	Campaigns []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Campaign"`
+	Campaigns []xsdt.String `xml:"Campaign"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CampaignsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_Campaign_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CampaignsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_Campaign_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CampaignsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_Campaign_XsdtString_ instance.
@@ -9118,7 +9118,7 @@ func (me *XsdGoPkgHasElems_CampaignsequenceTxsdMilitaryHistoryTypeSequenceServic
 }
 
 type XsdGoPkgHasElems_AreaOfExpertisesequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_AreaOfExpertise_XsdtString_ struct {
-	AreaOfExpertises []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 AreaOfExpertise"`
+	AreaOfExpertises []xsdt.String `xml:"AreaOfExpertise"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AreaOfExpertisesequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_AreaOfExpertise_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AreaOfExpertisesequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_AreaOfExpertise_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AreaOfExpertisesequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_AreaOfExpertise_XsdtString_ instance.
@@ -9139,7 +9139,7 @@ func (me *XsdGoPkgHasElems_AreaOfExpertisesequenceTxsdMilitaryHistoryTypeSequenc
 }
 
 type XsdGoPkgHasElems_DisciplinaryActionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DisciplinaryAction_XsdtString_ struct {
-	DisciplinaryActions []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 DisciplinaryAction"`
+	DisciplinaryActions []xsdt.String `xml:"DisciplinaryAction"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DisciplinaryActionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DisciplinaryAction_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DisciplinaryActionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DisciplinaryAction_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DisciplinaryActionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DisciplinaryAction_XsdtString_ instance.
@@ -9160,7 +9160,7 @@ func (me *XsdGoPkgHasElems_DisciplinaryActionsequenceTxsdMilitaryHistoryTypeSequ
 }
 
 type XsdGoPkgHasElem_DischargeStatussequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DischargeStatus_XsdtString_ struct {
-	DischargeStatus xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 DischargeStatus"`
+	DischargeStatus xsdt.String `xml:"DischargeStatus"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DischargeStatussequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DischargeStatus_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DischargeStatussequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DischargeStatus_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_DischargeStatussequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DischargeStatus_XsdtString_ instance.
@@ -9247,7 +9247,7 @@ func (me *TxsdMilitaryHistoryTypeSequenceServiceDetail) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_ServiceDetailsequenceMilitaryHistoryTypeschema_ServiceDetail_TxsdMilitaryHistoryTypeSequenceServiceDetail_ struct {
-	ServiceDetails []*TxsdMilitaryHistoryTypeSequenceServiceDetail `xml:"http://ns.hr-xml.org/2006-02-28 ServiceDetail"`
+	ServiceDetails []*TxsdMilitaryHistoryTypeSequenceServiceDetail `xml:"ServiceDetail"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ServiceDetailsequenceMilitaryHistoryTypeschema_ServiceDetail_TxsdMilitaryHistoryTypeSequenceServiceDetail_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ServiceDetailsequenceMilitaryHistoryTypeschema_ServiceDetail_TxsdMilitaryHistoryTypeSequenceServiceDetail_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ServiceDetailsequenceMilitaryHistoryTypeschema_ServiceDetail_TxsdMilitaryHistoryTypeSequenceServiceDetail_ instance.
@@ -9273,7 +9273,7 @@ func (me *XsdGoPkgHasElems_ServiceDetailsequenceMilitaryHistoryTypeschema_Servic
 }
 
 type XsdGoPkgHasElem_ServiceStatussequenceMilitaryHistoryTypeschema_ServiceStatus_XsdtString_ struct {
-	ServiceStatus xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 ServiceStatus"`
+	ServiceStatus xsdt.String `xml:"ServiceStatus"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ServiceStatussequenceMilitaryHistoryTypeschema_ServiceStatus_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ServiceStatussequenceMilitaryHistoryTypeschema_ServiceStatus_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ServiceStatussequenceMilitaryHistoryTypeschema_ServiceStatus_XsdtString_ instance.
@@ -9294,7 +9294,7 @@ func (me *XsdGoPkgHasElem_ServiceStatussequenceMilitaryHistoryTypeschema_Service
 }
 
 type XsdGoPkgHasElem_CountryServedsequenceMilitaryHistoryTypeschema_CountryServed_TCountryCodeType_ struct {
-	CountryServed TCountryCodeType `xml:"http://ns.hr-xml.org/2006-02-28 CountryServed"`
+	CountryServed TCountryCodeType `xml:"CountryServed"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CountryServedsequenceMilitaryHistoryTypeschema_CountryServed_TCountryCodeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CountryServedsequenceMilitaryHistoryTypeschema_CountryServed_TCountryCodeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CountryServedsequenceMilitaryHistoryTypeschema_CountryServed_TCountryCodeType_ instance.
@@ -9315,7 +9315,7 @@ func (me *XsdGoPkgHasElem_CountryServedsequenceMilitaryHistoryTypeschema_Country
 }
 
 type XsdGoPkgHasElem_ServiceNumbersequenceMilitaryHistoryTypeschema_ServiceNumber_TEntityIdType_ struct {
-	ServiceNumber *TEntityIdType `xml:"http://ns.hr-xml.org/2006-02-28 ServiceNumber"`
+	ServiceNumber *TEntityIdType `xml:"ServiceNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ServiceNumbersequenceMilitaryHistoryTypeschema_ServiceNumber_TEntityIdType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ServiceNumbersequenceMilitaryHistoryTypeschema_ServiceNumber_TEntityIdType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ServiceNumbersequenceMilitaryHistoryTypeschema_ServiceNumber_TEntityIdType_ instance.
@@ -9388,7 +9388,7 @@ func (me *TMilitaryHistoryType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_MilitaryHistory struct {
-	MilitaryHistory *TMilitaryHistoryType `xml:"http://ns.hr-xml.org/2006-02-28 MilitaryHistory"`
+	MilitaryHistory *TMilitaryHistoryType `xml:"MilitaryHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_MilitaryHistory function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MilitaryHistory instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_MilitaryHistory instance.
@@ -9412,7 +9412,7 @@ func (me *XsdGoPkgHasElem_MilitaryHistory) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_MilitaryHistory struct {
-	MilitaryHistories []*TMilitaryHistoryType `xml:"http://ns.hr-xml.org/2006-02-28 MilitaryHistory"`
+	MilitaryHistories []*TMilitaryHistoryType `xml:"MilitaryHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_MilitaryHistory function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MilitaryHistory instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MilitaryHistory instance.
@@ -9438,7 +9438,7 @@ func (me *XsdGoPkgHasElems_MilitaryHistory) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Mobile struct {
-	Mobiles []*TMobileTelcomNumberType `xml:"http://ns.hr-xml.org/2006-02-28 Mobile"`
+	Mobiles []*TMobileTelcomNumberType `xml:"Mobile"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Mobile function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Mobile instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Mobile instance.
@@ -9464,7 +9464,7 @@ func (me *XsdGoPkgHasElems_Mobile) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_NationalNumber struct {
-	NationalNumbers []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 NationalNumber"`
+	NationalNumbers []xsdt.String `xml:"NationalNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_NationalNumber function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NationalNumber instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NationalNumber instance.
@@ -9485,7 +9485,7 @@ func (me *XsdGoPkgHasElems_NationalNumber) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_TextResumesequenceNonXMLResumeTypeschema_TextResume_XsdtString_ struct {
-	TextResume xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 TextResume"`
+	TextResume xsdt.String `xml:"TextResume"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_TextResumesequenceNonXMLResumeTypeschema_TextResume_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TextResumesequenceNonXMLResumeTypeschema_TextResume_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_TextResumesequenceNonXMLResumeTypeschema_TextResume_XsdtString_ instance.
@@ -9506,7 +9506,7 @@ func (me *XsdGoPkgHasElem_TextResumesequenceNonXMLResumeTypeschema_TextResume_Xs
 }
 
 type XsdGoPkgHasElem_LinkToResumesequenceNonXMLResumeTypeschema_LinkToResume_XsdtString_ struct {
-	LinkToResume xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 LinkToResume"`
+	LinkToResume xsdt.String `xml:"LinkToResume"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_LinkToResumesequenceNonXMLResumeTypeschema_LinkToResume_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LinkToResumesequenceNonXMLResumeTypeschema_LinkToResume_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_LinkToResumesequenceNonXMLResumeTypeschema_LinkToResume_XsdtString_ instance.
@@ -9528,11 +9528,11 @@ func (me *XsdGoPkgHasElem_LinkToResumesequenceNonXMLResumeTypeschema_LinkToResum
 
 //	This type is officially deprecated in favor of the subsequently issued "SupportingMaterials" schema located in the CPO folder.  The prefix "Staffing" was added to the type name here so as to distinguish it.  No content models were changed here.
 type XsdGoPkgHasAttr_Context_XsdtString_ struct {
-	Context xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 context,attr"`
+	Context xsdt.String `xml:"context,attr"`
 }
 
 type XsdGoPkgHasAttr_MimeType_XsdtString_ struct {
-	MimeType xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 mimeType,attr"`
+	MimeType xsdt.String `xml:"mimeType,attr"`
 }
 
 type TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference struct {
@@ -9561,7 +9561,7 @@ func (me *TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference) 
 }
 
 type XsdGoPkgHasElem_AttachmentReferencechoicesequenceStaffingSupportingMaterialsTypeschema_AttachmentReference_TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference_ struct {
-	AttachmentReference *TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference `xml:"http://ns.hr-xml.org/2006-02-28 AttachmentReference"`
+	AttachmentReference *TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference `xml:"AttachmentReference"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AttachmentReferencechoicesequenceStaffingSupportingMaterialsTypeschema_AttachmentReference_TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AttachmentReferencechoicesequenceStaffingSupportingMaterialsTypeschema_AttachmentReference_TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_AttachmentReferencechoicesequenceStaffingSupportingMaterialsTypeschema_AttachmentReference_TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference_ instance.
@@ -9619,7 +9619,7 @@ func (me *TStaffingSupportingMaterialsType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_SupportingMaterialssequenceNonXMLResumeTypeschema_SupportingMaterials_TStaffingSupportingMaterialsType_ struct {
-	SupportingMaterialses []*TStaffingSupportingMaterialsType `xml:"http://ns.hr-xml.org/2006-02-28 SupportingMaterials"`
+	SupportingMaterialses []*TStaffingSupportingMaterialsType `xml:"SupportingMaterials"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_SupportingMaterialssequenceNonXMLResumeTypeschema_SupportingMaterials_TStaffingSupportingMaterialsType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SupportingMaterialssequenceNonXMLResumeTypeschema_SupportingMaterials_TStaffingSupportingMaterialsType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SupportingMaterialssequenceNonXMLResumeTypeschema_SupportingMaterials_TStaffingSupportingMaterialsType_ instance.
@@ -9671,7 +9671,7 @@ func (me TAnyDateTimeNkType) ToTDateTimeType() TDateTimeType { return TDateTimeT
 func (me TAnyDateTimeNkType) ToTNotKnownLiteral() TNotKnownLiteral { return TNotKnownLiteral(me) }
 
 type XsdGoPkgHasElem_RevisionDatesequenceNonXMLResumeTypeschema_RevisionDate_TAnyDateTimeNkType_ struct {
-	RevisionDate TAnyDateTimeNkType `xml:"http://ns.hr-xml.org/2006-02-28 RevisionDate"`
+	RevisionDate TAnyDateTimeNkType `xml:"RevisionDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_RevisionDatesequenceNonXMLResumeTypeschema_RevisionDate_TAnyDateTimeNkType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_RevisionDatesequenceNonXMLResumeTypeschema_RevisionDate_TAnyDateTimeNkType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_RevisionDatesequenceNonXMLResumeTypeschema_RevisionDate_TAnyDateTimeNkType_ instance.
@@ -9760,7 +9760,7 @@ func (me *TNonXMLResumeType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_NonXMLResume struct {
-	NonXMLResume *TNonXMLResumeType `xml:"http://ns.hr-xml.org/2006-02-28 NonXMLResume"`
+	NonXMLResume *TNonXMLResumeType `xml:"NonXMLResume"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_NonXMLResume function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NonXMLResume instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_NonXMLResume instance.
@@ -9784,7 +9784,7 @@ func (me *XsdGoPkgHasElem_NonXMLResume) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_NonXMLResume struct {
-	NonXMLResumes []*TNonXMLResumeType `xml:"http://ns.hr-xml.org/2006-02-28 NonXMLResume"`
+	NonXMLResumes []*TNonXMLResumeType `xml:"NonXMLResume"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_NonXMLResume function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NonXMLResume instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NonXMLResume instance.
@@ -9810,7 +9810,7 @@ func (me *XsdGoPkgHasElems_NonXMLResume) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_NumericValue struct {
-	NumericValues []*TxsdNumericValue `xml:"http://ns.hr-xml.org/2006-02-28 NumericValue"`
+	NumericValues []*TxsdNumericValue `xml:"NumericValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_NumericValue function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NumericValue instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NumericValue instance.
@@ -9836,7 +9836,7 @@ func (me *XsdGoPkgHasElems_NumericValue) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Pager struct {
-	Pagers []*TelcomNumberType `xml:"http://ns.hr-xml.org/2006-02-28 Pager"`
+	Pagers []*TelcomNumberType `xml:"Pager"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Pager function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Pager instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Pager instance.
@@ -9863,7 +9863,7 @@ func (me *XsdGoPkgHasElems_Pager) Walk() (err error) {
 
 //	A patent has one or more applicants. An applicant is the person or corporate body that applies for the patent and intends to 'work' the invention (to manufacture or license the technology).  Under US law the applicants must be the inventor(s) except in exceptional circumstances.  On a resume or CV listing patents held or submitted, an individual might use the "Applicants" component when the patent is held or was filed with others ("co-applicants").
 type XsdGoPkgHasElems_InventorNamesequenceTxsdPatentDescriptionTypeSequenceInventorsInventorssequencePatentDescriptionTypeschema_InventorName_XsdtString_ struct {
-	InventorNames []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 InventorName"`
+	InventorNames []xsdt.String `xml:"InventorName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_InventorNamesequenceTxsdPatentDescriptionTypeSequenceInventorsInventorssequencePatentDescriptionTypeschema_InventorName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_InventorNamesequenceTxsdPatentDescriptionTypeSequenceInventorsInventorssequencePatentDescriptionTypeschema_InventorName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_InventorNamesequenceTxsdPatentDescriptionTypeSequenceInventorsInventorssequencePatentDescriptionTypeschema_InventorName_XsdtString_ instance.
@@ -9909,7 +9909,7 @@ func (me *TxsdPatentDescriptionTypeSequenceInventors) Walk() (err error) {
 
 type XsdGoPkgHasElem_InventorssequencePatentDescriptionTypeschema_Inventors_TxsdPatentDescriptionTypeSequenceInventors_ struct {
 	//	A patent has one or more applicants. An applicant is the person or corporate body that applies for the patent and intends to 'work' the invention (to manufacture or license the technology).  Under US law the applicants must be the inventor(s) except in exceptional circumstances.  On a resume or CV listing patents held or submitted, an individual might use the "Applicants" component when the patent is held or was filed with others ("co-applicants").
-	Inventors *TxsdPatentDescriptionTypeSequenceInventors `xml:"http://ns.hr-xml.org/2006-02-28 Inventors"`
+	Inventors *TxsdPatentDescriptionTypeSequenceInventors `xml:"Inventors"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_InventorssequencePatentDescriptionTypeschema_Inventors_TxsdPatentDescriptionTypeSequenceInventors_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_InventorssequencePatentDescriptionTypeschema_Inventors_TxsdPatentDescriptionTypeSequenceInventors_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_InventorssequencePatentDescriptionTypeschema_Inventors_TxsdPatentDescriptionTypeSequenceInventors_ instance.
@@ -9933,7 +9933,7 @@ func (me *XsdGoPkgHasElem_InventorssequencePatentDescriptionTypeschema_Inventors
 }
 
 type XsdGoPkgHasElem_IssuingAuthoritysequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_IssuingAuthority_TxsdPatentDescriptionTypeSequencePatentDetailSequenceIssuingAuthority_ struct {
-	IssuingAuthority *TIssuingAuthorityType `xml:"http://ns.hr-xml.org/2006-02-28 IssuingAuthority"`
+	IssuingAuthority *TIssuingAuthorityType `xml:"IssuingAuthority"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_IssuingAuthoritysequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_IssuingAuthority_TxsdPatentDescriptionTypeSequencePatentDetailSequenceIssuingAuthority_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_IssuingAuthoritysequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_IssuingAuthority_TxsdPatentDescriptionTypeSequencePatentDetailSequenceIssuingAuthority_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_IssuingAuthoritysequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_IssuingAuthority_TxsdPatentDescriptionTypeSequencePatentDetailSequenceIssuingAuthority_ instance.
@@ -9998,7 +9998,7 @@ func (me TPatentStatusTypes) String() string { return xsdt.String(me).String() }
 func (me TPatentStatusTypes) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 type XsdGoPkgHasElem_StatussequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Status_TPatentStatusTypes_ struct {
-	Status TPatentStatusTypes `xml:"http://ns.hr-xml.org/2006-02-28 Status"`
+	Status TPatentStatusTypes `xml:"Status"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_StatussequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Status_TPatentStatusTypes_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_StatussequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Status_TPatentStatusTypes_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_StatussequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Status_TPatentStatusTypes_ instance.
@@ -10019,7 +10019,7 @@ func (me *XsdGoPkgHasElem_StatussequenceTxsdPatentDescriptionTypeSequencePatentD
 }
 
 type XsdGoPkgHasElem_DatesequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Date_TAnyDateTimeNkNaType_ struct {
-	Date TAnyDateTimeNkNaType `xml:"http://ns.hr-xml.org/2006-02-28 Date"`
+	Date TAnyDateTimeNkNaType `xml:"Date"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DatesequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Date_TAnyDateTimeNkNaType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DatesequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Date_TAnyDateTimeNkNaType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_DatesequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Date_TAnyDateTimeNkNaType_ instance.
@@ -10074,7 +10074,7 @@ func (me *TxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestone) 
 }
 
 type XsdGoPkgHasElems_PatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_PatentMilestone_TxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestone_ struct {
-	PatentMilestones []*TxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestone `xml:"http://ns.hr-xml.org/2006-02-28 PatentMilestone"`
+	PatentMilestones []*TxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestone `xml:"PatentMilestone"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_PatentMilestone_TxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestone_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_PatentMilestone_TxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestone_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_PatentMilestone_TxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestone_ instance.
@@ -10129,7 +10129,7 @@ func (me *TxsdPatentDescriptionTypeSequencePatentDetail) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_PatentDetailsequencePatentDescriptionTypeschema_PatentDetail_TxsdPatentDescriptionTypeSequencePatentDetail_ struct {
-	PatentDetails []*TxsdPatentDescriptionTypeSequencePatentDetail `xml:"http://ns.hr-xml.org/2006-02-28 PatentDetail"`
+	PatentDetails []*TxsdPatentDescriptionTypeSequencePatentDetail `xml:"PatentDetail"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PatentDetailsequencePatentDescriptionTypeschema_PatentDetail_TxsdPatentDescriptionTypeSequencePatentDetail_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PatentDetailsequencePatentDescriptionTypeschema_PatentDetail_TxsdPatentDescriptionTypeSequencePatentDetail_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PatentDetailsequencePatentDescriptionTypeschema_PatentDetail_TxsdPatentDescriptionTypeSequencePatentDetail_ instance.
@@ -10155,7 +10155,7 @@ func (me *XsdGoPkgHasElems_PatentDetailsequencePatentDescriptionTypeschema_Paten
 }
 
 type XsdGoPkgHasElem_PatentTitlesequencePatentDescriptionTypeschema_PatentTitle_XsdtString_ struct {
-	PatentTitle xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PatentTitle"`
+	PatentTitle xsdt.String `xml:"PatentTitle"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PatentTitlesequencePatentDescriptionTypeschema_PatentTitle_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PatentTitlesequencePatentDescriptionTypeschema_PatentTitle_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PatentTitlesequencePatentDescriptionTypeschema_PatentTitle_XsdtString_ instance.
@@ -10221,7 +10221,7 @@ func (me *TPatentDescriptionType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_PatentsequencePatentHistoryTypeschema_Patent_TPatentDescriptionType_ struct {
-	Patents []*TPatentDescriptionType `xml:"http://ns.hr-xml.org/2006-02-28 Patent"`
+	Patents []*TPatentDescriptionType `xml:"Patent"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PatentsequencePatentHistoryTypeschema_Patent_TPatentDescriptionType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PatentsequencePatentHistoryTypeschema_Patent_TPatentDescriptionType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PatentsequencePatentHistoryTypeschema_Patent_TPatentDescriptionType_ instance.
@@ -10271,7 +10271,7 @@ func (me *TPatentHistoryType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_PatentHistory struct {
-	PatentHistory *TPatentHistoryType `xml:"http://ns.hr-xml.org/2006-02-28 PatentHistory"`
+	PatentHistory *TPatentHistoryType `xml:"PatentHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PatentHistory function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PatentHistory instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_PatentHistory instance.
@@ -10295,7 +10295,7 @@ func (me *XsdGoPkgHasElem_PatentHistory) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_PatentHistory struct {
-	PatentHistories []*TPatentHistoryType `xml:"http://ns.hr-xml.org/2006-02-28 PatentHistory"`
+	PatentHistories []*TPatentHistoryType `xml:"PatentHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PatentHistory function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PatentHistory instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PatentHistory instance.
@@ -10321,7 +10321,7 @@ func (me *XsdGoPkgHasElems_PatentHistory) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_PersonName struct {
-	PersonNames []*TPersonNameType `xml:"http://ns.hr-xml.org/2006-02-28 PersonName"`
+	PersonNames []*TPersonNameType `xml:"PersonName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PersonName function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PersonName instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PersonName instance.
@@ -10347,7 +10347,7 @@ func (me *XsdGoPkgHasElems_PersonName) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_PostalAddress struct {
-	PostalAddresses []*TPostalAddressType `xml:"http://ns.hr-xml.org/2006-02-28 PostalAddress"`
+	PostalAddresses []*TPostalAddressType `xml:"PostalAddress"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PostalAddress function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PostalAddress instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PostalAddress instance.
@@ -10418,7 +10418,7 @@ func (me TPublicationTypes) String() string { return xsdt.String(me).String() }
 func (me TPublicationTypes) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 type XsdGoPkgHasAttr_Type_TPublicationTypes_ struct {
-	Type TPublicationTypes `xml:"http://ns.hr-xml.org/2006-02-28 type,attr"`
+	Type TPublicationTypes `xml:"type,attr"`
 }
 
 type TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription struct {
@@ -10445,7 +10445,7 @@ func (me *TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription) Wal
 }
 
 type XsdGoPkgHasElems_FormattedPublicationDescriptionsequencePublicationHistoryTypeschema_FormattedPublicationDescription_TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription_ struct {
-	FormattedPublicationDescriptions []*TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription `xml:"http://ns.hr-xml.org/2006-02-28 FormattedPublicationDescription"`
+	FormattedPublicationDescriptions []*TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription `xml:"FormattedPublicationDescription"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_FormattedPublicationDescriptionsequencePublicationHistoryTypeschema_FormattedPublicationDescription_TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_FormattedPublicationDescriptionsequencePublicationHistoryTypeschema_FormattedPublicationDescription_TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_FormattedPublicationDescriptionsequencePublicationHistoryTypeschema_FormattedPublicationDescription_TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription_ instance.
@@ -10472,7 +10472,7 @@ func (me *XsdGoPkgHasElems_FormattedPublicationDescriptionsequencePublicationHis
 
 //	Contains bibliographic information for an article published in a journal or serial.
 type XsdGoPkgHasElem_VolumesequenceextensioncomplexContentArticleTypeschema_Volume_XsdtString_ struct {
-	Volume xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Volume"`
+	Volume xsdt.String `xml:"Volume"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_VolumesequenceextensioncomplexContentArticleTypeschema_Volume_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_VolumesequenceextensioncomplexContentArticleTypeschema_Volume_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_VolumesequenceextensioncomplexContentArticleTypeschema_Volume_XsdtString_ instance.
@@ -10493,7 +10493,7 @@ func (me *XsdGoPkgHasElem_VolumesequenceextensioncomplexContentArticleTypeschema
 }
 
 type XsdGoPkgHasElem_IssuesequenceextensioncomplexContentArticleTypeschema_Issue_XsdtString_ struct {
-	Issue xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Issue"`
+	Issue xsdt.String `xml:"Issue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_IssuesequenceextensioncomplexContentArticleTypeschema_Issue_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_IssuesequenceextensioncomplexContentArticleTypeschema_Issue_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_IssuesequenceextensioncomplexContentArticleTypeschema_Issue_XsdtString_ instance.
@@ -10514,7 +10514,7 @@ func (me *XsdGoPkgHasElem_IssuesequenceextensioncomplexContentArticleTypeschema_
 }
 
 type XsdGoPkgHasElem_PageNumbersequenceextensioncomplexContentArticleTypeschema_PageNumber_XsdtString_ struct {
-	PageNumber xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PageNumber"`
+	PageNumber xsdt.String `xml:"PageNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PageNumbersequenceextensioncomplexContentArticleTypeschema_PageNumber_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PageNumbersequenceextensioncomplexContentArticleTypeschema_PageNumber_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PageNumbersequenceextensioncomplexContentArticleTypeschema_PageNumber_XsdtString_ instance.
@@ -10535,7 +10535,7 @@ func (me *XsdGoPkgHasElem_PageNumbersequenceextensioncomplexContentArticleTypesc
 }
 
 type XsdGoPkgHasElem_PublicationLanguagesequenceextensioncomplexContentArticleTypeschema_PublicationLanguage_TLanguageCodeType_ struct {
-	PublicationLanguage TLanguageCodeType `xml:"http://ns.hr-xml.org/2006-02-28 PublicationLanguage"`
+	PublicationLanguage TLanguageCodeType `xml:"PublicationLanguage"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PublicationLanguagesequenceextensioncomplexContentArticleTypeschema_PublicationLanguage_TLanguageCodeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PublicationLanguagesequenceextensioncomplexContentArticleTypeschema_PublicationLanguage_TLanguageCodeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PublicationLanguagesequenceextensioncomplexContentArticleTypeschema_PublicationLanguage_TLanguageCodeType_ instance.
@@ -10598,7 +10598,7 @@ func (me TExtendedRoleType) ToTxStringPatternExtensionType() TxStringPatternExte
 }
 
 type XsdGoPkgHasAttr_Role_TExtendedRoleType_ struct {
-	Role TExtendedRoleType `xml:"http://ns.hr-xml.org/2006-02-28 role,attr"`
+	Role TExtendedRoleType `xml:"role,attr"`
 }
 
 type TxsdBasicBibliographicRecordTypeSequenceName struct {
@@ -10628,7 +10628,7 @@ func (me *TxsdBasicBibliographicRecordTypeSequenceName) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_NamesequenceBasicBibliographicRecordTypeschema_Name_TxsdBasicBibliographicRecordTypeSequenceName_ struct {
-	Names []*TxsdBasicBibliographicRecordTypeSequenceName `xml:"http://ns.hr-xml.org/2006-02-28 Name"`
+	Names []*TxsdBasicBibliographicRecordTypeSequenceName `xml:"Name"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_NamesequenceBasicBibliographicRecordTypeschema_Name_TxsdBasicBibliographicRecordTypeSequenceName_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NamesequenceBasicBibliographicRecordTypeschema_Name_TxsdBasicBibliographicRecordTypeSequenceName_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NamesequenceBasicBibliographicRecordTypeschema_Name_TxsdBasicBibliographicRecordTypeSequenceName_ instance.
@@ -10654,7 +10654,7 @@ func (me *XsdGoPkgHasElems_NamesequenceBasicBibliographicRecordTypeschema_Name_T
 }
 
 type XsdGoPkgHasElem_PublicationDatesequenceBasicBibliographicRecordTypeschema_PublicationDate_TFlexibleDatesType_ struct {
-	PublicationDate *TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 PublicationDate"`
+	PublicationDate *TFlexibleDatesType `xml:"PublicationDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PublicationDatesequenceBasicBibliographicRecordTypeschema_PublicationDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PublicationDatesequenceBasicBibliographicRecordTypeschema_PublicationDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_PublicationDatesequenceBasicBibliographicRecordTypeschema_PublicationDate_TFlexibleDatesType_ instance.
@@ -10678,7 +10678,7 @@ func (me *XsdGoPkgHasElem_PublicationDatesequenceBasicBibliographicRecordTypesch
 }
 
 type XsdGoPkgHasElems_LinksequenceBasicBibliographicRecordTypeschema_Link_TInternetWebAddressType_ struct {
-	Links []TInternetWebAddressType `xml:"http://ns.hr-xml.org/2006-02-28 Link"`
+	Links []TInternetWebAddressType `xml:"Link"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_LinksequenceBasicBibliographicRecordTypeschema_Link_TInternetWebAddressType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LinksequenceBasicBibliographicRecordTypeschema_Link_TInternetWebAddressType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LinksequenceBasicBibliographicRecordTypeschema_Link_TInternetWebAddressType_ instance.
@@ -10699,7 +10699,7 @@ func (me *XsdGoPkgHasElems_LinksequenceBasicBibliographicRecordTypeschema_Link_T
 }
 
 type XsdGoPkgHasElem_AbstractsequenceBasicBibliographicRecordTypeschema_Abstract_XsdtString_ struct {
-	Abstract xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Abstract"`
+	Abstract xsdt.String `xml:"Abstract"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AbstractsequenceBasicBibliographicRecordTypeschema_Abstract_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AbstractsequenceBasicBibliographicRecordTypeschema_Abstract_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AbstractsequenceBasicBibliographicRecordTypeschema_Abstract_XsdtString_ instance.
@@ -10721,7 +10721,7 @@ func (me *XsdGoPkgHasElem_AbstractsequenceBasicBibliographicRecordTypeschema_Abs
 
 //	Contains copyright information, such as year and copyright text.
 type XsdGoPkgHasElem_MostRecentDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_MostRecentDate_TFlexibleDatesType_ struct {
-	MostRecentDate *TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 MostRecentDate"`
+	MostRecentDate *TFlexibleDatesType `xml:"MostRecentDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_MostRecentDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_MostRecentDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MostRecentDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_MostRecentDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_MostRecentDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_MostRecentDate_TFlexibleDatesType_ instance.
@@ -10745,7 +10745,7 @@ func (me *XsdGoPkgHasElem_MostRecentDatesequenceTxsdCopyrightTypeSequenceCopyrig
 }
 
 type XsdGoPkgHasElem_OriginalDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_OriginalDate_TFlexibleDatesType_ struct {
-	OriginalDate *TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 OriginalDate"`
+	OriginalDate *TFlexibleDatesType `xml:"OriginalDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OriginalDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_OriginalDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OriginalDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_OriginalDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_OriginalDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_OriginalDate_TFlexibleDatesType_ instance.
@@ -10798,7 +10798,7 @@ func (me *TxsdCopyrightTypeSequenceCopyrightDates) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_CopyrightDatessequenceCopyrightTypeschema_CopyrightDates_TxsdCopyrightTypeSequenceCopyrightDates_ struct {
-	CopyrightDates *TxsdCopyrightTypeSequenceCopyrightDates `xml:"http://ns.hr-xml.org/2006-02-28 CopyrightDates"`
+	CopyrightDates *TxsdCopyrightTypeSequenceCopyrightDates `xml:"CopyrightDates"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CopyrightDatessequenceCopyrightTypeschema_CopyrightDates_TxsdCopyrightTypeSequenceCopyrightDates_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CopyrightDatessequenceCopyrightTypeschema_CopyrightDates_TxsdCopyrightTypeSequenceCopyrightDates_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CopyrightDatessequenceCopyrightTypeschema_CopyrightDates_TxsdCopyrightTypeSequenceCopyrightDates_ instance.
@@ -10822,7 +10822,7 @@ func (me *XsdGoPkgHasElem_CopyrightDatessequenceCopyrightTypeschema_CopyrightDat
 }
 
 type XsdGoPkgHasElem_CopyrightTextsequenceCopyrightTypeschema_CopyrightText_XsdtString_ struct {
-	CopyrightText xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 CopyrightText"`
+	CopyrightText xsdt.String `xml:"CopyrightText"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CopyrightTextsequenceCopyrightTypeschema_CopyrightText_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CopyrightTextsequenceCopyrightTypeschema_CopyrightText_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CopyrightTextsequenceCopyrightTypeschema_CopyrightText_XsdtString_ instance.
@@ -10872,7 +10872,7 @@ func (me *TCopyrightType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_CopyrightsequenceBasicBibliographicRecordTypeschema_Copyright_TCopyrightType_ struct {
-	Copyright *TCopyrightType `xml:"http://ns.hr-xml.org/2006-02-28 Copyright"`
+	Copyright *TCopyrightType `xml:"Copyright"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CopyrightsequenceBasicBibliographicRecordTypeschema_Copyright_TCopyrightType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CopyrightsequenceBasicBibliographicRecordTypeschema_Copyright_TCopyrightType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CopyrightsequenceBasicBibliographicRecordTypeschema_Copyright_TCopyrightType_ instance.
@@ -10950,7 +10950,7 @@ func (me *TBasicBibliographicRecordType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_JournalOrSerialNamesequenceextensioncomplexContentArticleTypeschema_JournalOrSerialName_XsdtString_ struct {
-	JournalOrSerialName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 JournalOrSerialName"`
+	JournalOrSerialName xsdt.String `xml:"JournalOrSerialName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_JournalOrSerialNamesequenceextensioncomplexContentArticleTypeschema_JournalOrSerialName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_JournalOrSerialNamesequenceextensioncomplexContentArticleTypeschema_JournalOrSerialName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_JournalOrSerialNamesequenceextensioncomplexContentArticleTypeschema_JournalOrSerialName_XsdtString_ instance.
@@ -10983,7 +10983,7 @@ func (me *TissnType) Set(s string) { (*xsdt.String)(me).Set(s) }
 func (me TissnType) String() string { return xsdt.String(me).String() }
 
 type XsdGoPkgHasElem_ISSNsequenceextensioncomplexContentArticleTypeschema_Issn_TissnType_ struct {
-	Issn TissnType `xml:"http://ns.hr-xml.org/2006-02-28 ISSN"`
+	Issn TissnType `xml:"ISSN"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ISSNsequenceextensioncomplexContentArticleTypeschema_Issn_TissnType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ISSNsequenceextensioncomplexContentArticleTypeschema_Issn_TissnType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ISSNsequenceextensioncomplexContentArticleTypeschema_Issn_TissnType_ instance.
@@ -11058,7 +11058,7 @@ func (me *TArticleType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_ArticlesequencePublicationHistoryTypeschema_Article_TArticleType_ struct {
-	Articles []*TArticleType `xml:"http://ns.hr-xml.org/2006-02-28 Article"`
+	Articles []*TArticleType `xml:"Article"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ArticlesequencePublicationHistoryTypeschema_Article_TArticleType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ArticlesequencePublicationHistoryTypeschema_Article_TArticleType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ArticlesequencePublicationHistoryTypeschema_Article_TArticleType_ instance.
@@ -11085,7 +11085,7 @@ func (me *XsdGoPkgHasElems_ArticlesequencePublicationHistoryTypeschema_Article_T
 
 //	Contain bibliographic information for a book or monograph.
 type XsdGoPkgHasElem_PublisherLocationsequenceextensioncomplexContentBookTypeschema_PublisherLocation_XsdtString_ struct {
-	PublisherLocation xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PublisherLocation"`
+	PublisherLocation xsdt.String `xml:"PublisherLocation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PublisherLocationsequenceextensioncomplexContentBookTypeschema_PublisherLocation_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PublisherLocationsequenceextensioncomplexContentBookTypeschema_PublisherLocation_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PublisherLocationsequenceextensioncomplexContentBookTypeschema_PublisherLocation_XsdtString_ instance.
@@ -11106,7 +11106,7 @@ func (me *XsdGoPkgHasElem_PublisherLocationsequenceextensioncomplexContentBookTy
 }
 
 type XsdGoPkgHasElem_EditionsequenceextensioncomplexContentBookTypeschema_Edition_XsdtString_ struct {
-	Edition xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Edition"`
+	Edition xsdt.String `xml:"Edition"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EditionsequenceextensioncomplexContentBookTypeschema_Edition_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EditionsequenceextensioncomplexContentBookTypeschema_Edition_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_EditionsequenceextensioncomplexContentBookTypeschema_Edition_XsdtString_ instance.
@@ -11127,7 +11127,7 @@ func (me *XsdGoPkgHasElem_EditionsequenceextensioncomplexContentBookTypeschema_E
 }
 
 type XsdGoPkgHasElem_ChaptersequenceextensioncomplexContentBookTypeschema_Chapter_XsdtString_ struct {
-	Chapter xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Chapter"`
+	Chapter xsdt.String `xml:"Chapter"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ChaptersequenceextensioncomplexContentBookTypeschema_Chapter_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ChaptersequenceextensioncomplexContentBookTypeschema_Chapter_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ChaptersequenceextensioncomplexContentBookTypeschema_Chapter_XsdtString_ instance.
@@ -11160,7 +11160,7 @@ func (me TisbnType) String() string { return xsdt.String(me).String() }
 func (me TisbnType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 type XsdGoPkgHasElem_ISBNsequenceextensioncomplexContentBookTypeschema_Isbn_TisbnType_ struct {
-	Isbn TisbnType `xml:"http://ns.hr-xml.org/2006-02-28 ISBN"`
+	Isbn TisbnType `xml:"ISBN"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ISBNsequenceextensioncomplexContentBookTypeschema_Isbn_TisbnType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ISBNsequenceextensioncomplexContentBookTypeschema_Isbn_TisbnType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ISBNsequenceextensioncomplexContentBookTypeschema_Isbn_TisbnType_ instance.
@@ -11181,7 +11181,7 @@ func (me *XsdGoPkgHasElem_ISBNsequenceextensioncomplexContentBookTypeschema_Isbn
 }
 
 type XsdGoPkgHasElem_NumberOfPagessequenceextensioncomplexContentBookTypeschema_NumberOfPages_XsdtPositiveInteger_ struct {
-	NumberOfPages xsdt.PositiveInteger `xml:"http://ns.hr-xml.org/2006-02-28 NumberOfPages"`
+	NumberOfPages xsdt.PositiveInteger `xml:"NumberOfPages"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_NumberOfPagessequenceextensioncomplexContentBookTypeschema_NumberOfPages_XsdtPositiveInteger_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NumberOfPagessequenceextensioncomplexContentBookTypeschema_NumberOfPages_XsdtPositiveInteger_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NumberOfPagessequenceextensioncomplexContentBookTypeschema_NumberOfPages_XsdtPositiveInteger_ instance.
@@ -11202,7 +11202,7 @@ func (me *XsdGoPkgHasElem_NumberOfPagessequenceextensioncomplexContentBookTypesc
 }
 
 type XsdGoPkgHasElem_PublisherNamesequenceextensioncomplexContentBookTypeschema_PublisherName_XsdtString_ struct {
-	PublisherName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PublisherName"`
+	PublisherName xsdt.String `xml:"PublisherName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PublisherNamesequenceextensioncomplexContentBookTypeschema_PublisherName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PublisherNamesequenceextensioncomplexContentBookTypeschema_PublisherName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PublisherNamesequenceextensioncomplexContentBookTypeschema_PublisherName_XsdtString_ instance.
@@ -11282,7 +11282,7 @@ func (me *TBookType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_BooksequencePublicationHistoryTypeschema_Book_TBookType_ struct {
-	Books []*TBookType `xml:"http://ns.hr-xml.org/2006-02-28 Book"`
+	Books []*TBookType `xml:"Book"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_BooksequencePublicationHistoryTypeschema_Book_TBookType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_BooksequencePublicationHistoryTypeschema_Book_TBookType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_BooksequencePublicationHistoryTypeschema_Book_TBookType_ instance.
@@ -11310,7 +11310,7 @@ func (me *XsdGoPkgHasElems_BooksequencePublicationHistoryTypeschema_Book_TBookTy
 //	Contains details about papers or presentations prepared for delivery at a conference.
 //	A paper or presentation given at a conference or published as part of conference proceedings.
 type XsdGoPkgHasElem_EventNamesequenceextensioncomplexContentConferencePaperTypeschema_EventName_XsdtString_ struct {
-	EventName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 EventName"`
+	EventName xsdt.String `xml:"EventName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EventNamesequenceextensioncomplexContentConferencePaperTypeschema_EventName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EventNamesequenceextensioncomplexContentConferencePaperTypeschema_EventName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_EventNamesequenceextensioncomplexContentConferencePaperTypeschema_EventName_XsdtString_ instance.
@@ -11331,7 +11331,7 @@ func (me *XsdGoPkgHasElem_EventNamesequenceextensioncomplexContentConferencePape
 }
 
 type XsdGoPkgHasElem_ConferenceDatesequenceextensioncomplexContentConferencePaperTypeschema_ConferenceDate_TFlexibleDatesType_ struct {
-	ConferenceDate *TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 ConferenceDate"`
+	ConferenceDate *TFlexibleDatesType `xml:"ConferenceDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ConferenceDatesequenceextensioncomplexContentConferencePaperTypeschema_ConferenceDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ConferenceDatesequenceextensioncomplexContentConferencePaperTypeschema_ConferenceDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ConferenceDatesequenceextensioncomplexContentConferencePaperTypeschema_ConferenceDate_TFlexibleDatesType_ instance.
@@ -11355,7 +11355,7 @@ func (me *XsdGoPkgHasElem_ConferenceDatesequenceextensioncomplexContentConferenc
 }
 
 type XsdGoPkgHasElem_ConferenceLocationsequenceextensioncomplexContentConferencePaperTypeschema_ConferenceLocation_XsdtString_ struct {
-	ConferenceLocation xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 ConferenceLocation"`
+	ConferenceLocation xsdt.String `xml:"ConferenceLocation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ConferenceLocationsequenceextensioncomplexContentConferencePaperTypeschema_ConferenceLocation_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ConferenceLocationsequenceextensioncomplexContentConferencePaperTypeschema_ConferenceLocation_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ConferenceLocationsequenceextensioncomplexContentConferencePaperTypeschema_ConferenceLocation_XsdtString_ instance.
@@ -11416,7 +11416,7 @@ func (me *TConferencePaperType) Walk() (err error) {
 
 type XsdGoPkgHasElems_ConferencePapersequencePublicationHistoryTypeschema_ConferencePaper_TConferencePaperType_ struct {
 	//	Contains details about papers or presentations prepared for delivery at a conference.
-	ConferencePapers []*TConferencePaperType `xml:"http://ns.hr-xml.org/2006-02-28 ConferencePaper"`
+	ConferencePapers []*TConferencePaperType `xml:"ConferencePaper"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ConferencePapersequencePublicationHistoryTypeschema_ConferencePaper_TConferencePaperType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ConferencePapersequencePublicationHistoryTypeschema_ConferencePaper_TConferencePaperType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ConferencePapersequencePublicationHistoryTypeschema_ConferencePaper_TConferencePaperType_ instance.
@@ -11498,7 +11498,7 @@ func (me TPublicationOtherTypes) ToTxStringPatternExtensionType() TxStringPatter
 }
 
 type XsdGoPkgHasAttr_Type_TPublicationOtherTypes_ struct {
-	Type TPublicationOtherTypes `xml:"http://ns.hr-xml.org/2006-02-28 type,attr"`
+	Type TPublicationOtherTypes `xml:"type,attr"`
 }
 
 type TOtherPublicationType struct {
@@ -11553,7 +11553,7 @@ func (me *TOtherPublicationType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_OtherPublicationsequencePublicationHistoryTypeschema_OtherPublication_TOtherPublicationType_ struct {
-	OtherPublications []*TOtherPublicationType `xml:"http://ns.hr-xml.org/2006-02-28 OtherPublication"`
+	OtherPublications []*TOtherPublicationType `xml:"OtherPublication"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_OtherPublicationsequencePublicationHistoryTypeschema_OtherPublication_TOtherPublicationType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OtherPublicationsequencePublicationHistoryTypeschema_OtherPublication_TOtherPublicationType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OtherPublicationsequencePublicationHistoryTypeschema_OtherPublication_TOtherPublicationType_ instance.
@@ -11624,7 +11624,7 @@ func (me *TPublicationHistoryType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_PublicationHistory struct {
-	PublicationHistory *TPublicationHistoryType `xml:"http://ns.hr-xml.org/2006-02-28 PublicationHistory"`
+	PublicationHistory *TPublicationHistoryType `xml:"PublicationHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PublicationHistory function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PublicationHistory instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_PublicationHistory instance.
@@ -11648,7 +11648,7 @@ func (me *XsdGoPkgHasElem_PublicationHistory) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_PublicationHistory struct {
-	PublicationHistories []*TPublicationHistoryType `xml:"http://ns.hr-xml.org/2006-02-28 PublicationHistory"`
+	PublicationHistories []*TPublicationHistoryType `xml:"PublicationHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PublicationHistory function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PublicationHistory instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PublicationHistory instance.
@@ -11674,7 +11674,7 @@ func (me *XsdGoPkgHasElems_PublicationHistory) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_PositionTitlesequenceReferenceTypeschema_PositionTitle_XsdtString_ struct {
-	PositionTitle xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PositionTitle"`
+	PositionTitle xsdt.String `xml:"PositionTitle"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PositionTitlesequenceReferenceTypeschema_PositionTitle_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PositionTitlesequenceReferenceTypeschema_PositionTitle_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PositionTitlesequenceReferenceTypeschema_PositionTitle_XsdtString_ instance.
@@ -11734,7 +11734,7 @@ func (me TReferenceTypes) ToTxStringPatternExtensionType() TxStringPatternExtens
 func (me *TReferenceTypes) Set(s string) { (*xsdt.String)(me).Set(s) }
 
 type XsdGoPkgHasAttr_Type_TReferenceTypes_ struct {
-	Type TReferenceTypes `xml:"http://ns.hr-xml.org/2006-02-28 type,attr"`
+	Type TReferenceTypes `xml:"type,attr"`
 }
 
 type TReferenceType struct {
@@ -11779,7 +11779,7 @@ func (me *TReferenceType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Reference struct {
-	Reference *TReferenceType `xml:"http://ns.hr-xml.org/2006-02-28 Reference"`
+	Reference *TReferenceType `xml:"Reference"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Reference function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Reference instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_Reference instance.
@@ -11803,7 +11803,7 @@ func (me *XsdGoPkgHasElem_Reference) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Reference struct {
-	References []*TReferenceType `xml:"http://ns.hr-xml.org/2006-02-28 Reference"`
+	References []*TReferenceType `xml:"Reference"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Reference function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Reference instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Reference instance.
@@ -11853,7 +11853,7 @@ func (me *TxsdReferences) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_References struct {
-	References *TxsdReferences `xml:"http://ns.hr-xml.org/2006-02-28 References"`
+	References *TxsdReferences `xml:"References"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_References function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_References instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_References instance.
@@ -11877,7 +11877,7 @@ func (me *XsdGoPkgHasElem_References) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_References struct {
-	Referenceses []*TxsdReferences `xml:"http://ns.hr-xml.org/2006-02-28 References"`
+	Referenceses []*TxsdReferences `xml:"References"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_References function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_References instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_References instance.
@@ -11903,7 +11903,7 @@ func (me *XsdGoPkgHasElems_References) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_ResumeIdsequenceTxsdResumeResumeschema_ResumeId_TEntityIdType_ struct {
-	ResumeId *TEntityIdType `xml:"http://ns.hr-xml.org/2006-02-28 ResumeId"`
+	ResumeId *TEntityIdType `xml:"ResumeId"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ResumeIdsequenceTxsdResumeResumeschema_ResumeId_TEntityIdType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ResumeIdsequenceTxsdResumeResumeschema_ResumeId_TEntityIdType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ResumeIdsequenceTxsdResumeResumeschema_ResumeId_TEntityIdType_ instance.
@@ -11949,11 +11949,11 @@ func (me TLocalDateNkNaType) ToTNotApplicableLiteral() TNotApplicableLiteral {
 }
 
 type XsdGoPkgHasAttr_ValidFrom_TLocalDateNkNaType_ struct {
-	ValidFrom TLocalDateNkNaType `xml:"http://ns.hr-xml.org/2006-02-28 validFrom,attr"`
+	ValidFrom TLocalDateNkNaType `xml:"validFrom,attr"`
 }
 
 type XsdGoPkgHasAttr_ValidTo_TLocalDateNkNaType_ struct {
-	ValidTo TLocalDateNkNaType `xml:"http://ns.hr-xml.org/2006-02-28 validTo,attr"`
+	ValidTo TLocalDateNkNaType `xml:"validTo,attr"`
 }
 
 type TDistributionType struct {
@@ -12019,7 +12019,7 @@ func (me *TxsdDistributionGuidelinesTypeSequenceDistributeTo) Walk() (err error)
 }
 
 type XsdGoPkgHasElems_DistributeTosequenceDistributionGuidelinesTypeschema_DistributeTo_TxsdDistributionGuidelinesTypeSequenceDistributeTo_ struct {
-	DistributeTos []*TxsdDistributionGuidelinesTypeSequenceDistributeTo `xml:"http://ns.hr-xml.org/2006-02-28 DistributeTo"`
+	DistributeTos []*TxsdDistributionGuidelinesTypeSequenceDistributeTo `xml:"DistributeTo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DistributeTosequenceDistributionGuidelinesTypeschema_DistributeTo_TxsdDistributionGuidelinesTypeSequenceDistributeTo_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DistributeTosequenceDistributionGuidelinesTypeschema_DistributeTo_TxsdDistributionGuidelinesTypeSequenceDistributeTo_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DistributeTosequenceDistributionGuidelinesTypeschema_DistributeTo_TxsdDistributionGuidelinesTypeSequenceDistributeTo_ instance.
@@ -12045,7 +12045,7 @@ func (me *XsdGoPkgHasElems_DistributeTosequenceDistributionGuidelinesTypeschema_
 }
 
 type XsdGoPkgHasElems_DoNotDistributeTosequenceDistributionGuidelinesTypeschema_DoNotDistributeTo_TDistributionType_ struct {
-	DoNotDistributeTos []*TDistributionType `xml:"http://ns.hr-xml.org/2006-02-28 DoNotDistributeTo"`
+	DoNotDistributeTos []*TDistributionType `xml:"DoNotDistributeTo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DoNotDistributeTosequenceDistributionGuidelinesTypeschema_DoNotDistributeTo_TDistributionType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DoNotDistributeTosequenceDistributionGuidelinesTypeschema_DoNotDistributeTo_TDistributionType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DoNotDistributeTosequenceDistributionGuidelinesTypeschema_DoNotDistributeTo_TDistributionType_ instance.
@@ -12100,7 +12100,7 @@ func (me *TDistributionGuidelinesType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_DistributionGuidelinessequenceTxsdResumeResumeschema_DistributionGuidelines_TDistributionGuidelinesType_ struct {
-	DistributionGuidelines *TDistributionGuidelinesType `xml:"http://ns.hr-xml.org/2006-02-28 DistributionGuidelines"`
+	DistributionGuidelines *TDistributionGuidelinesType `xml:"DistributionGuidelines"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DistributionGuidelinessequenceTxsdResumeResumeschema_DistributionGuidelines_TDistributionGuidelinesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DistributionGuidelinessequenceTxsdResumeResumeschema_DistributionGuidelines_TDistributionGuidelinesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DistributionGuidelinessequenceTxsdResumeResumeschema_DistributionGuidelines_TDistributionGuidelinesType_ instance.
@@ -12153,7 +12153,7 @@ func (me *TSEPContactInfoType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_ContactInfosequenceStructuredXMLResumeTypeschema_ContactInfo_TSEPContactInfoType_ struct {
-	ContactInfo *TSEPContactInfoType `xml:"http://ns.hr-xml.org/2006-02-28 ContactInfo"`
+	ContactInfo *TSEPContactInfoType `xml:"ContactInfo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ContactInfosequenceStructuredXMLResumeTypeschema_ContactInfo_TSEPContactInfoType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ContactInfosequenceStructuredXMLResumeTypeschema_ContactInfo_TSEPContactInfoType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ContactInfosequenceStructuredXMLResumeTypeschema_ContactInfo_TSEPContactInfoType_ instance.
@@ -12177,7 +12177,7 @@ func (me *XsdGoPkgHasElem_ContactInfosequenceStructuredXMLResumeTypeschema_Conta
 }
 
 type XsdGoPkgHasElem_RolesequenceSpeakingEventTypeschema_Role_XsdtString_ struct {
-	Role xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Role"`
+	Role xsdt.String `xml:"Role"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_RolesequenceSpeakingEventTypeschema_Role_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_RolesequenceSpeakingEventTypeschema_Role_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_RolesequenceSpeakingEventTypeschema_Role_XsdtString_ instance.
@@ -12249,7 +12249,7 @@ func (me TExtendedEventTypeType) ToTxStringPatternExtensionType() TxStringPatter
 }
 
 type XsdGoPkgHasElem_EventTypesequenceSpeakingEventTypeschema_EventType_TExtendedEventTypeType_ struct {
-	EventType TExtendedEventTypeType `xml:"http://ns.hr-xml.org/2006-02-28 EventType"`
+	EventType TExtendedEventTypeType `xml:"EventType"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EventTypesequenceSpeakingEventTypeschema_EventType_TExtendedEventTypeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EventTypesequenceSpeakingEventTypeschema_EventType_TExtendedEventTypeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_EventTypesequenceSpeakingEventTypeschema_EventType_TExtendedEventTypeType_ instance.
@@ -12270,7 +12270,7 @@ func (me *XsdGoPkgHasElem_EventTypesequenceSpeakingEventTypeschema_EventType_TEx
 }
 
 type XsdGoPkgHasElem_LocationsequenceSpeakingEventTypeschema_Location_XsdtString_ struct {
-	Location xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Location"`
+	Location xsdt.String `xml:"Location"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_LocationsequenceSpeakingEventTypeschema_Location_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LocationsequenceSpeakingEventTypeschema_Location_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_LocationsequenceSpeakingEventTypeschema_Location_XsdtString_ instance.
@@ -12291,7 +12291,7 @@ func (me *XsdGoPkgHasElem_LocationsequenceSpeakingEventTypeschema_Location_XsdtS
 }
 
 type XsdGoPkgHasElems_AffiliatedOrganizationsequenceSpeakingEventTypeschema_AffiliatedOrganization_XsdtString_ struct {
-	AffiliatedOrganizations []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 AffiliatedOrganization"`
+	AffiliatedOrganizations []xsdt.String `xml:"AffiliatedOrganization"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AffiliatedOrganizationsequenceSpeakingEventTypeschema_AffiliatedOrganization_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AffiliatedOrganizationsequenceSpeakingEventTypeschema_AffiliatedOrganization_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AffiliatedOrganizationsequenceSpeakingEventTypeschema_AffiliatedOrganization_XsdtString_ instance.
@@ -12362,7 +12362,7 @@ func (me TExtendedSpeakingTypeType) ToTxStringPatternExtensionType() TxStringPat
 }
 
 type XsdGoPkgHasAttr_Type_TExtendedSpeakingTypeType_ struct {
-	Type TExtendedSpeakingTypeType `xml:"http://ns.hr-xml.org/2006-02-28 type,attr"`
+	Type TExtendedSpeakingTypeType `xml:"type,attr"`
 }
 
 type TSpeakingEventType struct {
@@ -12437,7 +12437,7 @@ func (me *TSpeakingEventType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_SpeakingEvent struct {
-	SpeakingEvents []*TSpeakingEventType `xml:"http://ns.hr-xml.org/2006-02-28 SpeakingEvent"`
+	SpeakingEvents []*TSpeakingEventType `xml:"SpeakingEvent"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_SpeakingEvent function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SpeakingEvent instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SpeakingEvent instance.
@@ -12487,7 +12487,7 @@ func (me *TxsdSpeakingEventsHistory) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_SpeakingEventsHistory struct {
-	SpeakingEventsHistory *TxsdSpeakingEventsHistory `xml:"http://ns.hr-xml.org/2006-02-28 SpeakingEventsHistory"`
+	SpeakingEventsHistory *TxsdSpeakingEventsHistory `xml:"SpeakingEventsHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_SpeakingEventsHistory function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SpeakingEventsHistory instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_SpeakingEventsHistory instance.
@@ -12535,7 +12535,7 @@ func (me *TxsdStructuredXMLResumeTypeSequenceLanguages) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_LanguagessequenceStructuredXMLResumeTypeschema_Languages_TxsdStructuredXMLResumeTypeSequenceLanguages_ struct {
-	Languages *TxsdStructuredXMLResumeTypeSequenceLanguages `xml:"http://ns.hr-xml.org/2006-02-28 Languages"`
+	Languages *TxsdStructuredXMLResumeTypeSequenceLanguages `xml:"Languages"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_LanguagessequenceStructuredXMLResumeTypeschema_Languages_TxsdStructuredXMLResumeTypeSequenceLanguages_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LanguagessequenceStructuredXMLResumeTypeschema_Languages_TxsdStructuredXMLResumeTypeSequenceLanguages_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_LanguagessequenceStructuredXMLResumeTypeschema_Languages_TxsdStructuredXMLResumeTypeSequenceLanguages_ instance.
@@ -12559,7 +12559,7 @@ func (me *XsdGoPkgHasElem_LanguagessequenceStructuredXMLResumeTypeschema_Languag
 }
 
 type XsdGoPkgHasElems_SecurityCredential struct {
-	SecurityCredentials []*TCredentialType `xml:"http://ns.hr-xml.org/2006-02-28 SecurityCredential"`
+	SecurityCredentials []*TCredentialType `xml:"SecurityCredential"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_SecurityCredential function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SecurityCredential instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SecurityCredential instance.
@@ -12609,7 +12609,7 @@ func (me *TxsdSecurityCredentials) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_SecurityCredentials struct {
-	SecurityCredentials *TxsdSecurityCredentials `xml:"http://ns.hr-xml.org/2006-02-28 SecurityCredentials"`
+	SecurityCredentials *TxsdSecurityCredentials `xml:"SecurityCredentials"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_SecurityCredentials function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SecurityCredentials instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_SecurityCredentials instance.
@@ -12635,7 +12635,7 @@ func (me *XsdGoPkgHasElem_SecurityCredentials) Walk() (err error) {
 //	The type attribute of the parent element will identify the content of this element.  i.e. header, detail, etc.
 type XsdGoPkgHasElems_DescriptionsequenceAdditionalItemTypeschema_Description_XsdtString_ struct {
 	//	The type attribute of the parent element will identify the content of this element.  i.e. header, detail, etc.
-	Descriptions []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Description"`
+	Descriptions []xsdt.String `xml:"Description"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DescriptionsequenceAdditionalItemTypeschema_Description_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DescriptionsequenceAdditionalItemTypeschema_Description_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DescriptionsequenceAdditionalItemTypeschema_Description_XsdtString_ instance.
@@ -12706,7 +12706,7 @@ func (me TResumeItemTypes) ToTResumeItemTypeTypes() TResumeItemTypeTypes {
 }
 
 type XsdGoPkgHasAttr_Type_TResumeItemTypes_ struct {
-	Type TResumeItemTypes `xml:"http://ns.hr-xml.org/2006-02-28 type,attr"`
+	Type TResumeItemTypes `xml:"type,attr"`
 }
 
 type TxsdAdditionalItemTypeSequenceEffectiveDate struct {
@@ -12739,7 +12739,7 @@ func (me *TxsdAdditionalItemTypeSequenceEffectiveDate) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_EffectiveDatesequenceAdditionalItemTypeschema_EffectiveDate_TxsdAdditionalItemTypeSequenceEffectiveDate_ struct {
-	EffectiveDate *TxsdAdditionalItemTypeSequenceEffectiveDate `xml:"http://ns.hr-xml.org/2006-02-28 EffectiveDate"`
+	EffectiveDate *TxsdAdditionalItemTypeSequenceEffectiveDate `xml:"EffectiveDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EffectiveDatesequenceAdditionalItemTypeschema_EffectiveDate_TxsdAdditionalItemTypeSequenceEffectiveDate_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EffectiveDatesequenceAdditionalItemTypeschema_EffectiveDate_TxsdAdditionalItemTypeSequenceEffectiveDate_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_EffectiveDatesequenceAdditionalItemTypeschema_EffectiveDate_TxsdAdditionalItemTypeSequenceEffectiveDate_ instance.
@@ -12795,7 +12795,7 @@ func (me *TAdditionalItemType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_ResumeAdditionalItem struct {
-	ResumeAdditionalItems []*TAdditionalItemType `xml:"http://ns.hr-xml.org/2006-02-28 ResumeAdditionalItem"`
+	ResumeAdditionalItems []*TAdditionalItemType `xml:"ResumeAdditionalItem"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ResumeAdditionalItem function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ResumeAdditionalItem instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ResumeAdditionalItem instance.
@@ -12845,7 +12845,7 @@ func (me *TxsdStructuredXMLResumeTypeSequenceResumeAdditionalItems) Walk() (err 
 }
 
 type XsdGoPkgHasElem_ResumeAdditionalItemssequenceStructuredXMLResumeTypeschema_ResumeAdditionalItems_TxsdStructuredXMLResumeTypeSequenceResumeAdditionalItems_ struct {
-	ResumeAdditionalItems *TxsdStructuredXMLResumeTypeSequenceResumeAdditionalItems `xml:"http://ns.hr-xml.org/2006-02-28 ResumeAdditionalItems"`
+	ResumeAdditionalItems *TxsdStructuredXMLResumeTypeSequenceResumeAdditionalItems `xml:"ResumeAdditionalItems"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ResumeAdditionalItemssequenceStructuredXMLResumeTypeschema_ResumeAdditionalItems_TxsdStructuredXMLResumeTypeSequenceResumeAdditionalItems_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ResumeAdditionalItemssequenceStructuredXMLResumeTypeschema_ResumeAdditionalItems_TxsdStructuredXMLResumeTypeSequenceResumeAdditionalItems_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ResumeAdditionalItemssequenceStructuredXMLResumeTypeschema_ResumeAdditionalItems_TxsdStructuredXMLResumeTypeSequenceResumeAdditionalItems_ instance.
@@ -12869,7 +12869,7 @@ func (me *XsdGoPkgHasElem_ResumeAdditionalItemssequenceStructuredXMLResumeTypesc
 }
 
 type XsdGoPkgHasElem_ExecutiveSummarysequenceStructuredXMLResumeTypeschema_ExecutiveSummary_XsdtString_ struct {
-	ExecutiveSummary xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 ExecutiveSummary"`
+	ExecutiveSummary xsdt.String `xml:"ExecutiveSummary"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ExecutiveSummarysequenceStructuredXMLResumeTypeschema_ExecutiveSummary_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ExecutiveSummarysequenceStructuredXMLResumeTypeschema_ExecutiveSummary_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ExecutiveSummarysequenceStructuredXMLResumeTypeschema_ExecutiveSummary_XsdtString_ instance.
@@ -12890,7 +12890,7 @@ func (me *XsdGoPkgHasElem_ExecutiveSummarysequenceStructuredXMLResumeTypeschema_
 }
 
 type XsdGoPkgHasElem_ObjectivesequenceStructuredXMLResumeTypeschema_Objective_XsdtString_ struct {
-	Objective xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Objective"`
+	Objective xsdt.String `xml:"Objective"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ObjectivesequenceStructuredXMLResumeTypeschema_Objective_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ObjectivesequenceStructuredXMLResumeTypeschema_Objective_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ObjectivesequenceStructuredXMLResumeTypeschema_Objective_XsdtString_ instance.
@@ -12911,7 +12911,7 @@ func (me *XsdGoPkgHasElem_ObjectivesequenceStructuredXMLResumeTypeschema_Objecti
 }
 
 type XsdGoPkgHasElems_AssociationsequenceProfessionalAssociationTypeschema_Association_XsdtString_ struct {
-	Associations []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Association"`
+	Associations []xsdt.String `xml:"Association"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AssociationsequenceProfessionalAssociationTypeschema_Association_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AssociationsequenceProfessionalAssociationTypeschema_Association_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AssociationsequenceProfessionalAssociationTypeschema_Association_XsdtString_ instance.
@@ -12956,7 +12956,7 @@ func (me *TProfessionalAssociationType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_ProfessionalAssociationssequenceStructuredXMLResumeTypeschema_ProfessionalAssociations_TProfessionalAssociationType_ struct {
-	ProfessionalAssociations *TProfessionalAssociationType `xml:"http://ns.hr-xml.org/2006-02-28 ProfessionalAssociations"`
+	ProfessionalAssociations *TProfessionalAssociationType `xml:"ProfessionalAssociations"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ProfessionalAssociationssequenceStructuredXMLResumeTypeschema_ProfessionalAssociations_TProfessionalAssociationType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ProfessionalAssociationssequenceStructuredXMLResumeTypeschema_ProfessionalAssociations_TProfessionalAssociationType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ProfessionalAssociationssequenceStructuredXMLResumeTypeschema_ProfessionalAssociations_TProfessionalAssociationType_ instance.
@@ -12980,7 +12980,7 @@ func (me *XsdGoPkgHasElem_ProfessionalAssociationssequenceStructuredXMLResumeTyp
 }
 
 type XsdGoPkgHasElem_QualificationSummarysequenceTxsdStructuredXMLResumeTypeSequenceQualificationsQualificationssequenceStructuredXMLResumeTypeschema_QualificationSummary_XsdtString_ struct {
-	QualificationSummary xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 QualificationSummary"`
+	QualificationSummary xsdt.String `xml:"QualificationSummary"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_QualificationSummarysequenceTxsdStructuredXMLResumeTypeSequenceQualificationsQualificationssequenceStructuredXMLResumeTypeschema_QualificationSummary_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_QualificationSummarysequenceTxsdStructuredXMLResumeTypeSequenceQualificationsQualificationssequenceStructuredXMLResumeTypeschema_QualificationSummary_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_QualificationSummarysequenceTxsdStructuredXMLResumeTypeSequenceQualificationsQualificationssequenceStructuredXMLResumeTypeschema_QualificationSummary_XsdtString_ instance.
@@ -13030,7 +13030,7 @@ func (me *TxsdStructuredXMLResumeTypeSequenceQualifications) Walk() (err error) 
 }
 
 type XsdGoPkgHasElem_QualificationssequenceStructuredXMLResumeTypeschema_Qualifications_TxsdStructuredXMLResumeTypeSequenceQualifications_ struct {
-	Qualifications *TxsdStructuredXMLResumeTypeSequenceQualifications `xml:"http://ns.hr-xml.org/2006-02-28 Qualifications"`
+	Qualifications *TxsdStructuredXMLResumeTypeSequenceQualifications `xml:"Qualifications"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_QualificationssequenceStructuredXMLResumeTypeschema_Qualifications_TxsdStructuredXMLResumeTypeSequenceQualifications_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_QualificationssequenceStructuredXMLResumeTypeschema_Qualifications_TxsdStructuredXMLResumeTypeSequenceQualifications_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_QualificationssequenceStructuredXMLResumeTypeschema_Qualifications_TxsdStructuredXMLResumeTypeSequenceQualifications_ instance.
@@ -13178,7 +13178,7 @@ func (me *TStructuredXMLResumeType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_StructuredXMLResume struct {
-	StructuredXMLResume *TStructuredXMLResumeType `xml:"http://ns.hr-xml.org/2006-02-28 StructuredXMLResume"`
+	StructuredXMLResume *TStructuredXMLResumeType `xml:"StructuredXMLResume"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_StructuredXMLResume function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_StructuredXMLResume instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_StructuredXMLResume instance.
@@ -13248,7 +13248,7 @@ func (me *TxsdResume) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_Resume struct {
-	Resume *TxsdResume `xml:"http://ns.hr-xml.org/2006-02-28 Resume"`
+	Resume *TxsdResume `xml:"Resume"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_Resume function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_Resume instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_Resume instance.
@@ -13272,7 +13272,7 @@ func (me *XsdGoPkgHasElem_Resume) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Resume struct {
-	Resumes []*TxsdResume `xml:"http://ns.hr-xml.org/2006-02-28 Resume"`
+	Resumes []*TxsdResume `xml:"Resume"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Resume function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Resume instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Resume instance.
@@ -13298,7 +13298,7 @@ func (me *XsdGoPkgHasElems_Resume) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_ResumeAdditionalItem struct {
-	ResumeAdditionalItem *TAdditionalItemType `xml:"http://ns.hr-xml.org/2006-02-28 ResumeAdditionalItem"`
+	ResumeAdditionalItem *TAdditionalItemType `xml:"ResumeAdditionalItem"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ResumeAdditionalItem function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ResumeAdditionalItem instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ResumeAdditionalItem instance.
@@ -13322,7 +13322,7 @@ func (me *XsdGoPkgHasElem_ResumeAdditionalItem) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_SecurityCredential struct {
-	SecurityCredential *TCredentialType `xml:"http://ns.hr-xml.org/2006-02-28 SecurityCredential"`
+	SecurityCredential *TCredentialType `xml:"SecurityCredential"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_SecurityCredential function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SecurityCredential instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_SecurityCredential instance.
@@ -13346,7 +13346,7 @@ func (me *XsdGoPkgHasElem_SecurityCredential) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_SecurityCredentials struct {
-	SecurityCredentialses []*TxsdSecurityCredentials `xml:"http://ns.hr-xml.org/2006-02-28 SecurityCredentials"`
+	SecurityCredentialses []*TxsdSecurityCredentials `xml:"SecurityCredentials"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_SecurityCredentials function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SecurityCredentials instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SecurityCredentials instance.
@@ -13372,7 +13372,7 @@ func (me *XsdGoPkgHasElems_SecurityCredentials) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_SpeakingEvent struct {
-	SpeakingEvent *TSpeakingEventType `xml:"http://ns.hr-xml.org/2006-02-28 SpeakingEvent"`
+	SpeakingEvent *TSpeakingEventType `xml:"SpeakingEvent"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_SpeakingEvent function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SpeakingEvent instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_SpeakingEvent instance.
@@ -13396,7 +13396,7 @@ func (me *XsdGoPkgHasElem_SpeakingEvent) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_SpeakingEventsHistory struct {
-	SpeakingEventsHistories []*TxsdSpeakingEventsHistory `xml:"http://ns.hr-xml.org/2006-02-28 SpeakingEventsHistory"`
+	SpeakingEventsHistories []*TxsdSpeakingEventsHistory `xml:"SpeakingEventsHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_SpeakingEventsHistory function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SpeakingEventsHistory instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SpeakingEventsHistory instance.
@@ -13422,7 +13422,7 @@ func (me *XsdGoPkgHasElems_SpeakingEventsHistory) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_StringValue struct {
-	StringValues []*TxsdStringValue `xml:"http://ns.hr-xml.org/2006-02-28 StringValue"`
+	StringValues []*TxsdStringValue `xml:"StringValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_StringValue function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_StringValue instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_StringValue instance.
@@ -13448,7 +13448,7 @@ func (me *XsdGoPkgHasElems_StringValue) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_StructuredXMLResume struct {
-	StructuredXMLResumes []*TStructuredXMLResumeType `xml:"http://ns.hr-xml.org/2006-02-28 StructuredXMLResume"`
+	StructuredXMLResumes []*TStructuredXMLResumeType `xml:"StructuredXMLResume"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_StructuredXMLResume function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_StructuredXMLResume instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_StructuredXMLResume instance.
@@ -13474,7 +13474,7 @@ func (me *XsdGoPkgHasElems_StructuredXMLResume) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_SubscriberNumber struct {
-	SubscriberNumbers []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 SubscriberNumber"`
+	SubscriberNumbers []xsdt.String `xml:"SubscriberNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_SubscriberNumber function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SubscriberNumber instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SubscriberNumber instance.
@@ -13495,7 +13495,7 @@ func (me *XsdGoPkgHasElems_SubscriberNumber) Walk() (err error) {
 }
 
 type XsdGoPkgHasElem_SupportingInformation struct {
-	SupportingInformation xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 SupportingInformation"`
+	SupportingInformation xsdt.String `xml:"SupportingInformation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_SupportingInformation function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SupportingInformation instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_SupportingInformation instance.
@@ -13516,7 +13516,7 @@ func (me *XsdGoPkgHasElem_SupportingInformation) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Telephone struct {
-	Telephones []*TelcomNumberType `xml:"http://ns.hr-xml.org/2006-02-28 Telephone"`
+	Telephones []*TelcomNumberType `xml:"Telephone"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Telephone function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Telephone instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Telephone instance.
@@ -13542,7 +13542,7 @@ func (me *XsdGoPkgHasElems_Telephone) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Ttytdd struct {
-	Ttytdds []*TelcomNumberType `xml:"http://ns.hr-xml.org/2006-02-28 TTYTDD"`
+	Ttytdds []*TelcomNumberType `xml:"TTYTDD"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Ttytdd function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Ttytdd instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Ttytdd instance.
@@ -13568,7 +13568,7 @@ func (me *XsdGoPkgHasElems_Ttytdd) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_Use struct {
-	Uses []TcontactMethodUsePatternExtensionType `xml:"http://ns.hr-xml.org/2006-02-28 Use"`
+	Uses []TcontactMethodUsePatternExtensionType `xml:"Use"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_Use function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_Use instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_Use instance.
@@ -13591,7 +13591,7 @@ func (me *XsdGoPkgHasElems_Use) Walk() (err error) {
 //	HR-XML Technical Steering Committee endorsed extension element.
 type XsdGoPkgHasElems_UserArea struct {
 	//	HR-XML Technical Steering Committee endorsed extension element.
-	UserAreas []*TUserAreaType `xml:"http://ns.hr-xml.org/2006-02-28 UserArea"`
+	UserAreas []*TUserAreaType `xml:"UserArea"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_UserArea function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_UserArea instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_UserArea instance.
@@ -13617,7 +13617,7 @@ func (me *XsdGoPkgHasElems_UserArea) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_WhenAvailable struct {
-	WhenAvailables []TcontactMethodWhenAvailableType `xml:"http://ns.hr-xml.org/2006-02-28 WhenAvailable"`
+	WhenAvailables []TcontactMethodWhenAvailableType `xml:"WhenAvailable"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_WhenAvailable function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_WhenAvailable instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_WhenAvailable instance.
@@ -13638,7 +13638,7 @@ func (me *XsdGoPkgHasElems_WhenAvailable) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_ReadsequenceLanguageschema_Read_XsdtBoolean_ struct {
-	Reads []xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 Read"`
+	Reads []xsdt.Boolean `xml:"Read"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ReadsequenceLanguageschema_Read_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ReadsequenceLanguageschema_Read_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ReadsequenceLanguageschema_Read_XsdtBoolean_ instance.
@@ -13659,7 +13659,7 @@ func (me *XsdGoPkgHasElems_ReadsequenceLanguageschema_Read_XsdtBoolean_) Walk() 
 }
 
 type XsdGoPkgHasElem_DeliverablesequenceRolesequenceAssociationTypeschema_Deliverable_XsdtString_ struct {
-	Deliverable xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Deliverable"`
+	Deliverable xsdt.String `xml:"Deliverable"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DeliverablesequenceRolesequenceAssociationTypeschema_Deliverable_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DeliverablesequenceRolesequenceAssociationTypeschema_Deliverable_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_DeliverablesequenceRolesequenceAssociationTypeschema_Deliverable_XsdtString_ instance.
@@ -13680,7 +13680,7 @@ func (me *XsdGoPkgHasElem_DeliverablesequenceRolesequenceAssociationTypeschema_D
 }
 
 type XsdGoPkgHasElem_DistributeTosequenceDistributionGuidelinesTypeschema_DistributeTo_TxsdDistributionGuidelinesTypeSequenceDistributeTo_ struct {
-	DistributeTo *TxsdDistributionGuidelinesTypeSequenceDistributeTo `xml:"http://ns.hr-xml.org/2006-02-28 DistributeTo"`
+	DistributeTo *TxsdDistributionGuidelinesTypeSequenceDistributeTo `xml:"DistributeTo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DistributeTosequenceDistributionGuidelinesTypeschema_DistributeTo_TxsdDistributionGuidelinesTypeSequenceDistributeTo_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DistributeTosequenceDistributionGuidelinesTypeschema_DistributeTo_TxsdDistributionGuidelinesTypeSequenceDistributeTo_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DistributeTosequenceDistributionGuidelinesTypeschema_DistributeTo_TxsdDistributionGuidelinesTypeSequenceDistributeTo_ instance.
@@ -13715,7 +13715,7 @@ func (me TAnyLocalDateYearMonthDayType) String() string { return xsdt.Date(me).S
 func (me TAnyLocalDateYearMonthDayType) ToXsdtDate() xsdt.Date { return xsdt.Date(me) }
 
 type XsdGoPkgHasElems_ISSNsequenceextensioncomplexContentBookTypeschema_Issn_TissnType_ struct {
-	Issns []TissnType `xml:"http://ns.hr-xml.org/2006-02-28 ISSN"`
+	Issns []TissnType `xml:"ISSN"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ISSNsequenceextensioncomplexContentBookTypeschema_Issn_TissnType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ISSNsequenceextensioncomplexContentBookTypeschema_Issn_TissnType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ISSNsequenceextensioncomplexContentBookTypeschema_Issn_TissnType_ instance.
@@ -13736,7 +13736,7 @@ func (me *XsdGoPkgHasElems_ISSNsequenceextensioncomplexContentBookTypeschema_Iss
 }
 
 type XsdGoPkgHasElem_RegionsequencePostalAddressTypeschema_Region_XsdtString_ struct {
-	Region xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Region"`
+	Region xsdt.String `xml:"Region"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_RegionsequencePostalAddressTypeschema_Region_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_RegionsequencePostalAddressTypeschema_Region_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_RegionsequencePostalAddressTypeschema_Region_XsdtString_ instance.
@@ -13757,7 +13757,7 @@ func (me *XsdGoPkgHasElem_RegionsequencePostalAddressTypeschema_Region_XsdtStrin
 }
 
 type XsdGoPkgHasElems_StringValuechoiceRatingTypeschema_StringValue_TxsdRatingTypeChoiceStringValue_ struct {
-	StringValues []*TxsdStringValue `xml:"http://ns.hr-xml.org/2006-02-28 StringValue"`
+	StringValues []*TxsdStringValue `xml:"StringValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_StringValuechoiceRatingTypeschema_StringValue_TxsdRatingTypeChoiceStringValue_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_StringValuechoiceRatingTypeschema_StringValue_TxsdRatingTypeChoiceStringValue_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_StringValuechoiceRatingTypeschema_StringValue_TxsdRatingTypeChoiceStringValue_ instance.
@@ -13783,7 +13783,7 @@ func (me *XsdGoPkgHasElems_StringValuechoiceRatingTypeschema_StringValue_TxsdRat
 }
 
 type XsdGoPkgHasElems_PageNumbersequenceextensioncomplexContentArticleTypeschema_PageNumber_XsdtString_ struct {
-	PageNumbers []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PageNumber"`
+	PageNumbers []xsdt.String `xml:"PageNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PageNumbersequenceextensioncomplexContentArticleTypeschema_PageNumber_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PageNumbersequenceextensioncomplexContentArticleTypeschema_PageNumber_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PageNumbersequenceextensioncomplexContentArticleTypeschema_PageNumber_XsdtString_ instance.
@@ -13804,7 +13804,7 @@ func (me *XsdGoPkgHasElems_PageNumbersequenceextensioncomplexContentArticleTypes
 }
 
 type XsdGoPkgHasElem_AdditionalTextsequenceRecipientsequencePostalAddressTypeschema_AdditionalText_XsdtString_ struct {
-	AdditionalText xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 AdditionalText"`
+	AdditionalText xsdt.String `xml:"AdditionalText"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AdditionalTextsequenceRecipientsequencePostalAddressTypeschema_AdditionalText_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AdditionalTextsequenceRecipientsequencePostalAddressTypeschema_AdditionalText_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AdditionalTextsequenceRecipientsequencePostalAddressTypeschema_AdditionalText_XsdtString_ instance.
@@ -13825,7 +13825,7 @@ func (me *XsdGoPkgHasElem_AdditionalTextsequenceRecipientsequencePostalAddressTy
 }
 
 type XsdGoPkgHasElem_ContactMethodsequenceContactInfosequenceVerificationTypeschema_ContactMethod_TContactMethodType_ struct {
-	ContactMethod *TContactMethodType `xml:"http://ns.hr-xml.org/2006-02-28 ContactMethod"`
+	ContactMethod *TContactMethodType `xml:"ContactMethod"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ContactMethodsequenceContactInfosequenceVerificationTypeschema_ContactMethod_TContactMethodType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ContactMethodsequenceContactInfosequenceVerificationTypeschema_ContactMethod_TContactMethodType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ContactMethodsequenceContactInfosequenceVerificationTypeschema_ContactMethod_TContactMethodType_ instance.
@@ -13849,7 +13849,7 @@ func (me *XsdGoPkgHasElem_ContactMethodsequenceContactInfosequenceVerificationTy
 }
 
 type XsdGoPkgHasElems_CommentssequenceTxsdLanguageLanguageschema_Comments_XsdtString_ struct {
-	Commentses []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Comments"`
+	Commentses []xsdt.String `xml:"Comments"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CommentssequenceTxsdLanguageLanguageschema_Comments_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CommentssequenceTxsdLanguageLanguageschema_Comments_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CommentssequenceTxsdLanguageLanguageschema_Comments_XsdtString_ instance.
@@ -13870,7 +13870,7 @@ func (me *XsdGoPkgHasElems_CommentssequenceTxsdLanguageLanguageschema_Comments_X
 }
 
 type XsdGoPkgHasElems_PostOfficeBoxsequenceDeliveryAddresssequencePostalAddressTypeschema_PostOfficeBox_XsdtString_ struct {
-	PostOfficeBoxs []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PostOfficeBox"`
+	PostOfficeBoxs []xsdt.String `xml:"PostOfficeBox"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PostOfficeBoxsequenceDeliveryAddresssequencePostalAddressTypeschema_PostOfficeBox_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PostOfficeBoxsequenceDeliveryAddresssequencePostalAddressTypeschema_PostOfficeBox_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PostOfficeBoxsequenceDeliveryAddresssequencePostalAddressTypeschema_PostOfficeBox_XsdtString_ instance.
@@ -13891,7 +13891,7 @@ func (me *XsdGoPkgHasElems_PostOfficeBoxsequenceDeliveryAddresssequencePostalAdd
 }
 
 type XsdGoPkgHasElems_CompensationsequencePositionHistoryTypeschema_Compensation_TPositionCompensationType_ struct {
-	Compensations []*TPositionCompensationType `xml:"http://ns.hr-xml.org/2006-02-28 Compensation"`
+	Compensations []*TPositionCompensationType `xml:"Compensation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CompensationsequencePositionHistoryTypeschema_Compensation_TPositionCompensationType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CompensationsequencePositionHistoryTypeschema_Compensation_TPositionCompensationType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CompensationsequencePositionHistoryTypeschema_Compensation_TPositionCompensationType_ instance.
@@ -13917,7 +13917,7 @@ func (me *XsdGoPkgHasElems_CompensationsequencePositionHistoryTypeschema_Compens
 }
 
 type XsdGoPkgHasElems_PublicationDatesequenceBasicBibliographicRecordTypeschema_PublicationDate_TFlexibleDatesType_ struct {
-	PublicationDates []*TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 PublicationDate"`
+	PublicationDates []*TFlexibleDatesType `xml:"PublicationDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PublicationDatesequenceBasicBibliographicRecordTypeschema_PublicationDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PublicationDatesequenceBasicBibliographicRecordTypeschema_PublicationDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PublicationDatesequenceBasicBibliographicRecordTypeschema_PublicationDate_TFlexibleDatesType_ instance.
@@ -13945,7 +13945,7 @@ func (me *XsdGoPkgHasElems_PublicationDatesequenceBasicBibliographicRecordTypesc
 //	This is the total number of credits (credit hours) attemptedand earned and included in this summary.
 type XsdGoPkgHasElems_AcademicCreditHoursEarnedsequenceEducationalMeasureTypeschema_AcademicCreditHoursEarned_XsdtDecimal_ struct {
 	//	This is the total number of credits (credit hours) attemptedand earned and included in this summary.
-	AcademicCreditHoursEarneds []xsdt.Decimal `xml:"http://ns.hr-xml.org/2006-02-28 AcademicCreditHoursEarned"`
+	AcademicCreditHoursEarneds []xsdt.Decimal `xml:"AcademicCreditHoursEarned"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AcademicCreditHoursEarnedsequenceEducationalMeasureTypeschema_AcademicCreditHoursEarned_XsdtDecimal_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AcademicCreditHoursEarnedsequenceEducationalMeasureTypeschema_AcademicCreditHoursEarned_XsdtDecimal_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AcademicCreditHoursEarnedsequenceEducationalMeasureTypeschema_AcademicCreditHoursEarned_XsdtDecimal_ instance.
@@ -13966,7 +13966,7 @@ func (me *XsdGoPkgHasElems_AcademicCreditHoursEarnedsequenceEducationalMeasureTy
 }
 
 type XsdGoPkgHasElems_DischargeStatussequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DischargeStatus_XsdtString_ struct {
-	DischargeStatuses []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 DischargeStatus"`
+	DischargeStatuses []xsdt.String `xml:"DischargeStatus"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DischargeStatussequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DischargeStatus_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DischargeStatussequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DischargeStatus_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DischargeStatussequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DischargeStatus_XsdtString_ instance.
@@ -13987,7 +13987,7 @@ func (me *XsdGoPkgHasElems_DischargeStatussequenceTxsdMilitaryHistoryTypeSequenc
 }
 
 type XsdGoPkgHasElems_MonthDaychoiceFlexibleDatesTypeschema_MonthDay_XsdtGMonthDay_ struct {
-	MonthDays []xsdt.GMonthDay `xml:"http://ns.hr-xml.org/2006-02-28 MonthDay"`
+	MonthDays []xsdt.GMonthDay `xml:"MonthDay"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_MonthDaychoiceFlexibleDatesTypeschema_MonthDay_XsdtGMonthDay_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MonthDaychoiceFlexibleDatesTypeschema_MonthDay_XsdtGMonthDay_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MonthDaychoiceFlexibleDatesTypeschema_MonthDay_XsdtGMonthDay_ instance.
@@ -14008,7 +14008,7 @@ func (me *XsdGoPkgHasElems_MonthDaychoiceFlexibleDatesTypeschema_MonthDay_XsdtGM
 }
 
 type XsdGoPkgHasElems_EffectiveDatesequenceAdditionalItemTypeschema_EffectiveDate_TxsdAdditionalItemTypeSequenceEffectiveDate_ struct {
-	EffectiveDates []*TxsdAdditionalItemTypeSequenceEffectiveDate `xml:"http://ns.hr-xml.org/2006-02-28 EffectiveDate"`
+	EffectiveDates []*TxsdAdditionalItemTypeSequenceEffectiveDate `xml:"EffectiveDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EffectiveDatesequenceAdditionalItemTypeschema_EffectiveDate_TxsdAdditionalItemTypeSequenceEffectiveDate_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EffectiveDatesequenceAdditionalItemTypeschema_EffectiveDate_TxsdAdditionalItemTypeSequenceEffectiveDate_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EffectiveDatesequenceAdditionalItemTypeschema_EffectiveDate_TxsdAdditionalItemTypeSequenceEffectiveDate_ instance.
@@ -14034,7 +14034,7 @@ func (me *XsdGoPkgHasElems_EffectiveDatesequenceAdditionalItemTypeschema_Effecti
 }
 
 type XsdGoPkgHasElems_EmployerOrgNamesequenceEmployerOrgDataTypeschema_EmployerOrgName_XsdtString_ struct {
-	EmployerOrgNames []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 EmployerOrgName"`
+	EmployerOrgNames []xsdt.String `xml:"EmployerOrgName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EmployerOrgNamesequenceEmployerOrgDataTypeschema_EmployerOrgName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EmployerOrgNamesequenceEmployerOrgDataTypeschema_EmployerOrgName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EmployerOrgNamesequenceEmployerOrgDataTypeschema_EmployerOrgName_XsdtString_ instance.
@@ -14055,7 +14055,7 @@ func (me *XsdGoPkgHasElems_EmployerOrgNamesequenceEmployerOrgDataTypeschema_Empl
 }
 
 type XsdGoPkgHasElem_SupportingMaterialssequenceStructuredXMLResumeTypeschema_SupportingMaterials_TStaffingSupportingMaterialsType_ struct {
-	SupportingMaterials *TStaffingSupportingMaterialsType `xml:"http://ns.hr-xml.org/2006-02-28 SupportingMaterials"`
+	SupportingMaterials *TStaffingSupportingMaterialsType `xml:"SupportingMaterials"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_SupportingMaterialssequenceStructuredXMLResumeTypeschema_SupportingMaterials_TStaffingSupportingMaterialsType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SupportingMaterialssequenceStructuredXMLResumeTypeschema_SupportingMaterials_TStaffingSupportingMaterialsType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_SupportingMaterialssequenceStructuredXMLResumeTypeschema_SupportingMaterials_TStaffingSupportingMaterialsType_ instance.
@@ -14081,7 +14081,7 @@ func (me *XsdGoPkgHasElem_SupportingMaterialssequenceStructuredXMLResumeTypesche
 //	The grade point average of a student.
 type XsdGoPkgHasElems_MeasureValuesequenceEducationMeasureTypeschema_MeasureValue_TMeasureValueType_ struct {
 	//	The grade point average of a student.
-	MeasureValues []*TMeasureValueType `xml:"http://ns.hr-xml.org/2006-02-28 MeasureValue"`
+	MeasureValues []*TMeasureValueType `xml:"MeasureValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_MeasureValuesequenceEducationMeasureTypeschema_MeasureValue_TMeasureValueType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MeasureValuesequenceEducationMeasureTypeschema_MeasureValue_TMeasureValueType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MeasureValuesequenceEducationMeasureTypeschema_MeasureValue_TMeasureValueType_ instance.
@@ -14107,7 +14107,7 @@ func (me *XsdGoPkgHasElems_MeasureValuesequenceEducationMeasureTypeschema_Measur
 }
 
 type XsdGoPkgHasElems_NumberOfPagessequenceextensioncomplexContentBookTypeschema_NumberOfPages_XsdtPositiveInteger_ struct {
-	NumberOfPageses []xsdt.PositiveInteger `xml:"http://ns.hr-xml.org/2006-02-28 NumberOfPages"`
+	NumberOfPageses []xsdt.PositiveInteger `xml:"NumberOfPages"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_NumberOfPagessequenceextensioncomplexContentBookTypeschema_NumberOfPages_XsdtPositiveInteger_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NumberOfPagessequenceextensioncomplexContentBookTypeschema_NumberOfPages_XsdtPositiveInteger_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NumberOfPagessequenceextensioncomplexContentBookTypeschema_NumberOfPages_XsdtPositiveInteger_ instance.
@@ -14128,7 +14128,7 @@ func (me *XsdGoPkgHasElems_NumberOfPagessequenceextensioncomplexContentBookTypes
 }
 
 type XsdGoPkgHasElems_RevisionDatesequenceStructuredXMLResumeTypeschema_RevisionDate_TAnyDateTimeNkType_ struct {
-	RevisionDates []TAnyDateTimeNkType `xml:"http://ns.hr-xml.org/2006-02-28 RevisionDate"`
+	RevisionDates []TAnyDateTimeNkType `xml:"RevisionDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_RevisionDatesequenceStructuredXMLResumeTypeschema_RevisionDate_TAnyDateTimeNkType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_RevisionDatesequenceStructuredXMLResumeTypeschema_RevisionDate_TAnyDateTimeNkType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_RevisionDatesequenceStructuredXMLResumeTypeschema_RevisionDate_TAnyDateTimeNkType_ instance.
@@ -14149,7 +14149,7 @@ func (me *XsdGoPkgHasElems_RevisionDatesequenceStructuredXMLResumeTypeschema_Rev
 }
 
 type XsdGoPkgHasElems_AttendanceRatingsequenceVerificationTypeschema_AttendanceRating_TRatingType_ struct {
-	AttendanceRatings []*TRatingType `xml:"http://ns.hr-xml.org/2006-02-28 AttendanceRating"`
+	AttendanceRatings []*TRatingType `xml:"AttendanceRating"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AttendanceRatingsequenceVerificationTypeschema_AttendanceRating_TRatingType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AttendanceRatingsequenceVerificationTypeschema_AttendanceRating_TRatingType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AttendanceRatingsequenceVerificationTypeschema_AttendanceRating_TRatingType_ instance.
@@ -14175,7 +14175,7 @@ func (me *XsdGoPkgHasElems_AttendanceRatingsequenceVerificationTypeschema_Attend
 }
 
 type XsdGoPkgHasElems_BuildingNumbersequenceDeliveryAddresssequencePostalAddressTypeschema_BuildingNumber_XsdtString_ struct {
-	BuildingNumbers []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 BuildingNumber"`
+	BuildingNumbers []xsdt.String `xml:"BuildingNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_BuildingNumbersequenceDeliveryAddresssequencePostalAddressTypeschema_BuildingNumber_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_BuildingNumbersequenceDeliveryAddresssequencePostalAddressTypeschema_BuildingNumber_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_BuildingNumbersequenceDeliveryAddresssequencePostalAddressTypeschema_BuildingNumber_XsdtString_ instance.
@@ -14196,7 +14196,7 @@ func (me *XsdGoPkgHasElems_BuildingNumbersequenceDeliveryAddresssequencePostalAd
 }
 
 type XsdGoPkgHasElems_ReasonForLeavingsequenceVerificationTypeschema_ReasonForLeaving_XsdtString_ struct {
-	ReasonForLeavings []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 ReasonForLeaving"`
+	ReasonForLeavings []xsdt.String `xml:"ReasonForLeaving"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ReasonForLeavingsequenceVerificationTypeschema_ReasonForLeaving_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ReasonForLeavingsequenceVerificationTypeschema_ReasonForLeaving_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ReasonForLeavingsequenceVerificationTypeschema_ReasonForLeaving_XsdtString_ instance.
@@ -14217,7 +14217,7 @@ func (me *XsdGoPkgHasElems_ReasonForLeavingsequenceVerificationTypeschema_Reason
 }
 
 type XsdGoPkgHasElems_AbstractsequenceBasicBibliographicRecordTypeschema_Abstract_XsdtString_ struct {
-	Abstracts []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Abstract"`
+	Abstracts []xsdt.String `xml:"Abstract"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AbstractsequenceBasicBibliographicRecordTypeschema_Abstract_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AbstractsequenceBasicBibliographicRecordTypeschema_Abstract_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AbstractsequenceBasicBibliographicRecordTypeschema_Abstract_XsdtString_ instance.
@@ -14238,7 +14238,7 @@ func (me *XsdGoPkgHasElems_AbstractsequenceBasicBibliographicRecordTypeschema_Ab
 }
 
 type XsdGoPkgHasElems_SpeaksequenceTxsdLanguageLanguageschema_Speak_XsdtBoolean_ struct {
-	Speaks []xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 Speak"`
+	Speaks []xsdt.Boolean `xml:"Speak"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_SpeaksequenceTxsdLanguageLanguageschema_Speak_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SpeaksequenceTxsdLanguageLanguageschema_Speak_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SpeaksequenceTxsdLanguageLanguageschema_Speak_XsdtBoolean_ instance.
@@ -14259,7 +14259,7 @@ func (me *XsdGoPkgHasElems_SpeaksequenceTxsdLanguageLanguageschema_Speak_XsdtBoo
 }
 
 type XsdGoPkgHasElems_ValidFromsequenceEffectiveDatesequenceCredentialTypeschema_ValidFrom_TFlexibleDatesType_ struct {
-	ValidFroms []*TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 ValidFrom"`
+	ValidFroms []*TFlexibleDatesType `xml:"ValidFrom"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ValidFromsequenceEffectiveDatesequenceCredentialTypeschema_ValidFrom_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ValidFromsequenceEffectiveDatesequenceCredentialTypeschema_ValidFrom_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ValidFromsequenceEffectiveDatesequenceCredentialTypeschema_ValidFrom_TFlexibleDatesType_ instance.
@@ -14285,7 +14285,7 @@ func (me *XsdGoPkgHasElems_ValidFromsequenceEffectiveDatesequenceCredentialTypes
 }
 
 type XsdGoPkgHasElem_AffiliatedOrganizationsequenceSpeakingEventTypeschema_AffiliatedOrganization_XsdtString_ struct {
-	AffiliatedOrganization xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 AffiliatedOrganization"`
+	AffiliatedOrganization xsdt.String `xml:"AffiliatedOrganization"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AffiliatedOrganizationsequenceSpeakingEventTypeschema_AffiliatedOrganization_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AffiliatedOrganizationsequenceSpeakingEventTypeschema_AffiliatedOrganization_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AffiliatedOrganizationsequenceSpeakingEventTypeschema_AffiliatedOrganization_XsdtString_ instance.
@@ -14306,7 +14306,7 @@ func (me *XsdGoPkgHasElem_AffiliatedOrganizationsequenceSpeakingEventTypeschema_
 }
 
 type XsdGoPkgHasElem_PatentDetailsequencePatentDescriptionTypeschema_PatentDetail_TxsdPatentDescriptionTypeSequencePatentDetail_ struct {
-	PatentDetail *TxsdPatentDescriptionTypeSequencePatentDetail `xml:"http://ns.hr-xml.org/2006-02-28 PatentDetail"`
+	PatentDetail *TxsdPatentDescriptionTypeSequencePatentDetail `xml:"PatentDetail"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PatentDetailsequencePatentDescriptionTypeschema_PatentDetail_TxsdPatentDescriptionTypeSequencePatentDetail_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PatentDetailsequencePatentDescriptionTypeschema_PatentDetail_TxsdPatentDescriptionTypeSequencePatentDetail_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_PatentDetailsequencePatentDescriptionTypeschema_PatentDetail_TxsdPatentDescriptionTypeSequencePatentDetail_ instance.
@@ -14330,7 +14330,7 @@ func (me *XsdGoPkgHasElem_PatentDetailsequencePatentDescriptionTypeschema_Patent
 }
 
 type XsdGoPkgHasElems_FormattedNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_FormattedName_XsdtString_ struct {
-	FormattedNames []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 FormattedName"`
+	FormattedNames []xsdt.String `xml:"FormattedName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_FormattedNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_FormattedName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_FormattedNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_FormattedName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_FormattedNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_FormattedName_XsdtString_ instance.
@@ -14351,7 +14351,7 @@ func (me *XsdGoPkgHasElems_FormattedNamesequenceTxsdPersonNameTypeSequenceAltern
 }
 
 type XsdGoPkgHasElem_SchoolOrInstitutionsequenceEducationHistoryTypeschema_SchoolOrInstitution_TSchoolOrInstitutionType_ struct {
-	SchoolOrInstitution *TSchoolOrInstitutionType `xml:"http://ns.hr-xml.org/2006-02-28 SchoolOrInstitution"`
+	SchoolOrInstitution *TSchoolOrInstitutionType `xml:"SchoolOrInstitution"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_SchoolOrInstitutionsequenceEducationHistoryTypeschema_SchoolOrInstitution_TSchoolOrInstitutionType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SchoolOrInstitutionsequenceEducationHistoryTypeschema_SchoolOrInstitution_TSchoolOrInstitutionType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_SchoolOrInstitutionsequenceEducationHistoryTypeschema_SchoolOrInstitution_TSchoolOrInstitutionType_ instance.
@@ -14386,7 +14386,7 @@ func (me TAnyLocalDateYearType) ToXsdtGYear() xsdt.GYear { return xsdt.GYear(me)
 func (me *TAnyLocalDateYearType) Set(s string) { (*xsdt.GYear)(me).Set(s) }
 
 type XsdGoPkgHasElems_QualificationssequenceStructuredXMLResumeTypeschema_Qualifications_TxsdStructuredXMLResumeTypeSequenceQualifications_ struct {
-	Qualificationses []*TxsdStructuredXMLResumeTypeSequenceQualifications `xml:"http://ns.hr-xml.org/2006-02-28 Qualifications"`
+	Qualificationses []*TxsdStructuredXMLResumeTypeSequenceQualifications `xml:"Qualifications"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_QualificationssequenceStructuredXMLResumeTypeschema_Qualifications_TxsdStructuredXMLResumeTypeSequenceQualifications_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_QualificationssequenceStructuredXMLResumeTypeschema_Qualifications_TxsdStructuredXMLResumeTypeSequenceQualifications_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_QualificationssequenceStructuredXMLResumeTypeschema_Qualifications_TxsdStructuredXMLResumeTypeSequenceQualifications_ instance.
@@ -14412,7 +14412,7 @@ func (me *XsdGoPkgHasElems_QualificationssequenceStructuredXMLResumeTypeschema_Q
 }
 
 type XsdGoPkgHasElem_AffixsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAffix_ struct {
-	Affix *TxsdPersonNameTypeSequenceAffix `xml:"http://ns.hr-xml.org/2006-02-28 Affix"`
+	Affix *TxsdPersonNameTypeSequenceAffix `xml:"Affix"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AffixsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAffix_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AffixsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAffix_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_AffixsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAffix_ instance.
@@ -14436,7 +14436,7 @@ func (me *XsdGoPkgHasElem_AffixsequencePersonNameTypeschema_Affix_TxsdPersonName
 }
 
 type XsdGoPkgHasElems_NonStandardValuechoiceSourceTypeTypeschema_NonStandardValue_XsdtString_ struct {
-	NonStandardValues []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 NonStandardValue"`
+	NonStandardValues []xsdt.String `xml:"NonStandardValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_NonStandardValuechoiceSourceTypeTypeschema_NonStandardValue_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NonStandardValuechoiceSourceTypeTypeschema_NonStandardValue_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NonStandardValuechoiceSourceTypeTypeschema_NonStandardValue_XsdtString_ instance.
@@ -14457,7 +14457,7 @@ func (me *XsdGoPkgHasElems_NonStandardValuechoiceSourceTypeTypeschema_NonStandar
 }
 
 type XsdGoPkgHasElems_EventNamesequenceextensioncomplexContentConferencePaperTypeschema_EventName_XsdtString_ struct {
-	EventNames []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 EventName"`
+	EventNames []xsdt.String `xml:"EventName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EventNamesequenceextensioncomplexContentConferencePaperTypeschema_EventName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EventNamesequenceextensioncomplexContentConferencePaperTypeschema_EventName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EventNamesequenceextensioncomplexContentConferencePaperTypeschema_EventName_XsdtString_ instance.
@@ -14478,7 +14478,7 @@ func (me *XsdGoPkgHasElems_EventNamesequenceextensioncomplexContentConferencePap
 }
 
 type XsdGoPkgHasElems_OriginalDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_OriginalDate_TFlexibleDatesType_ struct {
-	OriginalDates []*TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 OriginalDate"`
+	OriginalDates []*TFlexibleDatesType `xml:"OriginalDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_OriginalDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_OriginalDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OriginalDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_OriginalDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OriginalDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_OriginalDate_TFlexibleDatesType_ instance.
@@ -14506,7 +14506,7 @@ func (me *XsdGoPkgHasElems_OriginalDatesequenceTxsdCopyrightTypeSequenceCopyrigh
 //	Reflects the official names of any and all major options associated with the student's degree title. For example, a particular institution may require their Engineering majors to select either a Mechanical Engineering option or a Structural Engineering option.
 type XsdGoPkgHasElem_OptionsequenceMajorTypeschema_Option_XsdtString_ struct {
 	//	Reflects the official names of any and all major options associated with the student's degree title. For example, a particular institution may require their Engineering majors to select either a Mechanical Engineering option or a Structural Engineering option.
-	Option xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Option"`
+	Option xsdt.String `xml:"Option"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OptionsequenceMajorTypeschema_Option_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OptionsequenceMajorTypeschema_Option_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_OptionsequenceMajorTypeschema_Option_XsdtString_ instance.
@@ -14527,7 +14527,7 @@ func (me *XsdGoPkgHasElem_OptionsequenceMajorTypeschema_Option_XsdtString_) Walk
 }
 
 type XsdGoPkgHasElems_CategoryCodesequenceOccupationalCategoryTypeschema_CategoryCode_XsdtString_ struct {
-	CategoryCodes []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 CategoryCode"`
+	CategoryCodes []xsdt.String `xml:"CategoryCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CategoryCodesequenceOccupationalCategoryTypeschema_CategoryCode_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CategoryCodesequenceOccupationalCategoryTypeschema_CategoryCode_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CategoryCodesequenceOccupationalCategoryTypeschema_CategoryCode_XsdtString_ instance.
@@ -14548,7 +14548,7 @@ func (me *XsdGoPkgHasElems_CategoryCodesequenceOccupationalCategoryTypeschema_Ca
 }
 
 type XsdGoPkgHasElems_PostalCodesequenceLocationSummarysequenceSchoolOrInstitutionTypeschema_PostalCode_XsdtString_ struct {
-	PostalCodes []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PostalCode"`
+	PostalCodes []xsdt.String `xml:"PostalCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PostalCodesequenceLocationSummarysequenceSchoolOrInstitutionTypeschema_PostalCode_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PostalCodesequenceLocationSummarysequenceSchoolOrInstitutionTypeschema_PostalCode_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PostalCodesequenceLocationSummarysequenceSchoolOrInstitutionTypeschema_PostalCode_XsdtString_ instance.
@@ -14569,7 +14569,7 @@ func (me *XsdGoPkgHasElems_PostalCodesequenceLocationSummarysequenceSchoolOrInst
 }
 
 type XsdGoPkgHasElem_RecipientsequencePostalAddressTypeschema_Recipient_TxsdPostalAddressTypeSequenceRecipient_ struct {
-	Recipient *TxsdPostalAddressTypeSequenceRecipient `xml:"http://ns.hr-xml.org/2006-02-28 Recipient"`
+	Recipient *TxsdPostalAddressTypeSequenceRecipient `xml:"Recipient"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_RecipientsequencePostalAddressTypeschema_Recipient_TxsdPostalAddressTypeSequenceRecipient_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_RecipientsequencePostalAddressTypeschema_Recipient_TxsdPostalAddressTypeSequenceRecipient_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_RecipientsequencePostalAddressTypeschema_Recipient_TxsdPostalAddressTypeSequenceRecipient_ instance.
@@ -14593,7 +14593,7 @@ func (me *XsdGoPkgHasElem_RecipientsequencePostalAddressTypeschema_Recipient_Txs
 }
 
 type XsdGoPkgHasElem_FamilyNamesequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceFamilyName_ struct {
-	FamilyName *TxsdPersonNameTypeSequenceFamilyName `xml:"http://ns.hr-xml.org/2006-02-28 FamilyName"`
+	FamilyName *TxsdPersonNameTypeSequenceFamilyName `xml:"FamilyName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_FamilyNamesequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceFamilyName_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_FamilyNamesequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceFamilyName_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_FamilyNamesequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceFamilyName_ instance.
@@ -14617,7 +14617,7 @@ func (me *XsdGoPkgHasElem_FamilyNamesequencePersonNameTypeschema_FamilyName_Txsd
 }
 
 type XsdGoPkgHasElem_GivenNamesequencePersonNameTypeschema_GivenName_XsdtString_ struct {
-	GivenName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 GivenName"`
+	GivenName xsdt.String `xml:"GivenName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_GivenNamesequencePersonNameTypeschema_GivenName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_GivenNamesequencePersonNameTypeschema_GivenName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_GivenNamesequencePersonNameTypeschema_GivenName_XsdtString_ instance.
@@ -14638,7 +14638,7 @@ func (me *XsdGoPkgHasElem_GivenNamesequencePersonNameTypeschema_GivenName_XsdtSt
 }
 
 type XsdGoPkgHasElems_UnitsequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_Unit_XsdtString_ struct {
-	Units []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Unit"`
+	Units []xsdt.String `xml:"Unit"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_UnitsequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_Unit_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_UnitsequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_Unit_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_UnitsequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_Unit_XsdtString_ instance.
@@ -14659,7 +14659,7 @@ func (me *XsdGoPkgHasElems_UnitsequenceTxsdPostalAddressTypeSequenceDeliveryAddr
 }
 
 type XsdGoPkgHasElems_StartingCompensationsequencePositionCompensationTypeschema_StartingCompensation_TxsdPositionCompensationTypeSequenceStartingCompensation_ struct {
-	StartingCompensations []*TxsdPositionCompensationTypeSequenceStartingCompensation `xml:"http://ns.hr-xml.org/2006-02-28 StartingCompensation"`
+	StartingCompensations []*TxsdPositionCompensationTypeSequenceStartingCompensation `xml:"StartingCompensation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_StartingCompensationsequencePositionCompensationTypeschema_StartingCompensation_TxsdPositionCompensationTypeSequenceStartingCompensation_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_StartingCompensationsequencePositionCompensationTypeschema_StartingCompensation_TxsdPositionCompensationTypeSequenceStartingCompensation_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_StartingCompensationsequencePositionCompensationTypeschema_StartingCompensation_TxsdPositionCompensationTypeSequenceStartingCompensation_ instance.
@@ -14685,7 +14685,7 @@ func (me *XsdGoPkgHasElems_StartingCompensationsequencePositionCompensationTypes
 }
 
 type XsdGoPkgHasElems_PublisherLocationsequenceextensioncomplexContentBookTypeschema_PublisherLocation_XsdtString_ struct {
-	PublisherLocations []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PublisherLocation"`
+	PublisherLocations []xsdt.String `xml:"PublisherLocation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PublisherLocationsequenceextensioncomplexContentBookTypeschema_PublisherLocation_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PublisherLocationsequenceextensioncomplexContentBookTypeschema_PublisherLocation_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PublisherLocationsequenceextensioncomplexContentBookTypeschema_PublisherLocation_XsdtString_ instance.
@@ -14708,7 +14708,7 @@ func (me *XsdGoPkgHasElems_PublisherLocationsequenceextensioncomplexContentBookT
 //	The value specifying the minimum of the measurement range
 type XsdGoPkgHasElems_LowestPossibleValuesequenceEducationMeasureTypeschema_LowestPossibleValue_TMeasureValueType_ struct {
 	//	The value specifying the minimum of the measurement range
-	LowestPossibleValues []*TMeasureValueType `xml:"http://ns.hr-xml.org/2006-02-28 LowestPossibleValue"`
+	LowestPossibleValues []*TMeasureValueType `xml:"LowestPossibleValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_LowestPossibleValuesequenceEducationMeasureTypeschema_LowestPossibleValue_TMeasureValueType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LowestPossibleValuesequenceEducationMeasureTypeschema_LowestPossibleValue_TMeasureValueType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LowestPossibleValuesequenceEducationMeasureTypeschema_LowestPossibleValue_TMeasureValueType_ instance.
@@ -14734,7 +14734,7 @@ func (me *XsdGoPkgHasElems_LowestPossibleValuesequenceEducationMeasureTypeschema
 }
 
 type XsdGoPkgHasElems_WritesequenceTxsdLanguageLanguageschema_Write_XsdtBoolean_ struct {
-	Writes []xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 Write"`
+	Writes []xsdt.Boolean `xml:"Write"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_WritesequenceTxsdLanguageLanguageschema_Write_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_WritesequenceTxsdLanguageLanguageschema_Write_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_WritesequenceTxsdLanguageLanguageschema_Write_XsdtBoolean_ instance.
@@ -14755,7 +14755,7 @@ func (me *XsdGoPkgHasElems_WritesequenceTxsdLanguageLanguageschema_Write_XsdtBoo
 }
 
 type XsdGoPkgHasElems_LocationSummarysequenceEmpContactInfoTypeschema_LocationSummary_TEmploymentLocationSummaryType_ struct {
-	LocationSummaries []*TEmploymentLocationSummaryType `xml:"http://ns.hr-xml.org/2006-02-28 LocationSummary"`
+	LocationSummaries []*TEmploymentLocationSummaryType `xml:"LocationSummary"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_LocationSummarysequenceEmpContactInfoTypeschema_LocationSummary_TEmploymentLocationSummaryType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LocationSummarysequenceEmpContactInfoTypeschema_LocationSummary_TEmploymentLocationSummaryType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LocationSummarysequenceEmpContactInfoTypeschema_LocationSummary_TEmploymentLocationSummaryType_ instance.
@@ -14781,7 +14781,7 @@ func (me *XsdGoPkgHasElems_LocationSummarysequenceEmpContactInfoTypeschema_Locat
 }
 
 type XsdGoPkgHasElem_FamilyNamesequenceAlternateScriptsequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName_ struct {
-	FamilyName *TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName `xml:"http://ns.hr-xml.org/2006-02-28 FamilyName"`
+	FamilyName *TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName `xml:"FamilyName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_FamilyNamesequenceAlternateScriptsequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_FamilyNamesequenceAlternateScriptsequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_FamilyNamesequenceAlternateScriptsequencePersonNameTypeschema_FamilyName_TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName_ instance.
@@ -14805,7 +14805,7 @@ func (me *XsdGoPkgHasElem_FamilyNamesequenceAlternateScriptsequencePersonNameTyp
 }
 
 type XsdGoPkgHasElem_ArticlesequencePublicationHistoryTypeschema_Article_TArticleType_ struct {
-	Article *TArticleType `xml:"http://ns.hr-xml.org/2006-02-28 Article"`
+	Article *TArticleType `xml:"Article"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ArticlesequencePublicationHistoryTypeschema_Article_TArticleType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ArticlesequencePublicationHistoryTypeschema_Article_TArticleType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ArticlesequencePublicationHistoryTypeschema_Article_TArticleType_ instance.
@@ -14829,7 +14829,7 @@ func (me *XsdGoPkgHasElem_ArticlesequencePublicationHistoryTypeschema_Article_TA
 }
 
 type XsdGoPkgHasElem_OtherCompensationsequencePositionCompensationTypeschema_OtherCompensation_TxsdPositionCompensationTypeSequenceOtherCompensation_ struct {
-	OtherCompensation *TxsdPositionCompensationTypeSequenceOtherCompensation `xml:"http://ns.hr-xml.org/2006-02-28 OtherCompensation"`
+	OtherCompensation *TxsdPositionCompensationTypeSequenceOtherCompensation `xml:"OtherCompensation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OtherCompensationsequencePositionCompensationTypeschema_OtherCompensation_TxsdPositionCompensationTypeSequenceOtherCompensation_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OtherCompensationsequencePositionCompensationTypeschema_OtherCompensation_TxsdPositionCompensationTypeSequenceOtherCompensation_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_OtherCompensationsequencePositionCompensationTypeschema_OtherCompensation_TxsdPositionCompensationTypeSequenceOtherCompensation_ instance.
@@ -14853,7 +14853,7 @@ func (me *XsdGoPkgHasElem_OtherCompensationsequencePositionCompensationTypeschem
 }
 
 type XsdGoPkgHasElems_PositionLocationsequencePositionOrgInfoTypeschema_PositionLocation_TPostalAddressType_ struct {
-	PositionLocations []*TPostalAddressType `xml:"http://ns.hr-xml.org/2006-02-28 PositionLocation"`
+	PositionLocations []*TPostalAddressType `xml:"PositionLocation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PositionLocationsequencePositionOrgInfoTypeschema_PositionLocation_TPostalAddressType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PositionLocationsequencePositionOrgInfoTypeschema_PositionLocation_TPostalAddressType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PositionLocationsequencePositionOrgInfoTypeschema_PositionLocation_TPostalAddressType_ instance.
@@ -14881,7 +14881,7 @@ func (me *XsdGoPkgHasElems_PositionLocationsequencePositionOrgInfoTypeschema_Pos
 //	School, College or institution attended.  Associated type attribute further qualifies the name as current, prior,  degree or joint.
 type XsdGoPkgHasElems_SchoolNamesequenceSchoolDataTypeschema_SchoolName_XsdtString_ struct {
 	//	School, College or institution attended.  Associated type attribute further qualifies the name as current, prior,  degree or joint.
-	SchoolNames []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 SchoolName"`
+	SchoolNames []xsdt.String `xml:"SchoolName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_SchoolNamesequenceSchoolDataTypeschema_SchoolName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SchoolNamesequenceSchoolDataTypeschema_SchoolName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SchoolNamesequenceSchoolDataTypeschema_SchoolName_XsdtString_ instance.
@@ -14904,7 +14904,7 @@ func (me *XsdGoPkgHasElems_SchoolNamesequenceSchoolDataTypeschema_SchoolName_Xsd
 //	The subject studied, as expressed on the diploma.
 type XsdGoPkgHasElems_DegreeNamesequenceEduDegreeTypeschema_DegreeName_TxsdEduDegreeTypeSequenceDegreeName_ struct {
 	//	The subject studied, as expressed on the diploma.
-	DegreeNames []*TxsdEduDegreeTypeSequenceDegreeName `xml:"http://ns.hr-xml.org/2006-02-28 DegreeName"`
+	DegreeNames []*TxsdEduDegreeTypeSequenceDegreeName `xml:"DegreeName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DegreeNamesequenceEduDegreeTypeschema_DegreeName_TxsdEduDegreeTypeSequenceDegreeName_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DegreeNamesequenceEduDegreeTypeschema_DegreeName_TxsdEduDegreeTypeSequenceDegreeName_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DegreeNamesequenceEduDegreeTypeschema_DegreeName_TxsdEduDegreeTypeSequenceDegreeName_ instance.
@@ -14930,7 +14930,7 @@ func (me *XsdGoPkgHasElems_DegreeNamesequenceEduDegreeTypeschema_DegreeName_Txsd
 }
 
 type XsdGoPkgHasElems_PermissionToContactsequenceVerificationTypeschema_PermissionToContact_XsdtBoolean_ struct {
-	PermissionToContacts []xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 PermissionToContact"`
+	PermissionToContacts []xsdt.Boolean `xml:"PermissionToContact"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PermissionToContactsequenceVerificationTypeschema_PermissionToContact_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PermissionToContactsequenceVerificationTypeschema_PermissionToContact_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PermissionToContactsequenceVerificationTypeschema_PermissionToContact_XsdtBoolean_ instance.
@@ -14951,7 +14951,7 @@ func (me *XsdGoPkgHasElems_PermissionToContactsequenceVerificationTypeschema_Per
 }
 
 type XsdGoPkgHasElems_CopyrightDatessequenceCopyrightTypeschema_CopyrightDates_TxsdCopyrightTypeSequenceCopyrightDates_ struct {
-	CopyrightDateses []*TxsdCopyrightTypeSequenceCopyrightDates `xml:"http://ns.hr-xml.org/2006-02-28 CopyrightDates"`
+	CopyrightDateses []*TxsdCopyrightTypeSequenceCopyrightDates `xml:"CopyrightDates"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CopyrightDatessequenceCopyrightTypeschema_CopyrightDates_TxsdCopyrightTypeSequenceCopyrightDates_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CopyrightDatessequenceCopyrightTypeschema_CopyrightDates_TxsdCopyrightTypeSequenceCopyrightDates_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CopyrightDatessequenceCopyrightTypeschema_CopyrightDates_TxsdCopyrightTypeSequenceCopyrightDates_ instance.
@@ -14979,7 +14979,7 @@ func (me *XsdGoPkgHasElems_CopyrightDatessequenceCopyrightTypeschema_CopyrightDa
 //	Deprecated in favor of Degree construct.
 type XsdGoPkgHasElem_MajorsequenceSchoolOrInstitutionTypeschema_Major_XsdtString_ struct {
 	//	Deprecated in favor of Degree construct.
-	Major xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Major"`
+	Major xsdt.String `xml:"Major"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_MajorsequenceSchoolOrInstitutionTypeschema_Major_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MajorsequenceSchoolOrInstitutionTypeschema_Major_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MajorsequenceSchoolOrInstitutionTypeschema_Major_XsdtString_ instance.
@@ -15000,7 +15000,7 @@ func (me *XsdGoPkgHasElem_MajorsequenceSchoolOrInstitutionTypeschema_Major_XsdtS
 }
 
 type XsdGoPkgHasElems_MunicipalitysequenceEmploymentLocationSummaryTypeschema_Municipality_XsdtString_ struct {
-	Municipalities []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Municipality"`
+	Municipalities []xsdt.String `xml:"Municipality"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_MunicipalitysequenceEmploymentLocationSummaryTypeschema_Municipality_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MunicipalitysequenceEmploymentLocationSummaryTypeschema_Municipality_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MunicipalitysequenceEmploymentLocationSummaryTypeschema_Municipality_XsdtString_ instance.
@@ -15021,7 +15021,7 @@ func (me *XsdGoPkgHasElems_MunicipalitysequenceEmploymentLocationSummaryTypesche
 }
 
 type XsdGoPkgHasElem_FormattedPublicationDescriptionsequencePublicationHistoryTypeschema_FormattedPublicationDescription_TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription_ struct {
-	FormattedPublicationDescription *TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription `xml:"http://ns.hr-xml.org/2006-02-28 FormattedPublicationDescription"`
+	FormattedPublicationDescription *TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription `xml:"FormattedPublicationDescription"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_FormattedPublicationDescriptionsequencePublicationHistoryTypeschema_FormattedPublicationDescription_TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_FormattedPublicationDescriptionsequencePublicationHistoryTypeschema_FormattedPublicationDescription_TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_FormattedPublicationDescriptionsequencePublicationHistoryTypeschema_FormattedPublicationDescription_TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription_ instance.
@@ -15045,7 +15045,7 @@ func (me *XsdGoPkgHasElem_FormattedPublicationDescriptionsequencePublicationHist
 }
 
 type XsdGoPkgHasElem_AddressLinesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_AddressLine_XsdtString_ struct {
-	AddressLine xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 AddressLine"`
+	AddressLine xsdt.String `xml:"AddressLine"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AddressLinesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_AddressLine_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AddressLinesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_AddressLine_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AddressLinesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_AddressLine_XsdtString_ instance.
@@ -15066,7 +15066,7 @@ func (me *XsdGoPkgHasElem_AddressLinesequenceTxsdPostalAddressTypeSequenceDelive
 }
 
 type XsdGoPkgHasElems_CurrentOrEndRanksequenceRankAchievedTypeschema_CurrentOrEndRank_XsdtString_ struct {
-	CurrentOrEndRanks []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 CurrentOrEndRank"`
+	CurrentOrEndRanks []xsdt.String `xml:"CurrentOrEndRank"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CurrentOrEndRanksequenceRankAchievedTypeschema_CurrentOrEndRank_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CurrentOrEndRanksequenceRankAchievedTypeschema_CurrentOrEndRank_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CurrentOrEndRanksequenceRankAchievedTypeschema_CurrentOrEndRank_XsdtString_ instance.
@@ -15087,7 +15087,7 @@ func (me *XsdGoPkgHasElems_CurrentOrEndRanksequenceRankAchievedTypeschema_Curren
 }
 
 type XsdGoPkgHasElem_AreaOfExpertisesequenceServiceDetailsequenceMilitaryHistoryTypeschema_AreaOfExpertise_XsdtString_ struct {
-	AreaOfExpertise xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 AreaOfExpertise"`
+	AreaOfExpertise xsdt.String `xml:"AreaOfExpertise"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AreaOfExpertisesequenceServiceDetailsequenceMilitaryHistoryTypeschema_AreaOfExpertise_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AreaOfExpertisesequenceServiceDetailsequenceMilitaryHistoryTypeschema_AreaOfExpertise_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AreaOfExpertisesequenceServiceDetailsequenceMilitaryHistoryTypeschema_AreaOfExpertise_XsdtString_ instance.
@@ -15108,7 +15108,7 @@ func (me *XsdGoPkgHasElem_AreaOfExpertisesequenceServiceDetailsequenceMilitaryHi
 }
 
 type XsdGoPkgHasElems_LinkToResumesequenceNonXMLResumeTypeschema_LinkToResume_XsdtString_ struct {
-	LinkToResumes []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 LinkToResume"`
+	LinkToResumes []xsdt.String `xml:"LinkToResume"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_LinkToResumesequenceNonXMLResumeTypeschema_LinkToResume_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LinkToResumesequenceNonXMLResumeTypeschema_LinkToResume_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LinkToResumesequenceNonXMLResumeTypeschema_LinkToResume_XsdtString_ instance.
@@ -15129,7 +15129,7 @@ func (me *XsdGoPkgHasElems_LinkToResumesequenceNonXMLResumeTypeschema_LinkToResu
 }
 
 type XsdGoPkgHasElem_NamesequenceBasicBibliographicRecordTypeschema_Name_TxsdBasicBibliographicRecordTypeSequenceName_ struct {
-	Name *TxsdBasicBibliographicRecordTypeSequenceName `xml:"http://ns.hr-xml.org/2006-02-28 Name"`
+	Name *TxsdBasicBibliographicRecordTypeSequenceName `xml:"Name"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_NamesequenceBasicBibliographicRecordTypeschema_Name_TxsdBasicBibliographicRecordTypeSequenceName_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NamesequenceBasicBibliographicRecordTypeschema_Name_TxsdBasicBibliographicRecordTypeSequenceName_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_NamesequenceBasicBibliographicRecordTypeschema_Name_TxsdBasicBibliographicRecordTypeSequenceName_ instance.
@@ -15153,7 +15153,7 @@ func (me *XsdGoPkgHasElem_NamesequenceBasicBibliographicRecordTypeschema_Name_Tx
 }
 
 type XsdGoPkgHasElems_StringDatechoiceFlexibleDatesTypeschema_StringDate_XsdtString_ struct {
-	StringDates []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 StringDate"`
+	StringDates []xsdt.String `xml:"StringDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_StringDatechoiceFlexibleDatesTypeschema_StringDate_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_StringDatechoiceFlexibleDatesTypeschema_StringDate_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_StringDatechoiceFlexibleDatesTypeschema_StringDate_XsdtString_ instance.
@@ -15174,7 +15174,7 @@ func (me *XsdGoPkgHasElems_StringDatechoiceFlexibleDatesTypeschema_StringDate_Xs
 }
 
 type XsdGoPkgHasElems_ConferenceDatesequenceextensioncomplexContentConferencePaperTypeschema_ConferenceDate_TFlexibleDatesType_ struct {
-	ConferenceDates []*TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 ConferenceDate"`
+	ConferenceDates []*TFlexibleDatesType `xml:"ConferenceDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ConferenceDatesequenceextensioncomplexContentConferencePaperTypeschema_ConferenceDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ConferenceDatesequenceextensioncomplexContentConferencePaperTypeschema_ConferenceDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ConferenceDatesequenceextensioncomplexContentConferencePaperTypeschema_ConferenceDate_TFlexibleDatesType_ instance.
@@ -15202,7 +15202,7 @@ func (me *XsdGoPkgHasElems_ConferenceDatesequenceextensioncomplexContentConferen
 //	This is the total number of credits (credit hours) included on the record for this particular summary. This would normally be all credits for which the student paid, whether or not the credits were used to calculate the grade point average. Examples of credit hours to be included, if available, are credits for which non-punitive grades such as "I" or "W" or "Audit" were awarded.
 type XsdGoPkgHasElems_AcademicCreditHoursAttemptedsequenceEducationalMeasureTypeschema_AcademicCreditHoursAttempted_XsdtDecimal_ struct {
 	//	This is the total number of credits (credit hours) included on the record for this particular summary. This would normally be all credits for which the student paid, whether or not the credits were used to calculate the grade point average. Examples of credit hours to be included, if available, are credits for which non-punitive grades such as "I" or "W" or "Audit" were awarded.
-	AcademicCreditHoursAttempteds []xsdt.Decimal `xml:"http://ns.hr-xml.org/2006-02-28 AcademicCreditHoursAttempted"`
+	AcademicCreditHoursAttempteds []xsdt.Decimal `xml:"AcademicCreditHoursAttempted"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AcademicCreditHoursAttemptedsequenceEducationalMeasureTypeschema_AcademicCreditHoursAttempted_XsdtDecimal_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AcademicCreditHoursAttemptedsequenceEducationalMeasureTypeschema_AcademicCreditHoursAttempted_XsdtDecimal_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AcademicCreditHoursAttemptedsequenceEducationalMeasureTypeschema_AcademicCreditHoursAttempted_XsdtDecimal_ instance.
@@ -15225,7 +15225,7 @@ func (me *XsdGoPkgHasElems_AcademicCreditHoursAttemptedsequenceEducationalMeasur
 //	Identifier of the School, College or institution attended.  Associated type attribute further qualifies the name as current, prior,  degree or joint.
 type XsdGoPkgHasElem_SchoolIdsequenceSchoolDataTypeschema_SchoolId_TEntityIdType_ struct {
 	//	Identifier of the School, College or institution attended.  Associated type attribute further qualifies the name as current, prior,  degree or joint.
-	SchoolId *TEntityIdType `xml:"http://ns.hr-xml.org/2006-02-28 SchoolId"`
+	SchoolId *TEntityIdType `xml:"SchoolId"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_SchoolIdsequenceSchoolDataTypeschema_SchoolId_TEntityIdType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SchoolIdsequenceSchoolDataTypeschema_SchoolId_TEntityIdType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_SchoolIdsequenceSchoolDataTypeschema_SchoolId_TEntityIdType_ instance.
@@ -15249,7 +15249,7 @@ func (me *XsdGoPkgHasElem_SchoolIdsequenceSchoolDataTypeschema_SchoolId_TEntityI
 }
 
 type XsdGoPkgHasElems_LanguagessequenceStructuredXMLResumeTypeschema_Languages_TxsdStructuredXMLResumeTypeSequenceLanguages_ struct {
-	Languageses []*TxsdStructuredXMLResumeTypeSequenceLanguages `xml:"http://ns.hr-xml.org/2006-02-28 Languages"`
+	Languageses []*TxsdStructuredXMLResumeTypeSequenceLanguages `xml:"Languages"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_LanguagessequenceStructuredXMLResumeTypeschema_Languages_TxsdStructuredXMLResumeTypeSequenceLanguages_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LanguagessequenceStructuredXMLResumeTypeschema_Languages_TxsdStructuredXMLResumeTypeSequenceLanguages_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LanguagessequenceStructuredXMLResumeTypeschema_Languages_TxsdStructuredXMLResumeTypeSequenceLanguages_ instance.
@@ -15275,7 +15275,7 @@ func (me *XsdGoPkgHasElems_LanguagessequenceStructuredXMLResumeTypeschema_Langua
 }
 
 type XsdGoPkgHasElem_ServiceDetailsequenceMilitaryHistoryTypeschema_ServiceDetail_TxsdMilitaryHistoryTypeSequenceServiceDetail_ struct {
-	ServiceDetail *TxsdMilitaryHistoryTypeSequenceServiceDetail `xml:"http://ns.hr-xml.org/2006-02-28 ServiceDetail"`
+	ServiceDetail *TxsdMilitaryHistoryTypeSequenceServiceDetail `xml:"ServiceDetail"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ServiceDetailsequenceMilitaryHistoryTypeschema_ServiceDetail_TxsdMilitaryHistoryTypeSequenceServiceDetail_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ServiceDetailsequenceMilitaryHistoryTypeschema_ServiceDetail_TxsdMilitaryHistoryTypeSequenceServiceDetail_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ServiceDetailsequenceMilitaryHistoryTypeschema_ServiceDetail_TxsdMilitaryHistoryTypeSequenceServiceDetail_ instance.
@@ -15299,7 +15299,7 @@ func (me *XsdGoPkgHasElem_ServiceDetailsequenceMilitaryHistoryTypeschema_Service
 }
 
 type XsdGoPkgHasElems_PreferredGivenNamesequencePersonNameTypeschema_PreferredGivenName_XsdtString_ struct {
-	PreferredGivenNames []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PreferredGivenName"`
+	PreferredGivenNames []xsdt.String `xml:"PreferredGivenName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PreferredGivenNamesequencePersonNameTypeschema_PreferredGivenName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PreferredGivenNamesequencePersonNameTypeschema_PreferredGivenName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PreferredGivenNamesequencePersonNameTypeschema_PreferredGivenName_XsdtString_ instance.
@@ -15359,7 +15359,7 @@ func (me TExtendedBasicStatusType) ToTxStringPatternExtensionType() TxStringPatt
 }
 
 type XsdGoPkgHasElem_DatesOfAttendancesequenceEduDegreeTypeschema_DatesOfAttendance_TDatesOfAttendanceType_ struct {
-	DatesOfAttendance *TDatesOfAttendanceType `xml:"http://ns.hr-xml.org/2006-02-28 DatesOfAttendance"`
+	DatesOfAttendance *TDatesOfAttendanceType `xml:"DatesOfAttendance"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DatesOfAttendancesequenceEduDegreeTypeschema_DatesOfAttendance_TDatesOfAttendanceType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DatesOfAttendancesequenceEduDegreeTypeschema_DatesOfAttendance_TDatesOfAttendanceType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DatesOfAttendancesequenceEduDegreeTypeschema_DatesOfAttendance_TDatesOfAttendanceType_ instance.
@@ -15383,7 +15383,7 @@ func (me *XsdGoPkgHasElem_DatesOfAttendancesequenceEduDegreeTypeschema_DatesOfAt
 }
 
 type XsdGoPkgHasElems_DatesequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Date_TAnyDateTimeNkNaType_ struct {
-	Dates []TAnyDateTimeNkNaType `xml:"http://ns.hr-xml.org/2006-02-28 Date"`
+	Dates []TAnyDateTimeNkNaType `xml:"Date"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DatesequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Date_TAnyDateTimeNkNaType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DatesequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Date_TAnyDateTimeNkNaType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DatesequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Date_TAnyDateTimeNkNaType_ instance.
@@ -15404,7 +15404,7 @@ func (me *XsdGoPkgHasElems_DatesequenceTxsdPatentDescriptionTypeSequencePatentDe
 }
 
 type XsdGoPkgHasElems_ResumeAdditionalItemssequenceStructuredXMLResumeTypeschema_ResumeAdditionalItems_TxsdStructuredXMLResumeTypeSequenceResumeAdditionalItems_ struct {
-	ResumeAdditionalItemses []*TxsdStructuredXMLResumeTypeSequenceResumeAdditionalItems `xml:"http://ns.hr-xml.org/2006-02-28 ResumeAdditionalItems"`
+	ResumeAdditionalItemses []*TxsdStructuredXMLResumeTypeSequenceResumeAdditionalItems `xml:"ResumeAdditionalItems"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ResumeAdditionalItemssequenceStructuredXMLResumeTypeschema_ResumeAdditionalItems_TxsdStructuredXMLResumeTypeSequenceResumeAdditionalItems_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ResumeAdditionalItemssequenceStructuredXMLResumeTypeschema_ResumeAdditionalItems_TxsdStructuredXMLResumeTypeSequenceResumeAdditionalItems_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ResumeAdditionalItemssequenceStructuredXMLResumeTypeschema_ResumeAdditionalItems_TxsdStructuredXMLResumeTypeSequenceResumeAdditionalItems_ instance.
@@ -15430,7 +15430,7 @@ func (me *XsdGoPkgHasElems_ResumeAdditionalItemssequenceStructuredXMLResumeTypes
 }
 
 type XsdGoPkgHasElem_CampaignsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_Campaign_XsdtString_ struct {
-	Campaign xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Campaign"`
+	Campaign xsdt.String `xml:"Campaign"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CampaignsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_Campaign_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CampaignsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_Campaign_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CampaignsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_Campaign_XsdtString_ instance.
@@ -15453,7 +15453,7 @@ func (me *XsdGoPkgHasElem_CampaignsequenceTxsdMilitaryHistoryTypeSequenceService
 //	If True, this is a summary of all work included in the record.
 type XsdGoPkgHasElems_CumulativeSummaryIndicatorsequenceEducationalMeasureTypeschema_CumulativeSummaryIndicator_XsdtBoolean_ struct {
 	//	If True, this is a summary of all work included in the record.
-	CumulativeSummaryIndicators []xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 CumulativeSummaryIndicator"`
+	CumulativeSummaryIndicators []xsdt.Boolean `xml:"CumulativeSummaryIndicator"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CumulativeSummaryIndicatorsequenceEducationalMeasureTypeschema_CumulativeSummaryIndicator_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CumulativeSummaryIndicatorsequenceEducationalMeasureTypeschema_CumulativeSummaryIndicator_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CumulativeSummaryIndicatorsequenceEducationalMeasureTypeschema_CumulativeSummaryIndicator_XsdtBoolean_ instance.
@@ -15474,7 +15474,7 @@ func (me *XsdGoPkgHasElems_CumulativeSummaryIndicatorsequenceEducationalMeasureT
 }
 
 type XsdGoPkgHasElems_RankAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RankAchieved_TRankAchievedType_ struct {
-	RankAchieveds []*TRankAchievedType `xml:"http://ns.hr-xml.org/2006-02-28 RankAchieved"`
+	RankAchieveds []*TRankAchievedType `xml:"RankAchieved"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_RankAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RankAchieved_TRankAchievedType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_RankAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RankAchieved_TRankAchievedType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_RankAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RankAchieved_TRankAchievedType_ instance.
@@ -15500,7 +15500,7 @@ func (me *XsdGoPkgHasElems_RankAchievedsequenceTxsdMilitaryHistoryTypeSequenceSe
 }
 
 type XsdGoPkgHasElems_ISBNsequenceextensioncomplexContentOtherPublicationTypeschema_Isbn_TisbnType_ struct {
-	Isbns []TisbnType `xml:"http://ns.hr-xml.org/2006-02-28 ISBN"`
+	Isbns []TisbnType `xml:"ISBN"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ISBNsequenceextensioncomplexContentOtherPublicationTypeschema_Isbn_TisbnType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ISBNsequenceextensioncomplexContentOtherPublicationTypeschema_Isbn_TisbnType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ISBNsequenceextensioncomplexContentOtherPublicationTypeschema_Isbn_TisbnType_ instance.
@@ -15521,7 +15521,7 @@ func (me *XsdGoPkgHasElems_ISBNsequenceextensioncomplexContentOtherPublicationTy
 }
 
 type XsdGoPkgHasElems_MiddleNamesequencePersonNameTypeschema_MiddleName_XsdtString_ struct {
-	MiddleNames []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 MiddleName"`
+	MiddleNames []xsdt.String `xml:"MiddleName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_MiddleNamesequencePersonNameTypeschema_MiddleName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MiddleNamesequencePersonNameTypeschema_MiddleName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MiddleNamesequencePersonNameTypeschema_MiddleName_XsdtString_ instance.
@@ -15565,7 +15565,7 @@ func (me TRelationshipType) IsReferrer() bool { return me.String() == "referrer"
 func (me *TRelationshipType) Set(s string) { (*xsdt.String)(me).Set(s) }
 
 type XsdGoPkgHasElems_IssuingAuthoritysequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_IssuingAuthority_TxsdPatentDescriptionTypeSequencePatentDetailSequenceIssuingAuthority_ struct {
-	IssuingAuthorities []*TIssuingAuthorityType `xml:"http://ns.hr-xml.org/2006-02-28 IssuingAuthority"`
+	IssuingAuthorities []*TIssuingAuthorityType `xml:"IssuingAuthority"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_IssuingAuthoritysequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_IssuingAuthority_TxsdPatentDescriptionTypeSequencePatentDetailSequenceIssuingAuthority_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_IssuingAuthoritysequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_IssuingAuthority_TxsdPatentDescriptionTypeSequencePatentDetailSequenceIssuingAuthority_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_IssuingAuthoritysequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_IssuingAuthority_TxsdPatentDescriptionTypeSequencePatentDetailSequenceIssuingAuthority_ instance.
@@ -15591,7 +15591,7 @@ func (me *XsdGoPkgHasElems_IssuingAuthoritysequenceTxsdPatentDescriptionTypeSequ
 }
 
 type XsdGoPkgHasElems_OrgSizesequencePositionHistoryTypeschema_OrgSize_XsdtString_ struct {
-	OrgSizes []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 OrgSize"`
+	OrgSizes []xsdt.String `xml:"OrgSize"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_OrgSizesequencePositionHistoryTypeschema_OrgSize_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OrgSizesequencePositionHistoryTypeschema_OrgSize_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OrgSizesequencePositionHistoryTypeschema_OrgSize_XsdtString_ instance.
@@ -15612,7 +15612,7 @@ func (me *XsdGoPkgHasElems_OrgSizesequencePositionHistoryTypeschema_OrgSize_Xsdt
 }
 
 type XsdGoPkgHasElems_TitlesequenceBasicBibliographicRecordTypeschema_Title_XsdtString_ struct {
-	Titles []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Title"`
+	Titles []xsdt.String `xml:"Title"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_TitlesequenceBasicBibliographicRecordTypeschema_Title_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TitlesequenceBasicBibliographicRecordTypeschema_Title_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TitlesequenceBasicBibliographicRecordTypeschema_Title_XsdtString_ instance.
@@ -15635,7 +15635,7 @@ func (me *XsdGoPkgHasElems_TitlesequenceBasicBibliographicRecordTypeschema_Title
 //	Summarized location of the entity.
 type XsdGoPkgHasElems_LocationSummarysequenceSchoolOrInstitutionTypeschema_LocationSummary_TxsdSchoolOrInstitutionTypeSequenceLocationSummary_ struct {
 	//	Summarized location of the entity.
-	LocationSummaries []*TxsdSchoolOrInstitutionTypeSequenceLocationSummary `xml:"http://ns.hr-xml.org/2006-02-28 LocationSummary"`
+	LocationSummaries []*TxsdSchoolOrInstitutionTypeSequenceLocationSummary `xml:"LocationSummary"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_LocationSummarysequenceSchoolOrInstitutionTypeschema_LocationSummary_TxsdSchoolOrInstitutionTypeSequenceLocationSummary_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LocationSummarysequenceSchoolOrInstitutionTypeschema_LocationSummary_TxsdSchoolOrInstitutionTypeSequenceLocationSummary_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LocationSummarysequenceSchoolOrInstitutionTypeschema_LocationSummary_TxsdSchoolOrInstitutionTypeSequenceLocationSummary_ instance.
@@ -15661,7 +15661,7 @@ func (me *XsdGoPkgHasElems_LocationSummarysequenceSchoolOrInstitutionTypeschema_
 }
 
 type XsdGoPkgHasElem_IdValuesequenceEntityIdTypeschema_IdValue_TxsdEntityIdTypeSequenceIdValue_ struct {
-	IdValue *TxsdEntityIdTypeSequenceIdValue `xml:"http://ns.hr-xml.org/2006-02-28 IdValue"`
+	IdValue *TxsdEntityIdTypeSequenceIdValue `xml:"IdValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_IdValuesequenceEntityIdTypeschema_IdValue_TxsdEntityIdTypeSequenceIdValue_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_IdValuesequenceEntityIdTypeschema_IdValue_TxsdEntityIdTypeSequenceIdValue_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_IdValuesequenceEntityIdTypeschema_IdValue_TxsdEntityIdTypeSequenceIdValue_ instance.
@@ -15685,7 +15685,7 @@ func (me *XsdGoPkgHasElem_IdValuesequenceEntityIdTypeschema_IdValue_TxsdEntityId
 }
 
 type XsdGoPkgHasElems_PatentTitlesequencePatentDescriptionTypeschema_PatentTitle_XsdtString_ struct {
-	PatentTitles []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PatentTitle"`
+	PatentTitles []xsdt.String `xml:"PatentTitle"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PatentTitlesequencePatentDescriptionTypeschema_PatentTitle_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PatentTitlesequencePatentDescriptionTypeschema_PatentTitle_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PatentTitlesequencePatentDescriptionTypeschema_PatentTitle_XsdtString_ instance.
@@ -15706,7 +15706,7 @@ func (me *XsdGoPkgHasElems_PatentTitlesequencePatentDescriptionTypeschema_Patent
 }
 
 type XsdGoPkgHasElems_PublisherNamesequenceextensioncomplexContentBookTypeschema_PublisherName_XsdtString_ struct {
-	PublisherNames []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PublisherName"`
+	PublisherNames []xsdt.String `xml:"PublisherName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PublisherNamesequenceextensioncomplexContentBookTypeschema_PublisherName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PublisherNamesequenceextensioncomplexContentBookTypeschema_PublisherName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PublisherNamesequenceextensioncomplexContentBookTypeschema_PublisherName_XsdtString_ instance.
@@ -15729,7 +15729,7 @@ func (me *XsdGoPkgHasElems_PublisherNamesequenceextensioncomplexContentBookTypes
 //	This is a student's numerical class rank with the highest student in the class having a rank or position of 1
 type XsdGoPkgHasElems_ClassRanksequenceEducationalMeasureTypeschema_ClassRank_TxsdEducationalMeasureTypeSequenceClassRank_ struct {
 	//	This is a student's numerical class rank with the highest student in the class having a rank or position of 1
-	ClassRanks []*TxsdEducationalMeasureTypeSequenceClassRank `xml:"http://ns.hr-xml.org/2006-02-28 ClassRank"`
+	ClassRanks []*TxsdEducationalMeasureTypeSequenceClassRank `xml:"ClassRank"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ClassRanksequenceEducationalMeasureTypeschema_ClassRank_TxsdEducationalMeasureTypeSequenceClassRank_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ClassRanksequenceEducationalMeasureTypeschema_ClassRank_TxsdEducationalMeasureTypeSequenceClassRank_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ClassRanksequenceEducationalMeasureTypeschema_ClassRank_TxsdEducationalMeasureTypeSequenceClassRank_ instance.
@@ -15755,7 +15755,7 @@ func (me *XsdGoPkgHasElems_ClassRanksequenceEducationalMeasureTypeschema_ClassRa
 }
 
 type XsdGoPkgHasElems_GoodStudentIndicatorsequenceEducationMeasureTypeschema_GoodStudentIndicator_XsdtBoolean_ struct {
-	GoodStudentIndicators []xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 GoodStudentIndicator"`
+	GoodStudentIndicators []xsdt.Boolean `xml:"GoodStudentIndicator"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_GoodStudentIndicatorsequenceEducationMeasureTypeschema_GoodStudentIndicator_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_GoodStudentIndicatorsequenceEducationMeasureTypeschema_GoodStudentIndicator_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_GoodStudentIndicatorsequenceEducationMeasureTypeschema_GoodStudentIndicator_XsdtBoolean_ instance.
@@ -15776,7 +15776,7 @@ func (me *XsdGoPkgHasElems_GoodStudentIndicatorsequenceEducationMeasureTypeschem
 }
 
 type XsdGoPkgHasElems_WebSitesequencePositionOrgInfoTypeschema_WebSite_TInternetWebAddressType_ struct {
-	WebSites []TInternetWebAddressType `xml:"http://ns.hr-xml.org/2006-02-28 WebSite"`
+	WebSites []TInternetWebAddressType `xml:"WebSite"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_WebSitesequencePositionOrgInfoTypeschema_WebSite_TInternetWebAddressType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_WebSitesequencePositionOrgInfoTypeschema_WebSite_TInternetWebAddressType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_WebSitesequencePositionOrgInfoTypeschema_WebSite_TInternetWebAddressType_ instance.
@@ -15797,7 +15797,7 @@ func (me *XsdGoPkgHasElems_WebSitesequencePositionOrgInfoTypeschema_WebSite_TInt
 }
 
 type XsdGoPkgHasElems_LegalNamesequenceAlternateScriptsequencePersonNameTypeschema_LegalName_XsdtString_ struct {
-	LegalNames []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 LegalName"`
+	LegalNames []xsdt.String `xml:"LegalName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_LegalNamesequenceAlternateScriptsequencePersonNameTypeschema_LegalName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LegalNamesequenceAlternateScriptsequencePersonNameTypeschema_LegalName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LegalNamesequenceAlternateScriptsequencePersonNameTypeschema_LegalName_XsdtString_ instance.
@@ -15818,7 +15818,7 @@ func (me *XsdGoPkgHasElems_LegalNamesequenceAlternateScriptsequencePersonNameTyp
 }
 
 type XsdGoPkgHasElems_CopyrightTextsequenceCopyrightTypeschema_CopyrightText_XsdtString_ struct {
-	CopyrightTexts []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 CopyrightText"`
+	CopyrightTexts []xsdt.String `xml:"CopyrightText"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CopyrightTextsequenceCopyrightTypeschema_CopyrightText_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CopyrightTextsequenceCopyrightTypeschema_CopyrightText_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CopyrightTextsequenceCopyrightTypeschema_CopyrightText_XsdtString_ instance.
@@ -15841,7 +15841,7 @@ func (me *XsdGoPkgHasElems_CopyrightTextsequenceCopyrightTypeschema_CopyrightTex
 //	Identifier reflecting the program code(s) associated with any Minor course of Study.
 type XsdGoPkgHasElem_ProgramIdsequenceMinorTypeschema_ProgramId_TEntityIdType_ struct {
 	//	Identifier reflecting the program code(s) associated with any Minor course of Study.
-	ProgramId *TEntityIdType `xml:"http://ns.hr-xml.org/2006-02-28 ProgramId"`
+	ProgramId *TEntityIdType `xml:"ProgramId"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ProgramIdsequenceMinorTypeschema_ProgramId_TEntityIdType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ProgramIdsequenceMinorTypeschema_ProgramId_TEntityIdType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ProgramIdsequenceMinorTypeschema_ProgramId_TEntityIdType_ instance.
@@ -15865,7 +15865,7 @@ func (me *XsdGoPkgHasElem_ProgramIdsequenceMinorTypeschema_ProgramId_TEntityIdTy
 }
 
 type XsdGoPkgHasElems_ResumeIdsequenceTxsdResumeResumeschema_ResumeId_TEntityIdType_ struct {
-	ResumeIds []*TEntityIdType `xml:"http://ns.hr-xml.org/2006-02-28 ResumeId"`
+	ResumeIds []*TEntityIdType `xml:"ResumeId"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ResumeIdsequenceTxsdResumeResumeschema_ResumeId_TEntityIdType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ResumeIdsequenceTxsdResumeResumeschema_ResumeId_TEntityIdType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ResumeIdsequenceTxsdResumeResumeschema_ResumeId_TEntityIdType_ instance.
@@ -15891,7 +15891,7 @@ func (me *XsdGoPkgHasElems_ResumeIdsequenceTxsdResumeResumeschema_ResumeId_TEnti
 }
 
 type XsdGoPkgHasElems_DistributionGuidelinessequenceTxsdResumeResumeschema_DistributionGuidelines_TDistributionGuidelinesType_ struct {
-	DistributionGuidelineses []*TDistributionGuidelinesType `xml:"http://ns.hr-xml.org/2006-02-28 DistributionGuidelines"`
+	DistributionGuidelineses []*TDistributionGuidelinesType `xml:"DistributionGuidelines"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DistributionGuidelinessequenceTxsdResumeResumeschema_DistributionGuidelines_TDistributionGuidelinesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DistributionGuidelinessequenceTxsdResumeResumeschema_DistributionGuidelines_TDistributionGuidelinesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DistributionGuidelinessequenceTxsdResumeResumeschema_DistributionGuidelines_TDistributionGuidelinesType_ instance.
@@ -15917,7 +15917,7 @@ func (me *XsdGoPkgHasElems_DistributionGuidelinessequenceTxsdResumeResumeschema_
 }
 
 type XsdGoPkgHasElems_DatesequenceAchievementTypeschema_Date_TFlexibleDatesType_ struct {
-	Dates []*TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 Date"`
+	Dates []*TFlexibleDatesType `xml:"Date"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DatesequenceAchievementTypeschema_Date_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DatesequenceAchievementTypeschema_Date_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DatesequenceAchievementTypeschema_Date_TFlexibleDatesType_ instance.
@@ -15943,7 +15943,7 @@ func (me *XsdGoPkgHasElems_DatesequenceAchievementTypeschema_Date_TFlexibleDates
 }
 
 type XsdGoPkgHasElems_OrgNamesequencePositionHistoryTypeschema_OrgName_TPositionOrgNameType_ struct {
-	OrgNames []*TPositionOrgNameType `xml:"http://ns.hr-xml.org/2006-02-28 OrgName"`
+	OrgNames []*TPositionOrgNameType `xml:"OrgName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_OrgNamesequencePositionHistoryTypeschema_OrgName_TPositionOrgNameType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OrgNamesequencePositionHistoryTypeschema_OrgName_TPositionOrgNameType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OrgNamesequencePositionHistoryTypeschema_OrgName_TPositionOrgNameType_ instance.
@@ -15980,7 +15980,7 @@ func (me TAnyLocalDateYearMonthType) String() string { return xsdt.GYearMonth(me
 func (me TAnyLocalDateYearMonthType) ToXsdtGYearMonth() xsdt.GYearMonth { return xsdt.GYearMonth(me) }
 
 type XsdGoPkgHasElems_YearchoiceFlexibleDatesTypeschema_Year_XsdtGYear_ struct {
-	Years []xsdt.GYear `xml:"http://ns.hr-xml.org/2006-02-28 Year"`
+	Years []xsdt.GYear `xml:"Year"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_YearchoiceFlexibleDatesTypeschema_Year_XsdtGYear_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_YearchoiceFlexibleDatesTypeschema_Year_XsdtGYear_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_YearchoiceFlexibleDatesTypeschema_Year_XsdtGYear_ instance.
@@ -16001,7 +16001,7 @@ func (me *XsdGoPkgHasElems_YearchoiceFlexibleDatesTypeschema_Year_XsdtGYear_) Wa
 }
 
 type XsdGoPkgHasElem_InventorNamesequenceTxsdPatentDescriptionTypeSequenceInventorsInventorssequencePatentDescriptionTypeschema_InventorName_XsdtString_ struct {
-	InventorName xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 InventorName"`
+	InventorName xsdt.String `xml:"InventorName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_InventorNamesequenceTxsdPatentDescriptionTypeSequenceInventorsInventorssequencePatentDescriptionTypeschema_InventorName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_InventorNamesequenceTxsdPatentDescriptionTypeSequenceInventorsInventorssequencePatentDescriptionTypeschema_InventorName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_InventorNamesequenceTxsdPatentDescriptionTypeSequenceInventorsInventorssequencePatentDescriptionTypeschema_InventorName_XsdtString_ instance.
@@ -16022,7 +16022,7 @@ func (me *XsdGoPkgHasElem_InventorNamesequenceTxsdPatentDescriptionTypeSequenceI
 }
 
 type XsdGoPkgHasElems_CategoryDescriptionsequenceOccupationalCategoryTypeschema_CategoryDescription_XsdtString_ struct {
-	CategoryDescriptions []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 CategoryDescription"`
+	CategoryDescriptions []xsdt.String `xml:"CategoryDescription"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CategoryDescriptionsequenceOccupationalCategoryTypeschema_CategoryDescription_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CategoryDescriptionsequenceOccupationalCategoryTypeschema_CategoryDescription_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CategoryDescriptionsequenceOccupationalCategoryTypeschema_CategoryDescription_XsdtString_ instance.
@@ -16043,7 +16043,7 @@ func (me *XsdGoPkgHasElems_CategoryDescriptionsequenceOccupationalCategoryTypesc
 }
 
 type XsdGoPkgHasElem_TaxonomyIdsequenceCompetencyTypeschema_TaxonomyId_TxsdCompetencyTypeSequenceTaxonomyId_ struct {
-	TaxonomyId *TxsdCompetencyTypeSequenceCompetencyId `xml:"http://ns.hr-xml.org/2006-02-28 TaxonomyId"`
+	TaxonomyId *TxsdCompetencyTypeSequenceCompetencyId `xml:"TaxonomyId"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_TaxonomyIdsequenceCompetencyTypeschema_TaxonomyId_TxsdCompetencyTypeSequenceTaxonomyId_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TaxonomyIdsequenceCompetencyTypeschema_TaxonomyId_TxsdCompetencyTypeSequenceTaxonomyId_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_TaxonomyIdsequenceCompetencyTypeschema_TaxonomyId_TxsdCompetencyTypeSequenceTaxonomyId_ instance.
@@ -16069,7 +16069,7 @@ func (me *XsdGoPkgHasElem_TaxonomyIdsequenceCompetencyTypeschema_TaxonomyId_Txsd
 //	The date the person received their degree.
 type XsdGoPkgHasElems_DegreeDatesequenceEduDegreeTypeschema_DegreeDate_TFlexibleDatesType_ struct {
 	//	The date the person received their degree.
-	DegreeDates []*TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 DegreeDate"`
+	DegreeDates []*TFlexibleDatesType `xml:"DegreeDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DegreeDatesequenceEduDegreeTypeschema_DegreeDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DegreeDatesequenceEduDegreeTypeschema_DegreeDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DegreeDatesequenceEduDegreeTypeschema_DegreeDate_TFlexibleDatesType_ instance.
@@ -16095,7 +16095,7 @@ func (me *XsdGoPkgHasElems_DegreeDatesequenceEduDegreeTypeschema_DegreeDate_TFle
 }
 
 type XsdGoPkgHasElems_AnswersequenceEmploymentQuestionAnswerPairTypeschema_Answer_XsdtString_ struct {
-	Answers []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Answer"`
+	Answers []xsdt.String `xml:"Answer"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AnswersequenceEmploymentQuestionAnswerPairTypeschema_Answer_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AnswersequenceEmploymentQuestionAnswerPairTypeschema_Answer_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AnswersequenceEmploymentQuestionAnswerPairTypeschema_Answer_XsdtString_ instance.
@@ -16118,7 +16118,7 @@ func (me *XsdGoPkgHasElems_AnswersequenceEmploymentQuestionAnswerPairTypeschema_
 //	Contains details about papers or presentations prepared for delivery at a conference.
 type XsdGoPkgHasElem_ConferencePapersequencePublicationHistoryTypeschema_ConferencePaper_TConferencePaperType_ struct {
 	//	Contains details about papers or presentations prepared for delivery at a conference.
-	ConferencePaper *TConferencePaperType `xml:"http://ns.hr-xml.org/2006-02-28 ConferencePaper"`
+	ConferencePaper *TConferencePaperType `xml:"ConferencePaper"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_ConferencePapersequencePublicationHistoryTypeschema_ConferencePaper_TConferencePaperType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ConferencePapersequencePublicationHistoryTypeschema_ConferencePaper_TConferencePaperType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ConferencePapersequencePublicationHistoryTypeschema_ConferencePaper_TConferencePaperType_ instance.
@@ -16142,7 +16142,7 @@ func (me *XsdGoPkgHasElem_ConferencePapersequencePublicationHistoryTypeschema_Co
 }
 
 type XsdGoPkgHasElems_ContactInfosequenceStructuredXMLResumeTypeschema_ContactInfo_TSEPContactInfoType_ struct {
-	ContactInfos []*TSEPContactInfoType `xml:"http://ns.hr-xml.org/2006-02-28 ContactInfo"`
+	ContactInfos []*TSEPContactInfoType `xml:"ContactInfo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ContactInfosequenceStructuredXMLResumeTypeschema_ContactInfo_TSEPContactInfoType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ContactInfosequenceStructuredXMLResumeTypeschema_ContactInfo_TSEPContactInfoType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ContactInfosequenceStructuredXMLResumeTypeschema_ContactInfo_TSEPContactInfoType_ instance.
@@ -16168,7 +16168,7 @@ func (me *XsdGoPkgHasElems_ContactInfosequenceStructuredXMLResumeTypeschema_Cont
 }
 
 type XsdGoPkgHasElem_CompetencyEvidencesequenceCompetencyTypeschema_CompetencyEvidence_TxsdCompetencyTypeSequenceCompetencyEvidence_ struct {
-	CompetencyEvidence *TxsdCompetencyTypeSequenceCompetencyEvidence `xml:"http://ns.hr-xml.org/2006-02-28 CompetencyEvidence"`
+	CompetencyEvidence *TxsdCompetencyTypeSequenceCompetencyEvidence `xml:"CompetencyEvidence"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CompetencyEvidencesequenceCompetencyTypeschema_CompetencyEvidence_TxsdCompetencyTypeSequenceCompetencyEvidence_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CompetencyEvidencesequenceCompetencyTypeschema_CompetencyEvidence_TxsdCompetencyTypeSequenceCompetencyEvidence_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CompetencyEvidencesequenceCompetencyTypeschema_CompetencyEvidence_TxsdCompetencyTypeSequenceCompetencyEvidence_ instance.
@@ -16192,7 +16192,7 @@ func (me *XsdGoPkgHasElem_CompetencyEvidencesequenceCompetencyTypeschema_Compete
 }
 
 type XsdGoPkgHasElem_OrgIndustrysequencePositionHistoryTypeschema_OrgIndustry_TPositionOrgIndustryType_ struct {
-	OrgIndustry *TPositionOrgIndustryType `xml:"http://ns.hr-xml.org/2006-02-28 OrgIndustry"`
+	OrgIndustry *TPositionOrgIndustryType `xml:"OrgIndustry"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OrgIndustrysequencePositionHistoryTypeschema_OrgIndustry_TPositionOrgIndustryType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OrgIndustrysequencePositionHistoryTypeschema_OrgIndustry_TPositionOrgIndustryType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_OrgIndustrysequencePositionHistoryTypeschema_OrgIndustry_TPositionOrgIndustryType_ instance.
@@ -16218,7 +16218,7 @@ func (me *XsdGoPkgHasElem_OrgIndustrysequencePositionHistoryTypeschema_OrgIndust
 //	Deprecated in favor of OrganizationName element.
 type XsdGoPkgHasElems_OrganizationsequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_Organization_XsdtString_ struct {
 	//	Deprecated in favor of OrganizationName element.
-	Organizations []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Organization"`
+	Organizations []xsdt.String `xml:"Organization"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_OrganizationsequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_Organization_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OrganizationsequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_Organization_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OrganizationsequenceTxsdPostalAddressTypeSequenceRecipientRecipientsequencePostalAddressTypeschema_Organization_XsdtString_ instance.
@@ -16239,7 +16239,7 @@ func (me *XsdGoPkgHasElems_OrganizationsequenceTxsdPostalAddressTypeSequenceReci
 }
 
 type XsdGoPkgHasElems_CopyrightsequenceBasicBibliographicRecordTypeschema_Copyright_TCopyrightType_ struct {
-	Copyrights []*TCopyrightType `xml:"http://ns.hr-xml.org/2006-02-28 Copyright"`
+	Copyrights []*TCopyrightType `xml:"Copyright"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CopyrightsequenceBasicBibliographicRecordTypeschema_Copyright_TCopyrightType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CopyrightsequenceBasicBibliographicRecordTypeschema_Copyright_TCopyrightType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CopyrightsequenceBasicBibliographicRecordTypeschema_Copyright_TCopyrightType_ instance.
@@ -16267,7 +16267,7 @@ func (me *XsdGoPkgHasElems_CopyrightsequenceBasicBibliographicRecordTypeschema_C
 //	Reflects the official names of any and all major concentrations associated with the student's degree title. For example, a Math major may have an Applied Math concentration even though this area of concentration is not required to pursue a Math major.
 type XsdGoPkgHasElem_DegreeConcentrationsequenceMajorTypeschema_DegreeConcentration_XsdtString_ struct {
 	//	Reflects the official names of any and all major concentrations associated with the student's degree title. For example, a Math major may have an Applied Math concentration even though this area of concentration is not required to pursue a Math major.
-	DegreeConcentration xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 DegreeConcentration"`
+	DegreeConcentration xsdt.String `xml:"DegreeConcentration"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DegreeConcentrationsequenceMajorTypeschema_DegreeConcentration_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DegreeConcentrationsequenceMajorTypeschema_DegreeConcentration_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_DegreeConcentrationsequenceMajorTypeschema_DegreeConcentration_XsdtString_ instance.
@@ -16288,7 +16288,7 @@ func (me *XsdGoPkgHasElem_DegreeConcentrationsequenceMajorTypeschema_DegreeConce
 }
 
 type XsdGoPkgHasElems_UnitOrDivisionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_UnitOrDivision_XsdtString_ struct {
-	UnitOrDivisions []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 UnitOrDivision"`
+	UnitOrDivisions []xsdt.String `xml:"UnitOrDivision"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_UnitOrDivisionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_UnitOrDivision_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_UnitOrDivisionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_UnitOrDivision_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_UnitOrDivisionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_UnitOrDivision_XsdtString_ instance.
@@ -16311,7 +16311,7 @@ func (me *XsdGoPkgHasElems_UnitOrDivisionsequenceTxsdMilitaryHistoryTypeSequence
 //	Code indicating the type of credit used (awarded) by the institution.
 type XsdGoPkgHasElems_AcademicCreditCodesequenceEducationalMeasureTypeschema_AcademicCreditCode_TAcademicCreditCodeType_ struct {
 	//	Code indicating the type of credit used (awarded) by the institution.
-	AcademicCreditCodes []TAcademicCreditCodeType `xml:"http://ns.hr-xml.org/2006-02-28 AcademicCreditCode"`
+	AcademicCreditCodes []TAcademicCreditCodeType `xml:"AcademicCreditCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AcademicCreditCodesequenceEducationalMeasureTypeschema_AcademicCreditCode_TAcademicCreditCodeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AcademicCreditCodesequenceEducationalMeasureTypeschema_AcademicCreditCode_TAcademicCreditCodeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AcademicCreditCodesequenceEducationalMeasureTypeschema_AcademicCreditCode_TAcademicCreditCodeType_ instance.
@@ -16332,7 +16332,7 @@ func (me *XsdGoPkgHasElems_AcademicCreditCodesequenceEducationalMeasureTypeschem
 }
 
 type XsdGoPkgHasElems_ObjectivesequenceStructuredXMLResumeTypeschema_Objective_XsdtString_ struct {
-	Objectives []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Objective"`
+	Objectives []xsdt.String `xml:"Objective"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ObjectivesequenceStructuredXMLResumeTypeschema_Objective_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ObjectivesequenceStructuredXMLResumeTypeschema_Objective_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ObjectivesequenceStructuredXMLResumeTypeschema_Objective_XsdtString_ instance.
@@ -16353,7 +16353,7 @@ func (me *XsdGoPkgHasElems_ObjectivesequenceStructuredXMLResumeTypeschema_Object
 }
 
 type XsdGoPkgHasElems_TaxonomyNamesequenceOccupationalCategoryTypeschema_TaxonomyName_TxsdOccupationalCategoryTypeSequenceTaxonomyName_ struct {
-	TaxonomyNames []*TxsdOccupationalCategoryTypeSequenceTaxonomyName `xml:"http://ns.hr-xml.org/2006-02-28 TaxonomyName"`
+	TaxonomyNames []*TxsdOccupationalCategoryTypeSequenceTaxonomyName `xml:"TaxonomyName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_TaxonomyNamesequenceOccupationalCategoryTypeschema_TaxonomyName_TxsdOccupationalCategoryTypeSequenceTaxonomyName_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TaxonomyNamesequenceOccupationalCategoryTypeschema_TaxonomyName_TxsdOccupationalCategoryTypeSequenceTaxonomyName_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TaxonomyNamesequenceOccupationalCategoryTypeschema_TaxonomyName_TxsdOccupationalCategoryTypeSequenceTaxonomyName_ instance.
@@ -16379,7 +16379,7 @@ func (me *XsdGoPkgHasElems_TaxonomyNamesequenceOccupationalCategoryTypeschema_Ta
 }
 
 type XsdGoPkgHasElems_JobPlansequenceJobLevelInfoTypeschema_JobPlan_XsdtString_ struct {
-	JobPlans []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 JobPlan"`
+	JobPlans []xsdt.String `xml:"JobPlan"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_JobPlansequenceJobLevelInfoTypeschema_JobPlan_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_JobPlansequenceJobLevelInfoTypeschema_JobPlan_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_JobPlansequenceJobLevelInfoTypeschema_JobPlan_XsdtString_ instance.
@@ -16400,7 +16400,7 @@ func (me *XsdGoPkgHasElems_JobPlansequenceJobLevelInfoTypeschema_JobPlan_XsdtStr
 }
 
 type XsdGoPkgHasElems_DatesOfServicesequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DatesOfService_TDatesOfServiceType_ struct {
-	DatesOfServices []*TDatesOfServiceType `xml:"http://ns.hr-xml.org/2006-02-28 DatesOfService"`
+	DatesOfServices []*TDatesOfServiceType `xml:"DatesOfService"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DatesOfServicesequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DatesOfService_TDatesOfServiceType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DatesOfServicesequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DatesOfService_TDatesOfServiceType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DatesOfServicesequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DatesOfService_TDatesOfServiceType_ instance.
@@ -16426,7 +16426,7 @@ func (me *XsdGoPkgHasElems_DatesOfServicesequenceTxsdMilitaryHistoryTypeSequence
 }
 
 type XsdGoPkgHasElems_EndingCompensationsequencePositionCompensationTypeschema_EndingCompensation_TxsdPositionCompensationTypeSequenceEndingCompensation_ struct {
-	EndingCompensations []*TxsdPositionCompensationTypeSequenceStartingCompensation `xml:"http://ns.hr-xml.org/2006-02-28 EndingCompensation"`
+	EndingCompensations []*TxsdPositionCompensationTypeSequenceStartingCompensation `xml:"EndingCompensation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EndingCompensationsequencePositionCompensationTypeschema_EndingCompensation_TxsdPositionCompensationTypeSequenceEndingCompensation_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EndingCompensationsequencePositionCompensationTypeschema_EndingCompensation_TxsdPositionCompensationTypeSequenceEndingCompensation_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EndingCompensationsequencePositionCompensationTypeschema_EndingCompensation_TxsdPositionCompensationTypeSequenceEndingCompensation_ instance.
@@ -16454,7 +16454,7 @@ func (me *XsdGoPkgHasElems_EndingCompensationsequencePositionCompensationTypesch
 //	Deprecated in favor of Degree construct.
 type XsdGoPkgHasElems_DatesOfAttendancesequenceSchoolOrInstitutionTypeschema_DatesOfAttendance_TDeprecatedDatesOfAttendanceType_ struct {
 	//	Deprecated in favor of Degree construct.
-	DatesOfAttendances []*TDeprecatedDatesOfAttendanceType `xml:"http://ns.hr-xml.org/2006-02-28 DatesOfAttendance"`
+	DatesOfAttendances []*TDeprecatedDatesOfAttendanceType `xml:"DatesOfAttendance"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DatesOfAttendancesequenceSchoolOrInstitutionTypeschema_DatesOfAttendance_TDeprecatedDatesOfAttendanceType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DatesOfAttendancesequenceSchoolOrInstitutionTypeschema_DatesOfAttendance_TDeprecatedDatesOfAttendanceType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DatesOfAttendancesequenceSchoolOrInstitutionTypeschema_DatesOfAttendance_TDeprecatedDatesOfAttendanceType_ instance.
@@ -16480,7 +16480,7 @@ func (me *XsdGoPkgHasElems_DatesOfAttendancesequenceSchoolOrInstitutionTypeschem
 }
 
 type XsdGoPkgHasElem_DisciplinaryActionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DisciplinaryAction_XsdtString_ struct {
-	DisciplinaryAction xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 DisciplinaryAction"`
+	DisciplinaryAction xsdt.String `xml:"DisciplinaryAction"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DisciplinaryActionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DisciplinaryAction_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DisciplinaryActionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DisciplinaryAction_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_DisciplinaryActionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_DisciplinaryAction_XsdtString_ instance.
@@ -16503,7 +16503,7 @@ func (me *XsdGoPkgHasElem_DisciplinaryActionsequenceTxsdMilitaryHistoryTypeSeque
 //	Code indicating the level or type or both, of work which is reflected in the grade average and the credit hours
 type XsdGoPkgHasElems_CourseLevelCodesequenceEducationalMeasureTypeschema_CourseLevelCode_TCourseLevelCodeType_ struct {
 	//	Code indicating the level or type or both, of work which is reflected in the grade average and the credit hours
-	CourseLevelCodes []TCourseLevelCodeType `xml:"http://ns.hr-xml.org/2006-02-28 CourseLevelCode"`
+	CourseLevelCodes []TCourseLevelCodeType `xml:"CourseLevelCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CourseLevelCodesequenceEducationalMeasureTypeschema_CourseLevelCode_TCourseLevelCodeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CourseLevelCodesequenceEducationalMeasureTypeschema_CourseLevelCode_TCourseLevelCodeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CourseLevelCodesequenceEducationalMeasureTypeschema_CourseLevelCode_TCourseLevelCodeType_ instance.
@@ -16526,7 +16526,7 @@ func (me *XsdGoPkgHasElems_CourseLevelCodesequenceEducationalMeasureTypeschema_C
 //	This is the total number of credits (or credit hours) included in the grade point average for this particular summary. Inclusion or exclusion of certain credits depends on the policy of the sending institution.
 type XsdGoPkgHasElems_AcademicCreditHoursIncludedsequenceEducationalMeasureTypeschema_AcademicCreditHoursIncluded_XsdtDecimal_ struct {
 	//	This is the total number of credits (or credit hours) included in the grade point average for this particular summary. Inclusion or exclusion of certain credits depends on the policy of the sending institution.
-	AcademicCreditHoursIncludeds []xsdt.Decimal `xml:"http://ns.hr-xml.org/2006-02-28 AcademicCreditHoursIncluded"`
+	AcademicCreditHoursIncludeds []xsdt.Decimal `xml:"AcademicCreditHoursIncluded"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AcademicCreditHoursIncludedsequenceEducationalMeasureTypeschema_AcademicCreditHoursIncluded_XsdtDecimal_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AcademicCreditHoursIncludedsequenceEducationalMeasureTypeschema_AcademicCreditHoursIncluded_XsdtDecimal_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AcademicCreditHoursIncludedsequenceEducationalMeasureTypeschema_AcademicCreditHoursIncluded_XsdtDecimal_ instance.
@@ -16547,7 +16547,7 @@ func (me *XsdGoPkgHasElems_AcademicCreditHoursIncludedsequenceEducationalMeasure
 }
 
 type XsdGoPkgHasElems_JobGradesequenceJobLevelInfoTypeschema_JobGrade_XsdtString_ struct {
-	JobGrades []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 JobGrade"`
+	JobGrades []xsdt.String `xml:"JobGrade"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_JobGradesequenceJobLevelInfoTypeschema_JobGrade_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_JobGradesequenceJobLevelInfoTypeschema_JobGrade_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_JobGradesequenceJobLevelInfoTypeschema_JobGrade_XsdtString_ instance.
@@ -16568,7 +16568,7 @@ func (me *XsdGoPkgHasElems_JobGradesequenceJobLevelInfoTypeschema_JobGrade_XsdtS
 }
 
 type XsdGoPkgHasElem_JobLevelInfosequencePositionHistoryTypeschema_JobLevelInfo_TJobLevelInfoType_ struct {
-	JobLevelInfo *TJobLevelInfoType `xml:"http://ns.hr-xml.org/2006-02-28 JobLevelInfo"`
+	JobLevelInfo *TJobLevelInfoType `xml:"JobLevelInfo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_JobLevelInfosequencePositionHistoryTypeschema_JobLevelInfo_TJobLevelInfoType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_JobLevelInfosequencePositionHistoryTypeschema_JobLevelInfo_TJobLevelInfoType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_JobLevelInfosequencePositionHistoryTypeschema_JobLevelInfo_TJobLevelInfoType_ instance.
@@ -16592,7 +16592,7 @@ func (me *XsdGoPkgHasElem_JobLevelInfosequencePositionHistoryTypeschema_JobLevel
 }
 
 type XsdGoPkgHasElems_StreetNamesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_StreetName_XsdtString_ struct {
-	StreetNames []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 StreetName"`
+	StreetNames []xsdt.String `xml:"StreetName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_StreetNamesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_StreetName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_StreetNamesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_StreetName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_StreetNamesequenceTxsdPostalAddressTypeSequenceDeliveryAddressDeliveryAddresssequencePostalAddressTypeschema_StreetName_XsdtString_ instance.
@@ -16615,7 +16615,7 @@ func (me *XsdGoPkgHasElems_StreetNamesequenceTxsdPostalAddressTypeSequenceDelive
 //	Deprecated in favor of Degree construct.
 type XsdGoPkgHasElems_MeasuresequenceSchoolOrInstitutionTypeschema_Measure_TEduMeasureType_ struct {
 	//	Deprecated in favor of Degree construct.
-	Measures []*TEduMeasureType `xml:"http://ns.hr-xml.org/2006-02-28 Measure"`
+	Measures []*TEduMeasureType `xml:"Measure"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_MeasuresequenceSchoolOrInstitutionTypeschema_Measure_TEduMeasureType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MeasuresequenceSchoolOrInstitutionTypeschema_Measure_TEduMeasureType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MeasuresequenceSchoolOrInstitutionTypeschema_Measure_TEduMeasureType_ instance.
@@ -16641,7 +16641,7 @@ func (me *XsdGoPkgHasElems_MeasuresequenceSchoolOrInstitutionTypeschema_Measure_
 }
 
 type XsdGoPkgHasElems_QualificationSummarysequenceQualificationssequenceStructuredXMLResumeTypeschema_QualificationSummary_XsdtString_ struct {
-	QualificationSummaries []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 QualificationSummary"`
+	QualificationSummaries []xsdt.String `xml:"QualificationSummary"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_QualificationSummarysequenceQualificationssequenceStructuredXMLResumeTypeschema_QualificationSummary_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_QualificationSummarysequenceQualificationssequenceStructuredXMLResumeTypeschema_QualificationSummary_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_QualificationSummarysequenceQualificationssequenceStructuredXMLResumeTypeschema_QualificationSummary_XsdtString_ instance.
@@ -16664,7 +16664,7 @@ func (me *XsdGoPkgHasElems_QualificationSummarysequenceQualificationssequenceStr
 //	Identifies the measurement system.  i.e. GPA
 type XsdGoPkgHasElems_EducationalMeasuresequenceEducationalMeasureTypeschema_EducationalMeasure_TEducationMeasureType_ struct {
 	//	Identifies the measurement system.  i.e. GPA
-	EducationalMeasures []*TEducationMeasureType `xml:"http://ns.hr-xml.org/2006-02-28 EducationalMeasure"`
+	EducationalMeasures []*TEducationMeasureType `xml:"EducationalMeasure"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EducationalMeasuresequenceEducationalMeasureTypeschema_EducationalMeasure_TEducationMeasureType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EducationalMeasuresequenceEducationalMeasureTypeschema_EducationalMeasure_TEducationMeasureType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EducationalMeasuresequenceEducationalMeasureTypeschema_EducationalMeasure_TEducationMeasureType_ instance.
@@ -16690,7 +16690,7 @@ func (me *XsdGoPkgHasElems_EducationalMeasuresequenceEducationalMeasureTypeschem
 }
 
 type XsdGoPkgHasElem_RolesequenceAssociationTypeschema_Role_TxsdAssociationTypeSequenceRole_ struct {
-	Role *TxsdAssociationTypeSequenceRole `xml:"http://ns.hr-xml.org/2006-02-28 Role"`
+	Role *TxsdAssociationTypeSequenceRole `xml:"Role"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_RolesequenceAssociationTypeschema_Role_TxsdAssociationTypeSequenceRole_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_RolesequenceAssociationTypeschema_Role_TxsdAssociationTypeSequenceRole_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_RolesequenceAssociationTypeschema_Role_TxsdAssociationTypeSequenceRole_ instance.
@@ -16714,7 +16714,7 @@ func (me *XsdGoPkgHasElem_RolesequenceAssociationTypeschema_Role_TxsdAssociation
 }
 
 type XsdGoPkgHasElems_IdsequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Id_XsdtString_ struct {
-	Ids []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Id"`
+	Ids []xsdt.String `xml:"Id"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_IdsequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Id_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_IdsequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Id_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_IdsequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Id_XsdtString_ instance.
@@ -16758,7 +16758,7 @@ func (me *TSourceEnumType) Set(s string) { (*xsdt.String)(me).Set(s) }
 func (me TSourceEnumType) String() string { return xsdt.String(me).String() }
 
 type XsdGoPkgHasElems_StandardValuechoiceSourceTypeTypeschema_StandardValue_TSourceEnumType_ struct {
-	StandardValues []TSourceEnumType `xml:"http://ns.hr-xml.org/2006-02-28 StandardValue"`
+	StandardValues []TSourceEnumType `xml:"StandardValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_StandardValuechoiceSourceTypeTypeschema_StandardValue_TSourceEnumType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_StandardValuechoiceSourceTypeTypeschema_StandardValue_TSourceEnumType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_StandardValuechoiceSourceTypeTypeschema_StandardValue_TSourceEnumType_ instance.
@@ -16779,7 +16779,7 @@ func (me *XsdGoPkgHasElems_StandardValuechoiceSourceTypeTypeschema_StandardValue
 }
 
 type XsdGoPkgHasElems_MeasureSystemsequenceEduMeasureTypeschema_MeasureSystem_XsdtString_ struct {
-	MeasureSystems []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 MeasureSystem"`
+	MeasureSystems []xsdt.String `xml:"MeasureSystem"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_MeasureSystemsequenceEduMeasureTypeschema_MeasureSystem_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MeasureSystemsequenceEduMeasureTypeschema_MeasureSystem_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MeasureSystemsequenceEduMeasureTypeschema_MeasureSystem_XsdtString_ instance.
@@ -16800,7 +16800,7 @@ func (me *XsdGoPkgHasElems_MeasureSystemsequenceEduMeasureTypeschema_MeasureSyst
 }
 
 type XsdGoPkgHasElems_EffectiveDatesequenceCredentialTypeschema_EffectiveDate_TxsdCredentialTypeSequenceEffectiveDate_ struct {
-	EffectiveDates []*TxsdCredentialTypeSequenceEffectiveDate `xml:"http://ns.hr-xml.org/2006-02-28 EffectiveDate"`
+	EffectiveDates []*TxsdCredentialTypeSequenceEffectiveDate `xml:"EffectiveDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EffectiveDatesequenceCredentialTypeschema_EffectiveDate_TxsdCredentialTypeSequenceEffectiveDate_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EffectiveDatesequenceCredentialTypeschema_EffectiveDate_TxsdCredentialTypeSequenceEffectiveDate_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EffectiveDatesequenceCredentialTypeschema_EffectiveDate_TxsdCredentialTypeSequenceEffectiveDate_ instance.
@@ -16826,7 +16826,7 @@ func (me *XsdGoPkgHasElems_EffectiveDatesequenceCredentialTypeschema_EffectiveDa
 }
 
 type XsdGoPkgHasElem_AffixsequenceAlternateScriptsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix_ struct {
-	Affix *TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix `xml:"http://ns.hr-xml.org/2006-02-28 Affix"`
+	Affix *TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix `xml:"Affix"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AffixsequenceAlternateScriptsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AffixsequenceAlternateScriptsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_AffixsequenceAlternateScriptsequencePersonNameTypeschema_Affix_TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix_ instance.
@@ -16850,7 +16850,7 @@ func (me *XsdGoPkgHasElem_AffixsequenceAlternateScriptsequencePersonNameTypesche
 }
 
 type XsdGoPkgHasElems_QuestionsequenceEmploymentQuestionAnswerPairTypeschema_Question_XsdtString_ struct {
-	Questions []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Question"`
+	Questions []xsdt.String `xml:"Question"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_QuestionsequenceEmploymentQuestionAnswerPairTypeschema_Question_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_QuestionsequenceEmploymentQuestionAnswerPairTypeschema_Question_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_QuestionsequenceEmploymentQuestionAnswerPairTypeschema_Question_XsdtString_ instance.
@@ -16871,7 +16871,7 @@ func (me *XsdGoPkgHasElems_QuestionsequenceEmploymentQuestionAnswerPairTypeschem
 }
 
 type XsdGoPkgHasElems_MostRecentDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_MostRecentDate_TFlexibleDatesType_ struct {
-	MostRecentDates []*TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 MostRecentDate"`
+	MostRecentDates []*TFlexibleDatesType `xml:"MostRecentDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_MostRecentDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_MostRecentDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MostRecentDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_MostRecentDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MostRecentDatesequenceTxsdCopyrightTypeSequenceCopyrightDatesCopyrightDatessequenceCopyrightTypeschema_MostRecentDate_TFlexibleDatesType_ instance.
@@ -16897,7 +16897,7 @@ func (me *XsdGoPkgHasElems_MostRecentDatesequenceTxsdCopyrightTypeSequenceCopyri
 }
 
 type XsdGoPkgHasElem_CompetencyWeightsequenceCompetencyTypeschema_CompetencyWeight_TxsdCompetencyTypeSequenceCompetencyWeight_ struct {
-	CompetencyWeight *TxsdCompetencyTypeSequenceCompetencyWeight `xml:"http://ns.hr-xml.org/2006-02-28 CompetencyWeight"`
+	CompetencyWeight *TxsdCompetencyTypeSequenceCompetencyWeight `xml:"CompetencyWeight"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_CompetencyWeightsequenceCompetencyTypeschema_CompetencyWeight_TxsdCompetencyTypeSequenceCompetencyWeight_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CompetencyWeightsequenceCompetencyTypeschema_CompetencyWeight_TxsdCompetencyTypeSequenceCompetencyWeight_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CompetencyWeightsequenceCompetencyTypeschema_CompetencyWeight_TxsdCompetencyTypeSequenceCompetencyWeight_ instance.
@@ -16921,7 +16921,7 @@ func (me *XsdGoPkgHasElem_CompetencyWeightsequenceCompetencyTypeschema_Competenc
 }
 
 type XsdGoPkgHasElem_AlternateScriptsequencePersonNameTypeschema_AlternateScript_TxsdPersonNameTypeSequenceAlternateScript_ struct {
-	AlternateScript *TxsdPersonNameTypeSequenceAlternateScript `xml:"http://ns.hr-xml.org/2006-02-28 AlternateScript"`
+	AlternateScript *TxsdPersonNameTypeSequenceAlternateScript `xml:"AlternateScript"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AlternateScriptsequencePersonNameTypeschema_AlternateScript_TxsdPersonNameTypeSequenceAlternateScript_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AlternateScriptsequencePersonNameTypeschema_AlternateScript_TxsdPersonNameTypeSequenceAlternateScript_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_AlternateScriptsequencePersonNameTypeschema_AlternateScript_TxsdPersonNameTypeSequenceAlternateScript_ instance.
@@ -16945,7 +16945,7 @@ func (me *XsdGoPkgHasElem_AlternateScriptsequencePersonNameTypeschema_AlternateS
 }
 
 type XsdGoPkgHasElem_RecognitionAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RecognitionAchieved_XsdtString_ struct {
-	RecognitionAchieved xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 RecognitionAchieved"`
+	RecognitionAchieved xsdt.String `xml:"RecognitionAchieved"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_RecognitionAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RecognitionAchieved_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_RecognitionAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RecognitionAchieved_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_RecognitionAchievedsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_RecognitionAchieved_XsdtString_ instance.
@@ -16966,7 +16966,7 @@ func (me *XsdGoPkgHasElem_RecognitionAchievedsequenceTxsdMilitaryHistoryTypeSequ
 }
 
 type XsdGoPkgHasElems_IssuesequenceextensioncomplexContentArticleTypeschema_Issue_XsdtString_ struct {
-	Issues []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Issue"`
+	Issues []xsdt.String `xml:"Issue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_IssuesequenceextensioncomplexContentArticleTypeschema_Issue_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_IssuesequenceextensioncomplexContentArticleTypeschema_Issue_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_IssuesequenceextensioncomplexContentArticleTypeschema_Issue_XsdtString_ instance.
@@ -16987,7 +16987,7 @@ func (me *XsdGoPkgHasElems_IssuesequenceextensioncomplexContentArticleTypeschema
 }
 
 type XsdGoPkgHasElems_ValidTosequenceEffectiveDatesequenceCredentialTypeschema_ValidTo_TFlexibleDatesType_ struct {
-	ValidTos []*TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 ValidTo"`
+	ValidTos []*TFlexibleDatesType `xml:"ValidTo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ValidTosequenceEffectiveDatesequenceCredentialTypeschema_ValidTo_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ValidTosequenceEffectiveDatesequenceCredentialTypeschema_ValidTo_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ValidTosequenceEffectiveDatesequenceCredentialTypeschema_ValidTo_TFlexibleDatesType_ instance.
@@ -17013,7 +17013,7 @@ func (me *XsdGoPkgHasElems_ValidTosequenceEffectiveDatesequenceCredentialTypesch
 }
 
 type XsdGoPkgHasElems_JobStepsequenceJobLevelInfoTypeschema_JobStep_XsdtString_ struct {
-	JobSteps []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 JobStep"`
+	JobSteps []xsdt.String `xml:"JobStep"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_JobStepsequenceJobLevelInfoTypeschema_JobStep_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_JobStepsequenceJobLevelInfoTypeschema_JobStep_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_JobStepsequenceJobLevelInfoTypeschema_JobStep_XsdtString_ instance.
@@ -17034,7 +17034,7 @@ func (me *XsdGoPkgHasElems_JobStepsequenceJobLevelInfoTypeschema_JobStep_XsdtStr
 }
 
 type XsdGoPkgHasElems_ContactInfosequenceVerificationTypeschema_ContactInfo_TxsdVerificationTypeSequenceContactInfo_ struct {
-	ContactInfos []*TxsdVerificationTypeSequenceContactInfo `xml:"http://ns.hr-xml.org/2006-02-28 ContactInfo"`
+	ContactInfos []*TxsdVerificationTypeSequenceContactInfo `xml:"ContactInfo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ContactInfosequenceVerificationTypeschema_ContactInfo_TxsdVerificationTypeSequenceContactInfo_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ContactInfosequenceVerificationTypeschema_ContactInfo_TxsdVerificationTypeSequenceContactInfo_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ContactInfosequenceVerificationTypeschema_ContactInfo_TxsdVerificationTypeSequenceContactInfo_ instance.
@@ -17060,7 +17060,7 @@ func (me *XsdGoPkgHasElems_ContactInfosequenceVerificationTypeschema_ContactInfo
 }
 
 type XsdGoPkgHasElems_VerifyEmploymentsequenceVerificationTypeschema_VerifyEmployment_XsdtBoolean_ struct {
-	VerifyEmployments []xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 VerifyEmployment"`
+	VerifyEmployments []xsdt.Boolean `xml:"VerifyEmployment"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_VerifyEmploymentsequenceVerificationTypeschema_VerifyEmployment_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_VerifyEmploymentsequenceVerificationTypeschema_VerifyEmployment_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_VerifyEmploymentsequenceVerificationTypeschema_VerifyEmployment_XsdtBoolean_ instance.
@@ -17081,7 +17081,7 @@ func (me *XsdGoPkgHasElems_VerifyEmploymentsequenceVerificationTypeschema_Verify
 }
 
 type XsdGoPkgHasElems_ServiceStatussequenceMilitaryHistoryTypeschema_ServiceStatus_XsdtString_ struct {
-	ServiceStatuses []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 ServiceStatus"`
+	ServiceStatuses []xsdt.String `xml:"ServiceStatus"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ServiceStatussequenceMilitaryHistoryTypeschema_ServiceStatus_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ServiceStatussequenceMilitaryHistoryTypeschema_ServiceStatus_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ServiceStatussequenceMilitaryHistoryTypeschema_ServiceStatus_XsdtString_ instance.
@@ -17102,7 +17102,7 @@ func (me *XsdGoPkgHasElems_ServiceStatussequenceMilitaryHistoryTypeschema_Servic
 }
 
 type XsdGoPkgHasElem_PatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_PatentMilestone_TxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestone_ struct {
-	PatentMilestone *TxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestone `xml:"http://ns.hr-xml.org/2006-02-28 PatentMilestone"`
+	PatentMilestone *TxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestone `xml:"PatentMilestone"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_PatentMilestone_TxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestone_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_PatentMilestone_TxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestone_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_PatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_PatentMilestone_TxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestone_ instance.
@@ -17126,7 +17126,7 @@ func (me *XsdGoPkgHasElem_PatentMilestonesequenceTxsdPatentDescriptionTypeSequen
 }
 
 type XsdGoPkgHasElems_PositionTitlesequenceReferenceTypeschema_PositionTitle_XsdtString_ struct {
-	PositionTitles []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 PositionTitle"`
+	PositionTitles []xsdt.String `xml:"PositionTitle"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PositionTitlesequenceReferenceTypeschema_PositionTitle_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PositionTitlesequenceReferenceTypeschema_PositionTitle_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PositionTitlesequenceReferenceTypeschema_PositionTitle_XsdtString_ instance.
@@ -17149,7 +17149,7 @@ func (me *XsdGoPkgHasElems_PositionTitlesequenceReferenceTypeschema_PositionTitl
 //	This is a code indicating that an A+ grade has a value higher than the highest possible GPA.  False - It is not possible to have a higher GPA than indicated in Range Maximum.  True - It is possible to have a higher GPA than indicated in Range Maximum.
 type XsdGoPkgHasElems_ExcessiveValueIndicatorsequenceEducationMeasureTypeschema_ExcessiveValueIndicator_XsdtBoolean_ struct {
 	//	This is a code indicating that an A+ grade has a value higher than the highest possible GPA.  False - It is not possible to have a higher GPA than indicated in Range Maximum.  True - It is possible to have a higher GPA than indicated in Range Maximum.
-	ExcessiveValueIndicators []xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 ExcessiveValueIndicator"`
+	ExcessiveValueIndicators []xsdt.Boolean `xml:"ExcessiveValueIndicator"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ExcessiveValueIndicatorsequenceEducationMeasureTypeschema_ExcessiveValueIndicator_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ExcessiveValueIndicatorsequenceEducationMeasureTypeschema_ExcessiveValueIndicator_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ExcessiveValueIndicatorsequenceEducationMeasureTypeschema_ExcessiveValueIndicator_XsdtBoolean_ instance.
@@ -17170,7 +17170,7 @@ func (me *XsdGoPkgHasElems_ExcessiveValueIndicatorsequenceEducationMeasureTypesc
 }
 
 type XsdGoPkgHasElems_CountryCodesequencePostalAddressTypeschema_CountryCode_TxsdPostalAddressTypeSequenceCountryCode_ struct {
-	CountryCodes []TCurrencyCodeType `xml:"http://ns.hr-xml.org/2006-02-28 CountryCode"`
+	CountryCodes []TCurrencyCodeType `xml:"CountryCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CountryCodesequencePostalAddressTypeschema_CountryCode_TxsdPostalAddressTypeSequenceCountryCode_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CountryCodesequencePostalAddressTypeschema_CountryCode_TxsdPostalAddressTypeSequenceCountryCode_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CountryCodesequencePostalAddressTypeschema_CountryCode_TxsdPostalAddressTypeSequenceCountryCode_ instance.
@@ -17191,7 +17191,7 @@ func (me *XsdGoPkgHasElems_CountryCodesequencePostalAddressTypeschema_CountryCod
 }
 
 type XsdGoPkgHasElems_FirstIssuedDatesequenceEffectiveDatesequenceCredentialTypeschema_FirstIssuedDate_TFlexibleDatesType_ struct {
-	FirstIssuedDates []*TFlexibleDatesType `xml:"http://ns.hr-xml.org/2006-02-28 FirstIssuedDate"`
+	FirstIssuedDates []*TFlexibleDatesType `xml:"FirstIssuedDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_FirstIssuedDatesequenceEffectiveDatesequenceCredentialTypeschema_FirstIssuedDate_TFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_FirstIssuedDatesequenceEffectiveDatesequenceCredentialTypeschema_FirstIssuedDate_TFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_FirstIssuedDatesequenceEffectiveDatesequenceCredentialTypeschema_FirstIssuedDate_TFlexibleDatesType_ instance.
@@ -17219,7 +17219,7 @@ func (me *XsdGoPkgHasElems_FirstIssuedDatesequenceEffectiveDatesequenceCredentia
 //	The campus, department or other organizational unit for the educational institution.
 type XsdGoPkgHasElem_OrganizationUnitsequenceSchoolOrInstitutionTypeschema_OrganizationUnit_TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit_ struct {
 	//	The campus, department or other organizational unit for the educational institution.
-	OrganizationUnit *TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit `xml:"http://ns.hr-xml.org/2006-02-28 OrganizationUnit"`
+	OrganizationUnit *TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit `xml:"OrganizationUnit"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OrganizationUnitsequenceSchoolOrInstitutionTypeschema_OrganizationUnit_TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OrganizationUnitsequenceSchoolOrInstitutionTypeschema_OrganizationUnit_TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_OrganizationUnitsequenceSchoolOrInstitutionTypeschema_OrganizationUnit_TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit_ instance.
@@ -17254,7 +17254,7 @@ func (me TLocalTimeType) String() string { return xsdt.Time(me).String() }
 func (me TLocalTimeType) ToXsdtTime() xsdt.Time { return xsdt.Time(me) }
 
 type XsdGoPkgHasElems_MeasureValuesequenceEduMeasureTypeschema_MeasureValue_XsdtString_ struct {
-	MeasureValues []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 MeasureValue"`
+	MeasureValues []xsdt.String `xml:"MeasureValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_MeasureValuesequenceEduMeasureTypeschema_MeasureValue_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MeasureValuesequenceEduMeasureTypeschema_MeasureValue_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MeasureValuesequenceEduMeasureTypeschema_MeasureValue_XsdtString_ instance.
@@ -17275,7 +17275,7 @@ func (me *XsdGoPkgHasElems_MeasureValuesequenceEduMeasureTypeschema_MeasureValue
 }
 
 type XsdGoPkgHasElems_StatussequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Status_TPatentStatusTypes_ struct {
-	Statuses []TPatentStatusTypes `xml:"http://ns.hr-xml.org/2006-02-28 Status"`
+	Statuses []TPatentStatusTypes `xml:"Status"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_StatussequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Status_TPatentStatusTypes_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_StatussequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Status_TPatentStatusTypes_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_StatussequenceTxsdPatentDescriptionTypeSequencePatentDetailSequencePatentMilestonePatentMilestonesequenceTxsdPatentDescriptionTypeSequencePatentDetailPatentDetailsequencePatentDescriptionTypeschema_Status_TPatentStatusTypes_ instance.
@@ -17296,7 +17296,7 @@ func (me *XsdGoPkgHasElems_StatussequenceTxsdPatentDescriptionTypeSequencePatent
 }
 
 type XsdGoPkgHasElem_EmployerOrgsequenceEmploymentHistoryTypeschema_EmployerOrg_TEmployerOrgDataType_ struct {
-	EmployerOrg *TEmployerOrgDataType `xml:"http://ns.hr-xml.org/2006-02-28 EmployerOrg"`
+	EmployerOrg *TEmployerOrgDataType `xml:"EmployerOrg"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_EmployerOrgsequenceEmploymentHistoryTypeschema_EmployerOrg_TEmployerOrgDataType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EmployerOrgsequenceEmploymentHistoryTypeschema_EmployerOrg_TEmployerOrgDataType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_EmployerOrgsequenceEmploymentHistoryTypeschema_EmployerOrg_TEmployerOrgDataType_ instance.
@@ -17320,7 +17320,7 @@ func (me *XsdGoPkgHasElem_EmployerOrgsequenceEmploymentHistoryTypeschema_Employe
 }
 
 type XsdGoPkgHasElems_EmployerContactInfosequenceEmployerOrgDataTypeschema_EmployerContactInfo_TEmpContactInfoType_ struct {
-	EmployerContactInfos []*TEmpContactInfoType `xml:"http://ns.hr-xml.org/2006-02-28 EmployerContactInfo"`
+	EmployerContactInfos []*TEmpContactInfoType `xml:"EmployerContactInfo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EmployerContactInfosequenceEmployerOrgDataTypeschema_EmployerContactInfo_TEmpContactInfoType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EmployerContactInfosequenceEmployerOrgDataTypeschema_EmployerContactInfo_TEmpContactInfoType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EmployerContactInfosequenceEmployerOrgDataTypeschema_EmployerContactInfo_TEmpContactInfoType_ instance.
@@ -17346,7 +17346,7 @@ func (me *XsdGoPkgHasElems_EmployerContactInfosequenceEmployerOrgDataTypeschema_
 }
 
 type XsdGoPkgHasElems_JournalOrSerialNamesequenceextensioncomplexContentArticleTypeschema_JournalOrSerialName_XsdtString_ struct {
-	JournalOrSerialNames []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 JournalOrSerialName"`
+	JournalOrSerialNames []xsdt.String `xml:"JournalOrSerialName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_JournalOrSerialNamesequenceextensioncomplexContentArticleTypeschema_JournalOrSerialName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_JournalOrSerialNamesequenceextensioncomplexContentArticleTypeschema_JournalOrSerialName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_JournalOrSerialNamesequenceextensioncomplexContentArticleTypeschema_JournalOrSerialName_XsdtString_ instance.
@@ -17367,7 +17367,7 @@ func (me *XsdGoPkgHasElems_JournalOrSerialNamesequenceextensioncomplexContentArt
 }
 
 type XsdGoPkgHasElems_IssuingAuthoritysequenceCredentialTypeschema_IssuingAuthority_TIssuingAuthorityType_ struct {
-	IssuingAuthorities []*TIssuingAuthorityType `xml:"http://ns.hr-xml.org/2006-02-28 IssuingAuthority"`
+	IssuingAuthorities []*TIssuingAuthorityType `xml:"IssuingAuthority"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_IssuingAuthoritysequenceCredentialTypeschema_IssuingAuthority_TIssuingAuthorityType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_IssuingAuthoritysequenceCredentialTypeschema_IssuingAuthority_TIssuingAuthorityType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_IssuingAuthoritysequenceCredentialTypeschema_IssuingAuthority_TIssuingAuthorityType_ instance.
@@ -17393,7 +17393,7 @@ func (me *XsdGoPkgHasElems_IssuingAuthoritysequenceCredentialTypeschema_IssuingA
 }
 
 type XsdGoPkgHasElem_StandardValuechoiceSourceTypeTypeschema_StandardValue_TSourceEnumType_ struct {
-	StandardValue TSourceEnumType `xml:"http://ns.hr-xml.org/2006-02-28 StandardValue"`
+	StandardValue TSourceEnumType `xml:"StandardValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_StandardValuechoiceSourceTypeTypeschema_StandardValue_TSourceEnumType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_StandardValuechoiceSourceTypeTypeschema_StandardValue_TSourceEnumType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_StandardValuechoiceSourceTypeTypeschema_StandardValue_TSourceEnumType_ instance.
@@ -17414,7 +17414,7 @@ func (me *XsdGoPkgHasElem_StandardValuechoiceSourceTypeTypeschema_StandardValue_
 }
 
 type XsdGoPkgHasElem_NonStandardValuechoiceSourceTypeTypeschema_NonStandardValue_XsdtString_ struct {
-	NonStandardValue xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 NonStandardValue"`
+	NonStandardValue xsdt.String `xml:"NonStandardValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_NonStandardValuechoiceSourceTypeTypeschema_NonStandardValue_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NonStandardValuechoiceSourceTypeTypeschema_NonStandardValue_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NonStandardValuechoiceSourceTypeTypeschema_NonStandardValue_XsdtString_ instance.
@@ -17464,7 +17464,7 @@ func (me *TSourceTypeType) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_IssuingAuthoritysequenceAchievementTypeschema_IssuingAuthority_XsdtString_ struct {
-	IssuingAuthorities []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 IssuingAuthority"`
+	IssuingAuthorities []xsdt.String `xml:"IssuingAuthority"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_IssuingAuthoritysequenceAchievementTypeschema_IssuingAuthority_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_IssuingAuthoritysequenceAchievementTypeschema_IssuingAuthority_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_IssuingAuthoritysequenceAchievementTypeschema_IssuingAuthority_XsdtString_ instance.
@@ -17485,7 +17485,7 @@ func (me *XsdGoPkgHasElems_IssuingAuthoritysequenceAchievementTypeschema_Issuing
 }
 
 type XsdGoPkgHasElems_OrganizationNamesequencePositionOrgNameTypeschema_OrganizationName_XsdtString_ struct {
-	OrganizationNames []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 OrganizationName"`
+	OrganizationNames []xsdt.String `xml:"OrganizationName"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_OrganizationNamesequencePositionOrgNameTypeschema_OrganizationName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OrganizationNamesequencePositionOrgNameTypeschema_OrganizationName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OrganizationNamesequencePositionOrgNameTypeschema_OrganizationName_XsdtString_ instance.
@@ -17506,7 +17506,7 @@ func (me *XsdGoPkgHasElems_OrganizationNamesequencePositionOrgNameTypeschema_Org
 }
 
 type XsdGoPkgHasElems_RolesequenceSpeakingEventTypeschema_Role_XsdtString_ struct {
-	Roles []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Role"`
+	Roles []xsdt.String `xml:"Role"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_RolesequenceSpeakingEventTypeschema_Role_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_RolesequenceSpeakingEventTypeschema_Role_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_RolesequenceSpeakingEventTypeschema_Role_XsdtString_ instance.
@@ -17527,7 +17527,7 @@ func (me *XsdGoPkgHasElems_RolesequenceSpeakingEventTypeschema_Role_XsdtString_)
 }
 
 type XsdGoPkgHasElems_ExecutiveSummarysequenceStructuredXMLResumeTypeschema_ExecutiveSummary_XsdtString_ struct {
-	ExecutiveSummaries []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 ExecutiveSummary"`
+	ExecutiveSummaries []xsdt.String `xml:"ExecutiveSummary"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ExecutiveSummarysequenceStructuredXMLResumeTypeschema_ExecutiveSummary_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ExecutiveSummarysequenceStructuredXMLResumeTypeschema_ExecutiveSummary_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ExecutiveSummarysequenceStructuredXMLResumeTypeschema_ExecutiveSummary_XsdtString_ instance.
@@ -17548,7 +17548,7 @@ func (me *XsdGoPkgHasElems_ExecutiveSummarysequenceStructuredXMLResumeTypeschema
 }
 
 type XsdGoPkgHasElems_AnyDatechoiceFlexibleDatesTypeschema_AnyDate_TAnyDateTimeNkNaType_ struct {
-	AnyDates []TAnyDateTimeNkNaType `xml:"http://ns.hr-xml.org/2006-02-28 AnyDate"`
+	AnyDates []TAnyDateTimeNkNaType `xml:"AnyDate"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AnyDatechoiceFlexibleDatesTypeschema_AnyDate_TAnyDateTimeNkNaType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AnyDatechoiceFlexibleDatesTypeschema_AnyDate_TAnyDateTimeNkNaType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AnyDatechoiceFlexibleDatesTypeschema_AnyDate_TAnyDateTimeNkNaType_ instance.
@@ -17569,7 +17569,7 @@ func (me *XsdGoPkgHasElems_AnyDatechoiceFlexibleDatesTypeschema_AnyDate_TAnyDate
 }
 
 type XsdGoPkgHasElems_TextResumesequenceNonXMLResumeTypeschema_TextResume_XsdtString_ struct {
-	TextResumes []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 TextResume"`
+	TextResumes []xsdt.String `xml:"TextResume"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_TextResumesequenceNonXMLResumeTypeschema_TextResume_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TextResumesequenceNonXMLResumeTypeschema_TextResume_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TextResumesequenceNonXMLResumeTypeschema_TextResume_XsdtString_ instance.
@@ -17590,7 +17590,7 @@ func (me *XsdGoPkgHasElems_TextResumesequenceNonXMLResumeTypeschema_TextResume_X
 }
 
 type XsdGoPkgHasElem_PatentsequencePatentHistoryTypeschema_Patent_TPatentDescriptionType_ struct {
-	Patent *TPatentDescriptionType `xml:"http://ns.hr-xml.org/2006-02-28 Patent"`
+	Patent *TPatentDescriptionType `xml:"Patent"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PatentsequencePatentHistoryTypeschema_Patent_TPatentDescriptionType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PatentsequencePatentHistoryTypeschema_Patent_TPatentDescriptionType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_PatentsequencePatentHistoryTypeschema_Patent_TPatentDescriptionType_ instance.
@@ -17616,7 +17616,7 @@ func (me *XsdGoPkgHasElem_PatentsequencePatentHistoryTypeschema_Patent_TPatentDe
 //	The name of any other honors, such as Phi Beta Kappa, etc. that the student may have received.
 type XsdGoPkgHasElem_OtherHonorssequenceEduDegreeTypeschema_OtherHonors_TxsdEduDegreeTypeSequenceOtherHonors_ struct {
 	//	The name of any other honors, such as Phi Beta Kappa, etc. that the student may have received.
-	OtherHonors *TxsdEduDegreeTypeSequenceOtherHonors `xml:"http://ns.hr-xml.org/2006-02-28 OtherHonors"`
+	OtherHonors *TxsdEduDegreeTypeSequenceOtherHonors `xml:"OtherHonors"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OtherHonorssequenceEduDegreeTypeschema_OtherHonors_TxsdEduDegreeTypeSequenceOtherHonors_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OtherHonorssequenceEduDegreeTypeschema_OtherHonors_TxsdEduDegreeTypeSequenceOtherHonors_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_OtherHonorssequenceEduDegreeTypeschema_OtherHonors_TxsdEduDegreeTypeSequenceOtherHonors_ instance.
@@ -17640,7 +17640,7 @@ func (me *XsdGoPkgHasElem_OtherHonorssequenceEduDegreeTypeschema_OtherHonors_Txs
 }
 
 type XsdGoPkgHasElems_VerificationsequencePositionHistoryTypeschema_Verification_TVerificationType_ struct {
-	Verifications []*TVerificationType `xml:"http://ns.hr-xml.org/2006-02-28 Verification"`
+	Verifications []*TVerificationType `xml:"Verification"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_VerificationsequencePositionHistoryTypeschema_Verification_TVerificationType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_VerificationsequencePositionHistoryTypeschema_Verification_TVerificationType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_VerificationsequencePositionHistoryTypeschema_Verification_TVerificationType_ instance.
@@ -17668,7 +17668,7 @@ func (me *XsdGoPkgHasElems_VerificationsequencePositionHistoryTypeschema_Verific
 //	The official names of any and all major courses of study associated with the student's degree title.
 type XsdGoPkgHasElem_DegreeMajorsequenceEduDegreeTypeschema_DegreeMajor_TMajorType_ struct {
 	//	The official names of any and all major courses of study associated with the student's degree title.
-	DegreeMajor *TMajorType `xml:"http://ns.hr-xml.org/2006-02-28 DegreeMajor"`
+	DegreeMajor *TMajorType `xml:"DegreeMajor"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DegreeMajorsequenceEduDegreeTypeschema_DegreeMajor_TMajorType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DegreeMajorsequenceEduDegreeTypeschema_DegreeMajor_TMajorType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DegreeMajorsequenceEduDegreeTypeschema_DegreeMajor_TMajorType_ instance.
@@ -17692,7 +17692,7 @@ func (me *XsdGoPkgHasElem_DegreeMajorsequenceEduDegreeTypeschema_DegreeMajor_TMa
 }
 
 type XsdGoPkgHasElems_EventTypesequenceSpeakingEventTypeschema_EventType_TExtendedEventTypeType_ struct {
-	EventTypes []TExtendedEventTypeType `xml:"http://ns.hr-xml.org/2006-02-28 EventType"`
+	EventTypes []TExtendedEventTypeType `xml:"EventType"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EventTypesequenceSpeakingEventTypeschema_EventType_TExtendedEventTypeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EventTypesequenceSpeakingEventTypeschema_EventType_TExtendedEventTypeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EventTypesequenceSpeakingEventTypeschema_EventType_TExtendedEventTypeType_ instance.
@@ -17713,7 +17713,7 @@ func (me *XsdGoPkgHasElems_EventTypesequenceSpeakingEventTypeschema_EventType_TE
 }
 
 type XsdGoPkgHasElem_BooksequencePublicationHistoryTypeschema_Book_TBookType_ struct {
-	Book *TBookType `xml:"http://ns.hr-xml.org/2006-02-28 Book"`
+	Book *TBookType `xml:"Book"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_BooksequencePublicationHistoryTypeschema_Book_TBookType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_BooksequencePublicationHistoryTypeschema_Book_TBookType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_BooksequencePublicationHistoryTypeschema_Book_TBookType_ instance.
@@ -17737,7 +17737,7 @@ func (me *XsdGoPkgHasElem_BooksequencePublicationHistoryTypeschema_Book_TBookTyp
 }
 
 type XsdGoPkgHasElems_ConferenceLocationsequenceextensioncomplexContentConferencePaperTypeschema_ConferenceLocation_XsdtString_ struct {
-	ConferenceLocations []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 ConferenceLocation"`
+	ConferenceLocations []xsdt.String `xml:"ConferenceLocation"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ConferenceLocationsequenceextensioncomplexContentConferencePaperTypeschema_ConferenceLocation_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ConferenceLocationsequenceextensioncomplexContentConferencePaperTypeschema_ConferenceLocation_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ConferenceLocationsequenceextensioncomplexContentConferencePaperTypeschema_ConferenceLocation_XsdtString_ instance.
@@ -17779,7 +17779,7 @@ func (me *XsdGoPkgHasCdata) Walk() (err error) {
 }
 
 type XsdGoPkgHasElems_IdsequenceDistributionTypeschema_Id_TEntityIdType_ struct {
-	Ids []*TEntityIdType `xml:"http://ns.hr-xml.org/2006-02-28 Id"`
+	Ids []*TEntityIdType `xml:"Id"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_IdsequenceDistributionTypeschema_Id_TEntityIdType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_IdsequenceDistributionTypeschema_Id_TEntityIdType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_IdsequenceDistributionTypeschema_Id_TEntityIdType_ instance.
@@ -17805,7 +17805,7 @@ func (me *XsdGoPkgHasElems_IdsequenceDistributionTypeschema_Id_TEntityIdType_) W
 }
 
 type XsdGoPkgHasElems_NumericValuechoiceRatingTypeschema_NumericValue_TxsdRatingTypeChoiceNumericValue_ struct {
-	NumericValues []*TxsdRatingTypeChoiceNumericValue `xml:"http://ns.hr-xml.org/2006-02-28 NumericValue"`
+	NumericValues []*TxsdRatingTypeChoiceNumericValue `xml:"NumericValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_NumericValuechoiceRatingTypeschema_NumericValue_TxsdRatingTypeChoiceNumericValue_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NumericValuechoiceRatingTypeschema_NumericValue_TxsdRatingTypeChoiceNumericValue_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NumericValuechoiceRatingTypeschema_NumericValue_TxsdRatingTypeChoiceNumericValue_ instance.
@@ -17831,7 +17831,7 @@ func (me *XsdGoPkgHasElems_NumericValuechoiceRatingTypeschema_NumericValue_TxsdR
 }
 
 type XsdGoPkgHasElems_ChaptersequenceextensioncomplexContentBookTypeschema_Chapter_XsdtString_ struct {
-	Chapters []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Chapter"`
+	Chapters []xsdt.String `xml:"Chapter"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ChaptersequenceextensioncomplexContentBookTypeschema_Chapter_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ChaptersequenceextensioncomplexContentBookTypeschema_Chapter_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ChaptersequenceextensioncomplexContentBookTypeschema_Chapter_XsdtString_ instance.
@@ -17852,7 +17852,7 @@ func (me *XsdGoPkgHasElems_ChaptersequenceextensioncomplexContentBookTypeschema_
 }
 
 type XsdGoPkgHasElems_DeliveryAddresssequencePostalAddressTypeschema_DeliveryAddress_TxsdPostalAddressTypeSequenceDeliveryAddress_ struct {
-	DeliveryAddresses []*TxsdPostalAddressTypeSequenceDeliveryAddress `xml:"http://ns.hr-xml.org/2006-02-28 DeliveryAddress"`
+	DeliveryAddresses []*TxsdPostalAddressTypeSequenceDeliveryAddress `xml:"DeliveryAddress"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DeliveryAddresssequencePostalAddressTypeschema_DeliveryAddress_TxsdPostalAddressTypeSequenceDeliveryAddress_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DeliveryAddresssequencePostalAddressTypeschema_DeliveryAddress_TxsdPostalAddressTypeSequenceDeliveryAddress_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DeliveryAddresssequencePostalAddressTypeschema_DeliveryAddress_TxsdPostalAddressTypeSequenceDeliveryAddress_ instance.
@@ -17880,7 +17880,7 @@ func (me *XsdGoPkgHasElems_DeliveryAddresssequencePostalAddressTypeschema_Delive
 //	Deprecated in favor of Degree construct.
 type XsdGoPkgHasElem_MinorsequenceSchoolOrInstitutionTypeschema_Minor_XsdtString_ struct {
 	//	Deprecated in favor of Degree construct.
-	Minor xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Minor"`
+	Minor xsdt.String `xml:"Minor"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_MinorsequenceSchoolOrInstitutionTypeschema_Minor_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MinorsequenceSchoolOrInstitutionTypeschema_Minor_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MinorsequenceSchoolOrInstitutionTypeschema_Minor_XsdtString_ instance.
@@ -17920,7 +17920,7 @@ func (me TRelationshipsType) ToTxStringPatternExtensionType() TxStringPatternExt
 func (me *TRelationshipsType) Set(s string) { (*xsdt.String)(me).Set(s) }
 
 type XsdGoPkgHasElems_AttachmentReferencechoicesequenceStaffingSupportingMaterialsTypeschema_AttachmentReference_TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference_ struct {
-	AttachmentReferences []*TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference `xml:"http://ns.hr-xml.org/2006-02-28 AttachmentReference"`
+	AttachmentReferences []*TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference `xml:"AttachmentReference"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_AttachmentReferencechoicesequenceStaffingSupportingMaterialsTypeschema_AttachmentReference_TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AttachmentReferencechoicesequenceStaffingSupportingMaterialsTypeschema_AttachmentReference_TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AttachmentReferencechoicesequenceStaffingSupportingMaterialsTypeschema_AttachmentReference_TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference_ instance.
@@ -17946,7 +17946,7 @@ func (me *XsdGoPkgHasElems_AttachmentReferencechoicesequenceStaffingSupportingMa
 }
 
 type XsdGoPkgHasElems_IndustryDescriptionsequencePositionOrgIndustryTypeschema_IndustryDescription_XsdtString_ struct {
-	IndustryDescriptions []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 IndustryDescription"`
+	IndustryDescriptions []xsdt.String `xml:"IndustryDescription"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_IndustryDescriptionsequencePositionOrgIndustryTypeschema_IndustryDescription_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_IndustryDescriptionsequencePositionOrgIndustryTypeschema_IndustryDescription_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_IndustryDescriptionsequencePositionOrgIndustryTypeschema_IndustryDescription_XsdtString_ instance.
@@ -17967,7 +17967,7 @@ func (me *XsdGoPkgHasElems_IndustryDescriptionsequencePositionOrgIndustryTypesch
 }
 
 type XsdGoPkgHasElems_VolumesequenceextensioncomplexContentArticleTypeschema_Volume_XsdtString_ struct {
-	Volumes []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Volume"`
+	Volumes []xsdt.String `xml:"Volume"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_VolumesequenceextensioncomplexContentArticleTypeschema_Volume_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_VolumesequenceextensioncomplexContentArticleTypeschema_Volume_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_VolumesequenceextensioncomplexContentArticleTypeschema_Volume_XsdtString_ instance.
@@ -17988,7 +17988,7 @@ func (me *XsdGoPkgHasElems_VolumesequenceextensioncomplexContentArticleTypeschem
 }
 
 type XsdGoPkgHasElems_CountryServedsequenceMilitaryHistoryTypeschema_CountryServed_TCountryCodeType_ struct {
-	CountryServeds []TCountryCodeType `xml:"http://ns.hr-xml.org/2006-02-28 CountryServed"`
+	CountryServeds []TCountryCodeType `xml:"CountryServed"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CountryServedsequenceMilitaryHistoryTypeschema_CountryServed_TCountryCodeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CountryServedsequenceMilitaryHistoryTypeschema_CountryServed_TCountryCodeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CountryServedsequenceMilitaryHistoryTypeschema_CountryServed_TCountryCodeType_ instance.
@@ -18009,7 +18009,7 @@ func (me *XsdGoPkgHasElems_CountryServedsequenceMilitaryHistoryTypeschema_Countr
 }
 
 type XsdGoPkgHasElems_ProfessionalAssociationssequenceStructuredXMLResumeTypeschema_ProfessionalAssociations_TProfessionalAssociationType_ struct {
-	ProfessionalAssociationses []*TProfessionalAssociationType `xml:"http://ns.hr-xml.org/2006-02-28 ProfessionalAssociations"`
+	ProfessionalAssociationses []*TProfessionalAssociationType `xml:"ProfessionalAssociations"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ProfessionalAssociationssequenceStructuredXMLResumeTypeschema_ProfessionalAssociations_TProfessionalAssociationType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ProfessionalAssociationssequenceStructuredXMLResumeTypeschema_ProfessionalAssociations_TProfessionalAssociationType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ProfessionalAssociationssequenceStructuredXMLResumeTypeschema_ProfessionalAssociations_TProfessionalAssociationType_ instance.
@@ -18035,7 +18035,7 @@ func (me *XsdGoPkgHasElems_ProfessionalAssociationssequenceStructuredXMLResumeTy
 }
 
 type XsdGoPkgHasElem_AssociationsequenceProfessionalAssociationTypeschema_Association_XsdtString_ struct {
-	Association xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Association"`
+	Association xsdt.String `xml:"Association"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_AssociationsequenceProfessionalAssociationTypeschema_Association_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AssociationsequenceProfessionalAssociationTypeschema_Association_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AssociationsequenceProfessionalAssociationTypeschema_Association_XsdtString_ instance.
@@ -18056,7 +18056,7 @@ func (me *XsdGoPkgHasElem_AssociationsequenceProfessionalAssociationTypeschema_A
 }
 
 type XsdGoPkgHasElems_ServiceNumbersequenceMilitaryHistoryTypeschema_ServiceNumber_TEntityIdType_ struct {
-	ServiceNumbers []*TEntityIdType `xml:"http://ns.hr-xml.org/2006-02-28 ServiceNumber"`
+	ServiceNumbers []*TEntityIdType `xml:"ServiceNumber"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_ServiceNumbersequenceMilitaryHistoryTypeschema_ServiceNumber_TEntityIdType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ServiceNumbersequenceMilitaryHistoryTypeschema_ServiceNumber_TEntityIdType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ServiceNumbersequenceMilitaryHistoryTypeschema_ServiceNumber_TEntityIdType_ instance.
@@ -18082,7 +18082,7 @@ func (me *XsdGoPkgHasElems_ServiceNumbersequenceMilitaryHistoryTypeschema_Servic
 }
 
 type XsdGoPkgHasElems_CompetencyIdsequenceCompetencyTypeschema_CompetencyId_TxsdCompetencyTypeSequenceCompetencyId_ struct {
-	CompetencyIds []*TxsdCompetencyTypeSequenceCompetencyId `xml:"http://ns.hr-xml.org/2006-02-28 CompetencyId"`
+	CompetencyIds []*TxsdCompetencyTypeSequenceCompetencyId `xml:"CompetencyId"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_CompetencyIdsequenceCompetencyTypeschema_CompetencyId_TxsdCompetencyTypeSequenceCompetencyId_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CompetencyIdsequenceCompetencyTypeschema_CompetencyId_TxsdCompetencyTypeSequenceCompetencyId_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CompetencyIdsequenceCompetencyTypeschema_CompetencyId_TxsdCompetencyTypeSequenceCompetencyId_ instance.
@@ -18110,7 +18110,7 @@ func (me *XsdGoPkgHasElems_CompetencyIdsequenceCompetencyTypeschema_CompetencyId
 //	The value specifying the maximum of the measurement range
 type XsdGoPkgHasElems_HighestPossibleValuesequenceEducationMeasureTypeschema_HighestPossibleValue_TMeasureValueType_ struct {
 	//	The value specifying the maximum of the measurement range
-	HighestPossibleValues []*TMeasureValueType `xml:"http://ns.hr-xml.org/2006-02-28 HighestPossibleValue"`
+	HighestPossibleValues []*TMeasureValueType `xml:"HighestPossibleValue"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_HighestPossibleValuesequenceEducationMeasureTypeschema_HighestPossibleValue_TMeasureValueType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_HighestPossibleValuesequenceEducationMeasureTypeschema_HighestPossibleValue_TMeasureValueType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_HighestPossibleValuesequenceEducationMeasureTypeschema_HighestPossibleValue_TMeasureValueType_ instance.
@@ -18136,7 +18136,7 @@ func (me *XsdGoPkgHasElems_HighestPossibleValuesequenceEducationMeasureTypeschem
 }
 
 type XsdGoPkgHasElems_DegreeMeasuresequenceEduDegreeTypeschema_DegreeMeasure_TEducationalMeasureType_ struct {
-	DegreeMeasures []*TEducationalMeasureType `xml:"http://ns.hr-xml.org/2006-02-28 DegreeMeasure"`
+	DegreeMeasures []*TEducationalMeasureType `xml:"DegreeMeasure"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_DegreeMeasuresequenceEduDegreeTypeschema_DegreeMeasure_TEducationalMeasureType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DegreeMeasuresequenceEduDegreeTypeschema_DegreeMeasure_TEducationalMeasureType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DegreeMeasuresequenceEduDegreeTypeschema_DegreeMeasure_TEducationalMeasureType_ instance.
@@ -18162,7 +18162,7 @@ func (me *XsdGoPkgHasElems_DegreeMeasuresequenceEduDegreeTypeschema_DegreeMeasur
 }
 
 type XsdGoPkgHasElem_PositionHistorysequenceEmployerOrgDataTypeschema_PositionHistory_TxsdEmployerOrgDataTypeSequencePositionHistory_ struct {
-	PositionHistory *TxsdEmployerOrgDataTypeSequencePositionHistory `xml:"http://ns.hr-xml.org/2006-02-28 PositionHistory"`
+	PositionHistory *TxsdEmployerOrgDataTypeSequencePositionHistory `xml:"PositionHistory"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_PositionHistorysequenceEmployerOrgDataTypeschema_PositionHistory_TxsdEmployerOrgDataTypeSequencePositionHistory_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PositionHistorysequenceEmployerOrgDataTypeschema_PositionHistory_TxsdEmployerOrgDataTypeSequencePositionHistory_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_PositionHistorysequenceEmployerOrgDataTypeschema_PositionHistory_TxsdEmployerOrgDataTypeSequencePositionHistory_ instance.
@@ -18186,7 +18186,7 @@ func (me *XsdGoPkgHasElem_PositionHistorysequenceEmployerOrgDataTypeschema_Posit
 }
 
 type XsdGoPkgHasElem_OtherPublicationsequencePublicationHistoryTypeschema_OtherPublication_TOtherPublicationType_ struct {
-	OtherPublication *TOtherPublicationType `xml:"http://ns.hr-xml.org/2006-02-28 OtherPublication"`
+	OtherPublication *TOtherPublicationType `xml:"OtherPublication"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OtherPublicationsequencePublicationHistoryTypeschema_OtherPublication_TOtherPublicationType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OtherPublicationsequencePublicationHistoryTypeschema_OtherPublication_TOtherPublicationType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_OtherPublicationsequencePublicationHistoryTypeschema_OtherPublication_TOtherPublicationType_ instance.
@@ -18210,7 +18210,7 @@ func (me *XsdGoPkgHasElem_OtherPublicationsequencePublicationHistoryTypeschema_O
 }
 
 type XsdGoPkgHasElems_PublicationLanguagesequenceextensioncomplexContentArticleTypeschema_PublicationLanguage_TLanguageCodeType_ struct {
-	PublicationLanguages []TLanguageCodeType `xml:"http://ns.hr-xml.org/2006-02-28 PublicationLanguage"`
+	PublicationLanguages []TLanguageCodeType `xml:"PublicationLanguage"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_PublicationLanguagesequenceextensioncomplexContentArticleTypeschema_PublicationLanguage_TLanguageCodeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PublicationLanguagesequenceextensioncomplexContentArticleTypeschema_PublicationLanguage_TLanguageCodeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PublicationLanguagesequenceextensioncomplexContentArticleTypeschema_PublicationLanguage_TLanguageCodeType_ instance.
@@ -18231,7 +18231,7 @@ func (me *XsdGoPkgHasElems_PublicationLanguagesequenceextensioncomplexContentArt
 }
 
 type XsdGoPkgHasElems_LocationsequenceSpeakingEventTypeschema_Location_XsdtString_ struct {
-	Locations []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Location"`
+	Locations []xsdt.String `xml:"Location"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_LocationsequenceSpeakingEventTypeschema_Location_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LocationsequenceSpeakingEventTypeschema_Location_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LocationsequenceSpeakingEventTypeschema_Location_XsdtString_ instance.
@@ -18254,7 +18254,7 @@ func (me *XsdGoPkgHasElems_LocationsequenceSpeakingEventTypeschema_Location_Xsdt
 //	Usage is primarily for the results of a screening, but is not limited to that purpose.
 type XsdGoPkgHasElem_QuestionAnswerPairsequenceVerificationTypeschema_QuestionAnswerPair_TEmploymentQuestionAnswerPairType_ struct {
 	//	Usage is primarily for the results of a screening, but is not limited to that purpose.
-	QuestionAnswerPair *TEmploymentQuestionAnswerPairType `xml:"http://ns.hr-xml.org/2006-02-28 QuestionAnswerPair"`
+	QuestionAnswerPair *TEmploymentQuestionAnswerPairType `xml:"QuestionAnswerPair"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_QuestionAnswerPairsequenceVerificationTypeschema_QuestionAnswerPair_TEmploymentQuestionAnswerPairType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_QuestionAnswerPairsequenceVerificationTypeschema_QuestionAnswerPair_TEmploymentQuestionAnswerPairType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_QuestionAnswerPairsequenceVerificationTypeschema_QuestionAnswerPair_TEmploymentQuestionAnswerPairType_ instance.
@@ -18278,7 +18278,7 @@ func (me *XsdGoPkgHasElem_QuestionAnswerPairsequenceVerificationTypeschema_Quest
 }
 
 type XsdGoPkgHasElems_EvidenceIdsequenceCompetencyEvidencesequenceCompetencyTypeschema_EvidenceId_TxsdCompetencyTypeSequenceCompetencyEvidenceSequenceEvidenceId_ struct {
-	EvidenceIds []*TxsdCompetencyTypeSequenceCompetencyId `xml:"http://ns.hr-xml.org/2006-02-28 EvidenceId"`
+	EvidenceIds []*TxsdCompetencyTypeSequenceCompetencyId `xml:"EvidenceId"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EvidenceIdsequenceCompetencyEvidencesequenceCompetencyTypeschema_EvidenceId_TxsdCompetencyTypeSequenceCompetencyEvidenceSequenceEvidenceId_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EvidenceIdsequenceCompetencyEvidencesequenceCompetencyTypeschema_EvidenceId_TxsdCompetencyTypeSequenceCompetencyEvidenceSequenceEvidenceId_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EvidenceIdsequenceCompetencyEvidencesequenceCompetencyTypeschema_EvidenceId_TxsdCompetencyTypeSequenceCompetencyEvidenceSequenceEvidenceId_ instance.
@@ -18306,7 +18306,7 @@ func (me *XsdGoPkgHasElems_EvidenceIdsequenceCompetencyEvidencesequenceCompetenc
 //	If applicable, these fields should be used to reflect the official names of any and all minor courses of study associated with the student's degree title.
 type XsdGoPkgHasElem_DegreeMinorsequenceEduDegreeTypeschema_DegreeMinor_TMinorType_ struct {
 	//	If applicable, these fields should be used to reflect the official names of any and all minor courses of study associated with the student's degree title.
-	DegreeMinor *TMinorType `xml:"http://ns.hr-xml.org/2006-02-28 DegreeMinor"`
+	DegreeMinor *TMinorType `xml:"DegreeMinor"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DegreeMinorsequenceEduDegreeTypeschema_DegreeMinor_TMinorType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DegreeMinorsequenceEduDegreeTypeschema_DegreeMinor_TMinorType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DegreeMinorsequenceEduDegreeTypeschema_DegreeMinor_TMinorType_ instance.
@@ -18330,7 +18330,7 @@ func (me *XsdGoPkgHasElem_DegreeMinorsequenceEduDegreeTypeschema_DegreeMinor_TMi
 }
 
 type XsdGoPkgHasElems_YearMonthchoiceFlexibleDatesTypeschema_YearMonth_XsdtGYearMonth_ struct {
-	YearMonths []xsdt.GYearMonth `xml:"http://ns.hr-xml.org/2006-02-28 YearMonth"`
+	YearMonths []xsdt.GYearMonth `xml:"YearMonth"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_YearMonthchoiceFlexibleDatesTypeschema_YearMonth_XsdtGYearMonth_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_YearMonthchoiceFlexibleDatesTypeschema_YearMonth_XsdtGYearMonth_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_YearMonthchoiceFlexibleDatesTypeschema_YearMonth_XsdtGYearMonth_ instance.
@@ -18351,7 +18351,7 @@ func (me *XsdGoPkgHasElems_YearMonthchoiceFlexibleDatesTypeschema_YearMonth_Xsdt
 }
 
 type XsdGoPkgHasElem_OrgInfosequencePositionHistoryTypeschema_OrgInfo_TPositionOrgInfoType_ struct {
-	OrgInfo *TPositionOrgInfoType `xml:"http://ns.hr-xml.org/2006-02-28 OrgInfo"`
+	OrgInfo *TPositionOrgInfoType `xml:"OrgInfo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_OrgInfosequencePositionHistoryTypeschema_OrgInfo_TPositionOrgInfoType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OrgInfosequencePositionHistoryTypeschema_OrgInfo_TPositionOrgInfoType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_OrgInfosequencePositionHistoryTypeschema_OrgInfo_TPositionOrgInfoType_ instance.
@@ -18375,7 +18375,7 @@ func (me *XsdGoPkgHasElem_OrgInfosequencePositionHistoryTypeschema_OrgInfo_TPosi
 }
 
 type XsdGoPkgHasElems_EligibleForRehiresequenceVerificationTypeschema_EligibleForRehire_XsdtBoolean_ struct {
-	EligibleForRehires []xsdt.Boolean `xml:"http://ns.hr-xml.org/2006-02-28 EligibleForRehire"`
+	EligibleForRehires []xsdt.Boolean `xml:"EligibleForRehire"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EligibleForRehiresequenceVerificationTypeschema_EligibleForRehire_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EligibleForRehiresequenceVerificationTypeschema_EligibleForRehire_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EligibleForRehiresequenceVerificationTypeschema_EligibleForRehire_XsdtBoolean_ instance.
@@ -18396,7 +18396,7 @@ func (me *XsdGoPkgHasElems_EligibleForRehiresequenceVerificationTypeschema_Eligi
 }
 
 type XsdGoPkgHasElems_OverallPerformanceRatingsequenceVerificationTypeschema_OverallPerformanceRating_TRatingType_ struct {
-	OverallPerformanceRatings []*TRatingType `xml:"http://ns.hr-xml.org/2006-02-28 OverallPerformanceRating"`
+	OverallPerformanceRatings []*TRatingType `xml:"OverallPerformanceRating"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_OverallPerformanceRatingsequenceVerificationTypeschema_OverallPerformanceRating_TRatingType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OverallPerformanceRatingsequenceVerificationTypeschema_OverallPerformanceRating_TRatingType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OverallPerformanceRatingsequenceVerificationTypeschema_OverallPerformanceRating_TRatingType_ instance.
@@ -18435,7 +18435,7 @@ func (me *TimeType) Set(s string) { (*xsdt.Time)(me).Set(s) }
 //	A patent has one or more applicants. An applicant is the person or corporate body that applies for the patent and intends to 'work' the invention (to manufacture or license the technology).  Under US law the applicants must be the inventor(s) except in exceptional circumstances.  On a resume or CV listing patents held or submitted, an individual might use the "Applicants" component when the patent is held or was filed with others ("co-applicants").
 type XsdGoPkgHasElems_InventorssequencePatentDescriptionTypeschema_Inventors_TxsdPatentDescriptionTypeSequenceInventors_ struct {
 	//	A patent has one or more applicants. An applicant is the person or corporate body that applies for the patent and intends to 'work' the invention (to manufacture or license the technology).  Under US law the applicants must be the inventor(s) except in exceptional circumstances.  On a resume or CV listing patents held or submitted, an individual might use the "Applicants" component when the patent is held or was filed with others ("co-applicants").
-	Inventorses []*TxsdPatentDescriptionTypeSequenceInventors `xml:"http://ns.hr-xml.org/2006-02-28 Inventors"`
+	Inventorses []*TxsdPatentDescriptionTypeSequenceInventors `xml:"Inventors"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_InventorssequencePatentDescriptionTypeschema_Inventors_TxsdPatentDescriptionTypeSequenceInventors_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_InventorssequencePatentDescriptionTypeschema_Inventors_TxsdPatentDescriptionTypeSequenceInventors_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_InventorssequencePatentDescriptionTypeschema_Inventors_TxsdPatentDescriptionTypeSequenceInventors_ instance.
@@ -18463,7 +18463,7 @@ func (me *XsdGoPkgHasElems_InventorssequencePatentDescriptionTypeschema_Inventor
 //	School, College or institution attended.  Associated type attribute further qualifies the name as current, prior,  degree or joint.
 type XsdGoPkgHasElem_SchoolsequenceSchoolOrInstitutionTypeschema_School_TSchoolDataType_ struct {
 	//	School, College or institution attended.  Associated type attribute further qualifies the name as current, prior,  degree or joint.
-	School *TSchoolDataType `xml:"http://ns.hr-xml.org/2006-02-28 School"`
+	School *TSchoolDataType `xml:"School"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_SchoolsequenceSchoolOrInstitutionTypeschema_School_TSchoolDataType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SchoolsequenceSchoolOrInstitutionTypeschema_School_TSchoolDataType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_SchoolsequenceSchoolOrInstitutionTypeschema_School_TSchoolDataType_ instance.
@@ -18487,7 +18487,7 @@ func (me *XsdGoPkgHasElem_SchoolsequenceSchoolOrInstitutionTypeschema_School_TSc
 }
 
 type XsdGoPkgHasElem_DoNotDistributeTosequenceDistributionGuidelinesTypeschema_DoNotDistributeTo_TDistributionType_ struct {
-	DoNotDistributeTo *TDistributionType `xml:"http://ns.hr-xml.org/2006-02-28 DoNotDistributeTo"`
+	DoNotDistributeTo *TDistributionType `xml:"DoNotDistributeTo"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DoNotDistributeTosequenceDistributionGuidelinesTypeschema_DoNotDistributeTo_TDistributionType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DoNotDistributeTosequenceDistributionGuidelinesTypeschema_DoNotDistributeTo_TDistributionType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DoNotDistributeTosequenceDistributionGuidelinesTypeschema_DoNotDistributeTo_TDistributionType_ instance.
@@ -18511,7 +18511,7 @@ func (me *XsdGoPkgHasElem_DoNotDistributeTosequenceDistributionGuidelinesTypesch
 }
 
 type XsdGoPkgHasElems_IndustryCodesequencePositionOrgIndustryTypeschema_IndustryCode_TxsdPositionOrgIndustryTypeSequenceIndustryCode_ struct {
-	IndustryCodes []*TxsdPositionOrgIndustryTypeSequenceIndustryCode `xml:"http://ns.hr-xml.org/2006-02-28 IndustryCode"`
+	IndustryCodes []*TxsdPositionOrgIndustryTypeSequenceIndustryCode `xml:"IndustryCode"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_IndustryCodesequencePositionOrgIndustryTypeschema_IndustryCode_TxsdPositionOrgIndustryTypeSequenceIndustryCode_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_IndustryCodesequencePositionOrgIndustryTypeschema_IndustryCode_TxsdPositionOrgIndustryTypeSequenceIndustryCode_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_IndustryCodesequencePositionOrgIndustryTypeschema_IndustryCode_TxsdPositionOrgIndustryTypeSequenceIndustryCode_ instance.
@@ -18537,7 +18537,7 @@ func (me *XsdGoPkgHasElems_IndustryCodesequencePositionOrgIndustryTypeschema_Ind
 }
 
 type XsdGoPkgHasElem_DegreesequenceSchoolOrInstitutionTypeschema_Degree_TEduDegreeType_ struct {
-	Degree *TEduDegreeType `xml:"http://ns.hr-xml.org/2006-02-28 Degree"`
+	Degree *TEduDegreeType `xml:"Degree"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElem_DegreesequenceSchoolOrInstitutionTypeschema_Degree_TEduDegreeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DegreesequenceSchoolOrInstitutionTypeschema_Degree_TEduDegreeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DegreesequenceSchoolOrInstitutionTypeschema_Degree_TEduDegreeType_ instance.
@@ -18561,7 +18561,7 @@ func (me *XsdGoPkgHasElem_DegreesequenceSchoolOrInstitutionTypeschema_Degree_TEd
 }
 
 type XsdGoPkgHasElems_StartRanksequenceRankAchievedTypeschema_StartRank_XsdtString_ struct {
-	StartRanks []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 StartRank"`
+	StartRanks []xsdt.String `xml:"StartRank"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_StartRanksequenceRankAchievedTypeschema_StartRank_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_StartRanksequenceRankAchievedTypeschema_StartRank_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_StartRanksequenceRankAchievedTypeschema_StartRank_XsdtString_ instance.
@@ -18582,7 +18582,7 @@ func (me *XsdGoPkgHasElems_StartRanksequenceRankAchievedTypeschema_StartRank_Xsd
 }
 
 type XsdGoPkgHasElems_EditionsequenceextensioncomplexContentBookTypeschema_Edition_XsdtString_ struct {
-	Editions []xsdt.String `xml:"http://ns.hr-xml.org/2006-02-28 Edition"`
+	Editions []xsdt.String `xml:"Edition"`
 }
 
 //	If the WalkHandlers.XsdGoPkgHasElems_EditionsequenceextensioncomplexContentBookTypeschema_Edition_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EditionsequenceextensioncomplexContentBookTypeschema_Edition_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EditionsequenceextensioncomplexContentBookTypeschema_Edition_XsdtString_ instance.
