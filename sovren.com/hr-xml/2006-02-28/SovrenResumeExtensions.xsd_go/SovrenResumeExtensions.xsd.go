@@ -20,7 +20,7 @@ type XsdtDate xsdt.Date
 type XsdtInt xsdt.Int
 
 type XsdGoPkgHasAttr_Inferred_XsdtBoolean_ struct {
-	Inferred xsdt.Boolean `xml:"inferred,attr"`
+	Inferred xsdt.Boolean `xml:"inferred,attr,omitempty"`
 }
 
 type XsdGoPkgHasAtts_Inferred struct {
@@ -731,7 +731,7 @@ func (me TxsdBulletsTypeSequenceBulletSimpleContentExtensionType) IsCreativeTerm
 }
 
 type XsdGoPkgHasAttr_Type_TxsdBulletsTypeSequenceBulletSimpleContentExtensionType_ struct {
-	Type TxsdBulletsTypeSequenceBulletSimpleContentExtensionType `xml:"type,attr"`
+	Type TxsdBulletsTypeSequenceBulletSimpleContentExtensionType `xml:"type,attr,omitempty"`
 }
 
 type TxsdBulletsTypeSequenceBullet struct {
@@ -832,7 +832,7 @@ func (me *XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHist
 }
 
 type XsdGoPkgHasAttr_SubCode_XsdtString_ struct {
-	SubCode xsdt.String `xml:"SubCode,attr"`
+	SubCode xsdt.String `xml:"SubCode,attr,omitempty"`
 }
 
 type TxsdIndustryTypeSequenceCode struct {
@@ -1665,7 +1665,7 @@ func (me TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType) IsSoft() 
 }
 
 type XsdGoPkgHasAttr_Type_TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType_ struct {
-	Type TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType `xml:"type,attr"`
+	Type TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType `xml:"type,attr,omitempty"`
 }
 
 type TxsdResumeUserAreaSequenceTimedOut struct {
@@ -1758,7 +1758,7 @@ func (me *XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreas
 }
 
 type XsdGoPkgHasAttr_Name_XsdtString_ struct {
-	Name xsdt.String `xml:"name,attr"`
+	Name xsdt.String `xml:"name,attr,omitempty"`
 }
 
 type XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_ struct {
@@ -1783,23 +1783,23 @@ func (me *XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_Best
 }
 
 type XsdGoPkgHasAttr_Weight_XsdtDouble_ struct {
-	Weight xsdt.Double `xml:"weight,attr"`
+	Weight xsdt.Double `xml:"weight,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_PercentOfOverall_XsdtDouble_ struct {
-	PercentOfOverall xsdt.Double `xml:"percentOfOverall,attr"`
+	PercentOfOverall xsdt.Double `xml:"percentOfOverall,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_PercentOfParent_XsdtDouble_ struct {
-	PercentOfParent xsdt.Double `xml:"percentOfParent,attr"`
+	PercentOfParent xsdt.Double `xml:"percentOfParent,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_Id_XsdtString_ struct {
-	Id xsdt.String `xml:"id,attr"`
+	Id xsdt.String `xml:"id,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_RootId_XsdtString_ struct {
-	RootId xsdt.String `xml:"rootId,attr"`
+	RootId xsdt.String `xml:"rootId,attr,omitempty"`
 }
 
 type TBestFitTaxonomyType struct {
@@ -2347,15 +2347,15 @@ func (me *XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_
 }
 
 type XsdGoPkgHasAttr_Ends_XsdtInt_ struct {
-	Ends xsdt.Int `xml:"ends,attr"`
+	Ends xsdt.Int `xml:"ends,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_SectionType_XsdtString_ struct {
-	SectionType xsdt.String `xml:"sectionType,attr"`
+	SectionType xsdt.String `xml:"sectionType,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_Starts_XsdtInt_ struct {
-	Starts xsdt.Int `xml:"starts,attr"`
+	Starts xsdt.Int `xml:"starts,attr,omitempty"`
 }
 
 type TxsdResumeUserAreaSequenceSectionsSequenceSection struct {
@@ -2634,7 +2634,7 @@ func (me *XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_
 }
 
 type XsdGoPkgHasAttr_Type_XsdtString_ struct {
-	Type xsdt.String `xml:"type,attr"`
+	Type xsdt.String `xml:"type,attr,omitempty"`
 }
 
 type TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch struct {
@@ -2809,7 +2809,7 @@ func (me TCurrencyType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 func (me *TCurrencyType) Set(s string) { (*xsdt.String)(me).Set(s) }
 
 type XsdGoPkgHasAttr_Currency_TCurrencyType_ struct {
-	Currency TCurrencyType `xml:"currency,attr"`
+	Currency TCurrencyType `xml:"currency,attr,omitempty"`
 }
 
 type TMoneyType struct {
