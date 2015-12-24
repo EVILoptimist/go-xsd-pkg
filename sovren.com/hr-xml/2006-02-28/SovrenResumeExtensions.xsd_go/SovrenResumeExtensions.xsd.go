@@ -5,7 +5,7 @@
 package go_SovrenResumeExtensions
 
 //	This schema describes the Sovren extensions that are optionally output within the UserArea element of the HR-XML 2.4 Schema.
-//	This is the schema for Sovren Resume Parser version 6.0.
+//	This is the schema for Sovren Resume Parser version 7.3
 
 import (
 	hrxml "github.com/EVILoptimist/go-xsd-pkg/sovren.com/hr-xml/2006-02-28/Resume.xsd_go"
@@ -25,6 +25,347 @@ type XsdGoPkgHasAttr_Inferred_XsdtBoolean_ struct {
 
 type XsdGoPkgHasAtts_Inferred struct {
 	XsdGoPkgHasAttr_Inferred_XsdtBoolean_
+}
+
+type XsdGoPkgHasElem_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_ struct {
+	NormalizedDegreeType xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedDegreeType"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_ struct {
+	NormalizedRegion xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedRegion"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_ struct {
+	NormalizedPostalCode xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedPostalCode"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_ struct {
+	NormalizedCountryCode xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedCountryCode"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TLatitudeType xsdt.Decimal
+
+//	Since TLatitudeType is just a simple String type, this merely sets the current value from the specified string.
+func (me *TLatitudeType) Set(s string) { (*xsdt.Decimal)(me).Set(s) }
+
+//	Since TLatitudeType is just a simple String type, this merely returns the current string value.
+func (me TLatitudeType) String() string { return xsdt.Decimal(me).String() }
+
+//	This convenience method just performs a simple type conversion to TLatitudeType's alias type xsdt.Decimal.
+func (me TLatitudeType) ToXsdtDecimal() xsdt.Decimal { return xsdt.Decimal(me) }
+
+type TxsdLocationTypeSequenceLatitude struct {
+	XsdGoPkgHasAtts_Inferred
+
+	TLatitudeType
+}
+
+//	If the WalkHandlers.TxsdLocationTypeSequenceLatitude function is not nil (ie. was set by outside code), calls it with this TxsdLocationTypeSequenceLatitude instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TxsdLocationTypeSequenceLatitude instance.
+func (me *TxsdLocationTypeSequenceLatitude) Walk() (err error) {
+	if fn := WalkHandlers.TxsdLocationTypeSequenceLatitude; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_ struct {
+	Latitude *TxsdLocationTypeSequenceLatitude `xml:"http://sovren.com/hr-xml/2006-02-28 Latitude"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_ instance.
+func (me *XsdGoPkgHasElem_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Latitude.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TLongitudeType xsdt.Decimal
+
+//	Since TLongitudeType is just a simple String type, this merely returns the current string value.
+func (me TLongitudeType) String() string { return xsdt.Decimal(me).String() }
+
+//	This convenience method just performs a simple type conversion to TLongitudeType's alias type xsdt.Decimal.
+func (me TLongitudeType) ToXsdtDecimal() xsdt.Decimal { return xsdt.Decimal(me) }
+
+//	Since TLongitudeType is just a simple String type, this merely sets the current value from the specified string.
+func (me *TLongitudeType) Set(s string) { (*xsdt.Decimal)(me).Set(s) }
+
+type TxsdLocationTypeSequenceLongitude struct {
+	XsdGoPkgHasAtts_Inferred
+
+	TLongitudeType
+}
+
+//	If the WalkHandlers.TxsdLocationTypeSequenceLongitude function is not nil (ie. was set by outside code), calls it with this TxsdLocationTypeSequenceLongitude instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TxsdLocationTypeSequenceLongitude instance.
+func (me *TxsdLocationTypeSequenceLongitude) Walk() (err error) {
+	if fn := WalkHandlers.TxsdLocationTypeSequenceLongitude; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_ struct {
+	Longitude *TxsdLocationTypeSequenceLongitude `xml:"http://sovren.com/hr-xml/2006-02-28 Longitude"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_ instance.
+func (me *XsdGoPkgHasElem_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Longitude.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_ struct {
+	NormalizedStreetAddress xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedStreetAddress"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_ struct {
+	NormalizedMunicipality xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedMunicipality"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TLocationType struct {
+	XsdGoPkgHasElem_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_
+
+	XsdGoPkgHasElem_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_
+
+	XsdGoPkgHasElem_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_
+
+	XsdGoPkgHasElem_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_
+
+	XsdGoPkgHasElem_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_
+
+	XsdGoPkgHasElem_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_
+
+	XsdGoPkgHasElem_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_
+}
+
+//	If the WalkHandlers.TLocationType function is not nil (ie. was set by outside code), calls it with this TLocationType instance as the single argument. Then calls the Walk() method on 7/7 embed(s) and 0/0 field(s) belonging to this TLocationType instance.
+func (me *TLocationType) Walk() (err error) {
+	if fn := WalkHandlers.TLocationType; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_ struct {
+	NormalizedLocation *TLocationType `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedLocation"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_ instance.
+func (me *XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.NormalizedLocation.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_ struct {
+	Id xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Id"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
 }
 
 type XsdGoPkgHasElem_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_ struct {
@@ -69,13 +410,34 @@ func (me *XsdGoPkgHasElem_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreas
 	return
 }
 
-type XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_ struct {
-	Id xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Id"`
+type XsdGoPkgHasElem_NormalizedSchoolNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedSchoolName_XsdtString_ struct {
+	NormalizedSchoolName xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedSchoolName"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_NormalizedSchoolNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedSchoolName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NormalizedSchoolNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedSchoolName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NormalizedSchoolNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedSchoolName_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_NormalizedSchoolNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedSchoolName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NormalizedSchoolNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedSchoolName_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_NormalizedDegreeNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeName_XsdtString_ struct {
+	NormalizedDegreeName xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedDegreeName"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_NormalizedDegreeNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NormalizedDegreeNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NormalizedDegreeNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeName_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_NormalizedDegreeNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NormalizedDegreeNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeName_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -91,20 +453,31 @@ func (me *XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_Xs
 }
 
 type TxsdDegreeUserArea struct {
+	XsdGoPkgHasElem_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_
+
+	XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_
+
 	XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_
 
 	XsdGoPkgHasElem_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_
 
 	XsdGoPkgHasElem_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_
+
+	XsdGoPkgHasElem_NormalizedSchoolNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedSchoolName_XsdtString_
+
+	XsdGoPkgHasElem_NormalizedDegreeNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeName_XsdtString_
 }
 
-//	If the WalkHandlers.TxsdDegreeUserArea function is not nil (ie. was set by outside code), calls it with this TxsdDegreeUserArea instance as the single argument. Then calls the Walk() method on 3/3 embed(s) and 0/0 field(s) belonging to this TxsdDegreeUserArea instance.
+//	If the WalkHandlers.TxsdDegreeUserArea function is not nil (ie. was set by outside code), calls it with this TxsdDegreeUserArea instance as the single argument. Then calls the Walk() method on 7/7 embed(s) and 0/0 field(s) belonging to this TxsdDegreeUserArea instance.
 func (me *TxsdDegreeUserArea) Walk() (err error) {
 	if fn := WalkHandlers.TxsdDegreeUserArea; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
 		}
 		if err = me.XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
@@ -113,6 +486,39 @@ func (me *TxsdDegreeUserArea) Walk() (err error) {
 			return
 		}
 		if err = me.XsdGoPkgHasElem_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedSchoolNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedSchoolName_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedDegreeNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeName_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_DegreeUserArea struct {
+	DegreeUserArea *TxsdDegreeUserArea `xml:"http://sovren.com/hr-xml/2006-02-28 DegreeUserArea"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_DegreeUserArea function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DegreeUserArea instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DegreeUserArea instance.
+func (me *XsdGoPkgHasElem_DegreeUserArea) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_DegreeUserArea; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.DegreeUserArea.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -150,70 +556,13 @@ func (me *XsdGoPkgHasElems_DegreeUserArea) Walk() (err error) {
 	return
 }
 
-type XsdGoPkgHasElem_DegreeUserArea struct {
-	DegreeUserArea *TxsdDegreeUserArea `xml:"http://sovren.com/hr-xml/2006-02-28 DegreeUserArea"`
+type XsdGoPkgHasElem_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_ struct {
+	NormalizedOrganizationName xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedOrganizationName"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_DegreeUserArea function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DegreeUserArea instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_DegreeUserArea instance.
-func (me *XsdGoPkgHasElem_DegreeUserArea) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_DegreeUserArea; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.DegreeUserArea.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TxsdBulletsTypeSequenceBulletSimpleContentExtensionType xsdt.String
-
-//	Returns true if the value of this enumerated TxsdBulletsTypeSequenceBulletSimpleContentExtensionType is "sentence".
-func (me TxsdBulletsTypeSequenceBulletSimpleContentExtensionType) IsSentence() bool {
-	return me.String() == "sentence"
-}
-
-//	Returns true if the value of this enumerated TxsdBulletsTypeSequenceBulletSimpleContentExtensionType is "creativeTerm".
-func (me TxsdBulletsTypeSequenceBulletSimpleContentExtensionType) IsCreativeTerm() bool {
-	return me.String() == "creativeTerm"
-}
-
-//	Since TxsdBulletsTypeSequenceBulletSimpleContentExtensionType is just a simple String type, this merely sets the current value from the specified string.
-func (me *TxsdBulletsTypeSequenceBulletSimpleContentExtensionType) Set(s string) {
-	(*xsdt.String)(me).Set(s)
-}
-
-//	Since TxsdBulletsTypeSequenceBulletSimpleContentExtensionType is just a simple String type, this merely returns the current string value.
-func (me TxsdBulletsTypeSequenceBulletSimpleContentExtensionType) String() string {
-	return xsdt.String(me).String()
-}
-
-//	This convenience method just performs a simple type conversion to TxsdBulletsTypeSequenceBulletSimpleContentExtensionType's alias type xsdt.String.
-func (me TxsdBulletsTypeSequenceBulletSimpleContentExtensionType) ToXsdtString() xsdt.String {
-	return xsdt.String(me)
-}
-
-type XsdGoPkgHasAttr_Type_TxsdBulletsTypeSequenceBulletSimpleContentExtensionType_ struct {
-	Type TxsdBulletsTypeSequenceBulletSimpleContentExtensionType `xml:"http://sovren.com/hr-xml/2006-02-28 type,attr"`
-}
-
-type TxsdBulletsTypeSequenceBullet struct {
-	XsdGoPkgHasAttr_Type_TxsdBulletsTypeSequenceBulletSimpleContentExtensionType_
-
-	XsdtString
-}
-
-//	If the WalkHandlers.TxsdBulletsTypeSequenceBullet function is not nil (ie. was set by outside code), calls it with this TxsdBulletsTypeSequenceBullet instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TxsdBulletsTypeSequenceBullet instance.
-func (me *TxsdBulletsTypeSequenceBullet) Walk() (err error) {
-	if fn := WalkHandlers.TxsdBulletsTypeSequenceBullet; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -228,70 +577,17 @@ func (me *TxsdBulletsTypeSequenceBullet) Walk() (err error) {
 	return
 }
 
-type XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ struct {
-	Bullets []*TxsdBulletsTypeSequenceBullet `xml:"http://sovren.com/hr-xml/2006-02-28 Bullet"`
+type XsdGoPkgHasElem_NormalizedTitlesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedTitle_XsdtString_ struct {
+	NormalizedTitle xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedTitle"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ instance.
-func (me *XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_NormalizedTitlesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedTitle_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NormalizedTitlesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedTitle_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NormalizedTitlesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedTitle_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_NormalizedTitlesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedTitle_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NormalizedTitlesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedTitle_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
-		}
-		for _, x := range me.Bullets {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TBulletsType struct {
-	XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_
-}
-
-//	If the WalkHandlers.TBulletsType function is not nil (ie. was set by outside code), calls it with this TBulletsType instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TBulletsType instance.
-func (me *TBulletsType) Walk() (err error) {
-	if fn := WalkHandlers.TBulletsType; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_ struct {
-	Bullets *TBulletsType `xml:"http://sovren.com/hr-xml/2006-02-28 Bullets"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_ instance.
-func (me *XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.Bullets.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
 		}
 		if fn != nil {
 			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
@@ -386,27 +682,6 @@ func (me *XsdGoPkgHasElem_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPosit
 	return
 }
 
-type XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ struct {
-	SelfEmploymentPhrase xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 SelfEmploymentPhrase"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
 type XsdGoPkgHasElem_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_ struct {
 	NumberOfEmployeesSupervised xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 NumberOfEmployeesSupervised"`
 }
@@ -428,25 +703,283 @@ func (me *XsdGoPkgHasElem_NumberOfEmployeesSupervisedsequenceTxsdPositionHistory
 	return
 }
 
+type TxsdBulletsTypeSequenceBulletSimpleContentExtensionType xsdt.String
+
+//	Since TxsdBulletsTypeSequenceBulletSimpleContentExtensionType is just a simple String type, this merely sets the current value from the specified string.
+func (me *TxsdBulletsTypeSequenceBulletSimpleContentExtensionType) Set(s string) {
+	(*xsdt.String)(me).Set(s)
+}
+
+//	Since TxsdBulletsTypeSequenceBulletSimpleContentExtensionType is just a simple String type, this merely returns the current string value.
+func (me TxsdBulletsTypeSequenceBulletSimpleContentExtensionType) String() string {
+	return xsdt.String(me).String()
+}
+
+//	This convenience method just performs a simple type conversion to TxsdBulletsTypeSequenceBulletSimpleContentExtensionType's alias type xsdt.String.
+func (me TxsdBulletsTypeSequenceBulletSimpleContentExtensionType) ToXsdtString() xsdt.String {
+	return xsdt.String(me)
+}
+
+//	Returns true if the value of this enumerated TxsdBulletsTypeSequenceBulletSimpleContentExtensionType is "sentence".
+func (me TxsdBulletsTypeSequenceBulletSimpleContentExtensionType) IsSentence() bool {
+	return me.String() == "sentence"
+}
+
+//	Returns true if the value of this enumerated TxsdBulletsTypeSequenceBulletSimpleContentExtensionType is "creativeTerm".
+func (me TxsdBulletsTypeSequenceBulletSimpleContentExtensionType) IsCreativeTerm() bool {
+	return me.String() == "creativeTerm"
+}
+
+type XsdGoPkgHasAttr_Type_TxsdBulletsTypeSequenceBulletSimpleContentExtensionType_ struct {
+	Type TxsdBulletsTypeSequenceBulletSimpleContentExtensionType `xml:"http://sovren.com/hr-xml/2006-02-28 type,attr"`
+}
+
+type TxsdBulletsTypeSequenceBullet struct {
+	XsdtString
+
+	XsdGoPkgHasAttr_Type_TxsdBulletsTypeSequenceBulletSimpleContentExtensionType_
+}
+
+//	If the WalkHandlers.TxsdBulletsTypeSequenceBullet function is not nil (ie. was set by outside code), calls it with this TxsdBulletsTypeSequenceBullet instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TxsdBulletsTypeSequenceBullet instance.
+func (me *TxsdBulletsTypeSequenceBullet) Walk() (err error) {
+	if fn := WalkHandlers.TxsdBulletsTypeSequenceBullet; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ struct {
+	Bullets []*TxsdBulletsTypeSequenceBullet `xml:"http://sovren.com/hr-xml/2006-02-28 Bullet"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ instance.
+func (me *XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.Bullets {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TBulletsType struct {
+	XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_
+}
+
+//	If the WalkHandlers.TBulletsType function is not nil (ie. was set by outside code), calls it with this TBulletsType instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TBulletsType instance.
+func (me *TBulletsType) Walk() (err error) {
+	if fn := WalkHandlers.TBulletsType; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_ struct {
+	Bullets *TBulletsType `xml:"http://sovren.com/hr-xml/2006-02-28 Bullets"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_ instance.
+func (me *XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Bullets.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasAttr_SubCode_XsdtString_ struct {
+	SubCode xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 SubCode,attr"`
+}
+
+type TxsdIndustryTypeSequenceCode struct {
+	XsdtString
+
+	XsdGoPkgHasAttr_SubCode_XsdtString_
+}
+
+//	If the WalkHandlers.TxsdIndustryTypeSequenceCode function is not nil (ie. was set by outside code), calls it with this TxsdIndustryTypeSequenceCode instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TxsdIndustryTypeSequenceCode instance.
+func (me *TxsdIndustryTypeSequenceCode) Walk() (err error) {
+	if fn := WalkHandlers.TxsdIndustryTypeSequenceCode; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_ struct {
+	Codes []*TxsdIndustryTypeSequenceCode `xml:"http://sovren.com/hr-xml/2006-02-28 Code"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_ instance.
+func (me *XsdGoPkgHasElems_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.Codes {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TIndustryType struct {
+	XsdGoPkgHasElems_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_
+}
+
+//	If the WalkHandlers.TIndustryType function is not nil (ie. was set by outside code), calls it with this TIndustryType instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TIndustryType instance.
+func (me *TIndustryType) Walk() (err error) {
+	if fn := WalkHandlers.TIndustryType; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElems_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_NormalizedIndustriessequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedIndustries_TIndustryType_ struct {
+	NormalizedIndustries *TIndustryType `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedIndustries"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_NormalizedIndustriessequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedIndustries_TIndustryType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NormalizedIndustriessequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedIndustries_TIndustryType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_NormalizedIndustriessequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedIndustries_TIndustryType_ instance.
+func (me *XsdGoPkgHasElem_NormalizedIndustriessequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedIndustries_TIndustryType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NormalizedIndustriessequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedIndustries_TIndustryType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.NormalizedIndustries.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ struct {
+	SelfEmploymentPhrase xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 SelfEmploymentPhrase"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
 type TxsdPositionHistoryUserArea struct {
-	XsdGoPkgHasElem_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_
-
-	XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_
-
-	XsdGoPkgHasElem_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_
-
-	XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_
-
-	XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_
+	XsdGoPkgHasElem_NormalizedTitlesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedTitle_XsdtString_
 
 	XsdGoPkgHasElem_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_
 
 	XsdGoPkgHasElem_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_
 
 	XsdGoPkgHasElem_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_
+
+	XsdGoPkgHasElem_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_
+
+	XsdGoPkgHasElem_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_
+
+	XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_
+
+	XsdGoPkgHasElem_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_
+
+	XsdGoPkgHasElem_NormalizedIndustriessequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedIndustries_TIndustryType_
+
+	XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_
+
+	XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_
+
+	XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_
 }
 
-//	If the WalkHandlers.TxsdPositionHistoryUserArea function is not nil (ie. was set by outside code), calls it with this TxsdPositionHistoryUserArea instance as the single argument. Then calls the Walk() method on 8/8 embed(s) and 0/0 field(s) belonging to this TxsdPositionHistoryUserArea instance.
+//	If the WalkHandlers.TxsdPositionHistoryUserArea function is not nil (ie. was set by outside code), calls it with this TxsdPositionHistoryUserArea instance as the single argument. Then calls the Walk() method on 12/12 embed(s) and 0/0 field(s) belonging to this TxsdPositionHistoryUserArea instance.
 func (me *TxsdPositionHistoryUserArea) Walk() (err error) {
 	if fn := WalkHandlers.TxsdPositionHistoryUserArea; me != nil {
 		if fn != nil {
@@ -454,16 +987,10 @@ func (me *TxsdPositionHistoryUserArea) Walk() (err error) {
 				return
 			}
 		}
-		if err = me.XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
 		if err = me.XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if err = me.XsdGoPkgHasElem_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
@@ -476,6 +1003,24 @@ func (me *TxsdPositionHistoryUserArea) Walk() (err error) {
 			return
 		}
 		if err = me.XsdGoPkgHasElem_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedTitlesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedTitle_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedIndustriessequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedIndustries_TIndustryType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -537,6 +1082,1383 @@ func (me *XsdGoPkgHasElems_PositionHistoryUserArea) Walk() (err error) {
 	return
 }
 
+type XsdGoPkgHasElem_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_ struct {
+	NormalizedEmployerOrgName xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedEmployerOrgName"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TxsdEmployerOrgUserArea struct {
+	XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_
+
+	XsdGoPkgHasElem_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_
+
+	XsdGoPkgHasElem_NormalizedIndustriessequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedIndustries_TIndustryType_
+}
+
+//	If the WalkHandlers.TxsdEmployerOrgUserArea function is not nil (ie. was set by outside code), calls it with this TxsdEmployerOrgUserArea instance as the single argument. Then calls the Walk() method on 3/3 embed(s) and 0/0 field(s) belonging to this TxsdEmployerOrgUserArea instance.
+func (me *TxsdEmployerOrgUserArea) Walk() (err error) {
+	if fn := WalkHandlers.TxsdEmployerOrgUserArea; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedIndustriessequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedIndustries_TIndustryType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_EmployerOrgUserArea struct {
+	EmployerOrgUserArea *TxsdEmployerOrgUserArea `xml:"http://sovren.com/hr-xml/2006-02-28 EmployerOrgUserArea"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_EmployerOrgUserArea function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EmployerOrgUserArea instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_EmployerOrgUserArea instance.
+func (me *XsdGoPkgHasElem_EmployerOrgUserArea) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_EmployerOrgUserArea; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.EmployerOrgUserArea.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_EmployerOrgUserArea struct {
+	EmployerOrgUserAreas []*TxsdEmployerOrgUserArea `xml:"http://sovren.com/hr-xml/2006-02-28 EmployerOrgUserArea"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_EmployerOrgUserArea function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EmployerOrgUserArea instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EmployerOrgUserArea instance.
+func (me *XsdGoPkgHasElems_EmployerOrgUserArea) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_EmployerOrgUserArea; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.EmployerOrgUserAreas {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_LocationsequenceTxsdResumeUserAreaResumeUserAreaschema_Location_TLocationType_ struct {
+	Location *TLocationType `xml:"http://sovren.com/hr-xml/2006-02-28 Location"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_LocationsequenceTxsdResumeUserAreaResumeUserAreaschema_Location_TLocationType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LocationsequenceTxsdResumeUserAreaResumeUserAreaschema_Location_TLocationType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_LocationsequenceTxsdResumeUserAreaResumeUserAreaschema_Location_TLocationType_ instance.
+func (me *XsdGoPkgHasElem_LocationsequenceTxsdResumeUserAreaResumeUserAreaschema_Location_TLocationType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_LocationsequenceTxsdResumeUserAreaResumeUserAreaschema_Location_TLocationType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Location.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_ struct {
+	Text xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Text"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TrainingHistoryTypeEnum xsdt.String
+
+//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "Vocational".
+func (me TrainingHistoryTypeEnum) IsVocational() bool { return me.String() == "Vocational" }
+
+//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "Personal".
+func (me TrainingHistoryTypeEnum) IsPersonal() bool { return me.String() == "Personal" }
+
+//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "LowerCraft".
+func (me TrainingHistoryTypeEnum) IsLowerCraft() bool { return me.String() == "LowerCraft" }
+
+//	Since TrainingHistoryTypeEnum is just a simple String type, this merely sets the current value from the specified string.
+func (me *TrainingHistoryTypeEnum) Set(s string) { (*xsdt.String)(me).Set(s) }
+
+//	Since TrainingHistoryTypeEnum is just a simple String type, this merely returns the current string value.
+func (me TrainingHistoryTypeEnum) String() string { return xsdt.String(me).String() }
+
+//	This convenience method just performs a simple type conversion to TrainingHistoryTypeEnum's alias type xsdt.String.
+func (me TrainingHistoryTypeEnum) ToXsdtString() xsdt.String { return xsdt.String(me) }
+
+//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "Unknown".
+func (me TrainingHistoryTypeEnum) IsUnknown() bool { return me.String() == "Unknown" }
+
+//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "Professional".
+func (me TrainingHistoryTypeEnum) IsProfessional() bool { return me.String() == "Professional" }
+
+//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "MiddleCraft".
+func (me TrainingHistoryTypeEnum) IsMiddleCraft() bool { return me.String() == "MiddleCraft" }
+
+//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "HigherCraft".
+func (me TrainingHistoryTypeEnum) IsHigherCraft() bool { return me.String() == "HigherCraft" }
+
+type TrainingHistoryTypeType struct {
+	TrainingHistoryTypeEnum
+}
+
+//	If the WalkHandlers.TrainingHistoryTypeType function is not nil (ie. was set by outside code), calls it with this TrainingHistoryTypeType instance as the single argument. Then calls the Walk() method on 0/1 embed(s) and 0/0 field(s) belonging to this TrainingHistoryTypeType instance.
+func (me *TrainingHistoryTypeType) Walk() (err error) {
+	if fn := WalkHandlers.TrainingHistoryTypeType; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_ struct {
+	Type *TrainingHistoryTypeType `xml:"http://sovren.com/hr-xml/2006-02-28 Type"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_ instance.
+func (me *XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Type.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ struct {
+	TrainingName xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 TrainingName"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ struct {
+	Qualifications []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Qualification"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TxsdTrainingTypeSequenceQualifications struct {
+	XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_
+}
+
+//	If the WalkHandlers.TxsdTrainingTypeSequenceQualifications function is not nil (ie. was set by outside code), calls it with this TxsdTrainingTypeSequenceQualifications instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdTrainingTypeSequenceQualifications instance.
+func (me *TxsdTrainingTypeSequenceQualifications) Walk() (err error) {
+	if fn := WalkHandlers.TxsdTrainingTypeSequenceQualifications; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ struct {
+	Qualifications *TxsdTrainingTypeSequenceQualifications `xml:"http://sovren.com/hr-xml/2006-02-28 Qualifications"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ instance.
+func (me *XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Qualifications.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_ struct {
+	Entity xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Entity"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_DescriptionsequenceTrainingTypeschema_Description_XsdtString_ struct {
+	Description xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Description"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_DescriptionsequenceTrainingTypeschema_Description_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DescriptionsequenceTrainingTypeschema_Description_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_DescriptionsequenceTrainingTypeschema_Description_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_DescriptionsequenceTrainingTypeschema_Description_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_DescriptionsequenceTrainingTypeschema_Description_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ struct {
+	StartDate hrxml.TFlexibleDatesType `xml:"http://sovren.com/hr-xml/2006-02-28 StartDate"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ instance.
+func (me *XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ struct {
+	EndDate hrxml.TFlexibleDatesType `xml:"http://sovren.com/hr-xml/2006-02-28 EndDate"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ instance.
+func (me *XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TrainingType struct {
+	XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_
+
+	XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_
+
+	XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_
+
+	XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_
+
+	XsdGoPkgHasElem_DescriptionsequenceTrainingTypeschema_Description_XsdtString_
+
+	XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_
+
+	XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_
+}
+
+//	If the WalkHandlers.TrainingType function is not nil (ie. was set by outside code), calls it with this TrainingType instance as the single argument. Then calls the Walk() method on 7/7 embed(s) and 0/0 field(s) belonging to this TrainingType instance.
+func (me *TrainingType) Walk() (err error) {
+	if fn := WalkHandlers.TrainingType; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_DescriptionsequenceTrainingTypeschema_Description_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ struct {
+	Trainings []*TrainingType `xml:"http://sovren.com/hr-xml/2006-02-28 Training"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ instance.
+func (me *XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.Trainings {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TxsdResumeUserAreaSequenceTrainingHistory struct {
+	XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_
+
+	XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_
+}
+
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceTrainingHistory function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceTrainingHistory instance as the single argument. Then calls the Walk() method on 2/2 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceTrainingHistory instance.
+func (me *TxsdResumeUserAreaSequenceTrainingHistory) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceTrainingHistory; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ struct {
+	TrainingHistory *TxsdResumeUserAreaSequenceTrainingHistory `xml:"http://sovren.com/hr-xml/2006-02-28 TrainingHistory"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ instance.
+func (me *XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.TrainingHistory.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ struct {
+	ParsedTextLength xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 ParsedTextLength"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ instance.
+func (me *XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType xsdt.String
+
+//	Since TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType is just a simple String type, this merely sets the current value from the specified string.
+func (me *TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType) Set(s string) {
+	(*xsdt.String)(me).Set(s)
+}
+
+//	Since TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType is just a simple String type, this merely returns the current string value.
+func (me TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType) String() string {
+	return xsdt.String(me).String()
+}
+
+//	This convenience method just performs a simple type conversion to TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType's alias type xsdt.String.
+func (me TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType) ToXsdtString() xsdt.String {
+	return xsdt.String(me)
+}
+
+//	Returns true if the value of this enumerated TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType is "hard".
+func (me TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType) IsHard() bool {
+	return me.String() == "hard"
+}
+
+//	Returns true if the value of this enumerated TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType is "soft".
+func (me TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType) IsSoft() bool {
+	return me.String() == "soft"
+}
+
+type XsdGoPkgHasAttr_Type_TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType_ struct {
+	Type TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType `xml:"http://sovren.com/hr-xml/2006-02-28 type,attr"`
+}
+
+type TxsdResumeUserAreaSequenceTimedOut struct {
+	XsdtInt
+
+	XsdGoPkgHasAttr_Type_TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType_
+}
+
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceTimedOut function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceTimedOut instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceTimedOut instance.
+func (me *TxsdResumeUserAreaSequenceTimedOut) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceTimedOut; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ struct {
+	TimedOut *TxsdResumeUserAreaSequenceTimedOut `xml:"http://sovren.com/hr-xml/2006-02-28 TimedOut"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ instance.
+func (me *XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.TimedOut.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_ struct {
+	ParserConfigurationString xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 ParserConfigurationString"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_ struct {
+	ParserVersion xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 ParserVersion"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasAttr_Name_XsdtString_ struct {
+	Name xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 name,attr"`
+}
+
+type XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_ struct {
+	BestFitTaxonomies []*TBestFitTaxonomyType `xml:"http://sovren.com/hr-xml/2006-02-28 BestFitTaxonomy"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_ instance.
+func (me *XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasAttr_Weight_XsdtDouble_ struct {
+	Weight xsdt.Double `xml:"http://sovren.com/hr-xml/2006-02-28 weight,attr"`
+}
+
+type XsdGoPkgHasAttr_PercentOfOverall_XsdtDouble_ struct {
+	PercentOfOverall xsdt.Double `xml:"http://sovren.com/hr-xml/2006-02-28 percentOfOverall,attr"`
+}
+
+type XsdGoPkgHasAttr_PercentOfParent_XsdtDouble_ struct {
+	PercentOfParent xsdt.Double `xml:"http://sovren.com/hr-xml/2006-02-28 percentOfParent,attr"`
+}
+
+type XsdGoPkgHasAttr_Id_XsdtString_ struct {
+	Id xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 id,attr"`
+}
+
+type XsdGoPkgHasAttr_RootId_XsdtString_ struct {
+	RootId xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 rootId,attr"`
+}
+
+type TBestFitTaxonomyType struct {
+	XsdGoPkgHasAttr_Weight_XsdtDouble_
+
+	XsdGoPkgHasAttr_PercentOfOverall_XsdtDouble_
+
+	XsdGoPkgHasAttr_PercentOfParent_XsdtDouble_
+
+	XsdGoPkgHasAttr_Id_XsdtString_
+
+	XsdGoPkgHasAttr_RootId_XsdtString_
+
+	XsdGoPkgHasAttr_Name_XsdtString_
+
+	XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_
+}
+
+//	If the WalkHandlers.TBestFitTaxonomyType function is not nil (ie. was set by outside code), calls it with this TBestFitTaxonomyType instance as the single argument. Then calls the Walk() method on 1/7 embed(s) and 0/0 field(s) belonging to this TBestFitTaxonomyType instance.
+func (me *TBestFitTaxonomyType) Walk() (err error) {
+	if fn := WalkHandlers.TBestFitTaxonomyType; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ struct {
+	BestFitTaxonomies []*TBestFitTaxonomyType `xml:"http://sovren.com/hr-xml/2006-02-28 BestFitTaxonomy"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ instance.
+func (me *XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.BestFitTaxonomies {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies struct {
+	XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_
+}
+
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies instance.
+func (me *TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ struct {
+	BestFitTaxonomies *TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies `xml:"http://sovren.com/hr-xml/2006-02-28 BestFitTaxonomies"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ instance.
+func (me *XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.BestFitTaxonomies.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ struct {
+	MonthsOfWorkExperience xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 MonthsOfWorkExperience"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ instance.
+func (me *XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ struct {
+	MonthsOfManagementExperience xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 MonthsOfManagementExperience"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ instance.
+func (me *XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_ struct {
+	HighestManagementScore xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 HighestManagementScore"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_ instance.
+func (me *XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TCurrentManagementLevelEnum xsdt.String
+
+//	Returns true if the value of this enumerated TCurrentManagementLevelEnum is "low-or-no-level".
+func (me TCurrentManagementLevelEnum) IsLowOrNoLevel() bool { return me.String() == "low-or-no-level" }
+
+//	Returns true if the value of this enumerated TCurrentManagementLevelEnum is "somewhat high-level".
+func (me TCurrentManagementLevelEnum) IsSomewhatHighLevel() bool {
+	return me.String() == "somewhat high-level"
+}
+
+//	Returns true if the value of this enumerated TCurrentManagementLevelEnum is "high-level".
+func (me TCurrentManagementLevelEnum) IsHighLevel() bool { return me.String() == "high-level" }
+
+//	This convenience method just performs a simple type conversion to TCurrentManagementLevelEnum's alias type xsdt.String.
+func (me TCurrentManagementLevelEnum) ToXsdtString() xsdt.String { return xsdt.String(me) }
+
+//	Since TCurrentManagementLevelEnum is just a simple String type, this merely returns the current string value.
+func (me TCurrentManagementLevelEnum) String() string { return xsdt.String(me).String() }
+
+//	Returns true if the value of this enumerated TCurrentManagementLevelEnum is "low-level".
+func (me TCurrentManagementLevelEnum) IsLowLevel() bool { return me.String() == "low-level" }
+
+//	Returns true if the value of this enumerated TCurrentManagementLevelEnum is "mid-level".
+func (me TCurrentManagementLevelEnum) IsMidLevel() bool { return me.String() == "mid-level" }
+
+//	Returns true if the value of this enumerated TCurrentManagementLevelEnum is "executive-level".
+func (me TCurrentManagementLevelEnum) IsExecutiveLevel() bool {
+	return me.String() == "executive-level"
+}
+
+//	Since TCurrentManagementLevelEnum is just a simple String type, this merely sets the current value from the specified string.
+func (me *TCurrentManagementLevelEnum) Set(s string) { (*xsdt.String)(me).Set(s) }
+
+type TCurrentManagementLevelType struct {
+	TCurrentManagementLevelEnum
+}
+
+//	If the WalkHandlers.TCurrentManagementLevelType function is not nil (ie. was set by outside code), calls it with this TCurrentManagementLevelType instance as the single argument. Then calls the Walk() method on 0/1 embed(s) and 0/0 field(s) belonging to this TCurrentManagementLevelType instance.
+func (me *TCurrentManagementLevelType) Walk() (err error) {
+	if fn := WalkHandlers.TCurrentManagementLevelType; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ struct {
+	CurrentManagementLevel *TCurrentManagementLevelType `xml:"http://sovren.com/hr-xml/2006-02-28 CurrentManagementLevel"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ instance.
+func (me *XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.CurrentManagementLevel.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TExecutiveTypeEnum xsdt.String
+
+//	Since TExecutiveTypeEnum is just a simple String type, this merely sets the current value from the specified string.
+func (me *TExecutiveTypeEnum) Set(s string) { (*xsdt.String)(me).Set(s) }
+
+//	Returns true if the value of this enumerated TExecutiveTypeEnum is "accounting".
+func (me TExecutiveTypeEnum) IsAccounting() bool { return me.String() == "accounting" }
+
+//	Returns true if the value of this enumerated TExecutiveTypeEnum is "general".
+func (me TExecutiveTypeEnum) IsGeneral() bool { return me.String() == "general" }
+
+//	Since TExecutiveTypeEnum is just a simple String type, this merely returns the current string value.
+func (me TExecutiveTypeEnum) String() string { return xsdt.String(me).String() }
+
+//	Returns true if the value of this enumerated TExecutiveTypeEnum is "marketing".
+func (me TExecutiveTypeEnum) IsMarketing() bool { return me.String() == "marketing" }
+
+//	Returns true if the value of this enumerated TExecutiveTypeEnum is "business_dev".
+func (me TExecutiveTypeEnum) IsBusinessDev() bool { return me.String() == "business_dev" }
+
+//	Returns true if the value of this enumerated TExecutiveTypeEnum is "it".
+func (me TExecutiveTypeEnum) IsIt() bool { return me.String() == "it" }
+
+//	Returns true if the value of this enumerated TExecutiveTypeEnum is "executive".
+func (me TExecutiveTypeEnum) IsExecutive() bool { return me.String() == "executive" }
+
+//	Returns true if the value of this enumerated TExecutiveTypeEnum is "operations".
+func (me TExecutiveTypeEnum) IsOperations() bool { return me.String() == "operations" }
+
+//	This convenience method just performs a simple type conversion to TExecutiveTypeEnum's alias type xsdt.String.
+func (me TExecutiveTypeEnum) ToXsdtString() xsdt.String { return xsdt.String(me) }
+
+//	Returns true if the value of this enumerated TExecutiveTypeEnum is "none".
+func (me TExecutiveTypeEnum) IsNone() bool { return me.String() == "none" }
+
+//	Returns true if the value of this enumerated TExecutiveTypeEnum is "admin".
+func (me TExecutiveTypeEnum) IsAdmin() bool { return me.String() == "admin" }
+
+//	Returns true if the value of this enumerated TExecutiveTypeEnum is "financial".
+func (me TExecutiveTypeEnum) IsFinancial() bool { return me.String() == "financial" }
+
+//	Returns true if the value of this enumerated TExecutiveTypeEnum is "learning".
+func (me TExecutiveTypeEnum) IsLearning() bool { return me.String() == "learning" }
+
+type TExecutiveTypeType struct {
+	TExecutiveTypeEnum
+}
+
+//	If the WalkHandlers.TExecutiveTypeType function is not nil (ie. was set by outside code), calls it with this TExecutiveTypeType instance as the single argument. Then calls the Walk() method on 0/1 embed(s) and 0/0 field(s) belonging to this TExecutiveTypeType instance.
+func (me *TExecutiveTypeType) Walk() (err error) {
+	if fn := WalkHandlers.TExecutiveTypeType; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ struct {
+	ExecutiveType *TExecutiveTypeType `xml:"http://sovren.com/hr-xml/2006-02-28 ExecutiveType"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ instance.
+func (me *XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.ExecutiveType.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ struct {
+	ManagementStory xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 ManagementStory"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ struct {
+	YearsOfWorkExperience xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 YearsOfWorkExperience"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ instance.
+func (me *XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ struct {
+	YearsOfManagementExperience xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 YearsOfManagementExperience"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ instance.
+func (me *XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TxsdResumeUserAreaSequenceExperienceSummary struct {
+	XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_
+
+	XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_
+
+	XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_
+
+	XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_
+
+	XsdGoPkgHasElem_DescriptionsequenceTrainingTypeschema_Description_XsdtString_
+
+	XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_
+
+	XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_
+
+	XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_
+
+	XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_
+
+	XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_
+}
+
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceExperienceSummary function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceExperienceSummary instance as the single argument. Then calls the Walk() method on 10/10 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceExperienceSummary instance.
+func (me *TxsdResumeUserAreaSequenceExperienceSummary) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceExperienceSummary; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_DescriptionsequenceTrainingTypeschema_Description_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ struct {
+	ExperienceSummary *TxsdResumeUserAreaSequenceExperienceSummary `xml:"http://sovren.com/hr-xml/2006-02-28 ExperienceSummary"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ instance.
+func (me *XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.ExperienceSummary.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TxsdResumeUserAreaSequenceHobbies struct {
+	XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_
+}
+
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceHobbies function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceHobbies instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceHobbies instance.
+func (me *TxsdResumeUserAreaSequenceHobbies) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceHobbies; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_ struct {
+	Hobbies *TxsdResumeUserAreaSequenceHobbies `xml:"http://sovren.com/hr-xml/2006-02-28 Hobbies"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_ instance.
+func (me *XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Hobbies.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasAttr_Ends_XsdtInt_ struct {
+	Ends xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 ends,attr"`
+}
+
+type XsdGoPkgHasAttr_SectionType_XsdtString_ struct {
+	SectionType xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 sectionType,attr"`
+}
+
+type XsdGoPkgHasAttr_Starts_XsdtInt_ struct {
+	Starts xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 starts,attr"`
+}
+
+type TxsdResumeUserAreaSequenceSectionsSequenceSection struct {
+	XsdGoPkgHasAttr_Starts_XsdtInt_
+
+	XsdtString
+
+	XsdGoPkgHasAttr_Ends_XsdtInt_
+
+	XsdGoPkgHasAttr_SectionType_XsdtString_
+}
+
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceSectionsSequenceSection function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceSectionsSequenceSection instance as the single argument. Then calls the Walk() method on 0/4 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceSectionsSequenceSection instance.
+func (me *TxsdResumeUserAreaSequenceSectionsSequenceSection) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceSectionsSequenceSection; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ struct {
+	Sections []*TxsdResumeUserAreaSequenceSectionsSequenceSection `xml:"http://sovren.com/hr-xml/2006-02-28 Section"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ instance.
+func (me *XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.Sections {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TxsdResumeUserAreaSequenceSections struct {
+	XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_
+}
+
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceSections function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceSections instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceSections instance.
+func (me *TxsdResumeUserAreaSequenceSections) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceSections; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ struct {
+	Sections *TxsdResumeUserAreaSequenceSections `xml:"http://sovren.com/hr-xml/2006-02-28 Sections"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ instance.
+func (me *XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Sections.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
 type XsdGoPkgHasElem_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_ struct {
 	ParseTime xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 ParseTime"`
 }
@@ -558,13 +2480,13 @@ func (me *XsdGoPkgHasElem_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschem
 	return
 }
 
-type XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_ struct {
-	CurrentLocation xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 CurrentLocation"`
+type XsdGoPkgHasElem_LicenseSerialNumbersequenceTxsdResumeUserAreaResumeUserAreaschema_LicenseSerialNumber_XsdtString_ struct {
+	LicenseSerialNumber xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 LicenseSerialNumber"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_LicenseSerialNumbersequenceTxsdResumeUserAreaResumeUserAreaschema_LicenseSerialNumber_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LicenseSerialNumbersequenceTxsdResumeUserAreaResumeUserAreaschema_LicenseSerialNumber_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_LicenseSerialNumbersequenceTxsdResumeUserAreaResumeUserAreaschema_LicenseSerialNumber_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_LicenseSerialNumbersequenceTxsdResumeUserAreaResumeUserAreaschema_LicenseSerialNumber_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_LicenseSerialNumbersequenceTxsdResumeUserAreaResumeUserAreaschema_LicenseSerialNumber_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -579,13 +2501,24 @@ func (me *XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePerso
 	return
 }
 
-type XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ struct {
-	MothersMaidenName xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 MothersMaidenName"`
+type TxsdCultureTypeSequenceCultureInfo xsdt.String
+
+//	This convenience method just performs a simple type conversion to TxsdCultureTypeSequenceCultureInfo's alias type xsdt.String.
+func (me TxsdCultureTypeSequenceCultureInfo) ToXsdtString() xsdt.String { return xsdt.String(me) }
+
+//	Since TxsdCultureTypeSequenceCultureInfo is just a simple String type, this merely sets the current value from the specified string.
+func (me *TxsdCultureTypeSequenceCultureInfo) Set(s string) { (*xsdt.String)(me).Set(s) }
+
+//	Since TxsdCultureTypeSequenceCultureInfo is just a simple String type, this merely returns the current string value.
+func (me TxsdCultureTypeSequenceCultureInfo) String() string { return xsdt.String(me).String() }
+
+type XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ struct {
+	CultureInfo TxsdCultureTypeSequenceCultureInfo `xml:"http://sovren.com/hr-xml/2006-02-28 CultureInfo"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ instance.
+func (me *XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -600,47 +2533,13 @@ func (me *XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePer
 	return
 }
 
-type TMaritalStatusEnum xsdt.String
-
-//	Since TMaritalStatusEnum is just a simple String type, this merely returns the current string value.
-func (me TMaritalStatusEnum) String() string { return xsdt.String(me).String() }
-
-//	Returns true if the value of this enumerated TMaritalStatusEnum is "Married".
-func (me TMaritalStatusEnum) IsMarried() bool { return me.String() == "Married" }
-
-//	Returns true if the value of this enumerated TMaritalStatusEnum is "Single".
-func (me TMaritalStatusEnum) IsSingle() bool { return me.String() == "Single" }
-
-//	Returns true if the value of this enumerated TMaritalStatusEnum is "Separated".
-func (me TMaritalStatusEnum) IsSeparated() bool { return me.String() == "Separated" }
-
-//	Returns true if the value of this enumerated TMaritalStatusEnum is "Cohabitating".
-func (me TMaritalStatusEnum) IsCohabitating() bool { return me.String() == "Cohabitating" }
-
-//	Since TMaritalStatusEnum is just a simple String type, this merely sets the current value from the specified string.
-func (me *TMaritalStatusEnum) Set(s string) { (*xsdt.String)(me).Set(s) }
-
-//	This convenience method just performs a simple type conversion to TMaritalStatusEnum's alias type xsdt.String.
-func (me TMaritalStatusEnum) ToXsdtString() xsdt.String { return xsdt.String(me) }
-
-//	Returns true if the value of this enumerated TMaritalStatusEnum is "Divorced".
-func (me TMaritalStatusEnum) IsDivorced() bool { return me.String() == "Divorced" }
-
-//	Returns true if the value of this enumerated TMaritalStatusEnum is "CivilUnion".
-func (me TMaritalStatusEnum) IsCivilUnion() bool { return me.String() == "CivilUnion" }
-
-//	Returns true if the value of this enumerated TMaritalStatusEnum is "Unknown".
-func (me TMaritalStatusEnum) IsUnknown() bool { return me.String() == "Unknown" }
-
-type TMaritalStatusType struct {
-	TMaritalStatusEnum
-
-	XsdGoPkgHasAtts_Inferred
+type XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ struct {
+	Language TxsdCultureTypeSequenceCultureInfo `xml:"http://sovren.com/hr-xml/2006-02-28 Language"`
 }
 
-//	If the WalkHandlers.TMaritalStatusType function is not nil (ie. was set by outside code), calls it with this TMaritalStatusType instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TMaritalStatusType instance.
-func (me *TMaritalStatusType) Walk() (err error) {
-	if fn := WalkHandlers.TMaritalStatusType; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ instance.
+func (me *XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -655,19 +2554,50 @@ func (me *TMaritalStatusType) Walk() (err error) {
 	return
 }
 
-type XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ struct {
-	MaritalStatus *TMaritalStatusType `xml:"http://sovren.com/hr-xml/2006-02-28 MaritalStatus"`
+type XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ struct {
+	Country TxsdCultureTypeSequenceCultureInfo `xml:"http://sovren.com/hr-xml/2006-02-28 Country"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ instance.
-func (me *XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ instance.
+func (me *XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if err = me.MaritalStatus.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TCultureType struct {
+	XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_
+
+	XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_
+
+	XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_
+}
+
+//	If the WalkHandlers.TCultureType function is not nil (ie. was set by outside code), calls it with this TCultureType instance as the single argument. Then calls the Walk() method on 3/3 embed(s) and 0/0 field(s) belonging to this TCultureType instance.
+func (me *TCultureType) Walk() (err error) {
+	if fn := WalkHandlers.TCultureType; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -679,30 +2609,43 @@ func (me *XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersona
 	return
 }
 
-type TYesNoType xsdt.String
-
-//	Returns true if the value of this enumerated TYesNoType is "No".
-func (me TYesNoType) IsNo() bool { return me.String() == "No" }
-
-//	Since TYesNoType is just a simple String type, this merely sets the current value from the specified string.
-func (me *TYesNoType) Set(s string) { (*xsdt.String)(me).Set(s) }
-
-//	Since TYesNoType is just a simple String type, this merely returns the current string value.
-func (me TYesNoType) String() string { return xsdt.String(me).String() }
-
-//	This convenience method just performs a simple type conversion to TYesNoType's alias type xsdt.String.
-func (me TYesNoType) ToXsdtString() xsdt.String { return xsdt.String(me) }
-
-//	Returns true if the value of this enumerated TYesNoType is "Yes".
-func (me TYesNoType) IsYes() bool { return me.String() == "Yes" }
-
-type XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_ struct {
-	WillingToRelocate TYesNoType `xml:"http://sovren.com/hr-xml/2006-02-28 WillingToRelocate"`
+type XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_ struct {
+	Culture *TCultureType `xml:"http://sovren.com/hr-xml/2006-02-28 Culture"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_ instance.
-func (me *XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_ instance.
+func (me *XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Culture.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasAttr_Type_XsdtString_ struct {
+	Type xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 type,attr"`
+}
+
+type TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch struct {
+	XsdtString
+
+	XsdGoPkgHasAttr_Type_XsdtString_
+}
+
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch instance.
+func (me *TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -717,13 +2660,129 @@ func (me *XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePer
 	return
 }
 
-type XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_ struct {
-	PassportNumber xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 PassportNumber"`
+type XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ struct {
+	CustomDataMatchs []*TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch `xml:"http://sovren.com/hr-xml/2006-02-28 CustomDataMatch"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ instance.
+func (me *XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.CustomDataMatchs {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TxsdResumeUserAreaSequenceCustomData struct {
+	XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_
+}
+
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceCustomData function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceCustomData instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceCustomData instance.
+func (me *TxsdResumeUserAreaSequenceCustomData) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceCustomData; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_ struct {
+	CustomData *TxsdResumeUserAreaSequenceCustomData `xml:"http://sovren.com/hr-xml/2006-02-28 CustomData"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_ instance.
+func (me *XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.CustomData.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_ struct {
+	CoverLetterText xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 CoverLetterText"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_ struct {
+	SearchHints xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 SearchHints"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ struct {
+	VisaStatus xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 VisaStatus"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -740,14 +2799,14 @@ func (me *XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePerson
 
 type TCurrencyType xsdt.String
 
+//	Since TCurrencyType is just a simple String type, this merely returns the current string value.
+func (me TCurrencyType) String() string { return xsdt.String(me).String() }
+
 //	This convenience method just performs a simple type conversion to TCurrencyType's alias type xsdt.String.
 func (me TCurrencyType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 //	Since TCurrencyType is just a simple String type, this merely sets the current value from the specified string.
 func (me *TCurrencyType) Set(s string) { (*xsdt.String)(me).Set(s) }
-
-//	Since TCurrencyType is just a simple String type, this merely returns the current string value.
-func (me TCurrencyType) String() string { return xsdt.String(me).String() }
 
 type XsdGoPkgHasAttr_Currency_TCurrencyType_ struct {
 	Currency TCurrencyType `xml:"http://sovren.com/hr-xml/2006-02-28 currency,attr"`
@@ -762,51 +2821,6 @@ type TMoneyType struct {
 //	If the WalkHandlers.TMoneyType function is not nil (ie. was set by outside code), calls it with this TMoneyType instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TMoneyType instance.
 func (me *TMoneyType) Walk() (err error) {
 	if fn := WalkHandlers.TMoneyType; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_ struct {
-	RequiredSalary *TMoneyType `xml:"http://sovren.com/hr-xml/2006-02-28 RequiredSalary"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_ instance.
-func (me *XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.RequiredSalary.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_ struct {
-	FamilyComposition xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 FamilyComposition"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -845,63 +2859,19 @@ func (me *XsdGoPkgHasElem_CurrentSalarysequenceTxsdResumeUserAreaSequencePersona
 	return
 }
 
-type XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_ struct {
-	Birthplace xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Birthplace"`
+type XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_ struct {
+	RequiredSalary *TMoneyType `xml:"http://sovren.com/hr-xml/2006-02-28 RequiredSalary"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_ instance.
+func (me *XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TNationalityType struct {
-	XsdtString
-
-	XsdGoPkgHasAtts_Inferred
-}
-
-//	If the WalkHandlers.TNationalityType function is not nil (ie. was set by outside code), calls it with this TNationalityType instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TNationalityType instance.
-func (me *TNationalityType) Walk() (err error) {
-	if fn := WalkHandlers.TNationalityType; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_ struct {
-	Nationality *TNationalityType `xml:"http://sovren.com/hr-xml/2006-02-28 Nationality"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_ instance.
-func (me *XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.Nationality.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.RequiredSalary.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -913,13 +2883,13 @@ func (me *XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalI
 	return
 }
 
-type XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_ struct {
-	DrivingLicense xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 DrivingLicense"`
+type XsdGoPkgHasElem_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_ struct {
+	PoliticalAffiliation xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 PoliticalAffiliation"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -934,13 +2904,13 @@ func (me *XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePerson
 	return
 }
 
-type XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_ struct {
-	PreferredLocation xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 PreferredLocation"`
+type XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_ struct {
+	FamilyComposition xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 FamilyComposition"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -955,15 +2925,127 @@ func (me *XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePer
 	return
 }
 
-type XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ struct {
-	VisaStatus xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 VisaStatus"`
+type XsdGoPkgHasElem_AvailabilitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Availability_XsdtString_ struct {
+	Availability xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Availability"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_AvailabilitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Availability_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_AvailabilitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Availability_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_AvailabilitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Availability_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_AvailabilitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Availability_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_AvailabilitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Availability_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_ struct {
+	FathersName xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 FathersName"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_ struct {
+	PassportNumber xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 PassportNumber"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_ struct {
+	HukouArea xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 HukouArea"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TMessagingAddressType struct {
+	XsdtString
+
+	XsdGoPkgHasAttr_Type_XsdtString_
+}
+
+//	If the WalkHandlers.TMessagingAddressType function is not nil (ie. was set by outside code), calls it with this TMessagingAddressType instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TMessagingAddressType instance.
+func (me *TMessagingAddressType) Walk() (err error) {
+	if fn := WalkHandlers.TMessagingAddressType; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_ struct {
+	MessagingAddresses []*TMessagingAddressType `xml:"http://sovren.com/hr-xml/2006-02-28 MessagingAddress"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_ instance.
+func (me *XsdGoPkgHasElems_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.MessagingAddresses {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
@@ -977,9 +3059,9 @@ func (me *XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalIn
 }
 
 type TDateOfBirthType struct {
-	XsdtDate
-
 	XsdGoPkgHasAtts_Inferred
+
+	XsdtDate
 }
 
 //	If the WalkHandlers.TDateOfBirthType function is not nil (ie. was set by outside code), calls it with this TDateOfBirthType instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TDateOfBirthType instance.
@@ -1013,6 +3095,174 @@ func (me *XsdGoPkgHasElem_DateOfBirthsequenceTxsdResumeUserAreaSequencePersonalI
 		}
 		if err = me.DateOfBirth.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TYesNoType xsdt.String
+
+//	Since TYesNoType is just a simple String type, this merely sets the current value from the specified string.
+func (me *TYesNoType) Set(s string) { (*xsdt.String)(me).Set(s) }
+
+//	Since TYesNoType is just a simple String type, this merely returns the current string value.
+func (me TYesNoType) String() string { return xsdt.String(me).String() }
+
+//	This convenience method just performs a simple type conversion to TYesNoType's alias type xsdt.String.
+func (me TYesNoType) ToXsdtString() xsdt.String { return xsdt.String(me) }
+
+//	Returns true if the value of this enumerated TYesNoType is "Yes".
+func (me TYesNoType) IsYes() bool { return me.String() == "Yes" }
+
+//	Returns true if the value of this enumerated TYesNoType is "No".
+func (me TYesNoType) IsNo() bool { return me.String() == "No" }
+
+type XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_ struct {
+	WillingToRelocate TYesNoType `xml:"http://sovren.com/hr-xml/2006-02-28 WillingToRelocate"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_ instance.
+func (me *XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TGenderEnum xsdt.String
+
+//	Returns true if the value of this enumerated TGenderEnum is "Male".
+func (me TGenderEnum) IsMale() bool { return me.String() == "Male" }
+
+//	Returns true if the value of this enumerated TGenderEnum is "Female".
+func (me TGenderEnum) IsFemale() bool { return me.String() == "Female" }
+
+//	Returns true if the value of this enumerated TGenderEnum is "Unknown".
+func (me TGenderEnum) IsUnknown() bool { return me.String() == "Unknown" }
+
+//	Since TGenderEnum is just a simple String type, this merely sets the current value from the specified string.
+func (me *TGenderEnum) Set(s string) { (*xsdt.String)(me).Set(s) }
+
+//	Since TGenderEnum is just a simple String type, this merely returns the current string value.
+func (me TGenderEnum) String() string { return xsdt.String(me).String() }
+
+//	This convenience method just performs a simple type conversion to TGenderEnum's alias type xsdt.String.
+func (me TGenderEnum) ToXsdtString() xsdt.String { return xsdt.String(me) }
+
+type TGenderType struct {
+	TGenderEnum
+
+	XsdGoPkgHasAtts_Inferred
+}
+
+//	If the WalkHandlers.TGenderType function is not nil (ie. was set by outside code), calls it with this TGenderType instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TGenderType instance.
+func (me *TGenderType) Walk() (err error) {
+	if fn := WalkHandlers.TGenderType; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_ struct {
+	Gender *TGenderType `xml:"http://sovren.com/hr-xml/2006-02-28 Gender"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_ instance.
+func (me *XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Gender.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_ struct {
+	DrivingLicense xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 DrivingLicense"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_MotherTonguesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_ struct {
+	MotherTongue TCurrencyType `xml:"http://sovren.com/hr-xml/2006-02-28 MotherTongue"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_MotherTonguesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MotherTonguesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MotherTonguesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_ instance.
+func (me *XsdGoPkgHasElem_MotherTonguesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_MotherTonguesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_ struct {
+	Birthplace xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Birthplace"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
 		}
 		if fn != nil {
 			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
@@ -1194,35 +3444,13 @@ func (me *XsdGoPkgHasElem_NationalIdentitiessequenceTxsdResumeUserAreaSequencePe
 	return
 }
 
-type TGenderEnum xsdt.String
-
-//	Since TGenderEnum is just a simple String type, this merely sets the current value from the specified string.
-func (me *TGenderEnum) Set(s string) { (*xsdt.String)(me).Set(s) }
-
-//	Since TGenderEnum is just a simple String type, this merely returns the current string value.
-func (me TGenderEnum) String() string { return xsdt.String(me).String() }
-
-//	This convenience method just performs a simple type conversion to TGenderEnum's alias type xsdt.String.
-func (me TGenderEnum) ToXsdtString() xsdt.String { return xsdt.String(me) }
-
-//	Returns true if the value of this enumerated TGenderEnum is "Male".
-func (me TGenderEnum) IsMale() bool { return me.String() == "Male" }
-
-//	Returns true if the value of this enumerated TGenderEnum is "Female".
-func (me TGenderEnum) IsFemale() bool { return me.String() == "Female" }
-
-//	Returns true if the value of this enumerated TGenderEnum is "Unknown".
-func (me TGenderEnum) IsUnknown() bool { return me.String() == "Unknown" }
-
-type TGenderType struct {
-	TGenderEnum
-
-	XsdGoPkgHasAtts_Inferred
+type XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_ struct {
+	CurrentLocation xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 CurrentLocation"`
 }
 
-//	If the WalkHandlers.TGenderType function is not nil (ie. was set by outside code), calls it with this TGenderType instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TGenderType instance.
-func (me *TGenderType) Walk() (err error) {
-	if fn := WalkHandlers.TGenderType; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -1237,19 +3465,105 @@ func (me *TGenderType) Walk() (err error) {
 	return
 }
 
-type XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_ struct {
-	Gender *TGenderType `xml:"http://sovren.com/hr-xml/2006-02-28 Gender"`
+type XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_ struct {
+	PreferredLocation xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 PreferredLocation"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_ instance.
-func (me *XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if err = me.Gender.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ struct {
+	MothersMaidenName xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 MothersMaidenName"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_ struct {
+	HukouCity xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 HukouCity"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type TNationalityType struct {
+	XsdtString
+
+	XsdGoPkgHasAtts_Inferred
+}
+
+//	If the WalkHandlers.TNationalityType function is not nil (ie. was set by outside code), calls it with this TNationalityType instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TNationalityType instance.
+func (me *TNationalityType) Walk() (err error) {
+	if fn := WalkHandlers.TNationalityType; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_ struct {
+	Nationality *TNationalityType `xml:"http://sovren.com/hr-xml/2006-02-28 Nationality"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_ instance.
+func (me *XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Nationality.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -1261,17 +3575,75 @@ func (me *XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInform
 	return
 }
 
-type XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_ struct {
-	FathersName xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 FathersName"`
+type TMaritalStatusEnum xsdt.String
+
+//	This convenience method just performs a simple type conversion to TMaritalStatusEnum's alias type xsdt.String.
+func (me TMaritalStatusEnum) ToXsdtString() xsdt.String { return xsdt.String(me) }
+
+//	Returns true if the value of this enumerated TMaritalStatusEnum is "Married".
+func (me TMaritalStatusEnum) IsMarried() bool { return me.String() == "Married" }
+
+//	Since TMaritalStatusEnum is just a simple String type, this merely sets the current value from the specified string.
+func (me *TMaritalStatusEnum) Set(s string) { (*xsdt.String)(me).Set(s) }
+
+//	Since TMaritalStatusEnum is just a simple String type, this merely returns the current string value.
+func (me TMaritalStatusEnum) String() string { return xsdt.String(me).String() }
+
+//	Returns true if the value of this enumerated TMaritalStatusEnum is "Single".
+func (me TMaritalStatusEnum) IsSingle() bool { return me.String() == "Single" }
+
+//	Returns true if the value of this enumerated TMaritalStatusEnum is "Divorced".
+func (me TMaritalStatusEnum) IsDivorced() bool { return me.String() == "Divorced" }
+
+//	Returns true if the value of this enumerated TMaritalStatusEnum is "Separated".
+func (me TMaritalStatusEnum) IsSeparated() bool { return me.String() == "Separated" }
+
+//	Returns true if the value of this enumerated TMaritalStatusEnum is "CivilUnion".
+func (me TMaritalStatusEnum) IsCivilUnion() bool { return me.String() == "CivilUnion" }
+
+//	Returns true if the value of this enumerated TMaritalStatusEnum is "Cohabitating".
+func (me TMaritalStatusEnum) IsCohabitating() bool { return me.String() == "Cohabitating" }
+
+//	Returns true if the value of this enumerated TMaritalStatusEnum is "Unknown".
+func (me TMaritalStatusEnum) IsUnknown() bool { return me.String() == "Unknown" }
+
+type TMaritalStatusType struct {
+	TMaritalStatusEnum
+
+	XsdGoPkgHasAtts_Inferred
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_; me != nil {
+//	If the WalkHandlers.TMaritalStatusType function is not nil (ie. was set by outside code), calls it with this TMaritalStatusType instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TMaritalStatusType instance.
+func (me *TMaritalStatusType) Walk() (err error) {
+	if fn := WalkHandlers.TMaritalStatusType; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ struct {
+	MaritalStatus *TMaritalStatusType `xml:"http://sovren.com/hr-xml/2006-02-28 MaritalStatus"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ instance.
+func (me *XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.MaritalStatus.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
 		}
 		if fn != nil {
 			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
@@ -1283,42 +3655,54 @@ func (me *XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalI
 }
 
 type TxsdResumeUserAreaSequencePersonalInformation struct {
-	XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_
-
-	XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_
-
-	XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_
-
-	XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_
-
-	XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_
-
-	XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_
-
-	XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_
-
-	XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_
-
 	XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_
+
+	XsdGoPkgHasElem_AvailabilitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Availability_XsdtString_
+
+	XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_
 
 	XsdGoPkgHasElem_CurrentSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentSalary_TMoneyType_
 
+	XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_
+
+	XsdGoPkgHasElem_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_
+
 	XsdGoPkgHasElem_DateOfBirthsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DateOfBirth_TDateOfBirthType_
+
+	XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_
+
+	XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_
+
+	XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_
+
+	XsdGoPkgHasElem_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_
+
+	XsdGoPkgHasElems_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_
+
+	XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_
 
 	XsdGoPkgHasElem_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_
 
 	XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_
 
-	XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_
+	XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_
 
-	XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_
+	XsdGoPkgHasElem_MotherTonguesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_
+
+	XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_
+
+	XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_
 
 	XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_
 
+	XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_
+
 	XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_
+
+	XsdGoPkgHasElem_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_
 }
 
-//	If the WalkHandlers.TxsdResumeUserAreaSequencePersonalInformation function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequencePersonalInformation instance as the single argument. Then calls the Walk() method on 17/17 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequencePersonalInformation instance.
+//	If the WalkHandlers.TxsdResumeUserAreaSequencePersonalInformation function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequencePersonalInformation instance as the single argument. Then calls the Walk() method on 23/23 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequencePersonalInformation instance.
 func (me *TxsdResumeUserAreaSequencePersonalInformation) Walk() (err error) {
 	if fn := WalkHandlers.TxsdResumeUserAreaSequencePersonalInformation; me != nil {
 		if fn != nil {
@@ -1326,7 +3710,25 @@ func (me *TxsdResumeUserAreaSequencePersonalInformation) Walk() (err error) {
 				return
 			}
 		}
+		if err = me.XsdGoPkgHasElems_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
 		if err = me.XsdGoPkgHasElem_DateOfBirthsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DateOfBirth_TDateOfBirthType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if err = me.XsdGoPkgHasElem_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
@@ -1335,46 +3737,46 @@ func (me *TxsdResumeUserAreaSequencePersonalInformation) Walk() (err error) {
 		if err = me.XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
-		if err = me.XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
-		if err = me.XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElem_MotherTonguesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
-		if err = me.XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElem_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if err = me.XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
-		if err = me.XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if err = me.XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
+		if err = me.XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
 		if err = me.XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
+		if err = me.XsdGoPkgHasElem_AvailabilitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Availability_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
 		if err = me.XsdGoPkgHasElem_CurrentSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentSalary_TMoneyType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -1410,19 +3812,13 @@ func (me *XsdGoPkgHasElem_PersonalInformationsequenceTxsdResumeUserAreaResumeUse
 	return
 }
 
-type XsdGoPkgHasAttr_Type_XsdtString_ struct {
-	Type xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 type,attr"`
+type XsdGoPkgHasElems_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_ struct {
+	Phones []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Phone"`
 }
 
-type TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch struct {
-	XsdtString
-
-	XsdGoPkgHasAttr_Type_XsdtString_
-}
-
-//	If the WalkHandlers.TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch instance.
-func (me *TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch) Walk() (err error) {
-	if fn := WalkHandlers.TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -1437,45 +3833,19 @@ func (me *TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch) Walk() (e
 	return
 }
 
-type XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ struct {
-	CustomDataMatchs []*TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch `xml:"http://sovren.com/hr-xml/2006-02-28 CustomDataMatch"`
+type TxsdResumeUserAreaSequenceReservedDataSequencePhones struct {
+	XsdGoPkgHasElems_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ instance.
-func (me *XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_; me != nil {
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceReservedDataSequencePhones function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceReservedDataSequencePhones instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceReservedDataSequencePhones instance.
+func (me *TxsdResumeUserAreaSequenceReservedDataSequencePhones) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceReservedDataSequencePhones; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		for _, x := range me.CustomDataMatchs {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TxsdResumeUserAreaSequenceCustomData struct {
-	XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_
-}
-
-//	If the WalkHandlers.TxsdResumeUserAreaSequenceCustomData function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceCustomData instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceCustomData instance.
-func (me *TxsdResumeUserAreaSequenceCustomData) Walk() (err error) {
-	if fn := WalkHandlers.TxsdResumeUserAreaSequenceCustomData; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElems_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -1487,19 +3857,19 @@ func (me *TxsdResumeUserAreaSequenceCustomData) Walk() (err error) {
 	return
 }
 
-type XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_ struct {
-	CustomData *TxsdResumeUserAreaSequenceCustomData `xml:"http://sovren.com/hr-xml/2006-02-28 CustomData"`
+type XsdGoPkgHasElem_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_ struct {
+	Phones *TxsdResumeUserAreaSequenceReservedDataSequencePhones `xml:"http://sovren.com/hr-xml/2006-02-28 Phones"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_ instance.
-func (me *XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_ instance.
+func (me *XsdGoPkgHasElem_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if err = me.CustomData.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.Phones.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -1511,13 +3881,13 @@ func (me *XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreasche
 	return
 }
 
-type XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_ struct {
-	CoverLetterText xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 CoverLetterText"`
+type XsdGoPkgHasElems_EmailAddresssequenceTxsdResumeUserAreaSequenceReservedDataSequenceEmailAddressesEmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddress_XsdtString_ struct {
+	EmailAddresses []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 EmailAddress"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_EmailAddresssequenceTxsdResumeUserAreaSequenceReservedDataSequenceEmailAddressesEmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddress_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EmailAddresssequenceTxsdResumeUserAreaSequenceReservedDataSequenceEmailAddressesEmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddress_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EmailAddresssequenceTxsdResumeUserAreaSequenceReservedDataSequenceEmailAddressesEmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddress_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_EmailAddresssequenceTxsdResumeUserAreaSequenceReservedDataSequenceEmailAddressesEmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddress_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_EmailAddresssequenceTxsdResumeUserAreaSequenceReservedDataSequenceEmailAddressesEmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddress_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -1532,134 +3902,19 @@ func (me *XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAre
 	return
 }
 
-type XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ struct {
-	ParsedTextLength xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 ParsedTextLength"`
+type TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses struct {
+	XsdGoPkgHasElems_EmailAddresssequenceTxsdResumeUserAreaSequenceReservedDataSequenceEmailAddressesEmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddress_XsdtString_
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ instance.
-func (me *XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_; me != nil {
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses instance.
+func (me *TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_ struct {
-	SearchHints xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 SearchHints"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ struct {
-	Language TCurrencyType `xml:"http://sovren.com/hr-xml/2006-02-28 Language"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ instance.
-func (me *XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ struct {
-	Country TCurrencyType `xml:"http://sovren.com/hr-xml/2006-02-28 Country"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ instance.
-func (me *XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ struct {
-	CultureInfo TCurrencyType `xml:"http://sovren.com/hr-xml/2006-02-28 CultureInfo"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ instance.
-func (me *XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TCultureType struct {
-	XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_
-
-	XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_
-
-	XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_
-}
-
-//	If the WalkHandlers.TCultureType function is not nil (ie. was set by outside code), calls it with this TCultureType instance as the single argument. Then calls the Walk() method on 3/3 embed(s) and 0/0 field(s) belonging to this TCultureType instance.
-func (me *TCultureType) Walk() (err error) {
-	if fn := WalkHandlers.TCultureType; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElems_EmailAddresssequenceTxsdResumeUserAreaSequenceReservedDataSequenceEmailAddressesEmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddress_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -1671,19 +3926,19 @@ func (me *TCultureType) Walk() (err error) {
 	return
 }
 
-type XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_ struct {
-	Culture *TCultureType `xml:"http://sovren.com/hr-xml/2006-02-28 Culture"`
+type XsdGoPkgHasElem_EmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_ struct {
+	EmailAddresses *TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses `xml:"http://sovren.com/hr-xml/2006-02-28 EmailAddresses"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_ instance.
-func (me *XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_EmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_EmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_ instance.
+func (me *XsdGoPkgHasElem_EmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_EmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if err = me.Culture.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.EmailAddresses.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -1695,13 +3950,13 @@ func (me *XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_
 	return
 }
 
-type XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ struct {
-	MonthsOfManagementExperience xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 MonthsOfManagementExperience"`
+type XsdGoPkgHasElems_UrlsequenceTxsdResumeUserAreaSequenceReservedDataSequenceUrlsUrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Url_XsdtString_ struct {
+	Urls []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Url"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ instance.
-func (me *XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_UrlsequenceTxsdResumeUserAreaSequenceReservedDataSequenceUrlsUrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Url_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_UrlsequenceTxsdResumeUserAreaSequenceReservedDataSequenceUrlsUrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Url_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_UrlsequenceTxsdResumeUserAreaSequenceReservedDataSequenceUrlsUrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Url_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_UrlsequenceTxsdResumeUserAreaSequenceReservedDataSequenceUrlsUrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Url_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_UrlsequenceTxsdResumeUserAreaSequenceReservedDataSequenceUrlsUrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Url_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -1716,105 +3971,19 @@ func (me *XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserArea
 	return
 }
 
-type XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_ struct {
-	HighestManagementScore xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 HighestManagementScore"`
+type TxsdResumeUserAreaSequenceReservedDataSequenceUrls struct {
+	XsdGoPkgHasElems_UrlsequenceTxsdResumeUserAreaSequenceReservedDataSequenceUrlsUrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Url_XsdtString_
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_ instance.
-func (me *XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_; me != nil {
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceReservedDataSequenceUrls function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceReservedDataSequenceUrls instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceReservedDataSequenceUrls instance.
+func (me *TxsdResumeUserAreaSequenceReservedDataSequenceUrls) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceReservedDataSequenceUrls; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TExecutiveTypeEnum xsdt.String
-
-//	Returns true if the value of this enumerated TExecutiveTypeEnum is "admin".
-func (me TExecutiveTypeEnum) IsAdmin() bool { return me.String() == "admin" }
-
-//	Returns true if the value of this enumerated TExecutiveTypeEnum is "financial".
-func (me TExecutiveTypeEnum) IsFinancial() bool { return me.String() == "financial" }
-
-//	Returns true if the value of this enumerated TExecutiveTypeEnum is "learning".
-func (me TExecutiveTypeEnum) IsLearning() bool { return me.String() == "learning" }
-
-//	Since TExecutiveTypeEnum is just a simple String type, this merely sets the current value from the specified string.
-func (me *TExecutiveTypeEnum) Set(s string) { (*xsdt.String)(me).Set(s) }
-
-//	Returns true if the value of this enumerated TExecutiveTypeEnum is "executive".
-func (me TExecutiveTypeEnum) IsExecutive() bool { return me.String() == "executive" }
-
-//	Returns true if the value of this enumerated TExecutiveTypeEnum is "accounting".
-func (me TExecutiveTypeEnum) IsAccounting() bool { return me.String() == "accounting" }
-
-//	Returns true if the value of this enumerated TExecutiveTypeEnum is "marketing".
-func (me TExecutiveTypeEnum) IsMarketing() bool { return me.String() == "marketing" }
-
-//	Returns true if the value of this enumerated TExecutiveTypeEnum is "business_dev".
-func (me TExecutiveTypeEnum) IsBusinessDev() bool { return me.String() == "business_dev" }
-
-//	Returns true if the value of this enumerated TExecutiveTypeEnum is "none".
-func (me TExecutiveTypeEnum) IsNone() bool { return me.String() == "none" }
-
-//	Since TExecutiveTypeEnum is just a simple String type, this merely returns the current string value.
-func (me TExecutiveTypeEnum) String() string { return xsdt.String(me).String() }
-
-//	This convenience method just performs a simple type conversion to TExecutiveTypeEnum's alias type xsdt.String.
-func (me TExecutiveTypeEnum) ToXsdtString() xsdt.String { return xsdt.String(me) }
-
-//	Returns true if the value of this enumerated TExecutiveTypeEnum is "operations".
-func (me TExecutiveTypeEnum) IsOperations() bool { return me.String() == "operations" }
-
-//	Returns true if the value of this enumerated TExecutiveTypeEnum is "it".
-func (me TExecutiveTypeEnum) IsIt() bool { return me.String() == "it" }
-
-//	Returns true if the value of this enumerated TExecutiveTypeEnum is "general".
-func (me TExecutiveTypeEnum) IsGeneral() bool { return me.String() == "general" }
-
-type TExecutiveTypeType struct {
-	TExecutiveTypeEnum
-}
-
-//	If the WalkHandlers.TExecutiveTypeType function is not nil (ie. was set by outside code), calls it with this TExecutiveTypeType instance as the single argument. Then calls the Walk() method on 0/1 embed(s) and 0/0 field(s) belonging to this TExecutiveTypeType instance.
-func (me *TExecutiveTypeType) Walk() (err error) {
-	if fn := WalkHandlers.TExecutiveTypeType; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ struct {
-	ExecutiveType *TExecutiveTypeType `xml:"http://sovren.com/hr-xml/2006-02-28 ExecutiveType"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ instance.
-func (me *XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.ExecutiveType.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElems_UrlsequenceTxsdResumeUserAreaSequenceReservedDataSequenceUrlsUrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Url_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -1826,97 +3995,19 @@ func (me *XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperie
 	return
 }
 
-type XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ struct {
-	ManagementStory xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 ManagementStory"`
+type XsdGoPkgHasElem_UrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_ struct {
+	Urls *TxsdResumeUserAreaSequenceReservedDataSequenceUrls `xml:"http://sovren.com/hr-xml/2006-02-28 Urls"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_UrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_UrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_UrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_ instance.
+func (me *XsdGoPkgHasElem_UrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_UrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasAttr_PercentOfOverall_XsdtDouble_ struct {
-	PercentOfOverall xsdt.Double `xml:"http://sovren.com/hr-xml/2006-02-28 percentOfOverall,attr"`
-}
-
-type XsdGoPkgHasAttr_PercentOfParent_XsdtDouble_ struct {
-	PercentOfParent xsdt.Double `xml:"http://sovren.com/hr-xml/2006-02-28 percentOfParent,attr"`
-}
-
-type XsdGoPkgHasAttr_Id_XsdtString_ struct {
-	Id xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 id,attr"`
-}
-
-type XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_ struct {
-	BestFitTaxonomies []*TBestFitTaxonomyType `xml:"http://sovren.com/hr-xml/2006-02-28 BestFitTaxonomy"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_ instance.
-func (me *XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasAttr_RootId_XsdtString_ struct {
-	RootId xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 rootId,attr"`
-}
-
-type XsdGoPkgHasAttr_Name_XsdtString_ struct {
-	Name xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 name,attr"`
-}
-
-type XsdGoPkgHasAttr_Weight_XsdtDouble_ struct {
-	Weight xsdt.Double `xml:"http://sovren.com/hr-xml/2006-02-28 weight,attr"`
-}
-
-type TBestFitTaxonomyType struct {
-	XsdGoPkgHasAttr_Id_XsdtString_
-
-	XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_
-
-	XsdGoPkgHasAttr_RootId_XsdtString_
-
-	XsdGoPkgHasAttr_Name_XsdtString_
-
-	XsdGoPkgHasAttr_Weight_XsdtDouble_
-
-	XsdGoPkgHasAttr_PercentOfOverall_XsdtDouble_
-
-	XsdGoPkgHasAttr_PercentOfParent_XsdtDouble_
-}
-
-//	If the WalkHandlers.TBestFitTaxonomyType function is not nil (ie. was set by outside code), calls it with this TBestFitTaxonomyType instance as the single argument. Then calls the Walk() method on 1/7 embed(s) and 0/0 field(s) belonging to this TBestFitTaxonomyType instance.
-func (me *TBestFitTaxonomyType) Walk() (err error) {
-	if fn := WalkHandlers.TBestFitTaxonomyType; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.Urls.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -1928,20 +4019,15 @@ func (me *TBestFitTaxonomyType) Walk() (err error) {
 	return
 }
 
-type XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ struct {
-	BestFitTaxonomies []*TBestFitTaxonomyType `xml:"http://sovren.com/hr-xml/2006-02-28 BestFitTaxonomy"`
+type XsdGoPkgHasElems_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_ struct {
+	TwitterHandles []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 TwitterHandle"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ instance.
-func (me *XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.BestFitTaxonomies {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
@@ -1954,19 +4040,19 @@ func (me *XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExpe
 	return
 }
 
-type TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies struct {
-	XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_
+type TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles struct {
+	XsdGoPkgHasElems_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_
 }
 
-//	If the WalkHandlers.TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies instance.
-func (me *TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies) Walk() (err error) {
-	if fn := WalkHandlers.TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies; me != nil {
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles instance.
+func (me *TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if err = me.XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElems_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -1978,19 +4064,19 @@ func (me *TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies) 
 	return
 }
 
-type XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ struct {
-	BestFitTaxonomies *TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies `xml:"http://sovren.com/hr-xml/2006-02-28 BestFitTaxonomies"`
+type XsdGoPkgHasElem_TwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_ struct {
+	TwitterHandles *TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles `xml:"http://sovren.com/hr-xml/2006-02-28 TwitterHandles"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ instance.
-func (me *XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_TwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_TwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_ instance.
+func (me *XsdGoPkgHasElem_TwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_TwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if err = me.BestFitTaxonomies.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.TwitterHandles.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -2002,13 +4088,13 @@ func (me *XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExp
 	return
 }
 
-type XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ struct {
-	MonthsOfWorkExperience xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 MonthsOfWorkExperience"`
+type XsdGoPkgHasElems_OtherDatumsequenceTxsdResumeUserAreaSequenceReservedDataSequenceOtherDataOtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherDatum_XsdtString_ struct {
+	OtherDatums []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 OtherDatum"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ instance.
-func (me *XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_OtherDatumsequenceTxsdResumeUserAreaSequenceReservedDataSequenceOtherDataOtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherDatum_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OtherDatumsequenceTxsdResumeUserAreaSequenceReservedDataSequenceOtherDataOtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherDatum_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OtherDatumsequenceTxsdResumeUserAreaSequenceReservedDataSequenceOtherDataOtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherDatum_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_OtherDatumsequenceTxsdResumeUserAreaSequenceReservedDataSequenceOtherDataOtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherDatum_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_OtherDatumsequenceTxsdResumeUserAreaSequenceReservedDataSequenceOtherDataOtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherDatum_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -2023,115 +4109,19 @@ func (me *XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequen
 	return
 }
 
-type XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ struct {
-	YearsOfWorkExperience xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 YearsOfWorkExperience"`
+type TxsdResumeUserAreaSequenceReservedDataSequenceOtherData struct {
+	XsdGoPkgHasElems_OtherDatumsequenceTxsdResumeUserAreaSequenceReservedDataSequenceOtherDataOtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherDatum_XsdtString_
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ instance.
-func (me *XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_; me != nil {
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceReservedDataSequenceOtherData function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceReservedDataSequenceOtherData instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceReservedDataSequenceOtherData instance.
+func (me *TxsdResumeUserAreaSequenceReservedDataSequenceOtherData) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceReservedDataSequenceOtherData; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ struct {
-	YearsOfManagementExperience xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 YearsOfManagementExperience"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ instance.
-func (me *XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TCurrentManagementLevelEnum xsdt.String
-
-//	Since TCurrentManagementLevelEnum is just a simple String type, this merely sets the current value from the specified string.
-func (me *TCurrentManagementLevelEnum) Set(s string) { (*xsdt.String)(me).Set(s) }
-
-//	Since TCurrentManagementLevelEnum is just a simple String type, this merely returns the current string value.
-func (me TCurrentManagementLevelEnum) String() string { return xsdt.String(me).String() }
-
-//	This convenience method just performs a simple type conversion to TCurrentManagementLevelEnum's alias type xsdt.String.
-func (me TCurrentManagementLevelEnum) ToXsdtString() xsdt.String { return xsdt.String(me) }
-
-//	Returns true if the value of this enumerated TCurrentManagementLevelEnum is "mid-level".
-func (me TCurrentManagementLevelEnum) IsMidLevel() bool { return me.String() == "mid-level" }
-
-//	Returns true if the value of this enumerated TCurrentManagementLevelEnum is "high-level".
-func (me TCurrentManagementLevelEnum) IsHighLevel() bool { return me.String() == "high-level" }
-
-//	Returns true if the value of this enumerated TCurrentManagementLevelEnum is "executive-level".
-func (me TCurrentManagementLevelEnum) IsExecutiveLevel() bool {
-	return me.String() == "executive-level"
-}
-
-//	Returns true if the value of this enumerated TCurrentManagementLevelEnum is "low-or-no-level".
-func (me TCurrentManagementLevelEnum) IsLowOrNoLevel() bool { return me.String() == "low-or-no-level" }
-
-//	Returns true if the value of this enumerated TCurrentManagementLevelEnum is "low-level".
-func (me TCurrentManagementLevelEnum) IsLowLevel() bool { return me.String() == "low-level" }
-
-//	Returns true if the value of this enumerated TCurrentManagementLevelEnum is "somewhat high-level".
-func (me TCurrentManagementLevelEnum) IsSomewhatHighLevel() bool {
-	return me.String() == "somewhat high-level"
-}
-
-type TCurrentManagementLevelType struct {
-	TCurrentManagementLevelEnum
-}
-
-//	If the WalkHandlers.TCurrentManagementLevelType function is not nil (ie. was set by outside code), calls it with this TCurrentManagementLevelType instance as the single argument. Then calls the Walk() method on 0/1 embed(s) and 0/0 field(s) belonging to this TCurrentManagementLevelType instance.
-func (me *TCurrentManagementLevelType) Walk() (err error) {
-	if fn := WalkHandlers.TCurrentManagementLevelType; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ struct {
-	CurrentManagementLevel *TCurrentManagementLevelType `xml:"http://sovren.com/hr-xml/2006-02-28 CurrentManagementLevel"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ instance.
-func (me *XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.CurrentManagementLevel.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElems_OtherDatumsequenceTxsdResumeUserAreaSequenceReservedDataSequenceOtherDataOtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherDatum_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -2143,85 +4133,19 @@ func (me *XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequen
 	return
 }
 
-type XsdGoPkgHasElem_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_ struct {
-	Description xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Description"`
+type XsdGoPkgHasElem_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_ struct {
+	OtherData *TxsdResumeUserAreaSequenceReservedDataSequenceOtherData `xml:"http://sovren.com/hr-xml/2006-02-28 OtherData"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_ instance.
+func (me *XsdGoPkgHasElem_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TxsdResumeUserAreaSequenceExperienceSummary struct {
-	XsdGoPkgHasElem_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_
-
-	XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_
-
-	XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_
-
-	XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_
-
-	XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_
-
-	XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_
-
-	XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_
-
-	XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_
-
-	XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_
-
-	XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_
-}
-
-//	If the WalkHandlers.TxsdResumeUserAreaSequenceExperienceSummary function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceExperienceSummary instance as the single argument. Then calls the Walk() method on 10/10 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceExperienceSummary instance.
-func (me *TxsdResumeUserAreaSequenceExperienceSummary) Walk() (err error) {
-	if fn := WalkHandlers.TxsdResumeUserAreaSequenceExperienceSummary; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.OtherData.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -2233,19 +4157,39 @@ func (me *TxsdResumeUserAreaSequenceExperienceSummary) Walk() (err error) {
 	return
 }
 
-type XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ struct {
-	ExperienceSummary *TxsdResumeUserAreaSequenceExperienceSummary `xml:"http://sovren.com/hr-xml/2006-02-28 ExperienceSummary"`
+type TxsdResumeUserAreaSequenceReservedData struct {
+	XsdGoPkgHasElem_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_
+
+	XsdGoPkgHasElem_EmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_
+
+	XsdGoPkgHasElem_UrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_
+
+	XsdGoPkgHasElem_TwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_
+
+	XsdGoPkgHasElem_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ instance.
-func (me *XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_; me != nil {
+//	If the WalkHandlers.TxsdResumeUserAreaSequenceReservedData function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceReservedData instance as the single argument. Then calls the Walk() method on 5/5 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceReservedData instance.
+func (me *TxsdResumeUserAreaSequenceReservedData) Walk() (err error) {
+	if fn := WalkHandlers.TxsdResumeUserAreaSequenceReservedData; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if err = me.ExperienceSummary.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElem_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_EmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_UrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_TwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -2257,660 +4201,19 @@ func (me *XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserA
 	return
 }
 
-type XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceHobbiesHobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_ struct {
-	Text xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Text"`
+type XsdGoPkgHasElem_ReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_ struct {
+	ReservedData *TxsdResumeUserAreaSequenceReservedData `xml:"http://sovren.com/hr-xml/2006-02-28 ReservedData"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceHobbiesHobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceHobbiesHobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceHobbiesHobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceHobbiesHobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceHobbiesHobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_ReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_ReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_ instance.
+func (me *XsdGoPkgHasElem_ReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_ReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TxsdResumeUserAreaSequenceHobbies struct {
-	XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceHobbiesHobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_
-}
-
-//	If the WalkHandlers.TxsdResumeUserAreaSequenceHobbies function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceHobbies instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceHobbies instance.
-func (me *TxsdResumeUserAreaSequenceHobbies) Walk() (err error) {
-	if fn := WalkHandlers.TxsdResumeUserAreaSequenceHobbies; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceHobbiesHobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_ struct {
-	Hobbies *TxsdResumeUserAreaSequenceHobbies `xml:"http://sovren.com/hr-xml/2006-02-28 Hobbies"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_ instance.
-func (me *XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.Hobbies.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_ struct {
-	ParserVersion xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 ParserVersion"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasAttr_Starts_XsdtInt_ struct {
-	Starts xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 starts,attr"`
-}
-
-type XsdGoPkgHasAttr_Ends_XsdtInt_ struct {
-	Ends xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 ends,attr"`
-}
-
-type XsdGoPkgHasAttr_SectionType_XsdtString_ struct {
-	SectionType xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 sectionType,attr"`
-}
-
-type TxsdResumeUserAreaSequenceSectionsSequenceSection struct {
-	XsdtString
-
-	XsdGoPkgHasAttr_Starts_XsdtInt_
-
-	XsdGoPkgHasAttr_Ends_XsdtInt_
-
-	XsdGoPkgHasAttr_SectionType_XsdtString_
-}
-
-//	If the WalkHandlers.TxsdResumeUserAreaSequenceSectionsSequenceSection function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceSectionsSequenceSection instance as the single argument. Then calls the Walk() method on 0/4 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceSectionsSequenceSection instance.
-func (me *TxsdResumeUserAreaSequenceSectionsSequenceSection) Walk() (err error) {
-	if fn := WalkHandlers.TxsdResumeUserAreaSequenceSectionsSequenceSection; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ struct {
-	Sections []*TxsdResumeUserAreaSequenceSectionsSequenceSection `xml:"http://sovren.com/hr-xml/2006-02-28 Section"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ instance.
-func (me *XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.Sections {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TxsdResumeUserAreaSequenceSections struct {
-	XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_
-}
-
-//	If the WalkHandlers.TxsdResumeUserAreaSequenceSections function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceSections instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceSections instance.
-func (me *TxsdResumeUserAreaSequenceSections) Walk() (err error) {
-	if fn := WalkHandlers.TxsdResumeUserAreaSequenceSections; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ struct {
-	Sections *TxsdResumeUserAreaSequenceSections `xml:"http://sovren.com/hr-xml/2006-02-28 Sections"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ instance.
-func (me *XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.Sections.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType xsdt.String
-
-//	Since TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType is just a simple String type, this merely sets the current value from the specified string.
-func (me *TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType) Set(s string) {
-	(*xsdt.String)(me).Set(s)
-}
-
-//	Since TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType is just a simple String type, this merely returns the current string value.
-func (me TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType) String() string {
-	return xsdt.String(me).String()
-}
-
-//	This convenience method just performs a simple type conversion to TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType's alias type xsdt.String.
-func (me TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType) ToXsdtString() xsdt.String {
-	return xsdt.String(me)
-}
-
-//	Returns true if the value of this enumerated TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType is "hard".
-func (me TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType) IsHard() bool {
-	return me.String() == "hard"
-}
-
-//	Returns true if the value of this enumerated TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType is "soft".
-func (me TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType) IsSoft() bool {
-	return me.String() == "soft"
-}
-
-type XsdGoPkgHasAttr_Type_TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType_ struct {
-	Type TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType `xml:"http://sovren.com/hr-xml/2006-02-28 type,attr"`
-}
-
-type TxsdResumeUserAreaSequenceTimedOut struct {
-	XsdtInt
-
-	XsdGoPkgHasAttr_Type_TxsdResumeUserAreaSequenceTimedOutSimpleContentExtensionType_
-}
-
-//	If the WalkHandlers.TxsdResumeUserAreaSequenceTimedOut function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceTimedOut instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceTimedOut instance.
-func (me *TxsdResumeUserAreaSequenceTimedOut) Walk() (err error) {
-	if fn := WalkHandlers.TxsdResumeUserAreaSequenceTimedOut; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ struct {
-	TimedOut *TxsdResumeUserAreaSequenceTimedOut `xml:"http://sovren.com/hr-xml/2006-02-28 TimedOut"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ instance.
-func (me *XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.TimedOut.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_ struct {
-	ParserConfigurationString xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 ParserConfigurationString"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ struct {
-	StartDate hrxml.TFlexibleDatesType `xml:"http://sovren.com/hr-xml/2006-02-28 StartDate"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ instance.
-func (me *XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ struct {
-	EndDate hrxml.TFlexibleDatesType `xml:"http://sovren.com/hr-xml/2006-02-28 EndDate"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ instance.
-func (me *XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TrainingHistoryTypeEnum xsdt.String
-
-//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "Personal".
-func (me TrainingHistoryTypeEnum) IsPersonal() bool { return me.String() == "Personal" }
-
-//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "MiddleCraft".
-func (me TrainingHistoryTypeEnum) IsMiddleCraft() bool { return me.String() == "MiddleCraft" }
-
-//	Since TrainingHistoryTypeEnum is just a simple String type, this merely sets the current value from the specified string.
-func (me *TrainingHistoryTypeEnum) Set(s string) { (*xsdt.String)(me).Set(s) }
-
-//	Since TrainingHistoryTypeEnum is just a simple String type, this merely returns the current string value.
-func (me TrainingHistoryTypeEnum) String() string { return xsdt.String(me).String() }
-
-//	This convenience method just performs a simple type conversion to TrainingHistoryTypeEnum's alias type xsdt.String.
-func (me TrainingHistoryTypeEnum) ToXsdtString() xsdt.String { return xsdt.String(me) }
-
-//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "LowerCraft".
-func (me TrainingHistoryTypeEnum) IsLowerCraft() bool { return me.String() == "LowerCraft" }
-
-//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "HigherCraft".
-func (me TrainingHistoryTypeEnum) IsHigherCraft() bool { return me.String() == "HigherCraft" }
-
-//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "Unknown".
-func (me TrainingHistoryTypeEnum) IsUnknown() bool { return me.String() == "Unknown" }
-
-//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "Professional".
-func (me TrainingHistoryTypeEnum) IsProfessional() bool { return me.String() == "Professional" }
-
-//	Returns true if the value of this enumerated TrainingHistoryTypeEnum is "Vocational".
-func (me TrainingHistoryTypeEnum) IsVocational() bool { return me.String() == "Vocational" }
-
-type TrainingHistoryTypeType struct {
-	TrainingHistoryTypeEnum
-}
-
-//	If the WalkHandlers.TrainingHistoryTypeType function is not nil (ie. was set by outside code), calls it with this TrainingHistoryTypeType instance as the single argument. Then calls the Walk() method on 0/1 embed(s) and 0/0 field(s) belonging to this TrainingHistoryTypeType instance.
-func (me *TrainingHistoryTypeType) Walk() (err error) {
-	if fn := WalkHandlers.TrainingHistoryTypeType; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_ struct {
-	Type *TrainingHistoryTypeType `xml:"http://sovren.com/hr-xml/2006-02-28 Type"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_ instance.
-func (me *XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.Type.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ struct {
-	TrainingName xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 TrainingName"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ struct {
-	Qualifications []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Qualification"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TxsdTrainingTypeSequenceQualifications struct {
-	XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_
-}
-
-//	If the WalkHandlers.TxsdTrainingTypeSequenceQualifications function is not nil (ie. was set by outside code), calls it with this TxsdTrainingTypeSequenceQualifications instance as the single argument. Then calls the Walk() method on 1/1 embed(s) and 0/0 field(s) belonging to this TxsdTrainingTypeSequenceQualifications instance.
-func (me *TxsdTrainingTypeSequenceQualifications) Walk() (err error) {
-	if fn := WalkHandlers.TxsdTrainingTypeSequenceQualifications; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ struct {
-	Qualifications *TxsdTrainingTypeSequenceQualifications `xml:"http://sovren.com/hr-xml/2006-02-28 Qualifications"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ instance.
-func (me *XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.Qualifications.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_ struct {
-	Entity xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Entity"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TrainingType struct {
-	XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_
-
-	XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_
-
-	XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_
-
-	XsdGoPkgHasElem_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_
-
-	XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_
-
-	XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_
-
-	XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_
-}
-
-//	If the WalkHandlers.TrainingType function is not nil (ie. was set by outside code), calls it with this TrainingType instance as the single argument. Then calls the Walk() method on 7/7 embed(s) and 0/0 field(s) belonging to this TrainingType instance.
-func (me *TrainingType) Walk() (err error) {
-	if fn := WalkHandlers.TrainingType; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ struct {
-	Trainings []*TrainingType `xml:"http://sovren.com/hr-xml/2006-02-28 Training"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ instance.
-func (me *XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.Trainings {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type TxsdResumeUserAreaSequenceTrainingHistory struct {
-	XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceHobbiesHobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_
-
-	XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_
-}
-
-//	If the WalkHandlers.TxsdResumeUserAreaSequenceTrainingHistory function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserAreaSequenceTrainingHistory instance as the single argument. Then calls the Walk() method on 2/2 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserAreaSequenceTrainingHistory instance.
-func (me *TxsdResumeUserAreaSequenceTrainingHistory) Walk() (err error) {
-	if fn := WalkHandlers.TxsdResumeUserAreaSequenceTrainingHistory; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceHobbiesHobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ struct {
-	TrainingHistory *TxsdResumeUserAreaSequenceTrainingHistory `xml:"http://sovren.com/hr-xml/2006-02-28 TrainingHistory"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ instance.
-func (me *XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.TrainingHistory.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.ReservedData.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -2923,36 +4226,42 @@ func (me *XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAre
 }
 
 type TxsdResumeUserArea struct {
-	XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_
-
-	XsdGoPkgHasElem_PersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_
-
-	XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_
-
-	XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_
+	XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_
 
 	XsdGoPkgHasElem_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_
 
-	XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_
+	XsdGoPkgHasElem_LicenseSerialNumbersequenceTxsdResumeUserAreaResumeUserAreaschema_LicenseSerialNumber_XsdtString_
 
 	XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_
 
 	XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_
 
-	XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_
+	XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_
 
 	XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_
 
-	XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_
+	XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_
+
+	XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_
+
+	XsdGoPkgHasElem_PersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_
+
+	XsdGoPkgHasElem_ReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_
+
+	XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_
 
 	XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_
 
 	XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_
 
 	XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_
+
+	XsdGoPkgHasElem_LocationsequenceTxsdResumeUserAreaResumeUserAreaschema_Location_TLocationType_
+
+	XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_
 }
 
-//	If the WalkHandlers.TxsdResumeUserArea function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserArea instance as the single argument. Then calls the Walk() method on 14/14 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserArea instance.
+//	If the WalkHandlers.TxsdResumeUserArea function is not nil (ie. was set by outside code), calls it with this TxsdResumeUserArea instance as the single argument. Then calls the Walk() method on 17/17 embed(s) and 0/0 field(s) belonging to this TxsdResumeUserArea instance.
 func (me *TxsdResumeUserArea) Walk() (err error) {
 	if fn := WalkHandlers.TxsdResumeUserArea; me != nil {
 		if fn != nil {
@@ -2960,34 +4269,16 @@ func (me *TxsdResumeUserArea) Walk() (err error) {
 				return
 			}
 		}
-		if err = me.XsdGoPkgHasElem_PersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
-		if err = me.XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElem_LocationsequenceTxsdResumeUserAreaResumeUserAreaschema_Location_TLocationType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
-		if err = me.XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if err = me.XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if err = me.XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if err = me.XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
@@ -2996,10 +4287,37 @@ func (me *TxsdResumeUserArea) Walk() (err error) {
 		if err = me.XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
-		if err = me.XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
-		if err = me.XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_LicenseSerialNumbersequenceTxsdResumeUserAreaResumeUserAreaschema_LicenseSerialNumber_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_PersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if err = me.XsdGoPkgHasElem_ReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -3061,13 +4379,13 @@ func (me *XsdGoPkgHasElems_ResumeUserArea) Walk() (err error) {
 	return
 }
 
-type XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ struct {
-	VisaStatuses []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 VisaStatus"`
+type XsdGoPkgHasElems_NormalizedSchoolNamesequenceDegreeUserAreaschema_NormalizedSchoolName_XsdtString_ struct {
+	NormalizedSchoolNames []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedSchoolName"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedSchoolNamesequenceDegreeUserAreaschema_NormalizedSchoolName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedSchoolNamesequenceDegreeUserAreaschema_NormalizedSchoolName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedSchoolNamesequenceDegreeUserAreaschema_NormalizedSchoolName_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NormalizedSchoolNamesequenceDegreeUserAreaschema_NormalizedSchoolName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedSchoolNamesequenceDegreeUserAreaschema_NormalizedSchoolName_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -3082,13 +4400,13 @@ func (me *XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalI
 	return
 }
 
-type XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ struct {
-	MonthsOfManagementExperiences []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 MonthsOfManagementExperience"`
+type XsdGoPkgHasElems_DrivingLicensesequencePersonalInformationsequenceResumeUserAreaschema_DrivingLicense_XsdtString_ struct {
+	DrivingLicenses []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 DrivingLicense"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ instance.
-func (me *XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_DrivingLicensesequencePersonalInformationsequenceResumeUserAreaschema_DrivingLicense_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DrivingLicensesequencePersonalInformationsequenceResumeUserAreaschema_DrivingLicense_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DrivingLicensesequencePersonalInformationsequenceResumeUserAreaschema_DrivingLicense_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_DrivingLicensesequencePersonalInformationsequenceResumeUserAreaschema_DrivingLicense_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_DrivingLicensesequencePersonalInformationsequenceResumeUserAreaschema_DrivingLicense_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -3103,39 +4421,13 @@ func (me *XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceTxsdResumeUserAre
 	return
 }
 
-type XsdGoPkgHasElems_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ struct {
-	ExperienceSummaries []*TxsdResumeUserAreaSequenceExperienceSummary `xml:"http://sovren.com/hr-xml/2006-02-28 ExperienceSummary"`
+type XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_ struct {
+	PreferredLocations []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 PreferredLocation"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ instance.
-func (me *XsdGoPkgHasElems_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.ExperienceSummaries {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_ struct {
-	NationalIdentityPhrases []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NationalIdentityPhrase"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -3150,134 +4442,19 @@ func (me *XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypesch
 	return
 }
 
-type XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ struct {
-	StartDates []hrxml.TFlexibleDatesType `xml:"http://sovren.com/hr-xml/2006-02-28 StartDate"`
+type XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ struct {
+	Bullet *TxsdBulletsTypeSequenceBullet `xml:"http://sovren.com/hr-xml/2006-02-28 Bullet"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ instance.
-func (me *XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ instance.
+func (me *XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ struct {
-	Qualification xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Qualification"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ instance.
-func (me *XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_ struct {
-	Genders []*TGenderType `xml:"http://sovren.com/hr-xml/2006-02-28 Gender"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_ instance.
-func (me *XsdGoPkgHasElems_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.Genders {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ struct {
-	MaritalStatuses []*TMaritalStatusType `xml:"http://sovren.com/hr-xml/2006-02-28 MaritalStatus"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ instance.
-func (me *XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.MaritalStatuses {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ struct {
-	MonthsOfWorkExperiences []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 MonthsOfWorkExperience"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ instance.
-func (me *XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ struct {
-	Training *TrainingType `xml:"http://sovren.com/hr-xml/2006-02-28 Training"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ instance.
-func (me *XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.Training.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.Bullet.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
 		}
 		if fn != nil {
@@ -3289,13 +4466,13 @@ func (me *XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHist
 	return
 }
 
-type XsdGoPkgHasElems_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_ struct {
-	SearchHintses []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 SearchHints"`
+type XsdGoPkgHasElems_MotherTonguesequencePersonalInformationsequenceResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_ struct {
+	MotherTongues []TCurrencyType `xml:"http://sovren.com/hr-xml/2006-02-28 MotherTongue"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_MotherTonguesequencePersonalInformationsequenceResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MotherTonguesequencePersonalInformationsequenceResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MotherTonguesequencePersonalInformationsequenceResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_ instance.
+func (me *XsdGoPkgHasElems_MotherTonguesequencePersonalInformationsequenceResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_MotherTonguesequencePersonalInformationsequenceResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -3310,13 +4487,13 @@ func (me *XsdGoPkgHasElems_SearchHintssequenceTxsdResumeUserAreaResumeUserAreasc
 	return
 }
 
-type XsdGoPkgHasElems_DescriptionsequenceExperienceSummarysequenceResumeUserAreaschema_Description_XsdtString_ struct {
-	Descriptions []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Description"`
+type XsdGoPkgHasElems_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_ struct {
+	Birthplaces []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Birthplace"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_DescriptionsequenceExperienceSummarysequenceResumeUserAreaschema_Description_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DescriptionsequenceExperienceSummarysequenceResumeUserAreaschema_Description_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DescriptionsequenceExperienceSummarysequenceResumeUserAreaschema_Description_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_DescriptionsequenceExperienceSummarysequenceResumeUserAreaschema_Description_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_DescriptionsequenceExperienceSummarysequenceResumeUserAreaschema_Description_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -3331,424 +4508,15 @@ func (me *XsdGoPkgHasElems_DescriptionsequenceExperienceSummarysequenceResumeUse
 	return
 }
 
-type XsdGoPkgHasElem_SectionsequenceSectionssequenceResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ struct {
-	Section *TxsdResumeUserAreaSequenceSectionsSequenceSection `xml:"http://sovren.com/hr-xml/2006-02-28 Section"`
+type XsdGoPkgHasElems_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_ struct {
+	NormalizedPostalCodes []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedPostalCode"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_SectionsequenceSectionssequenceResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SectionsequenceSectionssequenceResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_SectionsequenceSectionssequenceResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ instance.
-func (me *XsdGoPkgHasElem_SectionsequenceSectionssequenceResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_SectionsequenceSectionssequenceResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.Section.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_ struct {
-	Ids []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Id"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_ struct {
-	Nationalities []*TNationalityType `xml:"http://sovren.com/hr-xml/2006-02-28 Nationality"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_ instance.
-func (me *XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.Nationalities {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_FathersNamesequencePersonalInformationsequenceResumeUserAreaschema_FathersName_XsdtString_ struct {
-	FathersNames []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 FathersName"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_FathersNamesequencePersonalInformationsequenceResumeUserAreaschema_FathersName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_FathersNamesequencePersonalInformationsequenceResumeUserAreaschema_FathersName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_FathersNamesequencePersonalInformationsequenceResumeUserAreaschema_FathersName_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_FathersNamesequencePersonalInformationsequenceResumeUserAreaschema_FathersName_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_FathersNamesequencePersonalInformationsequenceResumeUserAreaschema_FathersName_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ struct {
-	CultureInfos []TCurrencyType `xml:"http://sovren.com/hr-xml/2006-02-28 CultureInfo"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ instance.
-func (me *XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_ParserVersionsequenceResumeUserAreaschema_ParserVersion_XsdtString_ struct {
-	ParserVersions []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 ParserVersion"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_ParserVersionsequenceResumeUserAreaschema_ParserVersion_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ParserVersionsequenceResumeUserAreaschema_ParserVersion_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ParserVersionsequenceResumeUserAreaschema_ParserVersion_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_ParserVersionsequenceResumeUserAreaschema_ParserVersion_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_ParserVersionsequenceResumeUserAreaschema_ParserVersion_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_ struct {
-	Texts []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Text"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ struct {
-	Countries []TCurrencyType `xml:"http://sovren.com/hr-xml/2006-02-28 Country"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ instance.
-func (me *XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_SelfEmploymentPhrasesequencePositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ struct {
-	SelfEmploymentPhrases []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 SelfEmploymentPhrase"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_SelfEmploymentPhrasesequencePositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SelfEmploymentPhrasesequencePositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SelfEmploymentPhrasesequencePositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_SelfEmploymentPhrasesequencePositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_SelfEmploymentPhrasesequencePositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElem_NationalIdentitysequenceNationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentity_TNationalIdentityType_ struct {
-	NationalIdentity *TNationalIdentityType `xml:"http://sovren.com/hr-xml/2006-02-28 NationalIdentity"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElem_NationalIdentitysequenceNationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentity_TNationalIdentityType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NationalIdentitysequenceNationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentity_TNationalIdentityType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_NationalIdentitysequenceNationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentity_TNationalIdentityType_ instance.
-func (me *XsdGoPkgHasElem_NationalIdentitysequenceNationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentity_TNationalIdentityType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_NationalIdentitysequenceNationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentity_TNationalIdentityType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if err = me.NationalIdentity.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ struct {
-	YearsOfManagementExperiences []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 YearsOfManagementExperience"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ instance.
-func (me *XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_ struct {
-	NationalIdentityNumbers []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NationalIdentityNumber"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_ struct {
-	DateOfBirths []*TDateOfBirthType `xml:"http://sovren.com/hr-xml/2006-02-28 DateOfBirth"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_ instance.
-func (me *XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.DateOfBirths {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_ struct {
-	Graduateds []xsdt.Boolean `xml:"http://sovren.com/hr-xml/2006-02-28 Graduated"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_ instance.
-func (me *XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_ struct {
-	NationalIdentitieses []*TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities `xml:"http://sovren.com/hr-xml/2006-02-28 NationalIdentities"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_ instance.
-func (me *XsdGoPkgHasElems_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.NationalIdentitieses {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_CompanyNameProbabilitysequencePositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_ struct {
-	CompanyNameProbabilities []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 CompanyNameProbability"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_CompanyNameProbabilitysequencePositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CompanyNameProbabilitysequencePositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CompanyNameProbabilitysequencePositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_ instance.
-func (me *XsdGoPkgHasElems_CompanyNameProbabilitysequencePositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_CompanyNameProbabilitysequencePositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ struct {
-	ExecutiveTypes []*TExecutiveTypeType `xml:"http://sovren.com/hr-xml/2006-02-28 ExecutiveType"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ instance.
-func (me *XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.ExecutiveTypes {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_ struct {
-	WillingToRelocates []TYesNoType `xml:"http://sovren.com/hr-xml/2006-02-28 WillingToRelocate"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_ instance.
-func (me *XsdGoPkgHasElems_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ struct {
-	Sectionses []*TxsdResumeUserAreaSequenceSections `xml:"http://sovren.com/hr-xml/2006-02-28 Sections"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ instance.
-func (me *XsdGoPkgHasElems_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.Sectionses {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
@@ -3787,13 +4555,13 @@ func (me *XsdGoPkgHasElems_CustomDatasequenceResumeUserAreaschema_CustomData_Txs
 	return
 }
 
-type XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_ struct {
-	NationalIdentityTypes []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NationalIdentityType"`
+type XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_ struct {
+	NumberOfEmployeesSuperviseds []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 NumberOfEmployeesSupervised"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_ instance.
+func (me *XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -3808,15 +4576,20 @@ func (me *XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschem
 	return
 }
 
-type XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_ struct {
-	OffsetOfFarthestDataFounds []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 OffsetOfFarthestDataFound"`
+type XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_ struct {
+	CurrentSalaries []*TMoneyType `xml:"http://sovren.com/hr-xml/2006-02-28 CurrentSalary"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_ instance.
-func (me *XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_ instance.
+func (me *XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.CurrentSalaries {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
@@ -3829,55 +4602,13 @@ func (me *XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryU
 	return
 }
 
-type XsdGoPkgHasElems_BirthplacesequencePersonalInformationsequenceResumeUserAreaschema_Birthplace_XsdtString_ struct {
-	Birthplaces []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Birthplace"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_BirthplacesequencePersonalInformationsequenceResumeUserAreaschema_Birthplace_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_BirthplacesequencePersonalInformationsequenceResumeUserAreaschema_Birthplace_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_BirthplacesequencePersonalInformationsequenceResumeUserAreaschema_Birthplace_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_BirthplacesequencePersonalInformationsequenceResumeUserAreaschema_Birthplace_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_BirthplacesequencePersonalInformationsequenceResumeUserAreaschema_Birthplace_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_ struct {
-	ParserConfigurationStrings []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 ParserConfigurationString"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_CulturesequenceResumeUserAreaschema_Culture_TCultureType_ struct {
+type XsdGoPkgHasElems_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_ struct {
 	Cultures []*TCultureType `xml:"http://sovren.com/hr-xml/2006-02-28 Culture"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_CulturesequenceResumeUserAreaschema_Culture_TCultureType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CulturesequenceResumeUserAreaschema_Culture_TCultureType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CulturesequenceResumeUserAreaschema_Culture_TCultureType_ instance.
-func (me *XsdGoPkgHasElems_CulturesequenceResumeUserAreaschema_Culture_TCultureType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_CulturesequenceResumeUserAreaschema_Culture_TCultureType_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_ instance.
+func (me *XsdGoPkgHasElems_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -3897,13 +4628,13 @@ func (me *XsdGoPkgHasElems_CulturesequenceResumeUserAreaschema_Culture_TCultureT
 	return
 }
 
-type XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ struct {
-	MothersMaidenNames []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 MothersMaidenName"`
+type XsdGoPkgHasElems_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ struct {
+	YearsOfWorkExperiences []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 YearsOfWorkExperience"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ instance.
+func (me *XsdGoPkgHasElems_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -3918,13 +4649,131 @@ func (me *XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePe
 	return
 }
 
-type XsdGoPkgHasElems_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ struct {
+type XsdGoPkgHasElems_LocationsequenceResumeUserAreaschema_Location_TLocationType_ struct {
+	Locations []*TLocationType `xml:"http://sovren.com/hr-xml/2006-02-28 Location"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_LocationsequenceResumeUserAreaschema_Location_TLocationType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LocationsequenceResumeUserAreaschema_Location_TLocationType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LocationsequenceResumeUserAreaschema_Location_TLocationType_ instance.
+func (me *XsdGoPkgHasElems_LocationsequenceResumeUserAreaschema_Location_TLocationType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_LocationsequenceResumeUserAreaschema_Location_TLocationType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.Locations {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_ struct {
+	NormalizedRegions []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedRegion"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ struct {
+	Qualification xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Qualification"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_NationalIdentitysequenceTxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentitiesNationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentity_TNationalIdentityType_ struct {
+	NationalIdentity *TNationalIdentityType `xml:"http://sovren.com/hr-xml/2006-02-28 NationalIdentity"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_NationalIdentitysequenceTxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentitiesNationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentity_TNationalIdentityType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_NationalIdentitysequenceTxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentitiesNationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentity_TNationalIdentityType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_NationalIdentitysequenceTxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentitiesNationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentity_TNationalIdentityType_ instance.
+func (me *XsdGoPkgHasElem_NationalIdentitysequenceTxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentitiesNationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentity_TNationalIdentityType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_NationalIdentitysequenceTxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentitiesNationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentity_TNationalIdentityType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.NationalIdentity.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NormalizedLocationsequenceEmployerOrgUserAreaschema_NormalizedLocation_TLocationType_ struct {
+	NormalizedLocations []*TLocationType `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedLocation"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedLocationsequenceEmployerOrgUserAreaschema_NormalizedLocation_TLocationType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedLocationsequenceEmployerOrgUserAreaschema_NormalizedLocation_TLocationType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedLocationsequenceEmployerOrgUserAreaschema_NormalizedLocation_TLocationType_ instance.
+func (me *XsdGoPkgHasElems_NormalizedLocationsequenceEmployerOrgUserAreaschema_NormalizedLocation_TLocationType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedLocationsequenceEmployerOrgUserAreaschema_NormalizedLocation_TLocationType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.NormalizedLocations {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_BestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ struct {
 	BestFitTaxonomieses []*TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies `xml:"http://sovren.com/hr-xml/2006-02-28 BestFitTaxonomies"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ instance.
-func (me *XsdGoPkgHasElems_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_BestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_BestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_BestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_ instance.
+func (me *XsdGoPkgHasElems_BestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_BestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -3944,13 +4793,13 @@ func (me *XsdGoPkgHasElems_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceEx
 	return
 }
 
-type XsdGoPkgHasElems_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_ struct {
-	ParseTimes []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 ParseTime"`
+type XsdGoPkgHasElem_OtherDatumsequenceOtherDatasequenceReservedDatasequenceResumeUserAreaschema_OtherDatum_XsdtString_ struct {
+	OtherDatum xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 OtherDatum"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_ instance.
-func (me *XsdGoPkgHasElems_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_OtherDatumsequenceOtherDatasequenceReservedDatasequenceResumeUserAreaschema_OtherDatum_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_OtherDatumsequenceOtherDatasequenceReservedDatasequenceResumeUserAreaschema_OtherDatum_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_OtherDatumsequenceOtherDatasequenceReservedDatasequenceResumeUserAreaschema_OtherDatum_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_OtherDatumsequenceOtherDatasequenceReservedDatasequenceResumeUserAreaschema_OtherDatum_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_OtherDatumsequenceOtherDatasequenceReservedDatasequenceResumeUserAreaschema_OtherDatum_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -3965,13 +4814,230 @@ func (me *XsdGoPkgHasElems_ParseTimesequenceTxsdResumeUserAreaResumeUserAreasche
 	return
 }
 
-type XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_ struct {
-	PositionTitleProbabilities []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 PositionTitleProbability"`
+type XsdGoPkgHasElems_ReservedDatasequenceResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_ struct {
+	ReservedDatas []*TxsdResumeUserAreaSequenceReservedData `xml:"http://sovren.com/hr-xml/2006-02-28 ReservedData"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_ instance.
-func (me *XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_ReservedDatasequenceResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ReservedDatasequenceResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ReservedDatasequenceResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_ instance.
+func (me *XsdGoPkgHasElems_ReservedDatasequenceResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_ReservedDatasequenceResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.ReservedDatas {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ struct {
+	MonthsOfWorkExperiences []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 MonthsOfWorkExperience"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_ instance.
+func (me *XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ struct {
+	CurrentManagementLevels []*TCurrentManagementLevelType `xml:"http://sovren.com/hr-xml/2006-02-28 CurrentManagementLevel"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ instance.
+func (me *XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.CurrentManagementLevels {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_SectionssequenceResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ struct {
+	Sectionses []*TxsdResumeUserAreaSequenceSections `xml:"http://sovren.com/hr-xml/2006-02-28 Sections"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_SectionssequenceResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SectionssequenceResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SectionssequenceResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_ instance.
+func (me *XsdGoPkgHasElems_SectionssequenceResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_SectionssequenceResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.Sectionses {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_IdsequencePositionHistoryUserAreaschema_Id_XsdtString_ struct {
+	Ids []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Id"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_IdsequencePositionHistoryUserAreaschema_Id_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_IdsequencePositionHistoryUserAreaschema_Id_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_IdsequencePositionHistoryUserAreaschema_Id_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_IdsequencePositionHistoryUserAreaschema_Id_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_IdsequencePositionHistoryUserAreaschema_Id_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_ struct {
+	MessagingAddress *TMessagingAddressType `xml:"http://sovren.com/hr-xml/2006-02-28 MessagingAddress"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_ instance.
+func (me *XsdGoPkgHasElem_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.MessagingAddress.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_ExperienceSummarysequenceResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ struct {
+	ExperienceSummaries []*TxsdResumeUserAreaSequenceExperienceSummary `xml:"http://sovren.com/hr-xml/2006-02-28 ExperienceSummary"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_ExperienceSummarysequenceResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ExperienceSummarysequenceResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ExperienceSummarysequenceResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_ instance.
+func (me *XsdGoPkgHasElems_ExperienceSummarysequenceResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_ExperienceSummarysequenceResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.ExperienceSummaries {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_ struct {
+	Graduateds []xsdt.Boolean `xml:"http://sovren.com/hr-xml/2006-02-28 Graduated"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_ instance.
+func (me *XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ struct {
+	TrainingHistories []*TxsdResumeUserAreaSequenceTrainingHistory `xml:"http://sovren.com/hr-xml/2006-02-28 TrainingHistory"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ instance.
+func (me *XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.TrainingHistories {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_ struct {
+	HukouAreas []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 HukouArea"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -4007,13 +5073,13 @@ func (me *XsdGoPkgHasElems_HighestManagementScoresequenceExperienceSummarysequen
 	return
 }
 
-type XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ struct {
-	ManagementStories []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 ManagementStory"`
+type XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_ struct {
+	PositionTitleProbabilities []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 PositionTitleProbability"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_ instance.
+func (me *XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -4028,13 +5094,13 @@ func (me *XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExpe
 	return
 }
 
-type XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_ struct {
-	PreferredLocations []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 PreferredLocation"`
+type XsdGoPkgHasElem_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_ struct {
+	Phone xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Phone"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -4049,13 +5115,13 @@ func (me *XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceR
 	return
 }
 
-type XsdGoPkgHasElems_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_ struct {
-	IsSelfEmployeds []xsdt.Boolean `xml:"http://sovren.com/hr-xml/2006-02-28 IsSelfEmployed"`
+type XsdGoPkgHasElems_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_ struct {
+	ParserVersions []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 ParserVersion"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_ instance.
-func (me *XsdGoPkgHasElems_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -4070,13 +5136,37 @@ func (me *XsdGoPkgHasElems_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPosi
 	return
 }
 
-type XsdGoPkgHasElems_CoverLetterTextsequenceResumeUserAreaschema_CoverLetterText_XsdtString_ struct {
-	CoverLetterTexts []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 CoverLetterText"`
+type XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ struct {
+	CustomDataMatch *TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch `xml:"http://sovren.com/hr-xml/2006-02-28 CustomDataMatch"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_CoverLetterTextsequenceResumeUserAreaschema_CoverLetterText_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CoverLetterTextsequenceResumeUserAreaschema_CoverLetterText_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CoverLetterTextsequenceResumeUserAreaschema_CoverLetterText_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_CoverLetterTextsequenceResumeUserAreaschema_CoverLetterText_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_CoverLetterTextsequenceResumeUserAreaschema_CoverLetterText_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ instance.
+func (me *XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.CustomDataMatch.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_ struct {
+	NormalizedStreetAddresses []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedStreetAddress"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -4117,19 +5207,61 @@ func (me *XsdGoPkgHasElems_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema
 	return
 }
 
-type XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ struct {
-	TimedOuts []*TxsdResumeUserAreaSequenceTimedOut `xml:"http://sovren.com/hr-xml/2006-02-28 TimedOut"`
+type XsdGoPkgHasElems_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_ struct {
+	CompanyNameProbabilities []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 CompanyNameProbability"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ instance.
-func (me *XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_ instance.
+func (me *XsdGoPkgHasElems_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		for _, x := range me.TimedOuts {
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_AvailabilitysequencePersonalInformationsequenceResumeUserAreaschema_Availability_XsdtString_ struct {
+	Availabilities []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Availability"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_AvailabilitysequencePersonalInformationsequenceResumeUserAreaschema_Availability_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_AvailabilitysequencePersonalInformationsequenceResumeUserAreaschema_Availability_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_AvailabilitysequencePersonalInformationsequenceResumeUserAreaschema_Availability_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_AvailabilitysequencePersonalInformationsequenceResumeUserAreaschema_Availability_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_AvailabilitysequencePersonalInformationsequenceResumeUserAreaschema_Availability_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_ struct {
+	Phoneses []*TxsdResumeUserAreaSequenceReservedDataSequencePhones `xml:"http://sovren.com/hr-xml/2006-02-28 Phones"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_ instance.
+func (me *XsdGoPkgHasElems_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.Phoneses {
 			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
@@ -4143,43 +5275,19 @@ func (me *XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschem
 	return
 }
 
-type XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ struct {
-	BestFitTaxonomy *TBestFitTaxonomyType `xml:"http://sovren.com/hr-xml/2006-02-28 BestFitTaxonomy"`
+type XsdGoPkgHasElems_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_ struct {
+	OtherDatas []*TxsdResumeUserAreaSequenceReservedDataSequenceOtherData `xml:"http://sovren.com/hr-xml/2006-02-28 OtherData"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ instance.
-func (me *XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_ instance.
+func (me *XsdGoPkgHasElems_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if err = me.BestFitTaxonomy.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ struct {
-	CurrentManagementLevels []*TCurrentManagementLevelType `xml:"http://sovren.com/hr-xml/2006-02-28 CurrentManagementLevel"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_ instance.
-func (me *XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.CurrentManagementLevels {
+		for _, x := range me.OtherDatas {
 			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
@@ -4193,19 +5301,19 @@ func (me *XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSeque
 	return
 }
 
-type XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ struct {
-	Qualificationses []*TxsdTrainingTypeSequenceQualifications `xml:"http://sovren.com/hr-xml/2006-02-28 Qualifications"`
+type XsdGoPkgHasElems_NormalizedIndustriessequenceEmployerOrgUserAreaschema_NormalizedIndustries_TIndustryType_ struct {
+	NormalizedIndustrieses []*TIndustryType `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedIndustries"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ instance.
-func (me *XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedIndustriessequenceEmployerOrgUserAreaschema_NormalizedIndustries_TIndustryType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedIndustriessequenceEmployerOrgUserAreaschema_NormalizedIndustries_TIndustryType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedIndustriessequenceEmployerOrgUserAreaschema_NormalizedIndustries_TIndustryType_ instance.
+func (me *XsdGoPkgHasElems_NormalizedIndustriessequenceEmployerOrgUserAreaschema_NormalizedIndustries_TIndustryType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedIndustriessequenceEmployerOrgUserAreaschema_NormalizedIndustries_TIndustryType_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		for _, x := range me.Qualificationses {
+		for _, x := range me.NormalizedIndustrieses {
 			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
@@ -4219,15 +5327,20 @@ func (me *XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualificatio
 	return
 }
 
-type XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ struct {
-	ParsedTextLengths []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 ParsedTextLength"`
+type XsdGoPkgHasElems_EmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_ struct {
+	EmailAddresseses []*TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses `xml:"http://sovren.com/hr-xml/2006-02-28 EmailAddresses"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ instance.
-func (me *XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_EmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_ instance.
+func (me *XsdGoPkgHasElems_EmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_EmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.EmailAddresseses {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
@@ -4240,15 +5353,20 @@ func (me *XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserA
 	return
 }
 
-type XsdGoPkgHasElems_FamilyCompositionsequencePersonalInformationsequenceResumeUserAreaschema_FamilyComposition_XsdtString_ struct {
-	FamilyCompositions []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 FamilyComposition"`
+type XsdGoPkgHasElems_TwitterHandlessequenceReservedDatasequenceResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_ struct {
+	TwitterHandleses []*TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles `xml:"http://sovren.com/hr-xml/2006-02-28 TwitterHandles"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_FamilyCompositionsequencePersonalInformationsequenceResumeUserAreaschema_FamilyComposition_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_FamilyCompositionsequencePersonalInformationsequenceResumeUserAreaschema_FamilyComposition_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_FamilyCompositionsequencePersonalInformationsequenceResumeUserAreaschema_FamilyComposition_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_FamilyCompositionsequencePersonalInformationsequenceResumeUserAreaschema_FamilyComposition_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_FamilyCompositionsequencePersonalInformationsequenceResumeUserAreaschema_FamilyComposition_XsdtString_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_TwitterHandlessequenceReservedDatasequenceResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TwitterHandlessequenceReservedDatasequenceResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TwitterHandlessequenceReservedDatasequenceResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_ instance.
+func (me *XsdGoPkgHasElems_TwitterHandlessequenceReservedDatasequenceResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_TwitterHandlessequenceReservedDatasequenceResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.TwitterHandleses {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
@@ -4261,36 +5379,20 @@ func (me *XsdGoPkgHasElems_FamilyCompositionsequencePersonalInformationsequenceR
 	return
 }
 
-type XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ struct {
-	Languages []TCurrencyType `xml:"http://sovren.com/hr-xml/2006-02-28 Language"`
+type XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_ struct {
+	Nationalities []*TNationalityType `xml:"http://sovren.com/hr-xml/2006-02-28 Nationality"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ instance.
-func (me *XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_ instance.
+func (me *XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_ struct {
-	NormalizedGPAs []xsdt.Decimal `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedGPA"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_ instance.
-func (me *XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		for _, x := range me.Nationalities {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
@@ -4329,20 +5431,550 @@ func (me *XsdGoPkgHasElems_BulletssequencePositionHistoryUserAreaschema_Bullets_
 	return
 }
 
-type XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ struct {
-	CustomDataMatch *TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch `xml:"http://sovren.com/hr-xml/2006-02-28 CustomDataMatch"`
+type XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ struct {
+	BestFitTaxonomy *TBestFitTaxonomyType `xml:"http://sovren.com/hr-xml/2006-02-28 BestFitTaxonomy"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_ instance.
-func (me *XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_ instance.
+func (me *XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		if err = me.CustomDataMatch.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+		if err = me.BestFitTaxonomy.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_ struct {
+	NationalIdentitieses []*TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities `xml:"http://sovren.com/hr-xml/2006-02-28 NationalIdentities"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_ instance.
+func (me *XsdGoPkgHasElems_NationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.NationalIdentitieses {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ struct {
+	YearsOfManagementExperiences []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 YearsOfManagementExperience"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_ instance.
+func (me *XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_ struct {
+	NationalIdentityTypes []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NationalIdentityType"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_ struct {
+	NormalizedOrganizationNames []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedOrganizationName"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_UrlsequenceUrlssequenceReservedDatasequenceResumeUserAreaschema_Url_XsdtString_ struct {
+	Url xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Url"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_UrlsequenceUrlssequenceReservedDatasequenceResumeUserAreaschema_Url_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_UrlsequenceUrlssequenceReservedDatasequenceResumeUserAreaschema_Url_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_UrlsequenceUrlssequenceReservedDatasequenceResumeUserAreaschema_Url_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_UrlsequenceUrlssequenceReservedDatasequenceResumeUserAreaschema_Url_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_UrlsequenceUrlssequenceReservedDatasequenceResumeUserAreaschema_Url_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ struct {
+	Section *TxsdResumeUserAreaSequenceSectionsSequenceSection `xml:"http://sovren.com/hr-xml/2006-02-28 Section"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_ instance.
+func (me *XsdGoPkgHasElem_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Section.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ struct {
+	StartDates []hrxml.TFlexibleDatesType `xml:"http://sovren.com/hr-xml/2006-02-28 StartDate"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_ instance.
+func (me *XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_IsSelfEmployedsequencePositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_ struct {
+	IsSelfEmployeds []xsdt.Boolean `xml:"http://sovren.com/hr-xml/2006-02-28 IsSelfEmployed"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_IsSelfEmployedsequencePositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_IsSelfEmployedsequencePositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_IsSelfEmployedsequencePositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_ instance.
+func (me *XsdGoPkgHasElems_IsSelfEmployedsequencePositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_IsSelfEmployedsequencePositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ struct {
+	ExecutiveTypes []*TExecutiveTypeType `xml:"http://sovren.com/hr-xml/2006-02-28 ExecutiveType"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_ instance.
+func (me *XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.ExecutiveTypes {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_ParserConfigurationStringsequenceResumeUserAreaschema_ParserConfigurationString_XsdtString_ struct {
+	ParserConfigurationStrings []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 ParserConfigurationString"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_ParserConfigurationStringsequenceResumeUserAreaschema_ParserConfigurationString_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ParserConfigurationStringsequenceResumeUserAreaschema_ParserConfigurationString_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ParserConfigurationStringsequenceResumeUserAreaschema_ParserConfigurationString_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_ParserConfigurationStringsequenceResumeUserAreaschema_ParserConfigurationString_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_ParserConfigurationStringsequenceResumeUserAreaschema_ParserConfigurationString_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_ struct {
+	NationalIdentityPhrases []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NationalIdentityPhrase"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_ParseTimesequenceResumeUserAreaschema_ParseTime_XsdtInt_ struct {
+	ParseTimes []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 ParseTime"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_ParseTimesequenceResumeUserAreaschema_ParseTime_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ParseTimesequenceResumeUserAreaschema_ParseTime_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ParseTimesequenceResumeUserAreaschema_ParseTime_XsdtInt_ instance.
+func (me *XsdGoPkgHasElems_ParseTimesequenceResumeUserAreaschema_ParseTime_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_ParseTimesequenceResumeUserAreaschema_ParseTime_XsdtInt_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_ struct {
+	PoliticalAffiliations []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 PoliticalAffiliation"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ struct {
+	SelfEmploymentPhrases []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 SelfEmploymentPhrase"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ struct {
+	ManagementStories []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 ManagementStory"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_ struct {
+	DateOfBirths []*TDateOfBirthType `xml:"http://sovren.com/hr-xml/2006-02-28 DateOfBirth"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_ instance.
+func (me *XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.DateOfBirths {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ struct {
+	Training *TrainingType `xml:"http://sovren.com/hr-xml/2006-02-28 Training"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_ instance.
+func (me *XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Training.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_ struct {
+	PersonalInformations []*TxsdResumeUserAreaSequencePersonalInformation `xml:"http://sovren.com/hr-xml/2006-02-28 PersonalInformation"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_ instance.
+func (me *XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.PersonalInformations {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_ struct {
+	Texts []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Text"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ struct {
+	MothersMaidenNames []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 MothersMaidenName"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ struct {
+	VisaStatuses []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 VisaStatus"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_ struct {
+	HukouCities []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 HukouCity"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NormalizedTitlesequencePositionHistoryUserAreaschema_NormalizedTitle_XsdtString_ struct {
+	NormalizedTitles []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedTitle"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedTitlesequencePositionHistoryUserAreaschema_NormalizedTitle_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedTitlesequencePositionHistoryUserAreaschema_NormalizedTitle_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedTitlesequencePositionHistoryUserAreaschema_NormalizedTitle_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NormalizedTitlesequencePositionHistoryUserAreaschema_NormalizedTitle_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedTitlesequencePositionHistoryUserAreaschema_NormalizedTitle_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_LicenseSerialNumbersequenceResumeUserAreaschema_LicenseSerialNumber_XsdtString_ struct {
+	LicenseSerialNumbers []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 LicenseSerialNumber"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_LicenseSerialNumbersequenceResumeUserAreaschema_LicenseSerialNumber_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LicenseSerialNumbersequenceResumeUserAreaschema_LicenseSerialNumber_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LicenseSerialNumbersequenceResumeUserAreaschema_LicenseSerialNumber_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_LicenseSerialNumbersequenceResumeUserAreaschema_LicenseSerialNumber_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_LicenseSerialNumbersequenceResumeUserAreaschema_LicenseSerialNumber_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
 		}
 		if fn != nil {
 			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
@@ -4374,20 +6006,17 @@ func (me *XsdGoPkgHasElems_CurrentLocationsequencePersonalInformationsequenceRes
 	return
 }
 
-type XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ struct {
-	Bullet *TxsdBulletsTypeSequenceBullet `xml:"http://sovren.com/hr-xml/2006-02-28 Bullet"`
+type XsdGoPkgHasElems_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_ struct {
+	Descriptions []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Description"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_ instance.
-func (me *XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
-		}
-		if err = me.Bullet.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-			return
 		}
 		if fn != nil {
 			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
@@ -4398,19 +6027,40 @@ func (me *XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsType
 	return
 }
 
-type XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ struct {
-	TrainingHistories []*TxsdResumeUserAreaSequenceTrainingHistory `xml:"http://sovren.com/hr-xml/2006-02-28 TrainingHistory"`
+type XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ struct {
+	Countries []TxsdCultureTypeSequenceCultureInfo `xml:"http://sovren.com/hr-xml/2006-02-28 Country"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_ instance.
-func (me *XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_ instance.
+func (me *XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
 		}
-		for _, x := range me.TrainingHistories {
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ struct {
+	Qualificationses []*TxsdTrainingTypeSequenceQualifications `xml:"http://sovren.com/hr-xml/2006-02-28 Qualifications"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_ instance.
+func (me *XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.Qualificationses {
 			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
 			}
@@ -4424,13 +6074,390 @@ func (me *XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingH
 	return
 }
 
-type XsdGoPkgHasElems_YearsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ struct {
-	YearsOfWorkExperiences []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 YearsOfWorkExperience"`
+type XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_ struct {
+	PassportNumbers []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 PassportNumber"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_YearsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_YearsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_YearsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_ instance.
-func (me *XsdGoPkgHasElems_YearsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_YearsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_ struct {
+	Latitudes []*TxsdLocationTypeSequenceLatitude `xml:"http://sovren.com/hr-xml/2006-02-28 Latitude"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_ instance.
+func (me *XsdGoPkgHasElems_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.Latitudes {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_ struct {
+	FamilyCompositions []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 FamilyComposition"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_ struct {
+	FathersNames []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 FathersName"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_ struct {
+	Entities []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Entity"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NormalizedDegreeNamesequenceDegreeUserAreaschema_NormalizedDegreeName_XsdtString_ struct {
+	NormalizedDegreeNames []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedDegreeName"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedDegreeNamesequenceDegreeUserAreaschema_NormalizedDegreeName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedDegreeNamesequenceDegreeUserAreaschema_NormalizedDegreeName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedDegreeNamesequenceDegreeUserAreaschema_NormalizedDegreeName_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NormalizedDegreeNamesequenceDegreeUserAreaschema_NormalizedDegreeName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedDegreeNamesequenceDegreeUserAreaschema_NormalizedDegreeName_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_ struct {
+	NormalizedCountryCodes []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedCountryCode"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_UrlssequenceReservedDatasequenceResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_ struct {
+	Urlses []*TxsdResumeUserAreaSequenceReservedDataSequenceUrls `xml:"http://sovren.com/hr-xml/2006-02-28 Urls"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_UrlssequenceReservedDatasequenceResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_UrlssequenceReservedDatasequenceResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_UrlssequenceReservedDatasequenceResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_ instance.
+func (me *XsdGoPkgHasElems_UrlssequenceReservedDatasequenceResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_UrlssequenceReservedDatasequenceResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.Urlses {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ struct {
+	ParsedTextLengths []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 ParsedTextLength"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_ instance.
+func (me *XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ struct {
+	TimedOuts []*TxsdResumeUserAreaSequenceTimedOut `xml:"http://sovren.com/hr-xml/2006-02-28 TimedOut"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_ instance.
+func (me *XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.TimedOuts {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_ struct {
+	NormalizedDegreeTypes []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedDegreeType"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_ struct {
+	NormalizedMunicipalities []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedMunicipality"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_ struct {
+	Longitudes []*TxsdLocationTypeSequenceLongitude `xml:"http://sovren.com/hr-xml/2006-02-28 Longitude"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_ instance.
+func (me *XsdGoPkgHasElems_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.Longitudes {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_WillingToRelocatesequencePersonalInformationsequenceResumeUserAreaschema_WillingToRelocate_TYesNoType_ struct {
+	WillingToRelocates []TYesNoType `xml:"http://sovren.com/hr-xml/2006-02-28 WillingToRelocate"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_WillingToRelocatesequencePersonalInformationsequenceResumeUserAreaschema_WillingToRelocate_TYesNoType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_WillingToRelocatesequencePersonalInformationsequenceResumeUserAreaschema_WillingToRelocate_TYesNoType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_WillingToRelocatesequencePersonalInformationsequenceResumeUserAreaschema_WillingToRelocate_TYesNoType_ instance.
+func (me *XsdGoPkgHasElems_WillingToRelocatesequencePersonalInformationsequenceResumeUserAreaschema_WillingToRelocate_TYesNoType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_WillingToRelocatesequencePersonalInformationsequenceResumeUserAreaschema_WillingToRelocate_TYesNoType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ struct {
+	EndDates []hrxml.TFlexibleDatesType `xml:"http://sovren.com/hr-xml/2006-02-28 EndDate"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ instance.
+func (me *XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_ struct {
+	OffsetOfFarthestDataFounds []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 OffsetOfFarthestDataFound"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_ instance.
+func (me *XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_ struct {
+	NormalizedGPAs []xsdt.Decimal `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedGPA"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_ instance.
+func (me *XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ struct {
+	MonthsOfManagementExperiences []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 MonthsOfManagementExperience"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_ instance.
+func (me *XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -4471,149 +6498,13 @@ func (me *XsdGoPkgHasElems_RequiredSalarysequencePersonalInformationsequenceResu
 	return
 }
 
-type XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_ struct {
-	CurrentSalaries []*TMoneyType `xml:"http://sovren.com/hr-xml/2006-02-28 CurrentSalary"`
+type XsdGoPkgHasElems_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_ struct {
+	CoverLetterTexts []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 CoverLetterText"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_ instance.
-func (me *XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.CurrentSalaries {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_ struct {
-	PersonalInformations []*TxsdResumeUserAreaSequencePersonalInformation `xml:"http://sovren.com/hr-xml/2006-02-28 PersonalInformation"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_ instance.
-func (me *XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		for _, x := range me.PersonalInformations {
-			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_ struct {
-	PassportNumbers []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 PassportNumber"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ struct {
-	TrainingNames []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 TrainingName"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_ struct {
-	DrivingLicenses []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 DrivingLicense"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_ struct {
-	Entities []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 Entity"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_ instance.
-func (me *XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_; me != nil {
-		if fn != nil {
-			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-		if fn != nil {
-			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
-				return
-			}
-		}
-	}
-	return
-}
-
-type XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ struct {
-	EndDates []hrxml.TFlexibleDatesType `xml:"http://sovren.com/hr-xml/2006-02-28 EndDate"`
-}
-
-//	If the WalkHandlers.XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_ instance.
-func (me *XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -4654,13 +6545,191 @@ func (me *XsdGoPkgHasElems_TypesequenceTrainingTypeschema_Type_TrainingHistoryTy
 	return
 }
 
-type XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_ struct {
-	NumberOfEmployeesSuperviseds []xsdt.Int `xml:"http://sovren.com/hr-xml/2006-02-28 NumberOfEmployeesSupervised"`
+type XsdGoPkgHasElems_SearchHintssequenceResumeUserAreaschema_SearchHints_XsdtString_ struct {
+	SearchHintses []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 SearchHints"`
 }
 
-//	If the WalkHandlers.XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_ instance.
-func (me *XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_) Walk() (err error) {
-	if fn := WalkHandlers.XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_; me != nil {
+//	If the WalkHandlers.XsdGoPkgHasElems_SearchHintssequenceResumeUserAreaschema_SearchHints_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_SearchHintssequenceResumeUserAreaschema_SearchHints_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_SearchHintssequenceResumeUserAreaschema_SearchHints_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_SearchHintssequenceResumeUserAreaschema_SearchHints_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_SearchHintssequenceResumeUserAreaschema_SearchHints_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_EmailAddresssequenceEmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddress_XsdtString_ struct {
+	EmailAddress xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 EmailAddress"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_EmailAddresssequenceEmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddress_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_EmailAddresssequenceEmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddress_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_EmailAddresssequenceEmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddress_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_EmailAddresssequenceEmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddress_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_EmailAddresssequenceEmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddress_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ struct {
+	MaritalStatuses []*TMaritalStatusType `xml:"http://sovren.com/hr-xml/2006-02-28 MaritalStatus"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_ instance.
+func (me *XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.MaritalStatuses {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_ struct {
+	NormalizedEmployerOrgNames []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NormalizedEmployerOrgName"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ struct {
+	TrainingNames []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 TrainingName"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_GendersequencePersonalInformationsequenceResumeUserAreaschema_Gender_TGenderType_ struct {
+	Genders []*TGenderType `xml:"http://sovren.com/hr-xml/2006-02-28 Gender"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_GendersequencePersonalInformationsequenceResumeUserAreaschema_Gender_TGenderType_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_GendersequencePersonalInformationsequenceResumeUserAreaschema_Gender_TGenderType_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_GendersequencePersonalInformationsequenceResumeUserAreaschema_Gender_TGenderType_ instance.
+func (me *XsdGoPkgHasElems_GendersequencePersonalInformationsequenceResumeUserAreaschema_Gender_TGenderType_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_GendersequencePersonalInformationsequenceResumeUserAreaschema_Gender_TGenderType_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		for _, x := range me.Genders {
+			if err = x.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_ struct {
+	NationalIdentityNumbers []xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 NationalIdentityNumber"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_ instance.
+func (me *XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ struct {
+	Languages []TxsdCultureTypeSequenceCultureInfo `xml:"http://sovren.com/hr-xml/2006-02-28 Language"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_ instance.
+func (me *XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ struct {
+	CultureInfos []TxsdCultureTypeSequenceCultureInfo `xml:"http://sovren.com/hr-xml/2006-02-28 CultureInfo"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_ instance.
+func (me *XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_; me != nil {
 		if fn != nil {
 			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
 				return
@@ -4696,6 +6765,51 @@ func (me *XsdGoPkgHasCdata) Walk() (err error) {
 	return
 }
 
+type XsdGoPkgHasElem_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_ struct {
+	TwitterHandle xsdt.String `xml:"http://sovren.com/hr-xml/2006-02-28 TwitterHandle"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/1 field(s) belonging to this XsdGoPkgHasElem_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_ instance.
+func (me *XsdGoPkgHasElem_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
+type XsdGoPkgHasElem_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_ struct {
+	Code *TxsdIndustryTypeSequenceCode `xml:"http://sovren.com/hr-xml/2006-02-28 Code"`
+}
+
+//	If the WalkHandlers.XsdGoPkgHasElem_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_ function is not nil (ie. was set by outside code), calls it with this XsdGoPkgHasElem_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_ instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 1/1 field(s) belonging to this XsdGoPkgHasElem_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_ instance.
+func (me *XsdGoPkgHasElem_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_) Walk() (err error) {
+	if fn := WalkHandlers.XsdGoPkgHasElem_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_; me != nil {
+		if fn != nil {
+			if err = fn(me, true); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+		if err = me.Code.Walk(); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+			return
+		}
+		if fn != nil {
+			if err = fn(me, false); xsdt.OnWalkError(&err, &WalkErrors, WalkContinueOnError, WalkOnError) {
+				return
+			}
+		}
+	}
+	return
+}
+
 var (
 	//	Set this to false to break a Walk() immediately as soon as the first error is returned by a custom handler function.
 	//	If true, Walk() proceeds and accumulates all errors in the WalkErrors slice.
@@ -4704,191 +6818,276 @@ var (
 	WalkErrors []error
 	//	Your custom error-handling function, if required.
 	WalkOnError func(error)
-	//	Provides 179 strong-typed hooks for your own custom handler functions to be invoked when the Walk() method is called on any instance of any (non-attribute-related) struct type defined in this package.
+	//	Provides 264 strong-typed hooks for your own custom handler functions to be invoked when the Walk() method is called on any instance of any (non-attribute-related) struct type defined in this package.
 	//	If your custom handler does get called at all for a given struct instance, then it always gets called twice, first with the 'enter' bool argument set to true, then (after having Walk()ed all subordinate struct instances, if any) once again with it set to false.
 	WalkHandlers = &XsdGoPkgWalkHandlers{}
 )
 
-//	Provides 179 strong-typed hooks for your own custom handler functions to be invoked when the Walk() method is called on any instance of any (non-attribute-related) struct type defined in this package.
+//	Provides 264 strong-typed hooks for your own custom handler functions to be invoked when the Walk() method is called on any instance of any (non-attribute-related) struct type defined in this package.
 //	If your custom handler does get called at all for a given struct instance, then it always gets called twice, first with the 'enter' bool argument set to true, then (after having Walk()ed all subordinate struct instances, if any) once again with it set to false.
 type XsdGoPkgWalkHandlers struct {
-	TMaritalStatusType                                                                                                                                                                                                                                                                               func(*TMaritalStatusType, bool) error
-	XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_                                                                                                                          func(*XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_, bool) error
-	XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_                                                                                                                                                                                                      func(*XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_, bool) error
-	XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_                                                                                                                                                            func(*XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_, bool) error
-	TxsdPositionHistoryUserArea                                                                                                                                                                                                                                                                      func(*TxsdPositionHistoryUserArea, bool) error
-	XsdGoPkgHasElem_CurrentSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentSalary_TMoneyType_                                                                                                                    func(*XsdGoPkgHasElem_CurrentSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentSalary_TMoneyType_, bool) error
-	TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies                                                                                                                                                                                                                             func(*TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies, bool) error
-	XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_                                                                                                                                                                                            func(*XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_, bool) error
-	XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_                                                                                                                                                                                                                  func(*XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_, bool) error
-	TxsdTrainingTypeSequenceQualifications                                                                                                                                                                                                                                                           func(*TxsdTrainingTypeSequenceQualifications, bool) error
-	XsdGoPkgHasElems_ResumeUserArea                                                                                                                                                                                                                                                                  func(*XsdGoPkgHasElems_ResumeUserArea, bool) error
-	XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_                                                                                                                                                                                                                  func(*XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_, bool) error
-	XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_                                                                                                                                                                                                        func(*XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_, bool) error
-	XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_                                                                                                                                                                                                        func(*XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_, bool) error
-	XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_                                                                                                                   func(*XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_, bool) error
-	XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_                                                                                                                                                                          func(*XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_, bool) error
-	XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_                                                                                                                                                                                                            func(*XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_, bool) error
-	XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_                                                                                                                                                                                func(*XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_, bool) error
-	XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_                                                                                                                                                                                    func(*XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_, bool) error
-	XsdGoPkgHasElem_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_                                                                                                                                                     func(*XsdGoPkgHasElem_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_, bool) error
-	XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_                                                                                                         func(*XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_, bool) error
-	XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_                                                                                                              func(*XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_, bool) error
-	XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_                                                                                                                                                         func(*XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_, bool) error
-	XsdGoPkgHasElems_CurrentLocationsequencePersonalInformationsequenceResumeUserAreaschema_CurrentLocation_XsdtString_                                                                                                                                                                              func(*XsdGoPkgHasElems_CurrentLocationsequencePersonalInformationsequenceResumeUserAreaschema_CurrentLocation_XsdtString_, bool) error
-	XsdGoPkgHasElem_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_                                                                                                                                                                                                   func(*XsdGoPkgHasElem_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_, bool) error
-	TGenderType                                                                                                                                                                                                                                                                                      func(*TGenderType, bool) error
-	XsdGoPkgHasElem_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_                                                                                                                            func(*XsdGoPkgHasElem_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_, bool) error
-	XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_                                                                                            func(*XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_, bool) error
-	XsdGoPkgHasElems_CoverLetterTextsequenceResumeUserAreaschema_CoverLetterText_XsdtString_                                                                                                                                                                                                         func(*XsdGoPkgHasElems_CoverLetterTextsequenceResumeUserAreaschema_CoverLetterText_XsdtString_, bool) error
-	XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_                                                                                                            func(*XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_, bool) error
-	XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_                                                                                                                                                                                 func(*XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_, bool) error
-	XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_                                                                                                                                                                                                           func(*XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_, bool) error
-	XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_                                                                                                                                                                                                                     func(*XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_, bool) error
-	XsdGoPkgHasElems_CustomDatasequenceResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_                                                                                                                                                                                         func(*XsdGoPkgHasElems_CustomDatasequenceResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_, bool) error
-	XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_                                                                                                                                                                                         func(*XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_, bool) error
-	XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_                                                                                                                                                                                                     func(*XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_, bool) error
-	XsdGoPkgHasElems_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_                                                                                                                 func(*XsdGoPkgHasElems_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_, bool) error
-	XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_                                                                                                                                                                                          func(*XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_, bool) error
-	XsdGoPkgHasElems_PositionHistoryUserArea                                                                                                                                                                                                                                                         func(*XsdGoPkgHasElems_PositionHistoryUserArea, bool) error
-	TxsdResumeUserAreaSequenceSections                                                                                                                                                                                                                                                               func(*TxsdResumeUserAreaSequenceSections, bool) error
-	XsdGoPkgHasElems_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_                                            func(*XsdGoPkgHasElems_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_, bool) error
-	XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_                                                                                func(*XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_, bool) error
-	XsdGoPkgHasElems_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_                                                                                                                                                                                               func(*XsdGoPkgHasElems_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_, bool) error
-	XsdGoPkgHasElems_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_                                                                                                                                                                   func(*XsdGoPkgHasElems_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_, bool) error
-	XsdGoPkgHasElems_FamilyCompositionsequencePersonalInformationsequenceResumeUserAreaschema_FamilyComposition_XsdtString_                                                                                                                                                                          func(*XsdGoPkgHasElems_FamilyCompositionsequencePersonalInformationsequenceResumeUserAreaschema_FamilyComposition_XsdtString_, bool) error
-	XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_                                                                                                                          func(*XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_, bool) error
-	XsdGoPkgHasElem_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_                                                                                                                                                 func(*XsdGoPkgHasElem_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_, bool) error
-	XsdGoPkgHasElem_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_                                             func(*XsdGoPkgHasElem_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_, bool) error
-	XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_                                                                                     func(*XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_, bool) error
-	XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_                                                                                                                                                                                                               func(*XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_, bool) error
-	XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_                                                                                                                                                                                        func(*XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_, bool) error
-	TxsdBulletsTypeSequenceBullet                                                                                                                                                                                                                                                                    func(*TxsdBulletsTypeSequenceBullet, bool) error
-	XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_                                                                                                                                                                                             func(*XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_, bool) error
-	XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_                                                                                                                                              func(*XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_, bool) error
-	XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_                                                                                    func(*XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_, bool) error
-	XsdGoPkgHasElems_DegreeUserArea                                                                                                                                                                                                                                                                  func(*XsdGoPkgHasElems_DegreeUserArea, bool) error
-	XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_                                                                                                                                                                                                         func(*XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_, bool) error
-	XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_                                                                                                                                                   func(*XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_, bool) error
-	XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_                                                                                                                                                                                          func(*XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_, bool) error
-	XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_                                                                                                                        func(*XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_, bool) error
 	XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_                                                      func(*XsdGoPkgHasElem_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_, bool) error
-	TxsdResumeUserAreaSequenceTrainingHistory                                                                                                                                                                                                                                                        func(*TxsdResumeUserAreaSequenceTrainingHistory, bool) error
-	XsdGoPkgHasElem_ResumeUserArea                                                                                                                                                                                                                                                                   func(*XsdGoPkgHasElem_ResumeUserArea, bool) error
-	TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities                                                                                                                                                                                                                          func(*TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities, bool) error
-	XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_                                                                                                                func(*XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_, bool) error
-	XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_                                                                                                                  func(*XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_, bool) error
-	XsdGoPkgHasElem_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_                                                                                                                                                                                      func(*XsdGoPkgHasElem_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_, bool) error
-	XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_                                                                                                         func(*XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_, bool) error
-	TxsdResumeUserAreaSequenceSectionsSequenceSection                                                                                                                                                                                                                                                func(*TxsdResumeUserAreaSequenceSectionsSequenceSection, bool) error
-	XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_                                                                                                                                                                                                           func(*XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_, bool) error
-	XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceHobbiesHobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_                                                                                                                                                              func(*XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceHobbiesHobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_, bool) error
-	XsdGoPkgHasElem_SectionsequenceSectionssequenceResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_                                                                                                                                                                   func(*XsdGoPkgHasElem_SectionsequenceSectionssequenceResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_, bool) error
-	XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_                                                                                                                                                                                func(*XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_, bool) error
-	XsdGoPkgHasElems_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_                                                                                                           func(*XsdGoPkgHasElems_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_, bool) error
-	XsdGoPkgHasElems_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_                                                                                                                                                                             func(*XsdGoPkgHasElems_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_, bool) error
-	XsdGoPkgHasElems_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_                                                                                                                                                                      func(*XsdGoPkgHasElems_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_, bool) error
-	XsdGoPkgHasElems_RequiredSalarysequencePersonalInformationsequenceResumeUserAreaschema_RequiredSalary_TMoneyType_                                                                                                                                                                                func(*XsdGoPkgHasElems_RequiredSalarysequencePersonalInformationsequenceResumeUserAreaschema_RequiredSalary_TMoneyType_, bool) error
-	XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_                                                                                                                  func(*XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_, bool) error
-	XsdGoPkgHasElems_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_                                                                                                                                                  func(*XsdGoPkgHasElems_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_, bool) error
-	XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_                                                                                                                                                                                                          func(*XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_, bool) error
-	XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_                                                                                                                                                                                func(*XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_, bool) error
-	XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_                                                                                                                                                                                                func(*XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_, bool) error
-	TxsdResumeUserAreaSequenceHobbies                                                                                                                                                                                                                                                                func(*TxsdResumeUserAreaSequenceHobbies, bool) error
-	XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_                                                                                                                         func(*XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_, bool) error
-	XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_                                                                                                           func(*XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_, bool) error
-	XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_                                                                                                                                                                                                  func(*XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_, bool) error
-	TExecutiveTypeType                                                                                                                                                                                                                                                                               func(*TExecutiveTypeType, bool) error
-	XsdGoPkgHasElems_NationalIdentitysequenceTxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentitiesNationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentity_TNationalIdentityType_ func(*XsdGoPkgHasElems_NationalIdentitysequenceTxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentitiesNationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentity_TNationalIdentityType_, bool) error
-	XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_                                                                                             func(*XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_, bool) error
-	XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_                                                                                                                                                                    func(*XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_, bool) error
-	XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_                                                                                                                                                    func(*XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_, bool) error
-	XsdGoPkgHasElems_DescriptionsequenceExperienceSummarysequenceResumeUserAreaschema_Description_XsdtString_                                                                                                                                                                                        func(*XsdGoPkgHasElems_DescriptionsequenceExperienceSummarysequenceResumeUserAreaschema_Description_XsdtString_, bool) error
-	XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_                                                                                                                                                                                                              func(*XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_, bool) error
-	XsdGoPkgHasElem_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_                                                                                                                                                                                           func(*XsdGoPkgHasElem_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_, bool) error
-	XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_                                                                                                                                                                          func(*XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_, bool) error
-	XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_                                                                                                                func(*XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_, bool) error
-	XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_                                                                                               func(*XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_, bool) error
-	TCurrentManagementLevelType                                                                                                                                                                                                                                                                      func(*TCurrentManagementLevelType, bool) error
-	TrainingHistoryTypeType                                                                                                                                                                                                                                                                          func(*TrainingHistoryTypeType, bool) error
-	TMoneyType                                                                                                                                                                                                                                                                                       func(*TMoneyType, bool) error
-	TCultureType                                                                                                                                                                                                                                                                                     func(*TCultureType, bool) error
-	XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_                                                                                                                                                                              func(*XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_, bool) error
-	XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_                                                                                                                                                                              func(*XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_, bool) error
-	TrainingType                                                                                                                                                                                                                                                                                     func(*TrainingType, bool) error
-	XsdGoPkgHasElem_NationalIdentitysequenceNationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentity_TNationalIdentityType_                                                                                                                                        func(*XsdGoPkgHasElem_NationalIdentitysequenceNationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentity_TNationalIdentityType_, bool) error
-	XsdGoPkgHasElems_CompanyNameProbabilitysequencePositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_                                                                                                                                                                                     func(*XsdGoPkgHasElems_CompanyNameProbabilitysequencePositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_, bool) error
+	XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_                                                                                                                                                                                 func(*XsdGoPkgHasElem_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_, bool) error
+	TDateOfBirthType                                                                                                                                                                                                                                                                                 func(*TDateOfBirthType, bool) error
+	XsdGoPkgHasElem_UrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_                                                                                                            func(*XsdGoPkgHasElem_UrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_, bool) error
+	XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_                                                                                                                                                                                                            func(*XsdGoPkgHasElem_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_, bool) error
+	XsdGoPkgHasElem_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_                                                                                                                                                 func(*XsdGoPkgHasElem_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_, bool) error
 	XsdGoPkgHasElem_PositionHistoryUserArea                                                                                                                                                                                                                                                          func(*XsdGoPkgHasElem_PositionHistoryUserArea, bool) error
-	XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_                                                                                                                    func(*XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_, bool) error
-	XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_                                                                                              func(*XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_, bool) error
-	XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_                                                                                                           func(*XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_, bool) error
-	XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_                                                                                                                                                      func(*XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_, bool) error
-	XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_                                                                                                                                                                                                                 func(*XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_, bool) error
-	XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_                                                                                                            func(*XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_, bool) error
-	TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch                                                                                                                                                                                                                                      func(*TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch, bool) error
+	XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_                                                                                                                                                                              func(*XsdGoPkgHasElem_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_, bool) error
+	XsdGoPkgHasElems_IsSelfEmployedsequencePositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_                                                                                                                                                                                                 func(*XsdGoPkgHasElems_IsSelfEmployedsequencePositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_, bool) error
+	XsdGoPkgHasElems_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_                                                                                                                                                                                func(*XsdGoPkgHasElems_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_, bool) error
+	XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_                                                                                                                                                                                 func(*XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_, bool) error
+	XsdGoPkgHasElems_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_                                                                                                                                                           func(*XsdGoPkgHasElems_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_, bool) error
+	XsdGoPkgHasElems_RequiredSalarysequencePersonalInformationsequenceResumeUserAreaschema_RequiredSalary_TMoneyType_                                                                                                                                                                                func(*XsdGoPkgHasElems_RequiredSalarysequencePersonalInformationsequenceResumeUserAreaschema_RequiredSalary_TMoneyType_, bool) error
+	XsdGoPkgHasElem_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_                                                                                             func(*XsdGoPkgHasElem_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_, bool) error
 	XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_                                                                                                                                                                                  func(*XsdGoPkgHasElems_CurrentSalarysequencePersonalInformationsequenceResumeUserAreaschema_CurrentSalary_TMoneyType_, bool) error
-	XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_                                                                                                                                                func(*XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_, bool) error
-	XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_                                                                                                                  func(*XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_, bool) error
+	XsdGoPkgHasElems_NormalizedLocationsequenceEmployerOrgUserAreaschema_NormalizedLocation_TLocationType_                                                                                                                                                                                           func(*XsdGoPkgHasElems_NormalizedLocationsequenceEmployerOrgUserAreaschema_NormalizedLocation_TLocationType_, bool) error
+	XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_                                                                                                                func(*XsdGoPkgHasElem_ExecutiveTypesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_, bool) error
+	TxsdResumeUserAreaSequencePersonalInformation                                                                                                                                                                                                                                                    func(*TxsdResumeUserAreaSequencePersonalInformation, bool) error
+	XsdGoPkgHasElems_NormalizedIndustriessequenceEmployerOrgUserAreaschema_NormalizedIndustries_TIndustryType_                                                                                                                                                                                       func(*XsdGoPkgHasElems_NormalizedIndustriessequenceEmployerOrgUserAreaschema_NormalizedIndustries_TIndustryType_, bool) error
+	XsdGoPkgHasElems_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_                                                                                                                                                          func(*XsdGoPkgHasElems_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_, bool) error
+	XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_                                                                                                                                                                                          func(*XsdGoPkgHasElems_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_, bool) error
+	XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_                                                                                                                                                                                                                 func(*XsdGoPkgHasElems_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_, bool) error
+	XsdGoPkgHasElem_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_                                                                                                                                                     func(*XsdGoPkgHasElem_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_, bool) error
+	XsdGoPkgHasElem_CurrentSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentSalary_TMoneyType_                                                                                                                    func(*XsdGoPkgHasElem_CurrentSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentSalary_TMoneyType_, bool) error
+	XsdGoPkgHasElems_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_                                                                               func(*XsdGoPkgHasElems_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_, bool) error
+	XsdGoPkgHasElems_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_                                                                                                          func(*XsdGoPkgHasElems_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_, bool) error
+	XsdGoPkgHasElems_HighestManagementScoresequenceExperienceSummarysequenceResumeUserAreaschema_HighestManagementScore_XsdtInt_                                                                                                                                                                     func(*XsdGoPkgHasElems_HighestManagementScoresequenceExperienceSummarysequenceResumeUserAreaschema_HighestManagementScore_XsdtInt_, bool) error
+	XsdGoPkgHasElems_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_                                                                                                                                                                                       func(*XsdGoPkgHasElems_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_, bool) error
+	TxsdEmployerOrgUserArea                                                                                                                                                                                                                                                                          func(*TxsdEmployerOrgUserArea, bool) error
+	XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_                                                                                                                                                                                                      func(*XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_, bool) error
+	XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_                                                                                                                func(*XsdGoPkgHasElem_CurrentLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentLocation_XsdtString_, bool) error
+	TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles                                                                                                                                                                                                                                     func(*TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles, bool) error
+	XsdGoPkgHasElems_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_                                                                                                                           func(*XsdGoPkgHasElems_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_, bool) error
+	XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_                                                                                                                                                                                func(*XsdGoPkgHasElems_NationalitysequencePersonalInformationsequenceResumeUserAreaschema_Nationality_TNationalityType_, bool) error
+	XsdGoPkgHasElems_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_                                                                                                           func(*XsdGoPkgHasElems_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_, bool) error
 	XsdGoPkgHasElem_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_                                                                                                                                                       func(*XsdGoPkgHasElem_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_, bool) error
-	TxsdResumeUserAreaSequenceCustomData                                                                                                                                                                                                                                                             func(*TxsdResumeUserAreaSequenceCustomData, bool) error
-	XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_                                                                                                                                                                                        func(*XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_, bool) error
-	XsdGoPkgHasElems_ParserVersionsequenceResumeUserAreaschema_ParserVersion_XsdtString_                                                                                                                                                                                                             func(*XsdGoPkgHasElems_ParserVersionsequenceResumeUserAreaschema_ParserVersion_XsdtString_, bool) error
-	XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_                                                                                                                                                              func(*XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_, bool) error
-	TxsdDegreeUserArea                                                                                                                                                                                                                                                                               func(*TxsdDegreeUserArea, bool) error
-	XsdGoPkgHasElem_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_                                                                                                                                                                       func(*XsdGoPkgHasElem_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_, bool) error
-	XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_                                                                                                            func(*XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_, bool) error
+	XsdGoPkgHasElem_EmployerOrgUserArea                                                                                                                                                                                                                                                              func(*XsdGoPkgHasElem_EmployerOrgUserArea, bool) error
+	XsdGoPkgHasElem_DateOfBirthsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DateOfBirth_TDateOfBirthType_                                                                                                                  func(*XsdGoPkgHasElem_DateOfBirthsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DateOfBirth_TDateOfBirthType_, bool) error
+	XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_                                                                                                            func(*XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_, bool) error
+	XsdGoPkgHasElems_NormalizedTitlesequencePositionHistoryUserAreaschema_NormalizedTitle_XsdtString_                                                                                                                                                                                                func(*XsdGoPkgHasElems_NormalizedTitlesequencePositionHistoryUserAreaschema_NormalizedTitle_XsdtString_, bool) error
+	TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies                                                                                                                                                                                                                             func(*TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies, bool) error
+	XsdGoPkgHasElems_BulletssequencePositionHistoryUserAreaschema_Bullets_TBulletsType_                                                                                                                                                                                                              func(*XsdGoPkgHasElems_BulletssequencePositionHistoryUserAreaschema_Bullets_TBulletsType_, bool) error
+	XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_                                                                                                                                                                                                          func(*XsdGoPkgHasElems_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_, bool) error
+	XsdGoPkgHasElems_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_                                                                                                                       func(*XsdGoPkgHasElems_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_, bool) error
+	TxsdResumeUserAreaSequenceExperienceSummary                                                                                                                                                                                                                                                      func(*TxsdResumeUserAreaSequenceExperienceSummary, bool) error
+	TxsdResumeUserAreaSequenceSections                                                                                                                                                                                                                                                               func(*TxsdResumeUserAreaSequenceSections, bool) error
+	TMoneyType                                                                                                                                                                                                                                                                                       func(*TMoneyType, bool) error
 	XsdGoPkgHasElem_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_                                                                                                                                                                                      func(*XsdGoPkgHasElem_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_, bool) error
 	XsdGoPkgHasElem_PersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_                                                                                                                                             func(*XsdGoPkgHasElem_PersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_, bool) error
-	XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_                                                                                                                                                                                         func(*XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_, bool) error
-	TxsdResumeUserAreaSequenceTimedOut                                                                                                                                                                                                                                                               func(*TxsdResumeUserAreaSequenceTimedOut, bool) error
+	XsdGoPkgHasElems_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_                                                                                                                                                                                                     func(*XsdGoPkgHasElems_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_, bool) error
+	TxsdLocationTypeSequenceLongitude                                                                                                                                                                                                                                                                func(*TxsdLocationTypeSequenceLongitude, bool) error
+	XsdGoPkgHasElem_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_                                                                                                                                                                                            func(*XsdGoPkgHasElem_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_, bool) error
+	XsdGoPkgHasElem_LocationsequenceTxsdResumeUserAreaResumeUserAreaschema_Location_TLocationType_                                                                                                                                                                                                   func(*XsdGoPkgHasElem_LocationsequenceTxsdResumeUserAreaResumeUserAreaschema_Location_TLocationType_, bool) error
 	TxsdResumeUserArea                                                                                                                                                                                                                                                                               func(*TxsdResumeUserArea, bool) error
-	XsdGoPkgHasElem_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_                                                                                                                                                           func(*XsdGoPkgHasElem_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_, bool) error
-	XsdGoPkgHasElems_HighestManagementScoresequenceExperienceSummarysequenceResumeUserAreaschema_HighestManagementScore_XsdtInt_                                                                                                                                                                     func(*XsdGoPkgHasElems_HighestManagementScoresequenceExperienceSummarysequenceResumeUserAreaschema_HighestManagementScore_XsdtInt_, bool) error
-	XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_                                                                                                                                                                            func(*XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_, bool) error
-	XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_                                                                                                                                 func(*XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_, bool) error
-	XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_                                                                                                        func(*XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_, bool) error
-	XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_                                                                                                                                                                                     func(*XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_, bool) error
-	XsdGoPkgHasElems_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_                                                                                                                                                                                                      func(*XsdGoPkgHasElems_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_, bool) error
-	XsdGoPkgHasElem_DegreeUserArea                                                                                                                                                                                                                                                                   func(*XsdGoPkgHasElem_DegreeUserArea, bool) error
-	TxsdResumeUserAreaSequencePersonalInformation                                                                                                                                                                                                                                                    func(*TxsdResumeUserAreaSequencePersonalInformation, bool) error
-	XsdGoPkgHasElems_CulturesequenceResumeUserAreaschema_Culture_TCultureType_                                                                                                                                                                                                                       func(*XsdGoPkgHasElems_CulturesequenceResumeUserAreaschema_Culture_TCultureType_, bool) error
-	XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_                                                                                                                                                                                 func(*XsdGoPkgHasElems_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_, bool) error
-	XsdGoPkgHasCdata                                                                                                                                                                                                                                                                                 func(*XsdGoPkgHasCdata, bool) error
-	XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_                                                                                                                  func(*XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_, bool) error
-	XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_                                                                                                            func(*XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_, bool) error
-	XsdGoPkgHasElem_DateOfBirthsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DateOfBirth_TDateOfBirthType_                                                                                                                  func(*XsdGoPkgHasElem_DateOfBirthsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DateOfBirth_TDateOfBirthType_, bool) error
-	XsdGoPkgHasElem_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_                                                                                                                                                                                          func(*XsdGoPkgHasElem_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_, bool) error
-	XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_                                                                                                                                                                        func(*XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_, bool) error
-	XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_                                                                                                                                                    func(*XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_, bool) error
-	XsdGoPkgHasElems_BulletssequencePositionHistoryUserAreaschema_Bullets_TBulletsType_                                                                                                                                                                                                              func(*XsdGoPkgHasElems_BulletssequencePositionHistoryUserAreaschema_Bullets_TBulletsType_, bool) error
-	TBulletsType                                                                                                                                                                                                                                                                                     func(*TBulletsType, bool) error
-	XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_                                                                                                                                    func(*XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_, bool) error
-	XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_                                                                                 func(*XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_, bool) error
-	XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_                                                                                                                                                                                                                             func(*XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_, bool) error
+	XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_                                                                                                                                                         func(*XsdGoPkgHasElem_TrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_, bool) error
+	TExecutiveTypeType                                                                                                                                                                                                                                                                               func(*TExecutiveTypeType, bool) error
+	XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_                                                                                                            func(*XsdGoPkgHasElem_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_, bool) error
 	TNationalityType                                                                                                                                                                                                                                                                                 func(*TNationalityType, bool) error
-	XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_                                                                                                                                                                                                      func(*XsdGoPkgHasElem_CulturesequenceTxsdResumeUserAreaResumeUserAreaschema_Culture_TCultureType_, bool) error
-	XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_                                                                                                           func(*XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_, bool) error
-	XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_                                                                                                                                                                                  func(*XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_, bool) error
-	XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_                                                                                                                                                                                                                              func(*XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_, bool) error
-	XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_                                                                                                                                   func(*XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_, bool) error
-	XsdGoPkgHasElems_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_                                                                                                                                                                                                                 func(*XsdGoPkgHasElems_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_, bool) error
+	TxsdResumeUserAreaSequenceReservedDataSequenceUrls                                                                                                                                                                                                                                               func(*TxsdResumeUserAreaSequenceReservedDataSequenceUrls, bool) error
+	XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_                                                                                                                                                                     func(*XsdGoPkgHasElems_MonthsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_, bool) error
+	XsdGoPkgHasElems_ExperienceSummarysequenceResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_                                                                                                                                                                    func(*XsdGoPkgHasElems_ExperienceSummarysequenceResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_, bool) error
+	XsdGoPkgHasElems_LicenseSerialNumbersequenceResumeUserAreaschema_LicenseSerialNumber_XsdtString_                                                                                                                                                                                                 func(*XsdGoPkgHasElems_LicenseSerialNumbersequenceResumeUserAreaschema_LicenseSerialNumber_XsdtString_, bool) error
+	XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_                                                                                                                                                                    func(*XsdGoPkgHasElem_ParserConfigurationStringsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserConfigurationString_XsdtString_, bool) error
+	TxsdResumeUserAreaSequenceCustomData                                                                                                                                                                                                                                                             func(*TxsdResumeUserAreaSequenceCustomData, bool) error
+	XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_                                                                                                                        func(*XsdGoPkgHasElem_FathersNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FathersName_XsdtString_, bool) error
+	XsdGoPkgHasElems_WillingToRelocatesequencePersonalInformationsequenceResumeUserAreaschema_WillingToRelocate_TYesNoType_                                                                                                                                                                          func(*XsdGoPkgHasElems_WillingToRelocatesequencePersonalInformationsequenceResumeUserAreaschema_WillingToRelocate_TYesNoType_, bool) error
+	XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_                                                                                                                                              func(*XsdGoPkgHasElem_BestFitTaxonomysequenceBestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_, bool) error
+	XsdGoPkgHasElems_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_                                                                                                     func(*XsdGoPkgHasElems_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_, bool) error
+	XsdGoPkgHasElems_SectionssequenceResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_                                                                                                                                                                                               func(*XsdGoPkgHasElems_SectionssequenceResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_, bool) error
+	XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_                                                                                                                                                                                                  func(*XsdGoPkgHasElems_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_, bool) error
+	XsdGoPkgHasElems_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_                                                                                                                                                                                           func(*XsdGoPkgHasElems_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_, bool) error
+	XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_                                                                                                                                                                                                func(*XsdGoPkgHasElem_SearchHintssequenceTxsdResumeUserAreaResumeUserAreaschema_SearchHints_XsdtString_, bool) error
+	TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses                                                                                                                                                                                                                                     func(*TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses, bool) error
+	XsdGoPkgHasElem_NormalizedIndustriessequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedIndustries_TIndustryType_                                                                                                                                                         func(*XsdGoPkgHasElem_NormalizedIndustriessequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedIndustries_TIndustryType_, bool) error
+	XsdGoPkgHasElem_LicenseSerialNumbersequenceTxsdResumeUserAreaResumeUserAreaschema_LicenseSerialNumber_XsdtString_                                                                                                                                                                                func(*XsdGoPkgHasElem_LicenseSerialNumbersequenceTxsdResumeUserAreaResumeUserAreaschema_LicenseSerialNumber_XsdtString_, bool) error
+	XsdGoPkgHasElem_EmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_                                                                              func(*XsdGoPkgHasElem_EmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_, bool) error
+	XsdGoPkgHasElems_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_                                                                                                  func(*XsdGoPkgHasElems_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_, bool) error
+	XsdGoPkgHasElems_UrlsequenceTxsdResumeUserAreaSequenceReservedDataSequenceUrlsUrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Url_XsdtString_                                                                                       func(*XsdGoPkgHasElems_UrlsequenceTxsdResumeUserAreaSequenceReservedDataSequenceUrlsUrlssequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Url_XsdtString_, bool) error
+	XsdGoPkgHasElems_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_                                                                                                                                                                                                         func(*XsdGoPkgHasElems_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_, bool) error
+	XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_                                                                                                           func(*XsdGoPkgHasElems_MaritalStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MaritalStatus_TMaritalStatusType_, bool) error
+	TxsdPositionHistoryUserArea                                                                                                                                                                                                                                                                      func(*TxsdPositionHistoryUserArea, bool) error
+	XsdGoPkgHasElems_PositionHistoryUserArea                                                                                                                                                                                                                                                         func(*XsdGoPkgHasElems_PositionHistoryUserArea, bool) error
+	XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_                                                                                                                  func(*XsdGoPkgHasElem_RequiredSalarysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_RequiredSalary_TMoneyType_, bool) error
+	XsdGoPkgHasElem_NormalizedTitlesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedTitle_XsdtString_                                                                                                                                                                      func(*XsdGoPkgHasElem_NormalizedTitlesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedTitle_XsdtString_, bool) error
+	XsdGoPkgHasElem_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_                                                                                                                                                          func(*XsdGoPkgHasElem_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_, bool) error
+	XsdGoPkgHasCdata                                                                                                                                                                                                                                                                                 func(*XsdGoPkgHasCdata, bool) error
+	XsdGoPkgHasElems_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_                                                                                                                                                                                           func(*XsdGoPkgHasElems_NormalizedStreetAddresssequenceLocationTypeschema_NormalizedStreetAddress_XsdtString_, bool) error
+	XsdGoPkgHasElems_AvailabilitysequencePersonalInformationsequenceResumeUserAreaschema_Availability_XsdtString_                                                                                                                                                                                    func(*XsdGoPkgHasElems_AvailabilitysequencePersonalInformationsequenceResumeUserAreaschema_Availability_XsdtString_, bool) error
+	XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_                                                                                                                   func(*XsdGoPkgHasElems_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_, bool) error
+	XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_                                                                                                                                                                                    func(*XsdGoPkgHasElem_BulletssequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_Bullets_TBulletsType_, bool) error
+	XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_                                                                                func(*XsdGoPkgHasElems_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_, bool) error
+	XsdGoPkgHasElem_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_                                                                                                                            func(*XsdGoPkgHasElem_HukouAreasequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouArea_XsdtString_, bool) error
+	XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_                                                                                                                                                                                                                  func(*XsdGoPkgHasElem_TrainingNamesequenceTrainingTypeschema_TrainingName_XsdtString_, bool) error
+	XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_                                                                                                                                                                                                      func(*XsdGoPkgHasElem_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_, bool) error
+	TMessagingAddressType                                                                                                                                                                                                                                                                            func(*TMessagingAddressType, bool) error
+	XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_                                                                                                                                                                          func(*XsdGoPkgHasElems_TrainingHistorysequenceResumeUserAreaschema_TrainingHistory_TxsdResumeUserAreaSequenceTrainingHistory_, bool) error
+	XsdGoPkgHasElems_CurrentLocationsequencePersonalInformationsequenceResumeUserAreaschema_CurrentLocation_XsdtString_                                                                                                                                                                              func(*XsdGoPkgHasElems_CurrentLocationsequencePersonalInformationsequenceResumeUserAreaschema_CurrentLocation_XsdtString_, bool) error
+	XsdGoPkgHasElem_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_                                                                                                                                                                                              func(*XsdGoPkgHasElem_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_, bool) error
+	XsdGoPkgHasElem_NormalizedSchoolNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedSchoolName_XsdtString_                                                                                                                                                                              func(*XsdGoPkgHasElem_NormalizedSchoolNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedSchoolName_XsdtString_, bool) error
+	XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_                                                                                                                                                                                             func(*XsdGoPkgHasElem_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_, bool) error
+	TxsdIndustryTypeSequenceCode                                                                                                                                                                                                                                                                     func(*TxsdIndustryTypeSequenceCode, bool) error
+	XsdGoPkgHasElem_ReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_                                                                                                                                                                  func(*XsdGoPkgHasElem_ReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_, bool) error
 	XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_                                                                                                                                                                                            func(*XsdGoPkgHasElems_CultureInfosequenceCultureTypeschema_CultureInfo_TxsdCultureTypeSequenceCultureInfo_, bool) error
-	XsdGoPkgHasElem_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_                                                                                                                                                                                                       func(*XsdGoPkgHasElem_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_, bool) error
-	XsdGoPkgHasElems_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_                                                     func(*XsdGoPkgHasElems_BestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_, bool) error
-	XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_                                                                                                                                                                             func(*XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_, bool) error
-	XsdGoPkgHasElems_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_                                                                                                                                                                                                                    func(*XsdGoPkgHasElems_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_, bool) error
-	XsdGoPkgHasElems_SelfEmploymentPhrasesequencePositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_                                                                                                                                                                                      func(*XsdGoPkgHasElems_SelfEmploymentPhrasesequencePositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_, bool) error
-	XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_                                                                                                                                                   func(*XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_, bool) error
-	XsdGoPkgHasElems_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_                                                                                                                                func(*XsdGoPkgHasElems_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_, bool) error
-	XsdGoPkgHasElems_FathersNamesequencePersonalInformationsequenceResumeUserAreaschema_FathersName_XsdtString_                                                                                                                                                                                      func(*XsdGoPkgHasElems_FathersNamesequencePersonalInformationsequenceResumeUserAreaschema_FathersName_XsdtString_, bool) error
-	XsdGoPkgHasElems_BirthplacesequencePersonalInformationsequenceResumeUserAreaschema_Birthplace_XsdtString_                                                                                                                                                                                        func(*XsdGoPkgHasElems_BirthplacesequencePersonalInformationsequenceResumeUserAreaschema_Birthplace_XsdtString_, bool) error
-	TxsdResumeUserAreaSequenceExperienceSummary                                                                                                                                                                                                                                                      func(*TxsdResumeUserAreaSequenceExperienceSummary, bool) error
+	XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_                                                                                                                                                                                        func(*XsdGoPkgHasElems_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_, bool) error
+	XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_                                                                                                                                                   func(*XsdGoPkgHasElem_ExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ExperienceSummary_TxsdResumeUserAreaSequenceExperienceSummary_, bool) error
+	XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_                                                                                                                                                                        func(*XsdGoPkgHasElem_CustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_, bool) error
+	XsdGoPkgHasElems_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_                                                                                                                                               func(*XsdGoPkgHasElems_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_, bool) error
+	XsdGoPkgHasElems_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_                                                                                                     func(*XsdGoPkgHasElems_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_, bool) error
+	XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_                                                                                                                                   func(*XsdGoPkgHasElems_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_, bool) error
+	XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_                                                                                                                    func(*XsdGoPkgHasElem_ManagementStorysequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_ManagementStory_XsdtString_, bool) error
+	XsdGoPkgHasElems_MotherTonguesequencePersonalInformationsequenceResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_                                                                                                                             func(*XsdGoPkgHasElems_MotherTonguesequencePersonalInformationsequenceResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_, bool) error
+	XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_                                                                                                                                                                                                                              func(*XsdGoPkgHasElem_EntitysequenceTrainingTypeschema_Entity_XsdtString_, bool) error
+	XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_                                                                                                                          func(*XsdGoPkgHasElem_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_, bool) error
+	XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_                                                                                                                                                                                                              func(*XsdGoPkgHasElems_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_, bool) error
+	XsdGoPkgHasElems_BestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_                                                                                                                  func(*XsdGoPkgHasElems_BestFitTaxonomiessequenceExperienceSummarysequenceResumeUserAreaschema_BestFitTaxonomies_TxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomies_, bool) error
+	XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_                                                                                                           func(*XsdGoPkgHasElems_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_, bool) error
+	XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_                                                                                                                                                                                  func(*XsdGoPkgHasElem_QualificationssequenceTrainingTypeschema_Qualifications_TxsdTrainingTypeSequenceQualifications_, bool) error
+	TCurrentManagementLevelType                                                                                                                                                                                                                                                                      func(*TCurrentManagementLevelType, bool) error
+	TxsdResumeUserAreaSequenceHobbies                                                                                                                                                                                                                                                                func(*TxsdResumeUserAreaSequenceHobbies, bool) error
+	XsdGoPkgHasElems_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_                                                                                                                         func(*XsdGoPkgHasElems_BirthplacesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Birthplace_XsdtString_, bool) error
+	XsdGoPkgHasElems_ReservedDatasequenceResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_                                                                                                                                                                                   func(*XsdGoPkgHasElems_ReservedDatasequenceResumeUserAreaschema_ReservedData_TxsdResumeUserAreaSequenceReservedData_, bool) error
+	XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_                                                                                                                                                                                         func(*XsdGoPkgHasElems_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_, bool) error
+	XsdGoPkgHasElems_ParseTimesequenceResumeUserAreaschema_ParseTime_XsdtInt_                                                                                                                                                                                                                        func(*XsdGoPkgHasElems_ParseTimesequenceResumeUserAreaschema_ParseTime_XsdtInt_, bool) error
+	XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_                                                                                                                                                                                                         func(*XsdGoPkgHasElem_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_, bool) error
+	TGenderType                                                                                                                                                                                                                                                                                      func(*TGenderType, bool) error
+	TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities                                                                                                                                                                                                                          func(*TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities, bool) error
+	TxsdResumeUserAreaSequenceReservedDataSequenceOtherData                                                                                                                                                                                                                                          func(*TxsdResumeUserAreaSequenceReservedDataSequenceOtherData, bool) error
+	XsdGoPkgHasElems_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_                                                                                                                                                                                                 func(*XsdGoPkgHasElems_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_, bool) error
+	XsdGoPkgHasElem_OtherDatumsequenceOtherDatasequenceReservedDatasequenceResumeUserAreaschema_OtherDatum_XsdtString_                                                                                                                                                                               func(*XsdGoPkgHasElem_OtherDatumsequenceOtherDatasequenceReservedDatasequenceResumeUserAreaschema_OtherDatum_XsdtString_, bool) error
+	XsdGoPkgHasElem_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_                                                                                                   func(*XsdGoPkgHasElem_MessagingAddresssequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MessagingAddress_TMessagingAddressType_, bool) error
+	XsdGoPkgHasElems_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_                                                                                            func(*XsdGoPkgHasElems_OtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherData_TxsdResumeUserAreaSequenceReservedDataSequenceOtherData_, bool) error
+	XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_                                                                                                                                                                                                        func(*XsdGoPkgHasElems_CountrysequenceCultureTypeschema_Country_TxsdCultureTypeSequenceCountry_, bool) error
+	XsdGoPkgHasElems_NormalizedDegreeNamesequenceDegreeUserAreaschema_NormalizedDegreeName_XsdtString_                                                                                                                                                                                               func(*XsdGoPkgHasElems_NormalizedDegreeNamesequenceDegreeUserAreaschema_NormalizedDegreeName_XsdtString_, bool) error
+	XsdGoPkgHasElem_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_                                                                                                                                                func(*XsdGoPkgHasElem_NormalizedOrganizationNamesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NormalizedOrganizationName_XsdtString_, bool) error
+	XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_                                                                                                                                              func(*XsdGoPkgHasElem_TextsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Text_XsdtString_, bool) error
+	XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_                                                                                                                                                                                            func(*XsdGoPkgHasElem_ParserVersionsequenceTxsdResumeUserAreaResumeUserAreaschema_ParserVersion_XsdtString_, bool) error
+	XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_                                                                                                                                                                                     func(*XsdGoPkgHasElems_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_, bool) error
+	XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_                                                                                                                                                                                                                  func(*XsdGoPkgHasElem_IdsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Id_XsdtString_, bool) error
+	XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_                                                                                                            func(*XsdGoPkgHasElem_MothersMaidenNamesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MothersMaidenName_XsdtString_, bool) error
+	XsdGoPkgHasElems_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_                                                                                                                           func(*XsdGoPkgHasElems_DescriptionsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_Description_XsdtString_, bool) error
+	XsdGoPkgHasElems_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_                                               func(*XsdGoPkgHasElems_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_, bool) error
+	XsdGoPkgHasElems_NormalizedSchoolNamesequenceDegreeUserAreaschema_NormalizedSchoolName_XsdtString_                                                                                                                                                                                               func(*XsdGoPkgHasElems_NormalizedSchoolNamesequenceDegreeUserAreaschema_NormalizedSchoolName_XsdtString_, bool) error
+	XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_                                                                                              func(*XsdGoPkgHasElems_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_, bool) error
+	XsdGoPkgHasElems_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_                                                                                                                                                                                               func(*XsdGoPkgHasElems_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_, bool) error
+	XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_                                                                                                                                                    func(*XsdGoPkgHasElems_OffsetOfFarthestDataFoundsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_OffsetOfFarthestDataFound_XsdtInt_, bool) error
+	TxsdTrainingTypeSequenceQualifications                                                                                                                                                                                                                                                           func(*TxsdTrainingTypeSequenceQualifications, bool) error
 	TBestFitTaxonomyType                                                                                                                                                                                                                                                                             func(*TBestFitTaxonomyType, bool) error
-	XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_            func(*XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_, bool) error
+	XsdGoPkgHasElem_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_                                                                                                                            func(*XsdGoPkgHasElem_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_, bool) error
+	XsdGoPkgHasElems_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_                                                                                                                                                                                                   func(*XsdGoPkgHasElems_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_, bool) error
+	XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_                                                                                                                                                                                                           func(*XsdGoPkgHasElems_BulletsequenceBulletsTypeschema_Bullet_TxsdBulletsTypeSequenceBullet_, bool) error
+	TrainingHistoryTypeType                                                                                                                                                                                                                                                                          func(*TrainingHistoryTypeType, bool) error
+	TCultureType                                                                                                                                                                                                                                                                                     func(*TCultureType, bool) error
+	XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_                                                                                                                                                                                func(*XsdGoPkgHasElems_PassportNumbersequencePersonalInformationsequenceResumeUserAreaschema_PassportNumber_XsdtString_, bool) error
+	XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_                                                                                     func(*XsdGoPkgHasElem_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_, bool) error
+	XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_                                                                                                              func(*XsdGoPkgHasElems_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_, bool) error
+	XsdGoPkgHasElems_OtherDatumsequenceTxsdResumeUserAreaSequenceReservedDataSequenceOtherDataOtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherDatum_XsdtString_                                                               func(*XsdGoPkgHasElems_OtherDatumsequenceTxsdResumeUserAreaSequenceReservedDataSequenceOtherDataOtherDatasequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_OtherDatum_XsdtString_, bool) error
+	XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_                                                                                                                                                    func(*XsdGoPkgHasElem_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_, bool) error
+	XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_                                                                                    func(*XsdGoPkgHasElems_CurrentManagementLevelsequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_CurrentManagementLevel_TCurrentManagementLevelType_, bool) error
+	XsdGoPkgHasElems_IdsequencePositionHistoryUserAreaschema_Id_XsdtString_                                                                                                                                                                                                                          func(*XsdGoPkgHasElems_IdsequencePositionHistoryUserAreaschema_Id_XsdtString_, bool) error
+	XsdGoPkgHasElem_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_                                                                                                                                                                                                                func(*XsdGoPkgHasElem_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_, bool) error
+	XsdGoPkgHasElem_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_                                                                                                                                                                                                   func(*XsdGoPkgHasElem_GraduatedsequenceTxsdDegreeUserAreaDegreeUserAreaschema_Graduated_XsdtBoolean_, bool) error
+	TxsdResumeUserAreaSequenceTimedOut                                                                                                                                                                                                                                                               func(*TxsdResumeUserAreaSequenceTimedOut, bool) error
+	XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_                                                                                                                                                                          func(*XsdGoPkgHasElems_PreferredLocationsequencePersonalInformationsequenceResumeUserAreaschema_PreferredLocation_XsdtString_, bool) error
+	XsdGoPkgHasElems_ResumeUserArea                                                                                                                                                                                                                                                                  func(*XsdGoPkgHasElems_ResumeUserArea, bool) error
+	XsdGoPkgHasElem_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_                                                                                                               func(*XsdGoPkgHasElem_SectionsequenceTxsdResumeUserAreaSequenceSectionsSectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Section_TxsdResumeUserAreaSequenceSectionsSequenceSection_, bool) error
+	XsdGoPkgHasElems_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_                                                                                                                                                                                             func(*XsdGoPkgHasElems_NormalizedMunicipalitysequenceLocationTypeschema_NormalizedMunicipality_XsdtString_, bool) error
+	XsdGoPkgHasElems_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_                                                                                                                           func(*XsdGoPkgHasElems_HukouCitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_HukouCity_XsdtString_, bool) error
+	XsdGoPkgHasElems_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_                                                                                                                                                                                                                    func(*XsdGoPkgHasElems_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_, bool) error
+	XsdGoPkgHasElem_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_                                                                                                                                                                                                    func(*XsdGoPkgHasElem_LatitudesequenceLocationTypeschema_Latitude_TxsdLocationTypeSequenceLatitude_, bool) error
+	XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_                                                                                                                                                                                        func(*XsdGoPkgHasElem_CoverLetterTextsequenceTxsdResumeUserAreaResumeUserAreaschema_CoverLetterText_XsdtString_, bool) error
+	TxsdResumeUserAreaSequenceReservedData                                                                                                                                                                                                                                                           func(*TxsdResumeUserAreaSequenceReservedData, bool) error
+	XsdGoPkgHasElems_ParserConfigurationStringsequenceResumeUserAreaschema_ParserConfigurationString_XsdtString_                                                                                                                                                                                     func(*XsdGoPkgHasElems_ParserConfigurationStringsequenceResumeUserAreaschema_ParserConfigurationString_XsdtString_, bool) error
+	XsdGoPkgHasElem_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_                                                                                                                                                                              func(*XsdGoPkgHasElem_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_, bool) error
+	TBulletsType                                                                                                                                                                                                                                                                                     func(*TBulletsType, bool) error
+	TMaritalStatusType                                                                                                                                                                                                                                                                               func(*TMaritalStatusType, bool) error
+	XsdGoPkgHasElem_UrlsequenceUrlssequenceReservedDatasequenceResumeUserAreaschema_Url_XsdtString_                                                                                                                                                                                                  func(*XsdGoPkgHasElem_UrlsequenceUrlssequenceReservedDatasequenceResumeUserAreaschema_Url_XsdtString_, bool) error
 	XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_                                                                                                                                                                                     func(*XsdGoPkgHasElems_NationalIdentityPhrasesequenceNationalIdentityTypeschema_NationalIdentityPhrase_XsdtString_, bool) error
-	XsdGoPkgHasElems_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_                                                                                                                                                                                func(*XsdGoPkgHasElems_HobbiessequenceTxsdResumeUserAreaResumeUserAreaschema_Hobbies_TxsdResumeUserAreaSequenceHobbies_, bool) error
-	XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_                                                                                                            func(*XsdGoPkgHasElem_PreferredLocationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PreferredLocation_XsdtString_, bool) error
+	XsdGoPkgHasElem_NormalizedDegreeNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeName_XsdtString_                                                                                                                                                                              func(*XsdGoPkgHasElem_NormalizedDegreeNamesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeName_XsdtString_, bool) error
+	TxsdBulletsTypeSequenceBullet                                                                                                                                                                                                                                                                    func(*TxsdBulletsTypeSequenceBullet, bool) error
+	XsdGoPkgHasElems_NationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_                                                                                                           func(*XsdGoPkgHasElems_NationalIdentitiessequencePersonalInformationsequenceResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_, bool) error
+	XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_                                                                                                                         func(*XsdGoPkgHasElems_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_, bool) error
+	XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_                                                                                                                                                                               func(*XsdGoPkgHasElem_NormalizedLocationsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedLocation_TLocationType_, bool) error
+	XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_                                                                                                                                                            func(*XsdGoPkgHasElem_SelfEmploymentPhrasesequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_SelfEmploymentPhrase_XsdtString_, bool) error
+	XsdGoPkgHasElems_DrivingLicensesequencePersonalInformationsequenceResumeUserAreaschema_DrivingLicense_XsdtString_                                                                                                                                                                                func(*XsdGoPkgHasElems_DrivingLicensesequencePersonalInformationsequenceResumeUserAreaschema_DrivingLicense_XsdtString_, bool) error
+	XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_                                                                                                                          func(*XsdGoPkgHasElem_VisaStatussequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_VisaStatus_XsdtString_, bool) error
+	XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_                                                                                                                                                      func(*XsdGoPkgHasElems_PositionTitleProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_PositionTitleProbability_XsdtInt_, bool) error
+	XsdGoPkgHasElems_EmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_                                                                                                                                     func(*XsdGoPkgHasElems_EmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddresses_TxsdResumeUserAreaSequenceReservedDataSequenceEmailAddresses_, bool) error
+	TxsdDegreeUserArea                                                                                                                                                                                                                                                                               func(*TxsdDegreeUserArea, bool) error
+	XsdGoPkgHasElems_EmployerOrgUserArea                                                                                                                                                                                                                                                             func(*XsdGoPkgHasElems_EmployerOrgUserArea, bool) error
+	XsdGoPkgHasElem_NationalIdentitysequenceTxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentitiesNationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentity_TNationalIdentityType_  func(*XsdGoPkgHasElem_NationalIdentitysequenceTxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentitiesNationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentity_TNationalIdentityType_, bool) error
+	TxsdResumeUserAreaSequenceTrainingHistory                                                                                                                                                                                                                                                        func(*TxsdResumeUserAreaSequenceTrainingHistory, bool) error
+	XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_                                                                                                                                                                                          func(*XsdGoPkgHasElems_BestFitTaxonomysequenceBestFitTaxonomyTypeschema_BestFitTaxonomy_TBestFitTaxonomyType_, bool) error
+	XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_            func(*XsdGoPkgHasElems_BestFitTaxonomysequenceTxsdResumeUserAreaSequenceExperienceSummarySequenceBestFitTaxonomiesBestFitTaxonomiessequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_BestFitTaxonomy_TBestFitTaxonomyType_, bool) error
+	XsdGoPkgHasElem_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_                                                                                                                                                                                                  func(*XsdGoPkgHasElem_NormalizedPostalCodesequenceLocationTypeschema_NormalizedPostalCode_XsdtString_, bool) error
+	XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_                                                                                                            func(*XsdGoPkgHasElem_FamilyCompositionsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_FamilyComposition_XsdtString_, bool) error
+	XsdGoPkgHasElem_DegreeUserArea                                                                                                                                                                                                                                                                   func(*XsdGoPkgHasElem_DegreeUserArea, bool) error
+	XsdGoPkgHasElem_AvailabilitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Availability_XsdtString_                                                                                                                      func(*XsdGoPkgHasElem_AvailabilitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Availability_XsdtString_, bool) error
+	XsdGoPkgHasElem_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_                                                                                                                                                                                          func(*XsdGoPkgHasElem_NationalIdentityTypesequenceNationalIdentityTypeschema_NationalIdentityType_XsdtString_, bool) error
+	XsdGoPkgHasElem_ResumeUserArea                                                                                                                                                                                                                                                                   func(*XsdGoPkgHasElem_ResumeUserArea, bool) error
+	XsdGoPkgHasElems_TwitterHandlessequenceReservedDatasequenceResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_                                                                                                                                     func(*XsdGoPkgHasElems_TwitterHandlessequenceReservedDatasequenceResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_, bool) error
+	XsdGoPkgHasElems_GendersequencePersonalInformationsequenceResumeUserAreaschema_Gender_TGenderType_                                                                                                                                                                                               func(*XsdGoPkgHasElems_GendersequencePersonalInformationsequenceResumeUserAreaschema_Gender_TGenderType_, bool) error
+	XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_                                                                                                                                                                                         func(*XsdGoPkgHasElem_ParsedTextLengthsequenceTxsdResumeUserAreaResumeUserAreaschema_ParsedTextLength_XsdtInt_, bool) error
+	XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_                                                                                                           func(*XsdGoPkgHasElem_YearsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_, bool) error
+	XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_                                                                                                                  func(*XsdGoPkgHasElem_NationalitysequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Nationality_TNationalityType_, bool) error
+	XsdGoPkgHasElems_LocationsequenceResumeUserAreaschema_Location_TLocationType_                                                                                                                                                                                                                    func(*XsdGoPkgHasElems_LocationsequenceResumeUserAreaschema_Location_TLocationType_, bool) error
+	XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_                                                                                                                                    func(*XsdGoPkgHasElem_TrainingsequenceTxsdResumeUserAreaSequenceTrainingHistoryTrainingHistorysequenceTxsdResumeUserAreaResumeUserAreaschema_Training_TrainingType_, bool) error
+	XsdGoPkgHasElems_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_                                                                                                                                                                                                               func(*XsdGoPkgHasElems_CodesequenceIndustryTypeschema_Code_TxsdIndustryTypeSequenceCode_, bool) error
+	XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_                                                                                                            func(*XsdGoPkgHasElem_WillingToRelocatesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_WillingToRelocate_TYesNoType_, bool) error
+	TxsdResumeUserAreaSequenceReservedDataSequencePhones                                                                                                                                                                                                                                             func(*TxsdResumeUserAreaSequenceReservedDataSequencePhones, bool) error
+	XsdGoPkgHasElems_SearchHintssequenceResumeUserAreaschema_SearchHints_XsdtString_                                                                                                                                                                                                                 func(*XsdGoPkgHasElems_SearchHintssequenceResumeUserAreaschema_SearchHints_XsdtString_, bool) error
+	XsdGoPkgHasElem_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_                                                                                                                                                                                                          func(*XsdGoPkgHasElem_NormalizedRegionsequenceLocationTypeschema_NormalizedRegion_XsdtString_, bool) error
+	XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_                                                                                                                                                                                                           func(*XsdGoPkgHasElem_StartDatesequenceTrainingTypeschema_StartDate_HrxmlTFlexibleDatesType_, bool) error
+	XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_                                                                                                                                                                              func(*XsdGoPkgHasElem_SectionssequenceTxsdResumeUserAreaResumeUserAreaschema_Sections_TxsdResumeUserAreaSequenceSections_, bool) error
+	XsdGoPkgHasElem_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_                                             func(*XsdGoPkgHasElem_NationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentities_TxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentities_, bool) error
+	XsdGoPkgHasElem_DescriptionsequenceTrainingTypeschema_Description_XsdtString_                                                                                                                                                                                                                    func(*XsdGoPkgHasElem_DescriptionsequenceTrainingTypeschema_Description_XsdtString_, bool) error
+	XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_                                                                                                                                 func(*XsdGoPkgHasElem_GendersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_Gender_TGenderType_, bool) error
+	XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_                                                                                                                  func(*XsdGoPkgHasElem_DrivingLicensesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_DrivingLicense_XsdtString_, bool) error
+	XsdGoPkgHasElem_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_                                                func(*XsdGoPkgHasElem_TwitterHandlesequenceTxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandlesTwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandle_XsdtString_, bool) error
+	TLocationType                                                                                                                                                                                                                                                                                    func(*TLocationType, bool) error
+	XsdGoPkgHasElem_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_                                                                                                                                                                                           func(*XsdGoPkgHasElem_NormalizedGPAsequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedGPA_XsdtDecimal_, bool) error
+	XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_                                                                                                                                                                                                        func(*XsdGoPkgHasElems_TextsequenceTrainingHistorysequenceResumeUserAreaschema_Text_XsdtString_, bool) error
+	XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_                                                                                                                                                                                                     func(*XsdGoPkgHasElems_LanguagesequenceCultureTypeschema_Language_TxsdCultureTypeSequenceLanguage_, bool) error
+	TIndustryType                                                                                                                                                                                                                                                                                    func(*TIndustryType, bool) error
+	XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_                                                                                                         func(*XsdGoPkgHasElem_MonthsOfWorkExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfWorkExperience_XsdtInt_, bool) error
 	TNationalIdentityType                                                                                                                                                                                                                                                                            func(*TNationalIdentityType, bool) error
-	XsdGoPkgHasElems_YearsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_                                                                                                                                                                       func(*XsdGoPkgHasElems_YearsOfWorkExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_YearsOfWorkExperience_XsdtInt_, bool) error
-	TDateOfBirthType                                                                                                                                                                                                                                                                                 func(*TDateOfBirthType, bool) error
+	XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_                                                                                                                                                                                func(*XsdGoPkgHasElems_DateOfBirthsequencePersonalInformationsequenceResumeUserAreaschema_DateOfBirth_TDateOfBirthType_, bool) error
+	XsdGoPkgHasElem_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_                                                                                                                                                           func(*XsdGoPkgHasElem_CompanyNameProbabilitysequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_CompanyNameProbability_XsdtInt_, bool) error
+	XsdGoPkgHasElems_EmailAddresssequenceTxsdResumeUserAreaSequenceReservedDataSequenceEmailAddressesEmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddress_XsdtString_                                                 func(*XsdGoPkgHasElems_EmailAddresssequenceTxsdResumeUserAreaSequenceReservedDataSequenceEmailAddressesEmailAddressessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_EmailAddress_XsdtString_, bool) error
+	XsdGoPkgHasElems_UrlssequenceReservedDatasequenceResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_                                                                                                                                                                   func(*XsdGoPkgHasElems_UrlssequenceReservedDatasequenceResumeUserAreaschema_Urls_TxsdResumeUserAreaSequenceReservedDataSequenceUrls_, bool) error
+	XsdGoPkgHasElem_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_                                                                                                                                                                                      func(*XsdGoPkgHasElem_NationalIdentityNumbersequenceNationalIdentityTypeschema_NationalIdentityNumber_XsdtString_, bool) error
+	XsdGoPkgHasElem_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_                                                                                func(*XsdGoPkgHasElem_PhonesequenceTxsdResumeUserAreaSequenceReservedDataSequencePhonesPhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phone_XsdtString_, bool) error
+	XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_                                                                                                                                                                             func(*XsdGoPkgHasElems_TimedOutsequenceTxsdResumeUserAreaResumeUserAreaschema_TimedOut_TxsdResumeUserAreaSequenceTimedOut_, bool) error
+	XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_                                                                                                                                                   func(*XsdGoPkgHasElems_QualificationsequenceTxsdTrainingTypeSequenceQualificationsQualificationssequenceTrainingTypeschema_Qualification_XsdtString_, bool) error
+	XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_                                                                                                         func(*XsdGoPkgHasElem_HighestManagementScoresequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_HighestManagementScore_XsdtInt_, bool) error
+	XsdGoPkgHasElem_MotherTonguesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_                                                               func(*XsdGoPkgHasElem_MotherTonguesequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_MotherTongue_TxsdResumeUserAreaSequencePersonalInformationSequenceMotherTongue_, bool) error
+	XsdGoPkgHasElems_NationalIdentitysequenceTxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentitiesNationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentity_TNationalIdentityType_ func(*XsdGoPkgHasElems_NationalIdentitysequenceTxsdResumeUserAreaSequencePersonalInformationSequenceNationalIdentitiesNationalIdentitiessequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_NationalIdentity_TNationalIdentityType_, bool) error
+	XsdGoPkgHasElem_TwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_                                                                              func(*XsdGoPkgHasElem_TwitterHandlessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_TwitterHandles_TxsdResumeUserAreaSequenceReservedDataSequenceTwitterHandles_, bool) error
+	XsdGoPkgHasElem_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_                                                                                                                                                                                                func(*XsdGoPkgHasElem_NormalizedCountryCodesequenceLocationTypeschema_NormalizedCountryCode_XsdtString_, bool) error
+	XsdGoPkgHasElems_DegreeUserArea                                                                                                                                                                                                                                                                  func(*XsdGoPkgHasElems_DegreeUserArea, bool) error
+	XsdGoPkgHasElem_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_                                                                                                                                                                       func(*XsdGoPkgHasElem_IsSelfEmployedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_IsSelfEmployed_XsdtBoolean_, bool) error
+	XsdGoPkgHasElems_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_                                                                                                                                                                                                func(*XsdGoPkgHasElems_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_, bool) error
+	XsdGoPkgHasElems_CustomDatasequenceResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_                                                                                                                                                                                         func(*XsdGoPkgHasElems_CustomDatasequenceResumeUserAreaschema_CustomData_TxsdResumeUserAreaSequenceCustomData_, bool) error
+	XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_                                                                                                                                                                            func(*XsdGoPkgHasElems_ExecutiveTypesequenceExperienceSummarysequenceResumeUserAreaschema_ExecutiveType_TExecutiveTypeType_, bool) error
+	XsdGoPkgHasElems_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_                                                                                                                                                                             func(*XsdGoPkgHasElems_NormalizedDegreeTypesequenceTxsdDegreeUserAreaDegreeUserAreaschema_NormalizedDegreeType_XsdtString_, bool) error
+	XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_                                                                                               func(*XsdGoPkgHasElem_YearsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_YearsOfManagementExperience_XsdtInt_, bool) error
+	XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_                                                                                                                  func(*XsdGoPkgHasElem_PassportNumbersequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PassportNumber_XsdtString_, bool) error
+	XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_                                                                                                                                                func(*XsdGoPkgHasElems_NumberOfEmployeesSupervisedsequenceTxsdPositionHistoryUserAreaPositionHistoryUserAreaschema_NumberOfEmployeesSupervised_XsdtInt_, bool) error
+	XsdGoPkgHasElem_EmailAddresssequenceEmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddress_XsdtString_                                                                                                                                                                      func(*XsdGoPkgHasElem_EmailAddresssequenceEmailAddressessequenceReservedDatasequenceResumeUserAreaschema_EmailAddress_XsdtString_, bool) error
+	XsdGoPkgHasElem_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_                                                                                                                                                                                                 func(*XsdGoPkgHasElem_LongitudesequenceLocationTypeschema_Longitude_TxsdLocationTypeSequenceLongitude_, bool) error
+	XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_                                                                                                                                                                                                                     func(*XsdGoPkgHasElem_TypesequenceTrainingTypeschema_Type_TrainingHistoryTypeType_, bool) error
+	XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_                                                                                                                                                                                                               func(*XsdGoPkgHasElem_EndDatesequenceTrainingTypeschema_EndDate_HrxmlTFlexibleDatesType_, bool) error
+	XsdGoPkgHasElems_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_                                                                                                                                                         func(*XsdGoPkgHasElems_NormalizedEmployerOrgNamesequenceTxsdEmployerOrgUserAreaEmployerOrgUserAreaschema_NormalizedEmployerOrgName_XsdtString_, bool) error
+	TxsdLocationTypeSequenceLatitude                                                                                                                                                                                                                                                                 func(*TxsdLocationTypeSequenceLatitude, bool) error
+	XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_                                                                                                                                                                                                                             func(*XsdGoPkgHasElems_EntitysequenceTrainingTypeschema_Entity_XsdtString_, bool) error
+	XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_                                                                                                                                                         func(*XsdGoPkgHasElems_MonthsOfManagementExperiencesequenceExperienceSummarysequenceResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_, bool) error
+	XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_                                                                                             func(*XsdGoPkgHasElem_MonthsOfManagementExperiencesequenceTxsdResumeUserAreaSequenceExperienceSummaryExperienceSummarysequenceTxsdResumeUserAreaResumeUserAreaschema_MonthsOfManagementExperience_XsdtInt_, bool) error
+	TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch                                                                                                                                                                                                                                      func(*TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch, bool) error
+	XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_                                                                                                                                                              func(*XsdGoPkgHasElems_PersonalInformationsequenceResumeUserAreaschema_PersonalInformation_TxsdResumeUserAreaSequencePersonalInformation_, bool) error
+	XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_                                                                                 func(*XsdGoPkgHasElem_CustomDataMatchsequenceTxsdResumeUserAreaSequenceCustomDataCustomDatasequenceTxsdResumeUserAreaResumeUserAreaschema_CustomDataMatch_TxsdResumeUserAreaSequenceCustomDataSequenceCustomDataMatch_, bool) error
+	TxsdResumeUserAreaSequenceSectionsSequenceSection                                                                                                                                                                                                                                                func(*TxsdResumeUserAreaSequenceSectionsSequenceSection, bool) error
+	XsdGoPkgHasElem_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_                                                                                                                                                                                                       func(*XsdGoPkgHasElem_ParseTimesequenceTxsdResumeUserAreaResumeUserAreaschema_ParseTime_XsdtInt_, bool) error
+	XsdGoPkgHasElem_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_                                                                                                      func(*XsdGoPkgHasElem_PoliticalAffiliationsequenceTxsdResumeUserAreaSequencePersonalInformationPersonalInformationsequenceTxsdResumeUserAreaResumeUserAreaschema_PoliticalAffiliation_XsdtString_, bool) error
+	TrainingType                                                                                                                                                                                                                                                                                     func(*TrainingType, bool) error
+	XsdGoPkgHasElem_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_                                                                                                      func(*XsdGoPkgHasElem_PhonessequenceTxsdResumeUserAreaSequenceReservedDataReservedDatasequenceTxsdResumeUserAreaResumeUserAreaschema_Phones_TxsdResumeUserAreaSequenceReservedDataSequencePhones_, bool) error
 }

@@ -1,395 +1,535 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Copyright © 1996-2012 Sovren Group, Inc. All rights reserved.
+Copyright © 1996-2013 Sovren Group, Inc. All rights reserved.
 Confidential, proprietary, and not for duplication, distribution or publication by anyone
 for any purpose without prior written permission of Sovren Group, Inc.
 -->
-<xs:schema
+<xsd:schema
 	attributeFormDefault="unqualified"
 	elementFormDefault="qualified"
 	targetNamespace="http://sovren.com/hr-xml/2006-02-28"
 	xmlns:tns="http://sovren.com/hr-xml/2006-02-28"
-	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 	xmlns:hrxml="http://ns.hr-xml.org/2006-02-28">
 
-	<xs:annotation>
-		<xs:documentation>This schema describes the Sovren extensions that are optionally output within the UserArea element of the HR-XML 2.4 Schema.</xs:documentation>
-		<xs:documentation>This is the schema for Sovren Resume Parser version 6.0.</xs:documentation>
-	</xs:annotation>
+	<xsd:annotation>
+		<xsd:documentation>This schema describes the Sovren extensions that are optionally output within the UserArea element of the HR-XML 2.4 Schema.</xsd:documentation>
+		<xsd:documentation>This is the schema for Sovren Resume Parser version 7.3</xsd:documentation>
+	</xsd:annotation>
 
-	<xs:import namespace="http://ns.hr-xml.org/2006-02-28" schemaLocation="resume.xsd"/>
+	<xsd:import namespace="http://ns.hr-xml.org/2006-02-28" schemaLocation="resume.xsd"/>
 
-	<xs:simpleType name="CurrencyType">
-		<xs:restriction base="xs:string">
-			<xs:pattern value="[A-Z][A-Z][A-Z]"/>
-		</xs:restriction>
-	</xs:simpleType>
+	<xsd:simpleType name="CurrencyType">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[A-Z][A-Z][A-Z]"/>
+		</xsd:restriction>
+	</xsd:simpleType>
 
-	<xs:complexType name="MoneyType">
-		<xs:simpleContent>
-			<xs:extension base="xs:decimal">
-				<xs:attribute name="currency" type="tns:CurrencyType" use="optional" />
-			</xs:extension>
-		</xs:simpleContent>
-	</xs:complexType>
+	<xsd:complexType name="MoneyType">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:decimal">
+				<xsd:attribute name="currency" type="tns:CurrencyType" use="optional" />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
 
-	<xs:simpleType name="YesNoType">
-		<xs:restriction base="xs:string">
-			<xs:enumeration value="Yes"/>
-			<xs:enumeration value="No"/>
-		</xs:restriction>
-	</xs:simpleType>
+	<xsd:simpleType name="YesNoType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="Yes"/>
+			<xsd:enumeration value="No"/>
+		</xsd:restriction>
+	</xsd:simpleType>
 
-	<xs:complexType name="BulletsType">
-		<xs:sequence>
-			<xs:element name="Bullet" minOccurs="0" maxOccurs="unbounded">
-				<xs:complexType>
-					<xs:simpleContent>
-						<xs:extension base="xs:string">
-							<xs:attribute name="type" use="required">
-								<xs:simpleType>
-									<xs:restriction base="xs:string">
-										<xs:enumeration value="sentence"/>
-										<xs:enumeration value="creativeTerm"/>
-									</xs:restriction>
-								</xs:simpleType>
-							</xs:attribute>
-						</xs:extension>
-					</xs:simpleContent>
-				</xs:complexType>
-			</xs:element>
-		</xs:sequence>
-	</xs:complexType>
+	<xsd:complexType name="BulletsType">
+		<xsd:sequence>
+			<xsd:element name="Bullet" minOccurs="0" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:extension base="xsd:string">
+							<xsd:attribute name="type" use="required">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:enumeration value="sentence"/>
+										<xsd:enumeration value="creativeTerm"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:attribute>
+						</xsd:extension>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
 
 	<!--
 	   EducationHistory/SchoolOrInstitution/Degree/UserArea
 	-->
-	<xs:element name="DegreeUserArea">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="Id" type="xs:string" minOccurs="0" />
-				<xs:element name="Graduated" type="xs:boolean" minOccurs="0"/>
-				<xs:element name="NormalizedGPA" type="xs:decimal" minOccurs="0"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+	<xsd:element name="DegreeUserArea">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Id" type="xsd:string" minOccurs="0" />
+				<xsd:element name="Graduated" type="xsd:boolean" minOccurs="0"/>
+				<xsd:element name="NormalizedGPA" type="xsd:decimal" minOccurs="0"/>
+				<xsd:element name="NormalizedSchoolName" type="xsd:string" minOccurs="0"/>
+				<xsd:element name="NormalizedDegreeName" type="xsd:string" minOccurs="0"/>
+				<xsd:element name="NormalizedDegreeType" type="xsd:string" minOccurs="0"/>
+				<xsd:element name="NormalizedLocation" type="tns:LocationType" minOccurs="0" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
 
 	<!--
 	   EmploymentHistory/EmployerOrg/PositionHistory/UserArea
 	-->
-	<xs:element name="PositionHistoryUserArea">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="Id" type="xs:string" minOccurs="0" />
-				<xs:element name="CompanyNameProbability" type="xs:int" minOccurs="0" />
-				<xs:element name="PositionTitleProbability" type="xs:int" minOccurs="0" />
-				<xs:element name="OffsetOfFarthestDataFound" type="xs:int" minOccurs="0"/>
-				<xs:element name="IsSelfEmployed" type="xs:boolean" minOccurs="0" />
-				<xs:element name="SelfEmploymentPhrase" type="xs:string" minOccurs="0"/>
-				<xs:element name="NumberOfEmployeesSupervised" type="xs:int" minOccurs="0"/>
-				<xs:element name="Bullets" type="tns:BulletsType" minOccurs="0"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+	<xsd:element name="PositionHistoryUserArea">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Id" type="xsd:string" minOccurs="0" />
+				<xsd:element name="CompanyNameProbability" type="xsd:int" minOccurs="0" />
+				<xsd:element name="PositionTitleProbability" type="xsd:int" minOccurs="0" />
+				<xsd:element name="OffsetOfFarthestDataFound" type="xsd:int" minOccurs="0"/>
+				<xsd:element name="IsSelfEmployed" type="xsd:boolean" minOccurs="0" />
+				<xsd:element name="SelfEmploymentPhrase" type="xsd:string" minOccurs="0"/>
+				<xsd:element name="NumberOfEmployeesSupervised" type="xsd:int" minOccurs="0"/>
+				<xsd:element name="Bullets" type="tns:BulletsType" minOccurs="0"/>
+				<xsd:element name="NormalizedOrganizationName" type="xsd:string" minOccurs="0" />
+				<xsd:element name="NormalizedTitle" type="xsd:string" minOccurs="0" />
+				<xsd:element name="NormalizedIndustries" type="tns:IndustryType" minOccurs="0" />
+				<xsd:element name="NormalizedLocation" type="tns:LocationType" minOccurs="0" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
 
-	<xs:complexType name="CultureType">
-		<xs:sequence>
-			<xs:element name="Language" minOccurs="0">
+	<!--
+	   EmploymentHistory/EmployerOrg/UserArea
+	-->
+	<xsd:element name="EmployerOrgUserArea">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="NormalizedEmployerOrgName" type="xsd:string" minOccurs="0"/>
+				<xsd:element name="NormalizedIndustries" type="tns:IndustryType" minOccurs="0" />
+				<xsd:element name="NormalizedLocation" type="tns:LocationType" minOccurs="0" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:complexType name="CultureType">
+		<xsd:sequence>
+			<xsd:element name="Language" minOccurs="0">
 				<!-- ISO 639-1 2-letter language code -->
-				<xs:simpleType>
-					<xs:restriction base="xs:string">
-						<xs:pattern value="[a-z][a-z]"/>
-					</xs:restriction>
-				</xs:simpleType>
-			</xs:element>
-			<xs:element name="Country" minOccurs="0">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[a-z][a-z]"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+			<xsd:element name="Country" minOccurs="0">
 				<!-- ISO-3166 2-letter country code -->
-				<xs:simpleType>
-					<xs:restriction base="xs:string">
-						<xs:pattern value="[A-Z][A-Z]"/>
-					</xs:restriction>
-				</xs:simpleType>
-			</xs:element>
-			<xs:element name="CultureInfo" minOccurs="0">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[A-Z][A-Z]"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+			<xsd:element name="CultureInfo" minOccurs="0">
 				<!-- RFC 1766 -->
-				<xs:simpleType>
-					<xs:restriction base="xs:string">
-						<xs:pattern value="[a-zA-Z]{2}(-[a-zA-Z]{1,8})+"/>
-					</xs:restriction>
-				</xs:simpleType>
-			</xs:element>
-		</xs:sequence>
-	</xs:complexType>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[a-zA-Z]{2}(-[a-zA-Z]{1,8})+"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
 
 	<!--
 	   Complex types defined for Resume/UserArea
 	-->
-	<xs:attributeGroup name="Inferred">
-		<xs:attribute name="inferred" type="xs:boolean" use="optional" />
-	</xs:attributeGroup>
-	<xs:complexType name="DateOfBirthType">
-		<xs:simpleContent>
-			<xs:extension base="xs:date">
-				<xs:attributeGroup ref="tns:Inferred" />
-			</xs:extension>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="NationalityType">
-		<xs:simpleContent>
-			<xs:extension base="xs:string">
-				<xs:attributeGroup ref="tns:Inferred" />
-			</xs:extension>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="NationalIdentityType">
-		<xs:sequence>
-			<xs:element name="NationalIdentityNumber" type="xs:string" minOccurs="0" />
-			<xs:element name="NationalIdentityPhrase" type="xs:string" minOccurs="0" />
-			<xs:element name="NationalIdentityType" type="xs:string" minOccurs="0" />
-		</xs:sequence>
-	</xs:complexType>
-	<xs:simpleType name="GenderEnum">
-		<xs:restriction base="xs:string">
-			<xs:enumeration value="Male"/>
-			<xs:enumeration value="Female"/>
-			<xs:enumeration value="Unknown"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:complexType name="GenderType">
-		<xs:simpleContent>
-			<xs:extension base="tns:GenderEnum">
-				<xs:attributeGroup ref="tns:Inferred" />
-			</xs:extension>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:simpleType name="MaritalStatusEnum">
-		<xs:restriction base="xs:string">
-			<xs:enumeration value="Married"/>
-			<xs:enumeration value="Single"/>
-			<xs:enumeration value="Divorced"/>
-			<xs:enumeration value="Separated"/>
-			<xs:enumeration value="CivilUnion"/>
-			<xs:enumeration value="Cohabitating"/>
-			<xs:enumeration value="Unknown"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:complexType name="MaritalStatusType">
-		<xs:simpleContent>
-			<xs:extension base="tns:MaritalStatusEnum">
-				<xs:attributeGroup ref="tns:Inferred" />
-			</xs:extension>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:simpleType name="CurrentManagementLevelEnum">
-		<xs:restriction base="xs:string">
-			<xs:enumeration value="low-or-no-level"/>
-			<xs:enumeration value="low-level"/>
-			<xs:enumeration value="mid-level"/>
-			<xs:enumeration value="somewhat high-level"/>
-			<xs:enumeration value="high-level"/>
-			<xs:enumeration value="executive-level"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:complexType name="CurrentManagementLevelType">
-		<xs:simpleContent>
-			<xs:extension base="tns:CurrentManagementLevelEnum" />
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:simpleType name="ExecutiveTypeEnum">
-		<xs:restriction base="xs:string">
-			<xs:enumeration value="none"/>
-			<xs:enumeration value="executive"/>
-			<xs:enumeration value="admin"/>
-			<xs:enumeration value="accounting"/>
-			<xs:enumeration value="operations"/>
-			<xs:enumeration value="financial"/>
-			<xs:enumeration value="marketing"/>
-			<xs:enumeration value="business_dev"/>
-			<xs:enumeration value="it"/>
-			<xs:enumeration value="general"/>
-			<xs:enumeration value="learning"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:complexType name="ExecutiveTypeType">
-		<xs:simpleContent>
-			<xs:extension base="tns:ExecutiveTypeEnum" />
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:simpleType name="TrainingHistoryTypeEnum">
-		<xs:restriction base="xs:string">
-			<xs:enumeration value="Unknown"/>
-			<xs:enumeration value="Professional"/>
-			<xs:enumeration value="Vocational"/>
-			<xs:enumeration value="Personal"/>
-			<xs:enumeration value="LowerCraft"/>
-			<xs:enumeration value="MiddleCraft"/>
-			<xs:enumeration value="HigherCraft"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:complexType name="TrainingHistoryTypeType">
-		<xs:simpleContent>
-			<xs:extension base="tns:TrainingHistoryTypeEnum" />
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="TrainingType">
-		<xs:sequence>
-			<xs:element name="Type" type="tns:TrainingHistoryTypeType" minOccurs="0" />
-			<xs:element name="TrainingName" type="xs:string" minOccurs="0"/>
-			<xs:element name="Qualifications" minOccurs="0">
-				<xs:complexType>
-					<xs:sequence>
-						<xs:element name="Qualification" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
-					</xs:sequence>
-				</xs:complexType>
-			</xs:element>
-			<xs:element name="Entity" type="xs:string" minOccurs="0" />
-			<xs:element name="Description" type="xs:string" minOccurs="0" />
-			<xs:element name="StartDate" type="hrxml:FlexibleDatesType" minOccurs="0" />
-			<xs:element name="EndDate" type="hrxml:FlexibleDatesType" minOccurs="0" />
-		</xs:sequence>
-	</xs:complexType>
+	<xsd:attributeGroup name="Inferred">
+		<xsd:attribute name="inferred" type="xsd:boolean" use="optional" />
+	</xsd:attributeGroup>
+	<xsd:complexType name="DateOfBirthType">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:date">
+				<xsd:attributeGroup ref="tns:Inferred" />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="NationalityType">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string">
+				<xsd:attributeGroup ref="tns:Inferred" />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="NationalIdentityType">
+		<xsd:sequence>
+			<xsd:element name="NationalIdentityNumber" type="xsd:string" minOccurs="0" />
+			<xsd:element name="NationalIdentityPhrase" type="xsd:string" minOccurs="0" />
+			<xsd:element name="NationalIdentityType" type="xsd:string" minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:simpleType name="GenderEnum">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="Male"/>
+			<xsd:enumeration value="Female"/>
+			<xsd:enumeration value="Unknown"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="GenderType">
+		<xsd:simpleContent>
+			<xsd:extension base="tns:GenderEnum">
+				<xsd:attributeGroup ref="tns:Inferred" />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:simpleType name="MaritalStatusEnum">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="Married"/>
+			<xsd:enumeration value="Single"/>
+			<xsd:enumeration value="Divorced"/>
+			<xsd:enumeration value="Separated"/>
+			<xsd:enumeration value="CivilUnion"/>
+			<xsd:enumeration value="Cohabitating"/>
+			<xsd:enumeration value="Unknown"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="MaritalStatusType">
+		<xsd:simpleContent>
+			<xsd:extension base="tns:MaritalStatusEnum">
+				<xsd:attributeGroup ref="tns:Inferred" />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:simpleType name="CurrentManagementLevelEnum">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="low-or-no-level"/>
+			<xsd:enumeration value="low-level"/>
+			<xsd:enumeration value="mid-level"/>
+			<xsd:enumeration value="somewhat high-level"/>
+			<xsd:enumeration value="high-level"/>
+			<xsd:enumeration value="executive-level"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="CurrentManagementLevelType">
+		<xsd:simpleContent>
+			<xsd:extension base="tns:CurrentManagementLevelEnum" />
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:simpleType name="ExecutiveTypeEnum">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="none"/>
+			<xsd:enumeration value="executive"/>
+			<xsd:enumeration value="admin"/>
+			<xsd:enumeration value="accounting"/>
+			<xsd:enumeration value="operations"/>
+			<xsd:enumeration value="financial"/>
+			<xsd:enumeration value="marketing"/>
+			<xsd:enumeration value="business_dev"/>
+			<xsd:enumeration value="it"/>
+			<xsd:enumeration value="general"/>
+			<xsd:enumeration value="learning"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="ExecutiveTypeType">
+		<xsd:simpleContent>
+			<xsd:extension base="tns:ExecutiveTypeEnum" />
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:simpleType name="TrainingHistoryTypeEnum">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="Unknown"/>
+			<xsd:enumeration value="Professional"/>
+			<xsd:enumeration value="Vocational"/>
+			<xsd:enumeration value="Personal"/>
+			<xsd:enumeration value="LowerCraft"/>
+			<xsd:enumeration value="MiddleCraft"/>
+			<xsd:enumeration value="HigherCraft"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="TrainingHistoryTypeType">
+		<xsd:simpleContent>
+			<xsd:extension base="tns:TrainingHistoryTypeEnum" />
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="TrainingType">
+		<xsd:sequence>
+			<xsd:element name="Type" type="tns:TrainingHistoryTypeType" minOccurs="0" />
+			<xsd:element name="TrainingName" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="Qualifications" minOccurs="0">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Qualification" type="xsd:string" minOccurs="0" maxOccurs="unbounded" />
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Entity" type="xsd:string" minOccurs="0" />
+			<xsd:element name="Description" type="xsd:string" minOccurs="0" />
+			<xsd:element name="StartDate" type="hrxml:FlexibleDatesType" minOccurs="0" />
+			<xsd:element name="EndDate" type="hrxml:FlexibleDatesType" minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="MessagingAddressType">
+		<xsd:simpleContent>
+			<xsd:extension base="xsd:string">
+				<xsd:attribute name="type" type="xsd:string" use="optional" />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+
+	<xsd:simpleType name="LatitudeType">
+		<xsd:restriction base="xsd:decimal">
+			<xsd:minInclusive value="-90.0"/>
+			<xsd:maxInclusive value="90.0"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="LongitudeType">
+		<xsd:restriction base="xsd:decimal">
+			<xsd:minInclusive value="-180.0"/>
+			<xsd:maxInclusive value="180.0"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:complexType name="LocationType">
+		<xsd:sequence>
+			<xsd:element name="Latitude" minOccurs="0">
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:extension base="tns:LatitudeType">
+							<xsd:attributeGroup ref="tns:Inferred" />
+						</xsd:extension>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Longitude" minOccurs="0">
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:extension base="tns:LongitudeType">
+							<xsd:attributeGroup ref="tns:Inferred" />
+						</xsd:extension>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="NormalizedStreetAddress" type="xsd:string" minOccurs="0" />
+			<xsd:element name="NormalizedMunicipality" type="xsd:string" minOccurs="0" />
+			<xsd:element name="NormalizedRegion" type="xsd:string" minOccurs="0" />
+			<xsd:element name="NormalizedPostalCode" type="xsd:string" minOccurs="0" />
+			<xsd:element name="NormalizedCountryCode" type="xsd:string" minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="IndustryType">
+		<xsd:sequence>
+			<xsd:element name="Code" nillable="true" minOccurs="0" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:extension base="xsd:string">
+							<xsd:attribute name="SubCode" form="unqualified" type="xsd:string" />
+						</xsd:extension>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
 
 	<!--
 	   Resume/UserArea
 	-->
-	<xs:element name="ResumeUserArea">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element name="Culture" type="tns:CultureType" minOccurs="0" />
-				<xs:element name="PersonalInformation" minOccurs="0">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element name="DateOfBirth" type="tns:DateOfBirthType" minOccurs="0"/>
-							<xs:element name="Birthplace" type="xs:string" minOccurs="0"/>
-							<xs:element name="Nationality" type="tns:NationalityType" minOccurs="0"/>
-							<xs:element name="NationalIdentities" minOccurs="0">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="NationalIdentity" type="tns:NationalIdentityType" minOccurs="0" maxOccurs="unbounded" />
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-							<xs:element name="Gender" type="tns:GenderType" minOccurs="0"/>
-							<xs:element name="MaritalStatus" type="tns:MaritalStatusType" minOccurs="0"/>
-							<xs:element name="DrivingLicense" type="xs:string" minOccurs="0" />
-							<xs:element name="CurrentLocation" type="xs:string" minOccurs="0" />
-							<xs:element name="PreferredLocation" type="xs:string" minOccurs="0" />
-							<xs:element name="WillingToRelocate" type="tns:YesNoType" minOccurs="0" />
-							<xs:element name="FamilyComposition" type="xs:string" minOccurs="0" />
-							<xs:element name="FathersName" type="xs:string" minOccurs="0" />
-							<xs:element name="MothersMaidenName" type="xs:string" minOccurs="0" />
-							<xs:element name="VisaStatus" type="xs:string" minOccurs="0" />
-							<xs:element name="PassportNumber" type="xs:string" minOccurs="0" />
-							<xs:element name="CurrentSalary" type="tns:MoneyType" minOccurs="0" />
-							<xs:element name="RequiredSalary" type="tns:MoneyType" minOccurs="0" />
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="ExperienceSummary">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element name="Description" type="xs:string" minOccurs="0" />
-							<xs:element name="MonthsOfWorkExperience" type="xs:int" minOccurs="0" />
-							<xs:element name="YearsOfWorkExperience" type="xs:int" minOccurs="0" />
-							<xs:element name="MonthsOfManagementExperience" type="xs:int" minOccurs="0" />
-							<xs:element name="YearsOfManagementExperience" type="xs:int" minOccurs="0" />
-							<xs:element name="CurrentManagementLevel" type="tns:CurrentManagementLevelType" minOccurs="0" />
-							<xs:element name="HighestManagementScore" type="xs:int" minOccurs="0"/>
-							<xs:element name="ExecutiveType" type="tns:ExecutiveTypeType" minOccurs="0" />
-							<xs:element name="ManagementStory" type="xs:string" minOccurs="0" />
-							<xs:element name="BestFitTaxonomies" minOccurs="0">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="BestFitTaxonomy" type="tns:BestFitTaxonomyType" minOccurs="0" maxOccurs="unbounded"/>
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="TrainingHistory" minOccurs="0">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element name="Text" type="xs:string" minOccurs="0"/>
-							<xs:element name="Training" type="tns:TrainingType" minOccurs="0" maxOccurs="unbounded" />
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="Hobbies" minOccurs="0">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element name="Text" type="xs:string"/>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="Sections" minOccurs="0">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element name="Section" minOccurs="0" maxOccurs="unbounded">
-								<xs:complexType>
-									<xs:simpleContent>
-										<xs:extension base="xs:string">
-											<xs:attribute name="starts" type="xs:int" use="required" />
-											<xs:attribute name="ends" type="xs:int" use="required" />
-											<xs:attribute name="sectionType" type="xs:string" use="required" />
-										</xs:extension>
-									</xs:simpleContent>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="CustomData" minOccurs="0">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element name="CustomDataMatch" minOccurs="0" maxOccurs="unbounded">
-								<xs:complexType>
-									<xs:simpleContent>
-										<xs:extension base="xs:string">
-											<xs:attribute name="type" type="xs:string" use="required" />
-										</xs:extension>
-									</xs:simpleContent>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="CoverLetterText" type="xs:string" minOccurs="0"/>
-				<xs:element name="ParsedTextLength" type="xs:int"/>
-				<xs:element name="SearchHints" type="xs:string" minOccurs="0"/>
-				<xs:element name="ParseTime" type="xs:int" minOccurs="0"/>
-				<xs:element name="TimedOut" minOccurs="0">
-					<xs:complexType>
-						<xs:simpleContent>
-							<xs:extension base="xs:int">
-								<xs:attribute name="type" use="required">
-									<xs:simpleType>
-										<xs:restriction base="xs:string">
-											<xs:enumeration value="hard"/>
-											<xs:enumeration value="soft"/>
-										</xs:restriction>
-									</xs:simpleType>
-								</xs:attribute>
-							</xs:extension>
-						</xs:simpleContent>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="ParserConfigurationString" type="xs:string" minOccurs="0"/>
-				<xs:element name="ParserVersion" type="xs:string"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
+	<xsd:element name="ResumeUserArea">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Culture" type="tns:CultureType" minOccurs="0" />
+				<xsd:element name="Location" type="tns:LocationType" minOccurs="0" />
+				<xsd:element name="PersonalInformation" minOccurs="0">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="DateOfBirth" type="tns:DateOfBirthType" minOccurs="0"/>
+							<xsd:element name="Birthplace" type="xsd:string" minOccurs="0"/>
+							<xsd:element name="Nationality" type="tns:NationalityType" minOccurs="0"/>
+							<xsd:element name="NationalIdentities" minOccurs="0">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="NationalIdentity" type="tns:NationalIdentityType" minOccurs="0" maxOccurs="unbounded" />
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="Gender" type="tns:GenderType" minOccurs="0"/>
+							<xsd:element name="MaritalStatus" type="tns:MaritalStatusType" minOccurs="0"/>
+							<xsd:element name="DrivingLicense" type="xsd:string" minOccurs="0" />
+							<xsd:element name="CurrentLocation" type="xsd:string" minOccurs="0" />
+							<xsd:element name="PreferredLocation" type="xsd:string" minOccurs="0" />
+							<xsd:element name="WillingToRelocate" type="tns:YesNoType" minOccurs="0" />
+							<xsd:element name="FamilyComposition" type="xsd:string" minOccurs="0" />
+							<xsd:element name="FathersName" type="xsd:string" minOccurs="0" />
+							<xsd:element name="MothersMaidenName" type="xsd:string" minOccurs="0" />
+							<xsd:element name="Availability" type="xsd:string" minOccurs="0" />
+							<xsd:element name="VisaStatus" type="xsd:string" minOccurs="0" />
+							<xsd:element name="PassportNumber" type="xsd:string" minOccurs="0" />
+							<xsd:element name="CurrentSalary" type="tns:MoneyType" minOccurs="0" />
+							<xsd:element name="RequiredSalary" type="tns:MoneyType" minOccurs="0" />
+							<xsd:element name="HukouCity" type="xsd:string" minOccurs="0" />
+							<xsd:element name="HukouArea" type="xsd:string" minOccurs="0" />
+							<xsd:element name="PoliticalAffiliation" type="xsd:string" minOccurs="0" />
+							<xsd:element name="MessagingAddress" type="tns:MessagingAddressType" minOccurs="0" maxOccurs="unbounded" />
+							<xsd:element name="MotherTongue" minOccurs="0">
+								<!-- ISO 639-1 2-letter language code -->
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:pattern value="[a-z][a-z]"/>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="ExperienceSummary">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Description" type="xsd:string" minOccurs="0" />
+							<xsd:element name="MonthsOfWorkExperience" type="xsd:int" minOccurs="0" />
+							<xsd:element name="YearsOfWorkExperience" type="xsd:int" minOccurs="0" />
+							<xsd:element name="MonthsOfManagementExperience" type="xsd:int" minOccurs="0" />
+							<xsd:element name="YearsOfManagementExperience" type="xsd:int" minOccurs="0" />
+							<xsd:element name="CurrentManagementLevel" type="tns:CurrentManagementLevelType" minOccurs="0" />
+							<xsd:element name="HighestManagementScore" type="xsd:int" minOccurs="0"/>
+							<xsd:element name="ExecutiveType" type="tns:ExecutiveTypeType" minOccurs="0" />
+							<xsd:element name="ManagementStory" type="xsd:string" minOccurs="0" />
+							<xsd:element name="BestFitTaxonomies" minOccurs="0">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="BestFitTaxonomy" type="tns:BestFitTaxonomyType" minOccurs="0" maxOccurs="unbounded"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="TrainingHistory" minOccurs="0">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Text" type="xsd:string" minOccurs="0"/>
+							<xsd:element name="Training" type="tns:TrainingType" minOccurs="0" maxOccurs="unbounded" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="Hobbies" minOccurs="0">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Text" type="xsd:string"/>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="Sections" minOccurs="0">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Section" minOccurs="0" maxOccurs="unbounded">
+								<xsd:complexType>
+									<xsd:simpleContent>
+										<xsd:extension base="xsd:string">
+											<xsd:attribute name="starts" type="xsd:int" use="required" />
+											<xsd:attribute name="ends" type="xsd:int" use="required" />
+											<xsd:attribute name="sectionType" type="xsd:string" use="required" />
+										</xsd:extension>
+									</xsd:simpleContent>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="CustomData" minOccurs="0">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="CustomDataMatch" minOccurs="0" maxOccurs="unbounded">
+								<xsd:complexType>
+									<xsd:simpleContent>
+										<xsd:extension base="xsd:string">
+											<xsd:attribute name="type" type="xsd:string" use="required" />
+										</xsd:extension>
+									</xsd:simpleContent>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="ReservedData" minOccurs="0" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Phones" minOccurs="0" maxOccurs="1">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="Phone" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="EmailAddresses" minOccurs="0" maxOccurs="1">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="EmailAddress" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="Urls" minOccurs="0" maxOccurs="1">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="Url" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="TwitterHandles" minOccurs="0" maxOccurs="1">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="TwitterHandle" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="OtherData" minOccurs="0" maxOccurs="1">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="OtherDatum" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="CoverLetterText" type="xsd:string" minOccurs="0"/>
+				<xsd:element name="ParsedTextLength" type="xsd:int"/>
+				<xsd:element name="SearchHints" type="xsd:string" minOccurs="0"/>
+				<xsd:element name="ParseTime" type="xsd:int" minOccurs="0"/>
+				<xsd:element name="TimedOut" minOccurs="0">
+					<xsd:complexType>
+						<xsd:simpleContent>
+							<xsd:extension base="xsd:int">
+								<xsd:attribute name="type" use="required">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:enumeration value="hard"/>
+											<xsd:enumeration value="soft"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:attribute>
+							</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="LicenseSerialNumber" type="xsd:string" minOccurs="0"/>
+				<xsd:element name="ParserConfigurationString" type="xsd:string" minOccurs="0"/>
+				<xsd:element name="ParserVersion" type="xsd:string"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
 
-	<xs:complexType name="BestFitTaxonomyType">
-		<xs:sequence>
-			<xs:element name="BestFitTaxonomy" type="tns:BestFitTaxonomyType" minOccurs="0" maxOccurs="unbounded"/>
-		</xs:sequence>
-		<xs:attribute name="id" type="xs:string" use="required" />
-		<xs:attribute name="rootId" type="xs:string" use="required" />
-		<xs:attribute name="name" type="xs:string" use="required" />
-		<xs:attribute name="weight" type="xs:double" use="required" />
-		<xs:attribute name="percentOfOverall" type="xs:double" use="required" />
-		<xs:attribute name="percentOfParent" type="xs:double" use="required" />
-	</xs:complexType>
+	<xsd:complexType name="BestFitTaxonomyType">
+		<xsd:sequence>
+			<xsd:element name="BestFitTaxonomy" type="tns:BestFitTaxonomyType" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+		<xsd:attribute name="id" type="xsd:string" use="required" />
+		<xsd:attribute name="rootId" type="xsd:string" use="required" />
+		<xsd:attribute name="name" type="xsd:string" use="required" />
+		<xsd:attribute name="weight" type="xsd:double" use="required" />
+		<xsd:attribute name="percentOfOverall" type="xsd:double" use="required" />
+		<xsd:attribute name="percentOfParent" type="xsd:double" use="required" />
+	</xsd:complexType>
 
-</xs:schema>
+</xsd:schema>
