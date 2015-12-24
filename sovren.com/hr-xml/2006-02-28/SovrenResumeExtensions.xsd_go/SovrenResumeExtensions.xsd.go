@@ -12,12 +12,24 @@ import (
 	xsdt "github.com/metaleap/go-xsd/types"
 )
 
-type XsdtString xsdt.String
-type XsdtDouble xsdt.Double
-type XsdtInteger xsdt.Integer
-type XsdtDecimal xsdt.Decimal
-type XsdtDate xsdt.Date
-type XsdtInt xsdt.Int
+type XsdtString struct {
+	xsdt.String `xml:",chardata"`
+}
+type XsdtDouble struct {
+	xsdt.Double `xml:",chardata"`
+}
+type XsdtInteger struct {
+	xsdt.Integer `xml:",chardata"`
+}
+type XsdtDecimal struct {
+	xsdt.Decimal `xml:",chardata"`
+}
+type XsdtDate struct {
+	xsdt.Date `xml:",chardata"`
+}
+type XsdtInt struct {
+	xsdt.Int `xml:",chardata"`
+}
 
 type XsdGoPkgHasAttr_Inferred_XsdtBoolean_ struct {
 	Inferred xsdt.Boolean `xml:"inferred,attr,omitempty"`
