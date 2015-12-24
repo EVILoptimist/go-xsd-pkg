@@ -1457,6 +1457,7 @@ func (me *XsdGoPkgHasElems_CompetencyWeightsequenceCompetencyTypeschema_Competen
 
 //	HR-XML Technical Steering Committee endorsed extension element.
 type TUserAreaType struct {
+	XmlData []byte `xml:",innerxml"`
 }
 
 //	If the WalkHandlers.TUserAreaType function is not nil (ie. was set by outside code), calls it with this TUserAreaType instance as the single argument. Then calls the Walk() method on 0/0 embed(s) and 0/0 field(s) belonging to this TUserAreaType instance.
