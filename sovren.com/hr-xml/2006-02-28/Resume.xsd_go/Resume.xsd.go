@@ -19,15 +19,15 @@ type XsdtDouble xsdt.Double
 type XsdtInteger xsdt.Integer
 
 type XsdGoPkgHasAttr_Id_XsdtString_ struct {
-	Id xsdt.String `xml:"id,attr"`
+	Id xsdt.String `xml:"id,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_IdOwner_XsdtString_ struct {
-	IdOwner xsdt.String `xml:"idOwner,attr"`
+	IdOwner xsdt.String `xml:"idOwner,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_Description_XsdtString_ struct {
-	Description xsdt.String `xml:"description,attr"`
+	Description xsdt.String `xml:"description,attr,omitempty"`
 }
 
 type XsdGoPkgHasAtts_Id struct {
@@ -102,7 +102,7 @@ func (me *XsdGoPkgHasElem_StringDatechoiceFlexibleDatesTypeschema_StringDate_Xsd
 }
 
 type XsdGoPkgHasAttr_DateDescription_XsdtString_ struct {
-	DateDescription xsdt.String `xml:"dateDescription,attr"`
+	DateDescription xsdt.String `xml:"dateDescription,attr,omitempty"`
 }
 
 type TNotKnownLiteral xsdt.String
@@ -565,7 +565,7 @@ func (me *XsdGoPkgHasElems_AreaCityCode) Walk() (err error) {
 }
 
 type XsdGoPkgHasAttr_Name_XsdtString_ struct {
-	Name xsdt.String `xml:"name,attr"`
+	Name xsdt.String `xml:"name,attr,omitempty"`
 }
 
 type TxsdEntityIdTypeSequenceIdValue struct {
@@ -618,11 +618,11 @@ func (me *XsdGoPkgHasElems_IdValuesequenceEntityIdTypeschema_IdValue_TxsdEntityI
 }
 
 type XsdGoPkgHasAttr_ValidFrom_TAnyDateTimeNkNaType_ struct {
-	ValidFrom TAnyDateTimeNkNaType `xml:"validFrom,attr"`
+	ValidFrom TAnyDateTimeNkNaType `xml:"validFrom,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_ValidTo_TAnyDateTimeNkNaType_ struct {
-	ValidTo TAnyDateTimeNkNaType `xml:"validTo,attr"`
+	ValidTo TAnyDateTimeNkNaType `xml:"validTo,attr,omitempty"`
 }
 
 type TEntityIdType struct {
@@ -1008,7 +1008,7 @@ func (me TExtendedAssociationTypeType) ToTxStringPatternExtensionType() TxString
 }
 
 type XsdGoPkgHasAttr_Type_TExtendedAssociationTypeType_ struct {
-	Type TExtendedAssociationTypeType `xml:"type,attr"`
+	Type TExtendedAssociationTypeType `xml:"type,attr,omitempty"`
 }
 
 type TxsdAssociation struct {
@@ -1245,19 +1245,19 @@ func (me TExtendedWeightType) ToTxStringPatternExtensionType() TxStringPatternEx
 func (me *TExtendedWeightType) Set(s string) { (*xsdt.String)(me).Set(s) }
 
 type XsdGoPkgHasAttr_Type_TExtendedWeightType_ struct {
-	Type TExtendedWeightType `xml:"type,attr"`
+	Type TExtendedWeightType `xml:"type,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_MaxValue_XsdtDouble_ struct {
-	MaxValue xsdt.Double `xml:"maxValue,attr"`
+	MaxValue xsdt.Double `xml:"maxValue,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_Interval_XsdtDouble_ struct {
-	Interval xsdt.Double `xml:"interval,attr"`
+	Interval xsdt.Double `xml:"interval,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_MinValue_XsdtDouble_ struct {
-	MinValue xsdt.Double `xml:"minValue,attr"`
+	MinValue xsdt.Double `xml:"minValue,attr,omitempty"`
 }
 
 type TxsdNumericValue struct {
@@ -1314,11 +1314,11 @@ func (me *XsdGoPkgHasElem_NumericValue) Walk() (err error) {
 }
 
 type XsdGoPkgHasAttr_MinValue_XsdtString_ struct {
-	MinValue xsdt.String `xml:"minValue,attr"`
+	MinValue xsdt.String `xml:"minValue,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_MaxValue_XsdtString_ struct {
-	MaxValue xsdt.String `xml:"maxValue,attr"`
+	MaxValue xsdt.String `xml:"maxValue,attr,omitempty"`
 }
 
 type TxsdStringValue struct {
@@ -1575,27 +1575,27 @@ func (me TAnyDateTimeType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 func (me TAnyDateTimeType) ToTLocalDateType() TLocalDateType { return TLocalDateType(me) }
 
 type XsdGoPkgHasAttr_DateOfIncident_TAnyDateTimeType_ struct {
-	DateOfIncident TAnyDateTimeType `xml:"dateOfIncident,attr"`
+	DateOfIncident TAnyDateTimeType `xml:"dateOfIncident,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_TypeDescription_XsdtString_ struct {
-	TypeDescription xsdt.String `xml:"typeDescription,attr"`
+	TypeDescription xsdt.String `xml:"typeDescription,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_TypeId_XsdtString_ struct {
-	TypeId xsdt.String `xml:"typeId,attr"`
+	TypeId xsdt.String `xml:"typeId,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_LastUsed_TAnyDateTimeType_ struct {
-	LastUsed TAnyDateTimeType `xml:"lastUsed,attr"`
+	LastUsed TAnyDateTimeType `xml:"lastUsed,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_ExpirationDate_TAnyDateTimeType_ struct {
-	ExpirationDate TAnyDateTimeType `xml:"expirationDate,attr"`
+	ExpirationDate TAnyDateTimeType `xml:"expirationDate,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_Required_XsdtBoolean_ struct {
-	Required xsdt.Boolean `xml:"required,attr"`
+	Required xsdt.Boolean `xml:"required,attr,omitempty"`
 }
 
 type TxsdCompetencyTypeSequenceCompetencyEvidence struct {
@@ -1929,7 +1929,7 @@ func (me TxsdDunsNumberDataTypeSimpleContentExtensionDunsNumberType) IsDomesticU
 }
 
 type XsdGoPkgHasAttr_DunsNumberType_TxsdDunsNumberDataTypeSimpleContentExtensionDunsNumberType_ struct {
-	DunsNumberType TxsdDunsNumberDataTypeSimpleContentExtensionDunsNumberType `xml:"dunsNumberType,attr"`
+	DunsNumberType TxsdDunsNumberDataTypeSimpleContentExtensionDunsNumberType `xml:"dunsNumberType,attr,omitempty"`
 }
 
 type TDunsNumberDataType struct {
@@ -2082,11 +2082,11 @@ func (me *TSchoolTypeType) Set(s string) { (*xsdt.String)(me).Set(s) }
 func (me TSchoolTypeType) String() string { return xsdt.String(me).String() }
 
 type XsdGoPkgHasAttr_Type_TSchoolTypeType_ struct {
-	Type TSchoolTypeType `xml:"type,attr"`
+	Type TSchoolTypeType `xml:"type,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_PrimaryIndicator_XsdtBoolean_ struct {
-	PrimaryIndicator xsdt.Boolean `xml:"primaryIndicator,attr"`
+	PrimaryIndicator xsdt.Boolean `xml:"primaryIndicator,attr,omitempty"`
 }
 
 type TInternetDomainNameType struct {
@@ -2236,7 +2236,7 @@ func (me TOrgTypeStringExtensionType) ToXsdtString() xsdt.String { return xsdt.S
 func (me TOrgTypeStringExtensionType) ToTorgTypes() TorgTypes { return TorgTypes(me) }
 
 type XsdGoPkgHasAttr_OrganizationType_TOrgTypeStringExtensionType_ struct {
-	OrganizationType TOrgTypeStringExtensionType `xml:"organizationType,attr"`
+	OrganizationType TOrgTypeStringExtensionType `xml:"organizationType,attr,omitempty"`
 }
 
 type TxsdSchoolOrInstitutionTypeSequenceOrganizationUnitSimpleContentExtensionAttendanceStatus xsdt.String
@@ -2272,7 +2272,7 @@ func (me TxsdSchoolOrInstitutionTypeSequenceOrganizationUnitSimpleContentExtensi
 }
 
 type XsdGoPkgHasAttr_AttendanceStatus_TxsdSchoolOrInstitutionTypeSequenceOrganizationUnitSimpleContentExtensionAttendanceStatus_ struct {
-	AttendanceStatus TxsdSchoolOrInstitutionTypeSequenceOrganizationUnitSimpleContentExtensionAttendanceStatus `xml:"attendanceStatus,attr"`
+	AttendanceStatus TxsdSchoolOrInstitutionTypeSequenceOrganizationUnitSimpleContentExtensionAttendanceStatus `xml:"attendanceStatus,attr,omitempty"`
 }
 
 type TxsdSchoolOrInstitutionTypeSequenceOrganizationUnit struct {
@@ -2328,16 +2328,16 @@ func (me *XsdGoPkgHasElems_OrganizationUnitsequenceSchoolOrInstitutionTypeschema
 }
 
 type XsdGoPkgHasAttr_ExamPassed_XsdtBoolean_ struct {
-	ExamPassed xsdt.Boolean `xml:"examPassed,attr"`
+	ExamPassed xsdt.Boolean `xml:"examPassed,attr,omitempty"`
 }
 
 //	The subject studied, as expressed on the diploma.
 type XsdGoPkgHasAttr_AcademicHonors_XsdtString_ struct {
-	AcademicHonors xsdt.String `xml:"academicHonors,attr"`
+	AcademicHonors xsdt.String `xml:"academicHonors,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_HonorsProgram_XsdtString_ struct {
-	HonorsProgram xsdt.String `xml:"honorsProgram,attr"`
+	HonorsProgram xsdt.String `xml:"honorsProgram,attr,omitempty"`
 }
 
 type TxsdEduDegreeTypeSequenceDegreeName struct {
@@ -2418,7 +2418,7 @@ func (me *XsdGoPkgHasElem_DegreeDatesequenceEduDegreeTypeschema_DegreeDate_TFlex
 
 //	The name of any other honors, such as Phi Beta Kappa, etc. that the student may have received.
 type XsdGoPkgHasAttr_Type_XsdtString_ struct {
-	Type xsdt.String `xml:"type,attr"`
+	Type xsdt.String `xml:"type,attr,omitempty"`
 }
 
 type TxsdEduDegreeTypeSequenceOtherHonors struct {
@@ -2772,7 +2772,7 @@ func (me TDegreeTypeStringExtensionType) String() string { return xsdt.String(me
 func (me TDegreeTypeStringExtensionType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 type XsdGoPkgHasAttr_DegreeType_TDegreeTypeStringExtensionType_ struct {
-	DegreeType TDegreeTypeStringExtensionType `xml:"degreeType,attr"`
+	DegreeType TDegreeTypeStringExtensionType `xml:"degreeType,attr,omitempty"`
 }
 
 //	The official names of any and all major courses of study associated with the student's degree title.
@@ -2894,7 +2894,7 @@ func (me *XsdGoPkgHasElems_DegreeMajorsequenceEduDegreeTypeschema_DegreeMajor_TM
 
 //	This is a student's numerical class rank with the highest student in the class having a rank or position of 1
 type XsdGoPkgHasAttr_NumberOfStudents_XsdtInteger_ struct {
-	NumberOfStudents xsdt.Integer `xml:"numberOfStudents,attr"`
+	NumberOfStudents xsdt.Integer `xml:"numberOfStudents,attr,omitempty"`
 }
 
 type TxsdEducationalMeasureTypeSequenceClassRank struct {
@@ -2946,7 +2946,7 @@ func (me *XsdGoPkgHasElem_ClassRanksequenceEducationalMeasureTypeschema_ClassRan
 }
 
 type XsdGoPkgHasAttr_MeasureType_XsdtString_ struct {
-	MeasureType xsdt.String `xml:"measureType,attr"`
+	MeasureType xsdt.String `xml:"measureType,attr,omitempty"`
 }
 
 //	Identifies the measurement system.  i.e. GPA
@@ -3592,15 +3592,15 @@ func (me *XsdGoPkgHasElem_DegreeMeasuresequenceEduDegreeTypeschema_DegreeMeasure
 }
 
 type XsdGoPkgHasAttr_CurrentlyEnrolled_XsdtBoolean_ struct {
-	CurrentlyEnrolled xsdt.Boolean `xml:"currentlyEnrolled,attr"`
+	CurrentlyEnrolled xsdt.Boolean `xml:"currentlyEnrolled,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_StudentInGoodStanding_XsdtBoolean_ struct {
-	StudentInGoodStanding xsdt.Boolean `xml:"studentInGoodStanding,attr"`
+	StudentInGoodStanding xsdt.Boolean `xml:"studentInGoodStanding,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_EnrollmentStatus_XsdtString_ struct {
-	EnrollmentStatus xsdt.String `xml:"enrollmentStatus,attr"`
+	EnrollmentStatus xsdt.String `xml:"enrollmentStatus,attr,omitempty"`
 }
 
 type TDatesOfAttendanceType struct {
@@ -3682,7 +3682,7 @@ func (me *TGraduatingDegreeType) Set(s string) { (*xsdt.String)(me).Set(s) }
 func (me TGraduatingDegreeType) String() string { return xsdt.String(me).String() }
 
 type XsdGoPkgHasAttr_GraduatingDegree_TGraduatingDegreeType_ struct {
-	GraduatingDegree TGraduatingDegreeType `xml:"graduatingDegree,attr"`
+	GraduatingDegree TGraduatingDegreeType `xml:"graduatingDegree,attr,omitempty"`
 }
 
 type TEduDegreeType struct {
@@ -4223,7 +4223,7 @@ func (me *XsdGoPkgHasElem_MiddleNamesequencePersonNameTypeschema_MiddleName_Xsdt
 }
 
 type XsdGoPkgHasAttr_Script_XsdtString_ struct {
-	Script xsdt.String `xml:"script,attr"`
+	Script xsdt.String `xml:"script,attr,omitempty"`
 }
 
 type XsdGoPkgHasElem_FormattedNamesequenceTxsdPersonNameTypeSequenceAlternateScriptAlternateScriptsequencePersonNameTypeschema_FormattedName_XsdtString_ struct {
@@ -4322,11 +4322,11 @@ func (me TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyNameSimpleConten
 }
 
 type XsdGoPkgHasAttr_Primary_TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyNameSimpleContentExtensionPrimary_ struct {
-	Primary TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyNameSimpleContentExtensionPrimary `xml:"primary,attr"`
+	Primary TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyNameSimpleContentExtensionPrimary `xml:"primary,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_Prefix_XsdtString_ struct {
-	Prefix xsdt.String `xml:"prefix,attr"`
+	Prefix xsdt.String `xml:"prefix,attr,omitempty"`
 }
 
 type TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyName struct {
@@ -4418,7 +4418,7 @@ func (me TxsdPersonNameTypeSequenceAlternateScriptSequenceAffixSimpleContentExte
 }
 
 type XsdGoPkgHasAttr_Type_TxsdPersonNameTypeSequenceAlternateScriptSequenceAffixSimpleContentExtensionType_ struct {
-	Type TxsdPersonNameTypeSequenceAlternateScriptSequenceAffixSimpleContentExtensionType `xml:"type,attr"`
+	Type TxsdPersonNameTypeSequenceAlternateScriptSequenceAffixSimpleContentExtensionType `xml:"type,attr,omitempty"`
 }
 
 type TxsdPersonNameTypeSequenceAlternateScriptSequenceAffix struct {
@@ -4553,7 +4553,7 @@ func (me *XsdGoPkgHasElems_AlternateScriptsequencePersonNameTypeschema_Alternate
 }
 
 type XsdGoPkgHasAttr_Primary_TxsdPersonNameTypeSequenceFamilyNameSimpleContentExtensionPrimary_ struct {
-	Primary TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyNameSimpleContentExtensionPrimary `xml:"primary,attr"`
+	Primary TxsdPersonNameTypeSequenceAlternateScriptSequenceFamilyNameSimpleContentExtensionPrimary `xml:"primary,attr,omitempty"`
 }
 
 type TxsdPersonNameTypeSequenceFamilyName struct {
@@ -4608,7 +4608,7 @@ func (me *XsdGoPkgHasElems_FamilyNamesequencePersonNameTypeschema_FamilyName_Txs
 }
 
 type XsdGoPkgHasAttr_Type_TxsdPersonNameTypeSequenceAffixSimpleContentExtensionType_ struct {
-	Type TxsdPersonNameTypeSequenceAlternateScriptSequenceAffixSimpleContentExtensionType `xml:"type,attr"`
+	Type TxsdPersonNameTypeSequenceAlternateScriptSequenceAffixSimpleContentExtensionType `xml:"type,attr,omitempty"`
 }
 
 type TxsdPersonNameTypeSequenceAffix struct {
@@ -4902,7 +4902,7 @@ func (me TxsdPostalAddressTypeType) IsMilitaryAddress() bool { return me.String(
 func (me TxsdPostalAddressTypeType) IsUndefined() bool { return me.String() == "undefined" }
 
 type XsdGoPkgHasAttr_Type_TxsdPostalAddressTypeType_ struct {
-	Type TxsdPostalAddressTypeType `xml:"type,attr"`
+	Type TxsdPostalAddressTypeType `xml:"type,attr,omitempty"`
 }
 
 type TPostalAddressType struct {
@@ -5125,7 +5125,7 @@ func (me TSchoolTypeStringExtensionType) ToXsdtString() xsdt.String { return xsd
 func (me TSchoolTypeStringExtensionType) ToTschoolTypes() TschoolTypes { return TschoolTypes(me) }
 
 type XsdGoPkgHasAttr_SchoolType_TSchoolTypeStringExtensionType_ struct {
-	SchoolType TSchoolTypeStringExtensionType `xml:"schoolType,attr"`
+	SchoolType TSchoolTypeStringExtensionType `xml:"schoolType,attr,omitempty"`
 }
 
 //	Summarized location of the entity.
@@ -5768,7 +5768,7 @@ func (me *XsdGoPkgHasElem_Telephone) Walk() (err error) {
 }
 
 type XsdGoPkgHasAttr_SmsEnabled_XsdtBoolean_ struct {
-	SmsEnabled xsdt.Boolean `xml:"smsEnabled,attr"`
+	SmsEnabled xsdt.Boolean `xml:"smsEnabled,attr,omitempty"`
 }
 
 type TMobileTelcomNumberType struct {
@@ -6144,7 +6144,7 @@ func (me *TContactTypeStringExtensionType) Set(s string) { (*xsdt.String)(me).Se
 func (me TContactTypeStringExtensionType) String() string { return xsdt.String(me).String() }
 
 type XsdGoPkgHasAttr_ContactType_TContactTypeStringExtensionType_ struct {
-	ContactType TContactTypeStringExtensionType `xml:"contactType,attr"`
+	ContactType TContactTypeStringExtensionType `xml:"contactType,attr,omitempty"`
 }
 
 type TEmpContactInfoType struct {
@@ -6706,7 +6706,7 @@ func (me *XsdGoPkgHasElem_VerificationsequencePositionHistoryTypeschema_Verifica
 }
 
 type XsdGoPkgHasAttr_CurrentEmployer_XsdtBoolean_ struct {
-	CurrentEmployer xsdt.Boolean `xml:"currentEmployer,attr"`
+	CurrentEmployer xsdt.Boolean `xml:"currentEmployer,attr,omitempty"`
 }
 
 type XsdGoPkgHasElem_IndustryDescriptionsequencePositionOrgIndustryTypeschema_IndustryDescription_XsdtString_ struct {
@@ -6731,7 +6731,7 @@ func (me *XsdGoPkgHasElem_IndustryDescriptionsequencePositionOrgIndustryTypesche
 }
 
 type XsdGoPkgHasAttr_ClassificationName_XsdtString_ struct {
-	ClassificationName xsdt.String `xml:"classificationName,attr"`
+	ClassificationName xsdt.String `xml:"classificationName,attr,omitempty"`
 }
 
 type TxsdPositionOrgIndustryTypeSequenceIndustryCode struct {
@@ -6867,15 +6867,15 @@ func (me TAnyDateTimeNaType) ToTDateType() TDateType { return TDateType(me) }
 func (me TAnyDateTimeNaType) ToTLocalDateTimeType() TLocalDateTimeType { return TLocalDateTimeType(me) }
 
 type XsdGoPkgHasAttr_ValidFrom_TAnyDateTimeNaType_ struct {
-	ValidFrom TAnyDateTimeNaType `xml:"validFrom,attr"`
+	ValidFrom TAnyDateTimeNaType `xml:"validFrom,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_ValidTo_TAnyDateTimeNaType_ struct {
-	ValidTo TAnyDateTimeNaType `xml:"validTo,attr"`
+	ValidTo TAnyDateTimeNaType `xml:"validTo,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_Currency_TCurrencyCodeType_ struct {
-	Currency TCurrencyCodeType `xml:"currency,attr"`
+	Currency TCurrencyCodeType `xml:"currency,attr,omitempty"`
 }
 
 type TintervalTypes xsdt.String
@@ -6933,7 +6933,7 @@ func (me TIntervalTypeStringExtensionType) String() string { return xsdt.String(
 func (me TIntervalTypeStringExtensionType) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 type XsdGoPkgHasAttr_IntervalType_TIntervalTypeStringExtensionType_ struct {
-	IntervalType TIntervalTypeStringExtensionType `xml:"intervalType,attr"`
+	IntervalType TIntervalTypeStringExtensionType `xml:"intervalType,attr,omitempty"`
 }
 
 type TxsdPositionCompensationTypeSequenceStartingCompensation struct {
@@ -7183,7 +7183,7 @@ func (me TPositionTypexStringPatternExtensionType) ToTxStringPatternExtensionTyp
 }
 
 type XsdGoPkgHasAttr_PositionType_TPositionTypexStringPatternExtensionType_ struct {
-	PositionType TPositionTypexStringPatternExtensionType `xml:"positionType,attr"`
+	PositionType TPositionTypexStringPatternExtensionType `xml:"positionType,attr,omitempty"`
 }
 
 type XsdGoPkgHasElem_JobPlansequenceJobLevelInfoTypeschema_JobPlan_XsdtString_ struct {
@@ -7387,7 +7387,7 @@ func (me TOrganizationTypeStringExtensionType) ToTorganizationTypes() Torganizat
 }
 
 type XsdGoPkgHasAttr_OrganizationType_TOrganizationTypeStringExtensionType_ struct {
-	OrganizationType TOrganizationTypeStringExtensionType `xml:"organizationType,attr"`
+	OrganizationType TOrganizationTypeStringExtensionType `xml:"organizationType,attr,omitempty"`
 }
 
 type TPositionOrgNameType struct {
@@ -7551,7 +7551,7 @@ func (me *XsdGoPkgHasElems_OrgInfosequencePositionHistoryTypeschema_OrgInfo_TPos
 }
 
 type XsdGoPkgHasAttr_Version_XsdtString_ struct {
-	Version xsdt.String `xml:"version,attr"`
+	Version xsdt.String `xml:"version,attr,omitempty"`
 }
 
 type TxsdOccupationalCategoryTypeSequenceTaxonomyName struct {
@@ -7943,7 +7943,7 @@ func (me TEmpOrgTypeStringExtensionType) ToTemployerOrgTypes() TemployerOrgTypes
 }
 
 type XsdGoPkgHasAttr_EmployerOrgType_TEmpOrgTypeStringExtensionType_ struct {
-	EmployerOrgType TEmpOrgTypeStringExtensionType `xml:"employerOrgType,attr"`
+	EmployerOrgType TEmpOrgTypeStringExtensionType `xml:"employerOrgType,attr,omitempty"`
 }
 
 type TEmployerOrgDataType struct {
@@ -8531,7 +8531,7 @@ func (me *XsdGoPkgHasElem_IdsequenceCredentialTypeschema_Id_XsdtString_) Walk() 
 }
 
 type XsdGoPkgHasAttr_CountryCode_TCountryCodeType_ struct {
-	CountryCode TCountryCodeType `xml:"countryCode,attr"`
+	CountryCode TCountryCodeType `xml:"countryCode,attr,omitempty"`
 }
 
 type TIssuingAuthorityType struct {
@@ -9072,7 +9072,7 @@ func (me *XsdGoPkgHasElems_RecognitionAchievedsequenceTxsdMilitaryHistoryTypeSeq
 }
 
 type XsdGoPkgHasAttr_Branch_XsdtString_ struct {
-	Branch xsdt.String `xml:"branch,attr"`
+	Branch xsdt.String `xml:"branch,attr,omitempty"`
 }
 
 type XsdGoPkgHasElem_UnitOrDivisionsequenceTxsdMilitaryHistoryTypeSequenceServiceDetailServiceDetailsequenceMilitaryHistoryTypeschema_UnitOrDivision_XsdtString_ struct {
@@ -9528,11 +9528,11 @@ func (me *XsdGoPkgHasElem_LinkToResumesequenceNonXMLResumeTypeschema_LinkToResum
 
 //	This type is officially deprecated in favor of the subsequently issued "SupportingMaterials" schema located in the CPO folder.  The prefix "Staffing" was added to the type name here so as to distinguish it.  No content models were changed here.
 type XsdGoPkgHasAttr_Context_XsdtString_ struct {
-	Context xsdt.String `xml:"context,attr"`
+	Context xsdt.String `xml:"context,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_MimeType_XsdtString_ struct {
-	MimeType xsdt.String `xml:"mimeType,attr"`
+	MimeType xsdt.String `xml:"mimeType,attr,omitempty"`
 }
 
 type TxsdStaffingSupportingMaterialsTypeSequenceChoiceAttachmentReference struct {
@@ -10418,7 +10418,7 @@ func (me TPublicationTypes) String() string { return xsdt.String(me).String() }
 func (me TPublicationTypes) ToXsdtString() xsdt.String { return xsdt.String(me) }
 
 type XsdGoPkgHasAttr_Type_TPublicationTypes_ struct {
-	Type TPublicationTypes `xml:"type,attr"`
+	Type TPublicationTypes `xml:"type,attr,omitempty"`
 }
 
 type TxsdPublicationHistoryTypeSequenceFormattedPublicationDescription struct {
@@ -10598,7 +10598,7 @@ func (me TExtendedRoleType) ToTxStringPatternExtensionType() TxStringPatternExte
 }
 
 type XsdGoPkgHasAttr_Role_TExtendedRoleType_ struct {
-	Role TExtendedRoleType `xml:"role,attr"`
+	Role TExtendedRoleType `xml:"role,attr,omitempty"`
 }
 
 type TxsdBasicBibliographicRecordTypeSequenceName struct {
@@ -11498,7 +11498,7 @@ func (me TPublicationOtherTypes) ToTxStringPatternExtensionType() TxStringPatter
 }
 
 type XsdGoPkgHasAttr_Type_TPublicationOtherTypes_ struct {
-	Type TPublicationOtherTypes `xml:"type,attr"`
+	Type TPublicationOtherTypes `xml:"type,attr,omitempty"`
 }
 
 type TOtherPublicationType struct {
@@ -11734,7 +11734,7 @@ func (me TReferenceTypes) ToTxStringPatternExtensionType() TxStringPatternExtens
 func (me *TReferenceTypes) Set(s string) { (*xsdt.String)(me).Set(s) }
 
 type XsdGoPkgHasAttr_Type_TReferenceTypes_ struct {
-	Type TReferenceTypes `xml:"type,attr"`
+	Type TReferenceTypes `xml:"type,attr,omitempty"`
 }
 
 type TReferenceType struct {
@@ -11949,11 +11949,11 @@ func (me TLocalDateNkNaType) ToTNotApplicableLiteral() TNotApplicableLiteral {
 }
 
 type XsdGoPkgHasAttr_ValidFrom_TLocalDateNkNaType_ struct {
-	ValidFrom TLocalDateNkNaType `xml:"validFrom,attr"`
+	ValidFrom TLocalDateNkNaType `xml:"validFrom,attr,omitempty"`
 }
 
 type XsdGoPkgHasAttr_ValidTo_TLocalDateNkNaType_ struct {
-	ValidTo TLocalDateNkNaType `xml:"validTo,attr"`
+	ValidTo TLocalDateNkNaType `xml:"validTo,attr,omitempty"`
 }
 
 type TDistributionType struct {
@@ -12362,7 +12362,7 @@ func (me TExtendedSpeakingTypeType) ToTxStringPatternExtensionType() TxStringPat
 }
 
 type XsdGoPkgHasAttr_Type_TExtendedSpeakingTypeType_ struct {
-	Type TExtendedSpeakingTypeType `xml:"type,attr"`
+	Type TExtendedSpeakingTypeType `xml:"type,attr,omitempty"`
 }
 
 type TSpeakingEventType struct {
@@ -12706,7 +12706,7 @@ func (me TResumeItemTypes) ToTResumeItemTypeTypes() TResumeItemTypeTypes {
 }
 
 type XsdGoPkgHasAttr_Type_TResumeItemTypes_ struct {
-	Type TResumeItemTypes `xml:"type,attr"`
+	Type TResumeItemTypes `xml:"type,attr,omitempty"`
 }
 
 type TxsdAdditionalItemTypeSequenceEffectiveDate struct {
