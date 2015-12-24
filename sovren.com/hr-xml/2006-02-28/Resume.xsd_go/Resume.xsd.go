@@ -14,9 +14,9 @@ import (
 	xsdt "github.com/metaleap/go-xsd/types"
 )
 
-type XsdtString xsdt.String
-type XsdtDouble xsdt.Double
-type XsdtInteger xsdt.Integer
+type XsdtString struct { xsdt.String `xml:",chardata"` }
+type XsdtDouble struct { xsdt.Double `xml:",chardata"` }
+type XsdtInteger struct { xsdt.Integer `xml:",chardata"` }
 
 type XsdGoPkgHasAttr_Id_XsdtString_ struct {
 	Id xsdt.String `xml:"id,attr,omitempty"`
