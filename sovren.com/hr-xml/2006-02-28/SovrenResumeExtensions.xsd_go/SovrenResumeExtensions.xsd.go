@@ -123,21 +123,10 @@ func (me *XsdGoPkgHasElem_NormalizedCountryCodesequenceLocationTypeschema_Normal
 	return
 }
 
-type TLatitudeType xsdt.Decimal
-
-//	Since TLatitudeType is just a simple String type, this merely sets the current value from the specified string.
-func (me *TLatitudeType) Set(s string) { (*xsdt.Decimal)(me).Set(s) }
-
-//	Since TLatitudeType is just a simple String type, this merely returns the current string value.
-func (me TLatitudeType) String() string { return xsdt.Decimal(me).String() }
-
-//	This convenience method just performs a simple type conversion to TLatitudeType's alias type xsdt.Decimal.
-func (me TLatitudeType) ToXsdtDecimal() xsdt.Decimal { return xsdt.Decimal(me) }
-
 type TxsdLocationTypeSequenceLatitude struct {
 	XsdGoPkgHasAtts_Inferred
 
-	TLatitudeType
+	XsdtString
 }
 
 //	If the WalkHandlers.TxsdLocationTypeSequenceLatitude function is not nil (ie. was set by outside code), calls it with this TxsdLocationTypeSequenceLatitude instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TxsdLocationTypeSequenceLatitude instance.
@@ -181,21 +170,10 @@ func (me *XsdGoPkgHasElem_LatitudesequenceLocationTypeschema_Latitude_TxsdLocati
 	return
 }
 
-type TLongitudeType xsdt.Decimal
-
-//	Since TLongitudeType is just a simple String type, this merely returns the current string value.
-func (me TLongitudeType) String() string { return xsdt.Decimal(me).String() }
-
-//	This convenience method just performs a simple type conversion to TLongitudeType's alias type xsdt.Decimal.
-func (me TLongitudeType) ToXsdtDecimal() xsdt.Decimal { return xsdt.Decimal(me) }
-
-//	Since TLongitudeType is just a simple String type, this merely sets the current value from the specified string.
-func (me *TLongitudeType) Set(s string) { (*xsdt.Decimal)(me).Set(s) }
-
 type TxsdLocationTypeSequenceLongitude struct {
 	XsdGoPkgHasAtts_Inferred
 
-	TLongitudeType
+	XsdtString
 }
 
 //	If the WalkHandlers.TxsdLocationTypeSequenceLongitude function is not nil (ie. was set by outside code), calls it with this TxsdLocationTypeSequenceLongitude instance as the single argument. Then calls the Walk() method on 0/2 embed(s) and 0/0 field(s) belonging to this TxsdLocationTypeSequenceLongitude instance.
